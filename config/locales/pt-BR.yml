@@ -255,202 +255,203 @@ pt-BR:
       account_settings_title: "Configuração da Conta"
       add_admin_title: "Adicionar Administradores da Conta"
       add_announcement_button: "Adicionar Anúncio"
-      add_announcement_link: "Add a New Announcement"
-      add_ip_filter_link: "Add another filter"
-      alert_icon_calendar_option: calendar
-      alert_icon_file_option: file
-      alert_icon_help_option: help
-      alert_icon_people_option: people
-      alert_icon_warning_option: warning
-      alert_timespan: "from %{start_at} to %{end_at}"
-      alerts_title: Alerts
+      add_announcement_link: "Adicionar um Novo Anúncio"
+      add_ip_filter_link: "Adicionar outro filtro"
+      alert_icon_calendar_option: calendário
+      alert_icon_file_option: arquivo
+      alert_icon_help_option: ajuda
+      alert_icon_people_option: pessoas
+      alert_icon_warning_option: alerta
+      alert_timespan: "de %{start_at} a %{end_at}"
+      alerts_title: Alertas
       buttons: 
-        add_users: "OK Looks Good, Add These Users"
-        continue: Continue...
-        modify_users: "Go back and edit the list of users"
-      confirm_turnitin_settings_link: "confirm Turnitin settings"
-      create_courses_description: "(Account Administrators can always create courses)"
-      create_courses_title: "Who Can Create New Courses"
-      default_language_description: "This will override any browser/OS language settings. Preferred languages can still be set at the course/user level."
-      delete_alert_tooltip: "Delete this Alert"
-      enabled_web_serices_title: "Enabled Web Services"
-      equall_endpoint_help: "This is the URL to your equella service. It will probably look something like \"%{sample_url}\"."
-      equella_settings_title: "Equella Settings"
-      external_tools_title: "External Tools"
+        add_users: "OK Parece Bom, adicionar esses usuários"
+        continue: Continuar...
+        modify_users: "Voltar e editar a lista de usuários"
+      confirm_turnitin_settings_link: "Configurações do Turnitin"
+      create_courses_description: "(Administradores de conta podem sempre criar cursos)"
+      create_courses_title: "Quem Pode Criar Novos Cursos"
+      default_language_description: "Isto irá sobrepor qualquer configuração de idioma de navegador ou Sistema Operacional. Idiomas preferidos ainda pode ser definido ao nível da disciplina/usuário."
+      delete_alert_tooltip: "Remover este alerta"
+      enabled_web_serices_title: "Ativar Web Services"
+      equall_endpoint_help: "Esta é a URL para a sua conta equella. Provavelmente vai ser algo como \"%{sample_url}\""
+      equella_settings_title: "Configurações do Equella"
+      external_tools_title: "Ferramentas Externas"
       features_title: Features
       global_announcements_description: "Global announcements are a way for you to post sticky messages on the dashboard of all users in your account.  They will appear on each user's dashboard for the given time period or until the user clicks the \"close\" link to ignore the alert. **These announcements should be used sparingly.**"
-      global_announcements_title: "Global Announcements"
-      global_js_and_css_includes_description: "These files will be included on all page loads for your account"
-      global_js_and_css_includes_title: "Global JavaScript and CSS Includes"
+      global_announcements_description: "Os anúncios globais são uma maneira para que você enviar mensagens para todos os usuários de sua conta. Ele irão aparecer no painel de cada usuário por um determinado período ou até que o usuário clique no link \"fechar\" para ignorar o alerta. **Estes anúncios devem ser usados com moderação.**"
+      global_announcements_title: "Anúncio Global"
+      global_js_and_css_includes_description: "Estes arquivos serão incluidos em todas as páginas de sua conta."
+      global_js_and_css_includes_title: "Include de JavaScript e CSS Global"
       headers: 
-        report_last_run: "Last Run"
-        report_name: Name
-      ip_filter_filter_label: Filter
-      ip_filter_name_label: Name
+        report_last_run: "Última execução"
+        report_name: Nome
+      ip_filter_filter_label: Filtro 
+      ip_filter_name_label: Nome 
       labels: 
-        account_notification_icon: Icon
-        admins_can_change_passwords: "Password setting by admins"
-        allow_sending_scores_in_emails: "Students can opt-in to receiving scores in email notifications"
-        allow_sis_import: "SIS imports"
-        default_language: "Default Language"
-        default_storage_quota: "Default File Quota"
-        default_time_zone: "Default Time Zone"
-        enable_alerts: Alerts
+        account_notification_icon: Ícone
+        admins_can_change_passwords: "Configuração de senha por administradores"
+        allow_sending_scores_in_emails: "Estudantes podem optar por receber notas por notificações de email"
+        allow_sis_import: "Importações de SIS"
+        default_language: "Idioma Padrão"
+        default_storage_quota: "Arquivo Quota Padrão"
+        default_time_zone: "Fuso Horário Padrão"
+        enable_alerts: Alertas
         enable_eportfolios: ePortfolios
-        enable_user_notes: "Faculty Journal"
-        end_at: Ends
+        enable_user_notes: "Diário de Faculdade"
+        end_at: Termina
         equella: Equella
-        equella_endpoint: "Equella Endpoint"
-        equella_teaser: "Equella Comments"
-        global_includes: "Global CSS/JavaScript includes"
+        equella_endpoint: "Ponto Final do Equella"
+        equella_teaser: "Comentários do Equella"
+        global_includes: "Includes CSS/JavaScript Global"
         global_javascript: "Global JavaScript URL"
         global_stylesheet: "Global CSS URL"
-        membership_type: "Add More"
-        message: Message
-        name: "Account Name"
-        no_enrollments_can_create_courses: "Users with no enrollments"
-        open_registration: "Open Registration"
-        prevent_course_renaming_by_teachers: "Don't let teachers rename their courses"
-        self_enrollment: "Allow Self-Enrollment"
+        membership_type: "Adicionar Mais"
+        message: Mensagem
+        name: "Nome da Conta"
+        no_enrollments_can_create_courses: "Usuários sem matrículas"
+        open_registration: "Inscrições Abertas"
+        prevent_course_renaming_by_teachers: "Não permitir que os professores renomeiem seus cursos"
+        self_enrollment: "Permitir Auto-Inscrição"
         sis_source_id: "SIS ID"
-        start_at: Starts
+        start_at: Começa
         students_can_create_courses: Estudantes
-        subject: Subject
-        teachers_can_create_courses: Teachers
+        subject: Assunto 
+        teachers_can_create_courses: Professores 
         turnitin: Turnitin
-        turnitin_account_id: "Turnitin Account ID"
+        turnitin_account_id: "Identificação Turnitin"
         turnitin_comments: "Turnitin Submission Comments"
         turnitin_pledge: "Turnitin Pledge"
         turnitin_shared_secret: "Turnitin Shared Secret"
-        users_can_edit_name: "Users can edit display name"
+        users_can_edit_name: "Usuários podem editar nome de exibição"
       links: 
-        add_admins: "Add Account Admins"
+        add_admins: "Adicionar Adminitrador da Conta"
         configure_report: Configure...
-        run_report: "Run Report"
+        run_report: "Executar Relatório"
       megabytes_field: "%{text_field} megabytes"
       megabytes_tooltip: megabytes
-      never_allow_self_enrollment_option: Never
-      no_language_preference: "Not set (defaults to %{language})"
+      never_allow_self_enrollment_option: Nunca
+      no_language_preference: "Não setado (voltando a %{language})"
       page_title: "Configurações da Conta"
       quiz_ip_filters_help_message: |-
-          Quiz IP filters are a way to limit access to quizzes to computers in a specified IP range.
+        Filtros de IP são uma maneira de limitar o acesso a testes para computadores em um intervalo IP especificado.
           
-          Specify a set of IP address filters that teachers can use to protect access to quizzes.  Filters can be a comma-separated list of addresses, or an address followed by a mask ("192.168.217.1/24" or "192.168.217.1/255.255.255.0")."
-      quiz_ip_filters_help_title: "What are Quiz IP Filters?"
-      quiz_ip_filters_help_tooltip: "What are Quiz IP Filters?"
-      quiz_ip_filters_title: "Quiz IP Address Filters"
-      report_last_run_never: Never
-      report_running: "The report is running.*You'll receive an email when it is done.*"
-      self_enroll_for_any_courses_option: "For Any Courses"
-      self_enroll_for_manually_created_courses_option: "For Manually-Created Courses"
+        Especificar um conjunto de filtros de endereços IP que os professores podem usar para proteger o acesso a testes. Os filtros podem ser uma lista separada por vírgulas de endereços, ou um endereço seguido de uma máscara ("192.168.217.1/24" ou "192.168.217.1/255.255.255.0")."
+      quiz_ip_filters_help_title: "O Que são Filtros de IP?"
+      quiz_ip_filters_help_tooltip: "O Que são Filtros de IP?"
+      quiz_ip_filters_title: "Filtros de Endereço IP"
+      report_last_run_never: Nunca
+      report_running: "O relatório está sendo gerado.*Você receberá um email quando estiver pronto.*"
+      self_enroll_for_any_courses_option: "Para Qualquer Curso"
+      self_enroll_for_manually_created_courses_option: "Para Cursos Criados Manualmente"
       settings_crumb: Configurações 
-      tab_admins: Admins
-      tab_alerts: Alerts
-      tab_announcements: Announcements
-      tab_external_tools: "External Tools"
-      tab_reports: Reports
+      tab_admins: Administradores
+      tab_alerts: Alertas
+      tab_announcements: Anúncios
+      tab_external_tools: "Ferramentas Externas"
+      tab_reports: Relatórios
       tab_settings: Configurações
-      turnitin_comments_help: "these comments will be shown to students when submitting a Turnitin-enabled assignment"
-      turnitin_pledge_help: "students must check a box acknowledging that they agree with this pledge"
-      turnitin_settings_title: "Turnitin Settings"
+      turnitin_comments_help: "estes comentários serão exibidos aos estudantes quando enviarem uma atribuição com o Turnitin ativado"
+      turnitin_pledge_help: "os alunos devem marcar uma checkbox para concordar com estes termos"
+      turnitin_settings_title: "Configurações do Turnitin"
       update_settings_button: "Atualizar Configurações"
     show: 
-      courses_crumb: Courses
-      no_courses_account_message: "There are no courses in this account"
-      no_courses_term_message: "There are no courses in this term"
-      subtitle_term: "For the term **%{term}**"
-      title: "Courses In This Account"
+      courses_crumb: Cursos
+      no_courses_account_message: "Não existem cursos nesta conta"
+      no_courses_term_message: "Não existem cursos com esta condição"
+      subtitle_term: "Para a condição **%{term}**"
+      title: "Cursos Nesta Conta"
       too_many_courses_message: 
-        other: "There are too many courses to show (%{count}). Please use the finder on the right to find a specific course."
+        other: "Existem muitos cursos para mostrar (%{count}). Por favor use o localizador na direita para encontrar um curso específico."
     sis_batch_counts: 
-      accounts_label: Accounts
-      courses_label: Courses
+      accounts_label: Contas
+      courses_label: Cursos
       crosslists_label: Crosslists
-      enrollments_label: Enrollments
-      imported_items_title: "Imported Items"
-      sections_label: Sections
-      terms_label: Terms
-      users_label: Users
+      enrollments_label: Inscrições
+      imported_items_title: "Itens Importados"
+      sections_label: Seções
+      terms_label: Condições
+      users_label: Usuários
     sis_batch_messages: 
-      sis_batch_errors_title: "Errors that prevent importing"
-      sis_batch_warnings_title: Warnings
+      sis_batch_errors_title: "Erros impedem a importação"
+      sis_batch_warnings_title: Alertas 
     sis_import: 
-      add_sis_stickiness_instructions: "With this option selected, changes made through this SIS import will be processed as if they are UI changes, preventing subsequent non-overriding SIS imports from changing the fields changed here."
+      add_sis_stickiness_instructions: "Com esta opção selecionada, as alterações feitas por esta importação SIS serão processados como se fossem as mudanças de interface do usuário, evitando posteriores importações não-imperativas do SIS de alterar os campos alterados aqui."
       add_sis_stickiness_label: "Process as UI changes"
       batch_import_instructions: |-
-          If selected, previous SIS imported data for the selected term will be deleted.  
-          See the documentation for details.
-      batch_mode_label: "This is a full batch update"
-      clear_sis_stickiness_instructions: "With this option selected, all fields in all records touched by this SIS import will be able to be changed in future non-overriding SIS imports."
-      clear_sis_stickiness_label: "Clear UI-changed state"
-      import_failed_message: "There was an error importing your SIS data. No records were imported."
-      import_failed_with_messages_message: "No SIS records were imported. The import failed with these messages:"
-      import_log_title: "Import Progress Log"
-      import_started_message: "The import process has started! This can take awhile if there is a lot to import. You can leave the page and come back."
-      import_type_label: "Import type"
-      imported_message: "All SIS data was successfully imported."
-      imported_with_messages_message: "The SIS data was imported but with these messages:"
-      last_batch_title: "Last Batch"
+          Se selecionado, informações SIS importadas anteriormente para a condição selecionada serão apagadas.
+          Veja a documentação para mais detalhes.
+      batch_mode_label: "Esta é uma atualização completa de lote"
+      clear_sis_stickiness_instructions: "Com essa opção selecionada, todos os campos em todos os registros tocados por esta importação SIS serão capaz de serem modificados em futuras importações SIS não-dominante."
+      clear_sis_stickiness_label: "Limpar estados modificados da interface do usuário"
+      import_failed_message: "Ocorreu um erro ao importar os dados do SIS. Não há registros importados."
+      import_failed_with_messages_message: "Nenhum registro SIS foi importado. A importação falou com os estes erros:"
+      import_log_title: "Log de progresso da importação"
+      import_started_message: "O processo de importação foi iniciado! Isso pode levar algum tempo se houver muitos dados sendo importados. Você pode sair da página e voltar mais tarde."
+      import_type_label: "Tipo de Importação"
+      imported_message: "Todos os dados SIS foram importados corretamente."
+      imported_with_messages_message: "Os dados SIS foram importados mas com essas mensagens:"
+      last_batch_title: "Último Lote"
       override_sis_stickiness_instructions: |-
-          By default, UI changes have priority over SIS import changes; for a number of fields, the SIS import will not change that field's data if an admin has changed that field through the UI. If you select this option, this SIS import will override UI changes.  
-          See the documentation for details.
-      override_sis_stickiness_label: "Override UI changes"
-      page_header: "SIS Import"
-      page_title: "SIS Import"
+          Por padrão, as mudanças de interface do usuário têm prioridade sobre as mudanças de importação do SIS; para um número de campos, a importação SIS não irá alterar a informação do campo se o administrador alterou através da interface do usuário. Se você selecionar esta opção, esta importação SIS irá sobrescrever as alterações da interface do usuário.
+          Veja a documentação para maiores detalhes.
+      override_sis_stickiness_label: "Sobrescrever alterações da interface do usuário"
+      page_header: "Importação SIS"
+      page_title: "Importação SIS"
       pending_batches_count: 
-        one: "%{count} batch waiting to be processed."
-        other: "%{count} batches waiting to be processed."
-      pending_batches_title: "Pending Batches"
-      process_data_button: "Process Data"
+        one: "%{count} batch esperando para ser processado."
+        other: "%{count} batches esperando para serem processados."
+      pending_batches_title: "Batches Pendentes"
+      process_data_button: "Dados Processados"
       select_file_instructions: |-
-          Select the zip file that you want imported.  
-          For a description of how to generate these zip files, [please see this documentation](%{uri}).
-      sis_import_crumb: "SIS Import"
-      started_at_message: "Started: %{started_at}"
-      title: "SIS Import"
-      try_import_again_link: "Try import again"
-    sis_import_in_process_notice: "An SIS import is already in process."
+          Escolha o arquivo zip que você precisa importar.
+          Para uma descrição de como gerar esse arquivos zip, [por favor veja esta documentação](%{uri}).
+      sis_import_crumb: "Importação SIS"
+      started_at_message: "Iniciado: %{started_at}"
+      title: "Importação SIS"
+      try_import_again_link: "Tentar importar novamente"
+    sis_import_in_process_notice: "Uma importação SIS está sendo processada."
     statistics: 
-      concluded_at: "concluded %{at}"
-      created_at: "created %{at}"
-      created_at_by: "created %{at} by [%{teacher}](%{url})"
-      download_csv_link: "Download csv"
+      concluded_at: "concluido em %{at}"
+      created_at: "criado em %{at}"
+      created_at_by: "criado em %{at} por [%{teacher}](%{url})"
+      download_csv_link: "Baixar csv"
       file_storage_header: "File Storage"
-      general_numbers_title: "General Numbers"
-      heading_date: Date
-      heading_value: Value
+      general_numbers_title: "Números Gerais"
+      heading_date: Data
+      heading_value: Valor
       labels: 
-        courses: Courses
-        generated_at: Generated
-        last_month: "in last month"
-        last_week: "in last week"
+        courses: Cursos
+        generated_at: Gerado
+        last_month: "no último mês"
+        last_week: "na última semana"
         media_storage: Media
         students: Estudantes
-        teachers: Teachers
+        teachers: Professores
         uploaded_storage: Uploaded
-        users: Users
-      last_logged_in_at: "last logged in %{at}"
-      loading_error: error
-      loading_text: loading...
+        users: Usuários
+      last_logged_in_at: "último acesso em %{at}"
+      loading_error: erro
+      loading_text: carregando...
       media_data: 
-        one: "%{file_size} *from one file*"
-        other: "%{file_size} *from %{count} files*"
+        one: "%{file_size} *de um arquivo*"
+        other: "%{file_size} *de %{count} arquivos*"
       media_file_storage_header: "Media File Storage"
-      none_message: "None to show"
-      over_time_link: "over time"
-      page_title: "Statistics for %{account}"
-      page_views_header: "Page views"
-      page_views_per_month_header: "Page Views per Month"
-      page_views_per_week_header: "Page Views per Week"
-      recently_created_courses_title: "Recently Created Courses"
-      recently_ended_courses_title: "Recently Ended Courses"
-      recently_logged_in_users_title: "Recently Logged-In Users"
-      recently_started_courses_title: "Recently Started Courses"
-      started_at: "started %{at}"
-      title_data_point_over_time: "%{data_point} Over Time"
+      none_message: "Nada para Exibir"
+      over_time_link: "ao longo do tempo"
+      page_title: "Estatisticas para %{account}"
+      page_views_header: "Visualização de Páginas"
+      page_views_per_month_header: "Visualização de Páginas por Mês"
+      page_views_per_week_header: "Visualização de Páginas por Semana"
+      recently_created_courses_title: "Cursos Criado Recentemente"
+      recently_ended_courses_title: "Cursos Finalizados Recentemente"
+      recently_logged_in_users_title: "Usuários Que Logaram Recentemente"
+      recently_started_courses_title: "Cursos Iniciados Recentemente"
+      started_at: "iniciado em %{at}"
+      title_data_point_over_time: "%{data_point} Ao Longo do Tempo"
       uploaded_data: 
-        one: "%{file_size} *from one file*"
-        other: "%{file_size} *from %{count} files*"
+        one: "%{file_size} *de um arquivo*"
+        other: "%{file_size} *de %{count} arquivos*"
       uploaded_file_storage_header: "Uploaded File Storage"
     statistics_page_views: 
       building_report_error: "Error building usage report: %{error}"
