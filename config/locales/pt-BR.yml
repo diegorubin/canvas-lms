@@ -37,7 +37,7 @@ pt-BR:
       alternate_login_url_description: "An alternate URL for logging into CAS. You probably should not set this."
       labels: 
         auth_base: "CAS URL"
-        auth_type: Type
+        auth_type: Tipo
         log_in_url: "Alternate Login URL"
         login_handle_name: "Login Label"
       login_handle_name_description: "The label used for unique login identifiers. Examples: Login, Username, Student ID, etc."
@@ -48,14 +48,14 @@ pt-BR:
           If you configure settings that cause you to not be able to log in you can add
             *%{url1}* to the end of your login url. This will let you login
             using the normal Canvas login procedure. For this account the url would be %{url2}
-      choose_auth_type_option: "Choose an authentication service"
+      choose_auth_type_option: "Escolha um serviço de autenticação"
       current_settings_title: "Current Integration"
       delete_auth_confirmation: "Are you sure? Users may not be able to log in if this is removed."
       delete_auth_link: "Remove Authentication"
       edit_auth_link: "Edit Details"
       ip_address_list_description: "If you are using an authentication service that requires the Canvas servers to contact your servers directly, such as LDAP, you'll need to make sure that your servers can accept connections from these IP addresses:"
       no_auth_type_description: "This account does not currently integrate with an identity provider."
-      page_title: "Authentication Settings"
+      page_title: "Configuração de Autenticação"
       profile_page_link_example: "For example, here is your profile page: [%{friendlyname}](%{url})"
       settings_description: "In order for a user to authenticate through an external identity provider (IdP), the user must have a login identifier that is both linked to this account and that matches the unique identifier returned by the IdP. To see a user's current logins, see the \"Login Information\" section on the user's profile page. (Found by searching for the user on the \"Users\" tab.)"
       settings_title: "Configuração de Autenticação"
@@ -116,7 +116,7 @@ pt-BR:
     password_required: "must be supplied"
     saml_settings: 
       labels: 
-        auth_type: Type
+        auth_type: Tipo
         certificate_fingerprint: "Certificate Fingerprint"
         change_password_url: "Change Password Link"
         identifier_format: "Identifier Format"
@@ -313,7 +313,7 @@ pt-BR:
         self_enrollment: "Allow Self-Enrollment"
         sis_source_id: "SIS ID"
         start_at: Starts
-        students_can_create_courses: Students
+        students_can_create_courses: Estudantes
         subject: Subject
         teachers_can_create_courses: Teachers
         turnitin: Turnitin
@@ -424,7 +424,7 @@ pt-BR:
         last_month: "in last month"
         last_week: "in last week"
         media_storage: Media
-        students: Students
+        students: Estudantes
         teachers: Teachers
         uploaded_storage: Uploaded
         users: Users
@@ -1572,7 +1572,7 @@ pt-BR:
         members: Members
         name: Name
         options: Options
-        type: Type
+        type: Tipo
       links: 
         advanced_settings: "Manage Advanced Settings..."
       new_conference_heading: "Start a New Conference"
@@ -1601,7 +1601,7 @@ pt-BR:
         members: Members
         name: Name
         status: Status
-        type: Type
+        type: Tipo
       minute: 
         one: "1 minute"
         other: "%{count} minutes"
@@ -2116,7 +2116,7 @@ pt-BR:
         view_prior_enrollments: "View Prior Enrollments"
         view_services: "View Registered Services"
         view_student_groups: "View Student Groups"
-      students: Students
+      students: Estudantes
       teachers: "Teachers & TAs"
       titles: 
         course_roster: "Course Roster"
@@ -2438,7 +2438,7 @@ pt-BR:
     crumbs: 
       messages: Conversations
     enrollments_observers: Observers
-    enrollments_students: Students
+    enrollments_students: Estudantes
     enrollments_tas: "Teaching Assistants"
     enrollments_teachers: Teachers
     index: 
@@ -2765,12 +2765,12 @@ pt-BR:
         groups: "Course Groups"
     index: 
       headings: 
-        my_courses: "My Courses"
+        my_courses: "Meus Cursos"
         past_enrollments: "Past Enrollments"
       links: 
-        start_course: "Start a New Course"
+        start_course: "Iniciar um Novo Curso"
       titles: 
-        courses: Courses
+        courses: Cursos 
         rss: 
           course_announcements: "Course Announcements Atom Feed"
     link_enrollment: 
@@ -2782,7 +2782,7 @@ pt-BR:
           To link the course observer %{user} to a student, select the student's name from the list below.
       labels: 
         student: Student
-      loading: "Loading Students..."
+      loading: "Carregando Estudantes..."
       select_student: "Select Student"
     notices: 
       backup_restored: "Backup Successfully Restored!"
@@ -2807,7 +2807,7 @@ pt-BR:
         accept_invitation: "Accept Enrollment Invitation"
         invitation: "Course Invitation"
       labels: 
-        email: "Email Address"
+        email: "Endereço de Email"
       titles: 
         invitation: "Invitation to %{course}"
     open_enrollment_confirmed: 
@@ -2871,7 +2871,7 @@ pt-BR:
         move_course: "Move the course to another root account"
         observers: Observers
         sections: "Course Sections"
-        students: Students
+        students: Estudantes
         tas: TAs
         teachers: Teachers
       help: 
@@ -2926,9 +2926,9 @@ pt-BR:
         sis_source_id: "SIS ID"
         start_at: Starts
         storage_quota: "File Storage"
-        students: Students
+        students: Estudantes
         tas: TAs
-        teachers: Teachers
+        teachers: Professores 
         too_general_twitter_hashtag: 
           description: "too general"
         too_long_twitter_hashtag: 
@@ -2937,7 +2937,7 @@ pt-BR:
       language_overrides_preferences: "This will override any user/system language preferences. This is only recommended for foreign language courses"
       links: 
         add_users: "Add Users"
-        calendar: "Course Calendar"
+        calendar: "Calendário do Curso"
         conclude: "End this Course"
         copy: "Copy this Course"
         delete: "Permanently Delete this Course"
@@ -2965,7 +2965,7 @@ pt-BR:
       not_date_restricted: "These dates will not affect course availability"
       option: 
         observers: Observers
-        students: Students
+        students: Estudantes
         tas: TAs
         teachers: Teachers
       page_title: "Course Details"
@@ -3104,7 +3104,7 @@ pt-BR:
       tabs: 
         assignments: Assignments
         files: "File Storage"
-        students: Students
+        students: Estudantes
         totals: Totals
       text_entry: "Text Entry"
       unaccepted_students: "Unaccepted Students"
@@ -4042,7 +4042,7 @@ pt-BR:
       assignments: Assignments
       labels: 
         course_name: "Course Name"
-        students: Students
+        students: Estudantes
       new_student: "New Student"
       no_assignments: "No Assignments Created"
       no_email: "no email"
@@ -4054,7 +4054,7 @@ pt-BR:
         email: Email
         points: Pts
         student: Student
-        type: Type
+        type: Tipo
       summary_notice: "*That's it! You're done!* Here's the summary of everything you put in. Feel free to click any section to go back and edit the information there. When you're sure you've got everything right, click the save button to go to your course page."
       total_assignment_count: 
         one: "1 Assignment Total"
@@ -4097,7 +4097,7 @@ pt-BR:
       step2: "Step 2"
       step3: "Step 3"
       step4: "Step 4"
-      students: Students
+      students: Estudantes
       visit_course_page: "Visit Course Page"
   gradebook: 
     alerts: 
@@ -7043,7 +7043,7 @@ pt-BR:
         sms: sms
       default_carrier_option: "[Select Carrier]"
       headers: 
-        contact_type: Type
+        contact_type: Tipo
         email_addresses: "Email Addresses"
         other_contact: "Other Contacts"
         ways_to_contact: "Ways to Contact"
@@ -8662,7 +8662,7 @@ pt-BR:
         submission: Submission
         title: Title
         turnitin_enabled: "Enable Turnitin Submission Evaluations"
-        type: Type
+        type: Tipo
       linked_to_discussion: "This assignment is linked to the discussion, %{discussion_topic}. Grading will be based on posts in the topic."
       links: 
         advanced_turnitin_settings: "Advanced Settings..."
@@ -9352,7 +9352,7 @@ pt-BR:
   table_headings: 
     name: Name
     total: Total
-    type: Type
+    type: Tipo
   tabs: 
     announcements: Announcements
     assignments: Assignments
@@ -9459,7 +9459,7 @@ pt-BR:
     notifications: Notifications
     outcome_artifacts: "Outcome Artifacts"
     review_and_save: "Review and Save"
-    students: Students
+    students: Estudantes
   topics: 
     add_new_announcement: "Add New Announcement"
     add_new_entry: "Add New Entry"
