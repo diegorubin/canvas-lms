@@ -455,101 +455,101 @@ pt-BR:
       uploaded_file_storage_header: "Uploaded File Storage"
     statistics_page_views: 
       building_report_error: "Error building usage report: %{error}"
-      date_column: Date
-      date_range: "*from* %{start_date} **to** %{end_date}"
-      go_button: Go
-      no_data: "No data found for report"
-      page_title: "Statistics for %{account}"
-      page_views_by_hour_title: "Page views by hour"
-      page_views_column: "Page Views"
-      page_views_over_time_title: "Page views over time"
-      title: "Page View Reports"
+      date_column: Data
+      date_range: "*de* %{start_date} **até** %{end_date}"
+      go_button: Ir
+      no_data: "Nenhum informação encontrada para o relatório"
+      page_title: "Estatisticas para %{account}"
+      page_views_by_hour_title: "Visualização de Páginas por Hora"
+      page_views_column: "Visualização de Páginas"
+      page_views_over_time_title: "Visualização de Páginas ao Longo do Tempo"
+      title: "Relatório de Visualização de Página"
     statistics_right_side: 
-      general_statistics_link: "General Statistics"
-      page_views_link: "Page Views"
-      reports_title: Reports
+      general_statistics_link: "Estatisticas Gerais"
+      page_views_link: "Visualização de Páginas"
+      reports_title: Relatórios
     test_ldap_dialog_title: "Testar Configurações do LDAP"
-    test_ldap_result_canceled: Canceled
-    test_ldap_result_failed: Failed
+    test_ldap_result_canceled: Cancelado
+    test_ldap_result_failed: Falhou
     test_ldap_result_ok: OK
-    update_failed_notice: "Account settings update failed"
-    user_add_failed_message: "Adding User Failed, please try again"
-    user_added_message: "%{user} successfully added!"
-    user_added_message_sent_message: "%{user} successfully added! They should receive an email confirmation shortly."
-    user_deleted_message: "%{username} successfully deleted"
+    update_failed_notice: "Atualização das configurações da conta falhou"
+    user_add_failed_message: "A adição do usuário falhou, por favor tente novamente"
+    user_added_message: "%{user} adicionado com sucesso!"
+    user_added_message_sent_message: "%{user} adicionado com sucesso! Eles devem receber um email de confirmação em breve."
+    user_deleted_message: "%{username} removido com sucesso"
   activerecord: 
     errors: 
       full_messages: 
         format: "%{attribute} %{message}"
       messages: 
-        accepted: "must be accepted"
-        blank: "can't be blank"
-        confirmation: "doesn't match confirmation"
-        empty: "can't be empty"
-        equal_to: "must be equal to %{count}"
-        even: "must be even"
-        exclusion: "is reserved"
-        greater_than: "must be greater than %{count}"
-        greater_than_or_equal_to: "must be greater than or equal to %{count}"
-        inclusion: "is not included in the list"
-        invalid: "is invalid"
-        less_than: "must be less than %{count}"
-        less_than_or_equal_to: "must be less than or equal to %{count}"
-        not_a_number: "is not a number"
-        odd: "must be odd"
-        record_invalid: "Validation failed: %{errors}"
-        taken: "has already been taken"
-        too_long: "is too long (maximum is %{count} characters)"
-        too_short: "is too short (minimum is %{count} characters)"
-        wrong_length: "is the wrong length (should be %{count} characters)"
+        accepted: "tem que ser aceito"
+        blank: "não pode estar em branco"
+        confirmation: "não coincide com a confirmação"
+        empty: "não pode estar vazio"
+        equal_to: "deve ser igual a %{count}"
+        even: "deve ser par"
+        exclusion: "é resevado"
+        greater_than: "deve ser maior que %{count}"
+        greater_than_or_equal_to: "deve ser maior que ou igual a %{count}"
+        inclusion: "não está incluso na lista"
+        invalid: "é inválido"
+        less_than: "deve ser menor que %{count}"
+        less_than_or_equal_to: "deve ser menor que ou igual a %{count}"
+        not_a_number: "não é um número"
+        odd: "deve ser ímpar"
+        record_invalid: "Validação falhou: %{errors}"
+        taken: "já estão sendo utilizados"
+        too_long: "é muito longo (máximo é %{count})"
+        too_short: "é muito curto (mínimo é %{count})"
+        wrong_length: "está com o tamanho errado (deve ser %{count} caracteres)"
       template: 
-        body: "There were problems with the following fields:"
+        body: "Houve problemas com os seguintes campos:"
         header: 
-          one: "1 error prohibited this %{model} from being saved"
-          other: "%{count} errors prohibited this %{model} from being saved"
+          one: "1 erro impede que %{model} seja salvo"
+          other: "%{count} erros impedem este %{model} seja salvo"
   ajax_errors: 
     error_heading: "Ajax Error: %{status_code}"
     errors: 
-      connection_lost: "Connection to %{host} was lost.  Please make sure you're connected to the Internet and try again."
-      timeout: "There was a problem with your request, possibly due to a long period of inactivity.  Please reload the page and try again."
-      unhandled: "Oops! The last request didn't work out."
+      connection_lost: "Conexão com %{host} foi perdida.  Por favor verifique sua conexão com a internet e tente novamente."
+      timeout: "Houve um problema com sua solicitação, possivelmente devido a um longo período de inatividade. Por favor, recarregue a página e tente novamente."
+      unhandled: "Oops! A última solicitação não deu certo."
     links: 
-      details: details...
-    no_text: "No text"
+      details: detalhes...
+    no_text: "Sem texto"
   alerts: 
     alert: 
       buttons: 
-        add_criterion: "Add Trigger"
-        add_recipient: "Add Recipient"
-        save_alert: "Save Alert"
-      criteria: "Trigger an alert when"
+        add_criterion: "Adicionar Gatilho"
+        add_recipient: "Adicionar Receptor"
+        save_alert: "Salvar Alerta"
+      criteria: "Disparar um alerta quando"
       labels: 
-        criteria: "Trigger an alert when"
-        recipients: "Send a notification to"
-        repetition: Repetition
+        criteria: "Disparar um alerta quando"
+        recipients: "Enviar notificação para"
+        repetition: Repetição
       links: 
         title: 
-          delete_alert: "Delete this alert"
-          edit_alert: "Edit alert"
-      no_repetition_description: "Do not re-send alert"
-      recipients: "Send a notification to"
-      repetition_description: "Re-send alert every %{count} days until resolved"
+          delete_alert: "Remover este alerta"
+          edit_alert: "Editar alerta"
+      no_repetition_description: "Não re-enviar alerta"
+      recipients: "Enviar notificação para"
+      repetition_description: "Re-enviar alerta a cada %{count} dia até ser resolvido"
     alerts: 
-      alerts_description_account: "An alert is generated for each student that meets all of the criteria. They are checked every day, and notifications will be sent to the student, teacher, and/or account admin until the triggering problem is resolved."
-      alerts_description_course: "An alert is generated for each student that meets all of the criteria. They are checked every day, and notifications will be sent to the student and/or the teacher until the triggering problem is resolved."
+      alerts_description_account: "Um alerta é gerado para cada estudante que cumpre todos os créditos. Eles são verificados todos os dias, e as notificações serão enviadas para o aluno, professor e/ou administrador da conta até que o problema seja resolvido."
+      alerts_description_course: "Um alerta é gerado para cada estudante que cumpre todos os créditos. Eles são verificados todos os dias, e as notificações serão enviadas para o aluno e/ou professor até que o problema seja resolvido."
       buttons: 
-        add_alert: "Add Alert"
-      description: "A teacher has not interacted with the student for %{count} days"
-      option: "No Teacher Interaction"
-      remove: "Remove this item"
-      the_student: "The Student"
-      the_teacher: "The Teacher"
-      title: "Days since a teacher has interacted with the student"
-      ungraded_count_description: "More than %{count} submissions have not been graded"
-      ungraded_count_option: "Ungraded Submissions (Count)"
-      ungraded_count_title: "Number of submissions that have not been graded"
-      ungraded_timespan_description: "A submission has been left ungraded for %{count} days"
-      ungraded_timespan_option: "Ungraded Submissions (Time)"
+        add_alert: "Adicionar Alerta"
+      description: "Um professor não interagiu com o aluno por %{count} dias"
+      option: "Nenhuma Interação com Professor"
+      remove: "Remover Este Item"
+      the_student: "O Estudante"
+      the_teacher: "O Professor"
+      title: "Dias desde que um professor interagiu com o aluno"
+      ungraded_count_description: "Mais do que %{count} submissões não foram classificadas"
+      ungraded_count_option: "Submissões Não Classificadas (Contagem)"
+      ungraded_count_title: "Número de submissões que não foram classificados"
+      ungraded_timespan_description: "Uma submissão foi deixado sem nota por %{count} dias"
+      ungraded_timespan_option: "Submissões Não Classificadas (Tempo)"
       ungraded_timespan_title: "Days that a submission has been left ungraded"
       usernote_description: "No faculty journal entry has been added for %{count} days"
       usernote_option: "No Faculty Journal Entry"
@@ -559,56 +559,56 @@ pt-BR:
       recipients_required: "At least one recipient is required"
       threshold_should_be_numeric: "This should be a positive number"
   announcement: 
-    no_title: "No Title"
+    no_title: "Sem Titulo"
   announcements: 
-    announcements_crumb: Announcements
+    announcements_crumb: Anúncios
     external_feed: 
       alts: 
-        deleted_feed: "Delete this Feed"
+        deleted_feed: "Remover este Feed"
       labels: 
         keyword: Keyword
       messages: 
         external_feed_post_count: 
-          one: "1 Post Added"
-          other: "%{count} Posts Added"
-    feed_name: "%{course} Announcements Feed"
+          one: "1 Post Adicionado"
+          other: "%{count} Posts Adicionados"
+    feed_name: "Feed de Anúncio de %{course}"
     index: 
       buttons: 
-        add_feed: "Add Feed"
+        add_feed: "Adicionar Feed"
       descriptions: 
-        add_new_feed_for_course: "You can automatically add posts from an RSS or Atom feed as announcements for this course. Just paste the feed URL below and any new entries will be added."
-        add_new_feed_for_group: "You can automatically add posts from an RSS or Atom feed as announcements for this group. Just paste the feed URL below and any new entries will be added."
-      feed_title_course: "Course Announcements Atom Feed"
-      feed_title_group: "Group Announcements Atom Feed"
+        add_new_feed_for_course: "Você pode adicionar automaticamente posts de um feed RSS ou Atom como anúncios para este curso. Basta colar a URL do feed abaixo e quaisquer novas entradas serão adicionados."
+        add_new_feed_for_group: "Você pode adicionar automaticamente posts de um feed RSS ou Atom como anúncios para este grupo. Basta colar a URL do feed abaixo e quaisquer novas entradas serão adicionados."
+      feed_title_course: "Atom Feed de Anúncios do Curso"
+      feed_title_group: "Atom Feed de Anúncios do Grupo"
       labels: 
-        external_feed_verbosity: "Content to post"
-        match_phrase_checkbox: "Only add posts with a specific phrase in the title"
-        phrase_to_look_for: "Phrase to look for"
+        external_feed_verbosity: "Conteúdo para postar"
+        match_phrase_checkbox: "Apenas adicionar posts com uma frase específica no título"
+        phrase_to_look_for: "Frase para procurar"
         url: URL
       links: 
-        add_external_feed: "Add External Feed"
-        create_announcement: "Create Announcement"
-        feed: "Announcements Feed"
+        add_external_feed: "Adicionar Feed Externo"
+        create_announcement: "Criar Anúncio"
+        feed: "Feed de Anúncios"
       options: 
-        full_article: "Full article"
-        link_only: "Link only"
-        truncated: Truncated
-      page_title: Announcements
-      podcast_title_course: "Course Announcements Podcast Feed"
-      podcast_title_group: "Group Announcements Podcast Feed"
+        full_article: "Artigo Completo"
+        link_only: "Somente link"
+        truncated: Truncado
+      page_title: Anúncios
+      podcast_title_course: "Feed Podcast de Anúncios do Curso"
+      podcast_title_group: "Feed Podcast de Anúncios do Grupo"
       titles: 
-        add_new_feed: "Add a New Feed"
-        announcements: Announcements
-        external_feeds: "External Feeds"
+        add_new_feed: "Adicionar um Novo Feed"
+        announcements: Anúncios
+        external_feeds: "Feeds Externo"
     messages: 
-      confirm_delete_feed: "Stop adding posts from this feed?"
-      loading_more_results: "Loading more results"
-    podcast_feed_description_course: "Any media files linked from or embedded within announcements in the course \"%{course}\" will appear in this feed."
-    podcast_feed_description_group: "Any media files linked from or embedded within announcements in the group \"%{group}\" will appear in this feed."
-    podcast_feed_name: "%{course} Announcements Podcast Feed"
+      confirm_delete_feed: "Parar de adicionar posts deste feed?"
+      loading_more_results: "Carregando mais resultados"
+    podcast_feed_description_course: "Qualquer arquivo de midia linkado de ou embutido dentro de anúncios no curso \"%{course}\" irão aparecer neste feed."
+    podcast_feed_description_group: "Qualquer arquivo de midia linkado de ou embutido dentro de anúncios no grupo \"%{group}\" irão aparecer neste feed."
+    podcast_feed_name: "Feed de Podcast de Anúncios do curso %{course} "
   application: 
     errors: 
-      feed_not_found: "Could not find feed."
+      feed_not_found: "Não foi possível encontrar o feed."
       feed_private: "The matching context has gone private, so public feeds like this one will no longer be visible."
       feed_private_course: "The matching course has gone private, so public feeds like this one will no longer be visible."
       feed_private_group: "The matching group has gone private, so public feeds like this one will no longer be visible."
@@ -9938,7 +9938,7 @@ pt-BR:
     defaults: 
       no_content: "no content"
     errors: 
-      blank_title: "Title can't be blank"
+      blank_title: "Title não pode estar vazio"
       title_characters: "Title must contain at least one letter or number"
       title_too_long: "Title can't exceed %{max_characters} characters"
     missing_name: "Unnamed Page"
