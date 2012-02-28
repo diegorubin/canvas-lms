@@ -3,61 +3,63 @@ pt-BR:
   account: 
     default_account_name: "Conta Padrão"
     default_site_administrator_account_name: "Administrador"
-    default_term_name: "Default Term"
+    default_term_name: "Prazo Padrão"
     manually_created_courses: "Cursos Criados Manualmente"
-    root_account_cant_have_sis_id: "SIS IDs cannot be set on root accounts"
+    root_account_cant_have_sis_id: "SIS IDs não podem ser setados na conta principal"
     sis_id_in_use: "SIS ID \"%{sis_id}\" já está sendo utilizado"
     tab_authentication: Autenticação
     tab_courses: Cursos
-    tab_faculty_journal: "Faculty Journal"
-    tab_grading_standards: "Grading Schemes"
-    tab_outcomes: Outcomes
+    tab_faculty_journal: "Diário da Faculdade"
+    tab_grading_standards: "Esquemas de Qualificação"
+    tab_outcomes: Resultados
     tab_permissions: Permissões 
     tab_question_banks: "Banco de Perguntas"
-    tab_rubrics: Rubrics
+    tab_rubrics: Rubricas
     tab_settings: Configurações 
-    tab_sis_import: "SIS Import"
+    tab_sis_import: "Importação de SIS"
     tab_statistics: Estatisticas
-    tab_sub_accounts: Sub-Accounts
-    tab_terms: Terms
+    tab_sub_accounts: Subcontas
+    tab_terms: Condições
     tab_users: Usuários
-    turnitin_pledge: "This assignment submission is my own, original work"
+    turnitin_pledge: "Este trabalho é meu próprio trabalho"
   account_authorization_config: 
     default_delegated_login_handle_name: Login
     default_login_handle_name: Email
-    test_bind_failed: "Failed to bind"
-    test_connection_failed: "Failed to connect to host/port"
-    test_connection_timeout: "Timeout when connecting"
-    test_login_auth_exception: "Exception on login: %{error}"
-    test_login_auth_failed: "Authentication failed"
-    test_search_failed: "Search failed with the following error: %{error}"
+    test_bind_failed: "Não foi possível conectar"
+    test_connection_failed: "Não foi possível conectar ao servidor ou porta"
+    test_connection_timeout: "Tempo limite excedido"
+    test_login_auth_exception: "Erro no login: %{error}"
+    test_login_auth_failed: "Falha na autenticação"
+    test_search_failed: "Busca falhou com o seguinte erro: %{error}"
   account_authorization_configs: 
-    account_required: "must be LDAP-authenticated"
+    account_required: "deve ser autenticado por LDAP"
     cas_settings: 
       alternate_login_url_description: "An alternate URL for logging into CAS. You probably should not set this."
+      alternate_login_url_description: "Uma URL alternativa para entrar no CAS. Você provavelmente não deveria alterar isso."
       labels: 
-        auth_base: "CAS URL"
+        auth_base: "URL do CAS"
         auth_type: Tipo
-        log_in_url: "Alternate Login URL"
-        login_handle_name: "Login Label"
+        log_in_url: "URL de Login Alternativa"
+        login_handle_name: "Campo Login"
       login_handle_name_description: "The label used for unique login identifiers. Examples: Login, Username, Student ID, etc."
+      login_handle_name_description: "O campo utilizado para identificação. Exemplos: Login, Username, Student ID, etc."
       save_button: "Salvar Configurações de Autenticação"
     index: 
-      add_auth_desc: "Add an identity provider to this account:"
+      add_auth_desc: "Adicionar um provedor de identificação para esta conta:"
       canvas_login_tip: |-
-          If you configure settings that cause you to not be able to log in you can add
-            *%{url1}* to the end of your login url. This will let you login
-            using the normal Canvas login procedure. For this account the url would be %{url2}
+          Se você definir as configurações que fazem com que você não possa fazer o login, você pode adicionar
+            *%{url1}* no final da url de login. Isso permitirá que você faça login
+             usando o procedimento normal do Canvas. Para isso a url seria %{url2}
       choose_auth_type_option: "Escolha um serviço de autenticação"
-      current_settings_title: "Current Integration"
-      delete_auth_confirmation: "Are you sure? Users may not be able to log in if this is removed."
-      delete_auth_link: "Remove Authentication"
-      edit_auth_link: "Edit Details"
-      ip_address_list_description: "If you are using an authentication service that requires the Canvas servers to contact your servers directly, such as LDAP, you'll need to make sure that your servers can accept connections from these IP addresses:"
-      no_auth_type_description: "This account does not currently integrate with an identity provider."
+      current_settings_title: "Integração Atual"
+      delete_auth_confirmation: "Você tem certeza? Usuários não poderão fazer login se isso for removido."
+      delete_auth_link: "Remover Autenticação"
+      edit_auth_link: "Editar Detalhes"
+      ip_address_list_description: "Se você estiver usando um serviço de autenticação que exige que os servidores acessem seus servidores diretamente, como LDAP, você precisa ter certeza de que seus servidores pode aceitar conexões desses endereços IP:"
+      no_auth_type_description: "Esta conta não possui integração com um provedor de identificação atualmente."
       page_title: "Configuração de Autenticação"
-      profile_page_link_example: "For example, here is your profile page: [%{friendlyname}](%{url})"
-      settings_description: "In order for a user to authenticate through an external identity provider (IdP), the user must have a login identifier that is both linked to this account and that matches the unique identifier returned by the IdP. To see a user's current logins, see the \"Login Information\" section on the user's profile page. (Found by searching for the user on the \"Users\" tab.)"
+      profile_page_link_example: "Por exemplo, aqui esta a página do seu perfil: [%{friendlyname}](%{url})"
+      settings_description: "Para que um usuário possa se autenticar através de um provedor de identificação externa (IDP), o usuário deve ter um identificador de login que está tanto ligada a esta conta e que corresponda ao identificador único retornado pelo IDP. Para ver logins atuais de um usuário, consulte o \ "Informações de Login \" na página de perfil do usuário."
       settings_title: "Configuração de Autenticação"
       test_ldap_link: "Testar Autenticação"
       title: "Configuração de Autenticação"
@@ -69,13 +71,13 @@ pt-BR:
       labels: 
         change_password_url: "URL Para Troca de Senha"
         login_handle_name: "Rótulo de Login"
-      login_handle_name_description: "The label used for unique login identifiers. Examples: Login, Username, Student ID, etc."
+      login_handle_name_description: "O campo utilizado para identificação. Exemplos: Login, Username, Student ID, etc."
       remove_secondary_ldap_link: (Remover)
       save_button: "Salvar Configurações do LDAP"
       secondary_ldap_label: "LDAP Secundário"
       setting_type_ldap: LDAP
     ldap_settings_fields: 
-      auth_filter_description: "Use *%{placeholder}* as a placeholder for the username supplied by the user. For example: *(sAMAccountName=%{placeholder})*"
+      auth_filter_description: "Usar *%{placeholder}* como um marcador para o username fornecido pelo usuário. Por exemplo: *(sAMAccountName=%{placeholder})*"
       auth_password_description: "Deixe em branco para continuar utilizando a senha atual."
       labels: 
         auth_base: Base
@@ -90,8 +92,8 @@ pt-BR:
         pass: Senha
         user: Nome de usuário 
       ldap_test_login_button: "Testar Login"
-      test_ldap_bind_help_body: "Your LDAP server server rejected the bind attempt. Things to consider:"
-      test_ldap_bind_help_fixes_1: "Verify the provided filter string (i.e. '(sAMAccountName={{login}})')."
+      test_ldap_bind_help_body: "Seu servidor LDAP rejeitou a tentativa de conexão. Coisas a considerar:"
+      test_ldap_bind_help_fixes_1: "Verifique a string de filtro fornecida(i.e. '(sAMAccountName={{login}})')."
       test_ldap_bind_help_fixes_2: "Does the username require more scoping information? (i.e. 'cn=Canvas,ou=people,dc=example,dc=com')."
       test_ldap_bind_help_header: "Canvas can't bind (login) to your LDAP server"
       test_ldap_bind_label: "Testing LDAP bind..."
@@ -112,13 +114,13 @@ pt-BR:
       test_ldap_search_help_fixes_3: "Verify that the user object in LDAP has search privileges for the provided search base."
       test_ldap_search_help_header: "Canvas can't search your LDAP instance"
       test_ldap_search_label: "Testing LDAP search..."
-    login_required: "must be supplied"
-    password_required: "must be supplied"
+    login_required: "deve ser fornecido"
+    password_required: "deve ser fornecido"
     saml_settings: 
       labels: 
         auth_type: Tipo
         certificate_fingerprint: "Certificate Fingerprint"
-        change_password_url: "Change Password Link"
+        change_password_url: "Link para Troca de Senha"
         identifier_format: "Identifier Format"
         log_in_url: "Log On URL"
         log_out_url: "Log Out URL"
@@ -133,8 +135,8 @@ pt-BR:
     permission_denied_notice: "You cannot create announcements for that account"
   account_settings: 
     confirms: 
-      delete_alert: "Are you sure you want to delete this alert?"
-      remove_account_admin: "Are you sure you want to remove this account admin?"
+      delete_alert: "Você tem certeza que quer remover este alerta?"
+      remove_account_admin: "Você tem certeza que quer remover esta conta de administração?"
     links: 
       turnitin: 
         confirm_settings: "confirm Turnitin settings"
@@ -161,20 +163,20 @@ pt-BR:
       add_user_button: "Adicionar Usuário"
       add_user_link: "Adicionar um Novo Usuário"
       add_user_title: "Adicionar um Novo Usuário"
-      display_name_help: "People will see this name in discussions, messages and comments."
-      full_name_description: "This name will be used by teachers for grading."
+      display_name_help: "Usuário irão ver este nome em discussões, mensagens, e comentários."
+      full_name_description: "Este nome será utilizado por professores para classificação."
       labels: 
-        account_id: Department
-        course_code: "Reference Code"
-        enrollment_term_id: "Enrollment Term"
+        account_id: Departamento
+        course_code: "Código de Referencia"
+        enrollment_term_id: "Prazo de Inscrição"
         full_name: "Nome Completo"
         name: "Nome do Curso"
         path: Email
-        send_confirmation: "Email the user about this account creation"
+        send_confirmation: "Email ao usuário sobre essa criação da conta"
         short_name: "Nome de Exibição"
         sis_user_id: "SIS ID"
-        sortable_name: "Sortable Name"
-      sortable_name_help: "This name appears in sorted lists."
+        sortable_name: "Nome Ordenação"
+      sortable_name_help: "Este nome aparece em listas ordenadas."
     add_user_button: "Adicionar Usuário"
     add_user_dialog_title: "Adicioanr um Novo Usuário"
     adding_course_message: "Adicionando Curso..."
@@ -188,28 +190,28 @@ pt-BR:
       labels: 
         show: Exibir
       lock_link: travar
-      no_avatars_message: "No Profile Pics to Show"
-      page_title: "Profile Pictures"
+      no_avatars_message: "Nenhuma Foto para Exibir"
+      page_title: "Fotos do Perfil"
       re_reported_link: 
-        other: "Approved, Re-Reported %{count}"
-        zero: "Approved, Re-Reported"
+        other: "Aprovado, Re-Relatado %{count}"
+        zero: "Aprovado, Re-Relatado"
       reported_link: 
-        other: "Reported %{count}"
-        zero: Reported
+        other: "Relatado %{count}"
+        zero: Relatado 
       saving: Salvando...
       submitted_link: 
-        other: "Submitted %{count}"
-        zero: Submitted
-      title: "Profile Pictures"
-      unlock_link: unlock
+        other: "Enviado %{count}"
+        zero: Enviado
+      title: "Fotos do Perfil"
+      unlock_link: destravar
     confirm_delete_user: 
-      confirm_delete: "Are you sure you want to delete this user from the account %{account}? This will remove the user's data (including grades) from all courses and groups. This process cannot be undone."
+      confirm_delete: "Tem certeza de que deseja excluir este usuário da conta %{account}? Isto irá remover os dados do usuário (incluindo notas) de todos os cursos e grupos. Este processo não pode ser desfeito."
       delete_button: "Remover %{user}"
       page_title: "Confirmar Remoção"
       title: "Confirmar Remoção %{user} da %{account}"
     course: 
-      course_unpublished_title: "This course hasn't been published yet"
-      course_unpublished_tooltip: Unpublished
+      course_unpublished_title: "Este curso ainda não foi publicado"
+      course_unpublished_tooltip: "Não Publicado" 
       homepage_link: Homepage
       more_count: 
         other: "%{count}"
@@ -221,39 +223,38 @@ pt-BR:
         one: "1 Estudante"
         other: "%{count} Estudantes"
       teachers_label: Teachers
-    course_add_failed_message: "Adding Course Failed, please try again"
-    course_added_message: "%{course} successfully added!"
+    course_add_failed_message: "Falha ao Adicionar Curso, por favor tente novamente"
+    course_added_message: "%{course} adicionado com sucesso!"
     courses: 
       courses_crumb: Cursos
       no_results_message: "Nenhum Resultado Encontrado"
-      page_title: "Course Search results for \"%{query}\""
-      search_results_crumb: "Search results for \"%{query}\""
-      title: "Course Search Results for \"%{query}\""
+      page_title: "Resultado para a busca \"%{query}\""
+      search_results_crumb: "Resultados para a busca \"%{query}\""
+      title: "Resultados para a busca \"%{query}\""
     courses_right_side: 
-      all_terms: "All Terms"
-      course_filtering: "Course Filtering"
-      enrollment_term_label: "Show courses from the term"
-      filter_label: "Find a Course"
-      go_button: Go
-      hide_enrollmentless_courses: "Hide enrollmentless courses"
+      all_terms: "Todos as Condições"
+      course_filtering: "Filtrando Curso"
+      enrollment_term_label: "Exibir cursos para a condição"
+      filter_label: "Encontrar um Curso"
+      go_button: Ir
+      hide_enrollmentless_courses: "Esconder cursos sem inscrições"
     crumb_page_views: "Visualização de Página"
     crumb_statistics: Estatisticas
     index: 
       accounts_crumb: Contas
       no_accounts_message: "Nenhuma Conta"
       page_title: Conta
-      title: "Accounts I Manage"
-    no_user_message: "No user found with that id"
+      title: "Contas que Administro"
+    no_user_message: "Nenhum usuário encontrado com este id"
     settings: 
       about_google_docs: |-
-          In order to make it easier for users, rather than forcing them to download things like Word docs, PDFs, Excel spreadsheets, and open office documents (In addition to requiring that those programs be installed on their on their computer), in many areas throughout Canvas, it will allow you an inline preview of the document.
-          
-          If Scribd has been enabled for this account, it will try to use it to show the preview. But because Scribd uses flash paper to display the documents, and many users (namely those using an iPad/iPhone) do not have Flash Player installed, that preview will not work.  By leaving Google Docs Previews enabled, when a browser does not have Flash enabled, or if Scribd is not enabled, it will use preview powered by Google Docs. Using this service is subject to Google's viewer [terms of service](%{terms_url})
-      about_google_docs_tooltip: "About Google Docs Previews"
+          A fim de tornar mais fácil para os usuários, ao invés de forçá-los a baixar coisas como documentos do Word, PDFs, planilhas Excel, documentos do Open Office (Além de exigir que esses programas sejam instalados em seu em seu computador), em muitos locais ao longo Canvas, será disponibilizada uma pré-visualização do documento.
+           Se o Scribd foi habilitado para esta conta, ele vai tentar usá-lo para o preview. Porém Scribd usa flash para exibir os documentos, e muitos usuários (ou seja, aqueles que utilizam um iPad / iPhone) não tem o Flash Player instalado, e a pré-visualização não irá funcionar. Ao deixar o Google Docs Previews habilitado, quando um browser não tem o Flash instalado, ou se Scribd não estiver ativado, ele irá usar a visualização pelo Google Docs. Utilizando este serviço está sujeito ao visualizador do Google [termos de serviço](%{terms_url})
+      about_google_docs_tooltip: "Sobre a pré-visualização do Google Docs"
       account_admins_title: "Administradores"
       account_settings_title: "Configuração da Conta"
-      add_admin_title: "Add Account Admins"
-      add_announcement_button: "Add Announcement"
+      add_admin_title: "Adicionar Administradores da Conta"
+      add_announcement_button: "Adicionar Anúncio"
       add_announcement_link: "Add a New Announcement"
       add_ip_filter_link: "Add another filter"
       alert_icon_calendar_option: calendar
