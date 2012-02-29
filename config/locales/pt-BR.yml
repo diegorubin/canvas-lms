@@ -59,7 +59,7 @@ pt-BR:
       no_auth_type_description: "Esta conta não possui integração com um provedor de identificação atualmente."
       page_title: "Configuração de Autenticação"
       profile_page_link_example: "Por exemplo, aqui esta a página do seu perfil: [%{friendlyname}](%{url})"
-      settings_description: "Para que um usuário possa se autenticar através de um provedor de identificação externa (IDP), o usuário deve ter um identificador de login que está tanto ligada a esta conta e que corresponda ao identificador único retornado pelo IDP. Para ver logins atuais de um usuário, consulte o \ "Informações de Login \" na página de perfil do usuário."
+      settings_description: "Para que um usuário possa se autenticar através de um provedor de identificação externa (IDP), o usuário deve ter um identificador de login que está tanto ligada a esta conta e que corresponda ao identificador único retornado pelo IDP. Para ver logins atuais de um usuário, consulte o \"Informações de Login\" na página de perfil do usuário."
       settings_title: "Configuração de Autenticação"
       test_ldap_link: "Testar Autenticação"
       title: "Configuração de Autenticação"
@@ -121,33 +121,33 @@ pt-BR:
         auth_type: Tipo
         certificate_fingerprint: "Certificate Fingerprint"
         change_password_url: "Link para Troca de Senha"
-        identifier_format: "Identifier Format"
-        log_in_url: "Log On URL"
-        log_out_url: "Log Out URL"
-        login_handle_name: "Login Label"
-      login_handle_name_description: "The label used for unique login identifiers. Examples: Login, Username, Student ID, etc."
-      saml_meta_data_link: "Click here to see the service provider identity XML for this account."
+        identifier_format: "Formato de Identificação"
+        log_in_url: "URL de Login"
+        log_out_url: "URL de Logout"
+        login_handle_name: "Identificador"
+      login_handle_name_description: "O nome utilizado para identificadores de login. Exemplos: Login, Username, Student ID, etc."
+      saml_meta_data_link: "Clique aqui para ver o serviço de provedor de identificação XML para esta conta."
       save_button: "Salvar Configurações de Autenticação"
   account_notifications: 
-    announcement_created_notice: "Announcement successfully created"
-    announcement_creation_failed_notice: "Announcement creation failed"
-    announcement_deleted_notice: "Announcement successfully deleted"
-    permission_denied_notice: "You cannot create announcements for that account"
+    announcement_created_notice: "Anúncio criado com sucesso"
+    announcement_creation_failed_notice: "Criação de anúncio falhou"
+    announcement_deleted_notice: "Anúncio criado com sucesso"
+    permission_denied_notice: "Você não pode criar anúncios para esta conta"
   account_settings: 
     confirms: 
       delete_alert: "Você tem certeza que quer remover este alerta?"
       remove_account_admin: "Você tem certeza que quer remover esta conta de administração?"
     links: 
       turnitin: 
-        confirm_settings: "confirm Turnitin settings"
+        confirm_settings: "Configurar configurações do Turnitin"
     notices: 
       turnitin: 
-        checking_settings: "checking Turnitin settings..."
-        invalid_settings: "invalid Turnitin settings, please check your account id and shared secret from Turnitin"
-        setings_confirmed: "Turnitin settings confirmed!"
+        checking_settings: "checando configurações do Turnitin..."
+        invalid_settings: "configurações inválidas do Turnitin, por favor verifique sua conta e o código do Turnitin"
+        setings_confirmed: "configurações do Turnitin confirmadas!"
     titles: 
-      configure_report: "Configure Report"
-      what_are_quiz_ip_filters: "What are Quiz IP Filters?"
+      configure_report: "Configurar Relatório"
+      what_are_quiz_ip_filters: "O Que São Filtros de IP?"
   account_user: 
     types: 
       account_admin: "Administrador"
@@ -167,7 +167,7 @@ pt-BR:
       full_name_description: "Este nome será utilizado por professores para classificação."
       labels: 
         account_id: Departamento
-        course_code: "Código de Referencia"
+        course_code: "Código de Referência"
         enrollment_term_id: "Prazo de Inscrição"
         full_name: "Nome Completo"
         name: "Nome do Curso"
@@ -278,7 +278,6 @@ pt-BR:
       equella_settings_title: "Configurações do Equella"
       external_tools_title: "Ferramentas Externas"
       features_title: Features
-      global_announcements_description: "Global announcements are a way for you to post sticky messages on the dashboard of all users in your account.  They will appear on each user's dashboard for the given time period or until the user clicks the \"close\" link to ignore the alert. **These announcements should be used sparingly.**"
       global_announcements_description: "Os anúncios globais são uma maneira para que você enviar mensagens para todos os usuários de sua conta. Ele irão aparecer no painel de cada usuário por um determinado período ou até que o usuário clique no link \"fechar\" para ignorar o alerta. **Estes anúncios devem ser usados com moderação.**"
       global_announcements_title: "Anúncio Global"
       global_js_and_css_includes_description: "Estes arquivos serão incluidos em todas as páginas de sua conta."
@@ -351,7 +350,7 @@ pt-BR:
       tab_external_tools: "Ferramentas Externas"
       tab_reports: Relatórios
       tab_settings: Configurações
-      turnitin_comments_help: "estes comentários serão exibidos aos estudantes quando enviarem uma atribuição com o Turnitin ativado"
+      turnitin_comments_help: "estes comentários serão exibidos aos estudantes quando enviarem uma tarefa com o Turnitin ativado"
       turnitin_pledge_help: "os alunos devem marcar uma checkbox para concordar com estes termos"
       turnitin_settings_title: "Configurações do Turnitin"
       update_settings_button: "Atualizar Configurações"
@@ -621,68 +620,69 @@ pt-BR:
       invalid_tag_type: "Didn't recognize the item type for this tag"
       invalid_verification_code: "The verification code is invalid."
       mismatched_verification_code: "The verification code does not match any currently enrolled user."
-      permission_denied: "You don't have permission to access that page"
-      quota_exceeded: "Storage quota exceeded"
-      quota_exceeded_account: "Account storage quota exceeded"
-      quota_exceeded_course: "Course storage quota exceeded"
-      quota_exceeded_group: "Group storage quota exceeded"
-      quota_exceeded_user: "User storage quota exceeded"
-      unauthorized: "You are not authorized to perform this action"
+      permission_denied: "Você não tem permissão para acessar esta página" 
+      quota_exceeded: "Capacitade de armazenamento foi excedido"
+      quota_exceeded_account: "Armazenamento da conta foi excedido"
+      quota_exceeded_course: "Armazenamento do curso foi excedido"
+      quota_exceeded_group: "Armazenamento do grupo foi excedido"
+      quota_exceeded_user: "Armazenamento do usuário foi excedido"
+      unauthorized: "Você não está autorizado a realizar esta ação"
     notices: 
-      first_teacher: "This course is now claimed, and you've been registered as its first teacher."
-      first_teacher_with_email: "This course is now claimed, and you've been registered as its first teacher. You should receive an email shortly to complete the registration process."
-      need_to_accept_enrollment: "You'll need to [accept the enrollment invitation](%{url}) before you can fully participate in this course."
-      page_disabled: "That page has been disabled"
-      page_disabled_for_account: "That page has been disabled for this account"
-      page_disabled_for_course: "That page has been disabled for this course"
-      page_disabled_for_group: "That page has been disabled for this group"
-    wiki_front_page_default_content_course: "Welcome to your new course wiki!"
-    wiki_front_page_default_content_group: "Welcome to your new group wiki!"
+      first_teacher: "Este curso foi reivindicado, e você foi registrado como seu primeiro professor."
+      first_teacher_with_email: "Este curso foi reivindicado, e você foi registrado como seu primeiro professor. Vcoê deve receber um email em breve para completar o processo de registro."
+      need_to_accept_enrollment: "Você vai precisar [aceitar o convite de inscrição](%{url}) antes que você possa participar plenamente deste curso."
+      page_disabled: "Esta página foi desativada"
+      page_disabled_for_account: "Esta página foi desativada para esta conta"
+      page_disabled_for_course: "Esta página foi desativada para este curso"
+      page_disabled_for_group: "Esta página foi desativada para este grupo"
+    wiki_front_page_default_content_course: "Bem-vindo a nova wiki do curso!"
+    wiki_front_page_default_content_group: "Bem-vindo a nova wiki do grupo!"
   assessment_question: 
-    default_question_name: Question
-    default_question_text: "Question text"
+    default_question_name: Pergunta
+    default_question_text: "Texto da Pergunta"
   assessment_question_bank: 
-    default_imported_title: "Imported Questions"
-    default_title: "No Name - %{course}"
-    default_unfiled_title: "Unfiled Questions"
+    default_imported_title: "Perguntas Importadas"
+    default_title: "Sem nome - %{course}"
+    default_unfiled_title: "Perguntas Não Arquivadas"
   assignment: 
     comment_from_files: 
-      one: "See attached file"
-      other: "See attached files"
+      one: "Veja o arquivo em anexo"
+      other: "Veja os arquivos em anexo"
     errors: 
       import: 
-        external_tool_url: "The url for the external tool assignment \"%{assignment_name}\" wasn't valid."
-    feed_entry_title: "Assignment: %{assignment}"
-    feed_entry_title_with_course: "Assignment, %{course}: %{assignment}"
-    imported_assignments_group: "Imported Assignments"
+        external_tool_url: "A url para a tarefa de ferramenta externa \"%{assignment_name}\" não é válido."
+    feed_entry_title: "Tarefa: %{assignment}"
+    feed_entry_title_with_course: "Tarefa, %{course}: %{assignment}"
+    imported_assignments_group: "Tarefas importadas"
     labels: 
-      due: Due
+      due: Devido
     messages: 
-      assignment_created: "Assignment \"%{assignment}\" created"
-    submission_action_take_quiz: "Take %{title}"
-    submission_action_turn_in_assignment: "Turn in %{title}"
+      assignment_created: "Tarefa \"%{assignment}\" criada"
+    submission_action_take_quiz: "Usar %{title}"
+    submission_action_turn_in_assignment: "Tornar em %{title}"
     warnings: 
-      group_assignment: "The Assignment \"%{assignment}\" was a group assignment, and you'll need to re-set the group settings for this new context"
+      group_assignment: "A tarefa \"%{assignment}\" foi um trabalho de grupo, e você vai precisar redefinir as configurações do grupo para esse novo contexto"
       peer_assignment: "The Assignment \"%{assignment}\" was a peer review assignment, and you'll need to re-set the peer review settings for this new context"
+      peer_assignment: "A tarefa \"%{assignment}\" foi um trabalho em dupla, e você vai precisar redefinir as configurações de revisão por duplas para este novo contexto"
   assignment_details_dialog: 
-    average_score: "Average Score:"
-    count_of_submissions: "%{cnt} submissions"
-    grading_statistics_for_assignment: "Grade statistics for: %{assignment.name}"
-    high_score: "High Score:"
-    low_score: "Low Score:"
-    no_one_scored_higher: "No one scored higher than %{max}"
-    no_one_scored_lower: "No one scored lower than %{min}"
-    scores_higher_than_the_average: "Scores higher than the average of %{average}"
-    scores_lower_than_the_average: "Scores lower than the average of %{average}"
-    total_submitted: "Total Submitted:"
+    average_score: "Pontuação média:"
+    count_of_submissions: "%{cnt} submissões"
+    grading_statistics_for_assignment: "Estatísticas: %{assignment.name}"
+    high_score: "Maior Nota:"
+    low_score: "Menor Nota:"
+    no_one_scored_higher: "Ninguém tirou mais que %{max}"
+    no_one_scored_lower: "Ninguém tirou menos que %{min}"
+    scores_higher_than_the_average: "Pontuação maior que a média %{average}"
+    scores_lower_than_the_average: "Pontuação menor que a média %{average}"
+    total_submitted: "Total de Submissões:"
   assignment_group: 
-    default_name: Assignments
-    default_title: Assignments
+    default_name: Tarefas 
+    default_title: Tarefas
   assignment_group_weights_dialog: 
     buttons: 
-      save: Save
+      save: Salvar
     titles: 
-      assignment_group_weights: "Manage assignment group weighting"
+      assignment_group_weights: "Gerenciar ponderação sobre tarefas em grupos"
       total: Total
     weight_final: "Weight final grade based on groups"
   assignment_groups: 
@@ -692,85 +692,86 @@ pt-BR:
       updated: "Assignment Group was successfully updated."
   assignments: 
     add_assignment_form: 
-      assignment_name: "Assignment Name"
+      assignment_name: "Nome da Tarefa"
       labels: 
         due: due
-        points: points
+        points: pontos
       links: 
-        full_edit: "Full Edit"
-        more_options: "more options"
+        full_edit: "Edição completa"
+        more_options: "mais opções"
       options: 
-        assignment: Assignment
+        assignment: Tarefa
         attendance: Attendance
-        discussion: Discussion
-        external_tool: "External Tool"
-        not_graded: "Not Graded"
+        discussion: Discussão
+        external_tool: "Ferramenta Externa"
+        not_graded: "Não Classificado"
         quiz: Quiz
       tooltips: 
-        assignment_is_quiz: "This assignment is a quiz, so points possible comes from the questions and can't be set manually."
+        assignment_is_quiz: "Esta tarefa é um quiz, os pontos vem das perguntas e não podem ser ajustados manualmente."
     add_assignment_group_form: 
-      drop_x_scores_for_each_student: "%{scores} scores for each student"
+      drop_x_scores_for_each_student: "%{scores} pontuação para cada estudante"
       labels: 
-        assignments: Assignments
-        group_name: "Group Name"
+        assignments: Tarefas
+        group_name: "Nome do Grupo"
       links: 
-        add_grading_rule: "add grading rule"
+        add_grading_rule: "adicionar regra de classificação"
       options: 
-        drop_highest: "Drop the Highest"
-        drop_lowest: "Drop the Lowest"
-        equally_weighted: "Equally Weighted"
-        never_drop: "Never Drop"
-        no_assignments: "[No Assignments]"
+        drop_highest: "Descartar o Maior"
+        drop_lowest: "Descartar o Menor"
+        equally_weighted: "Mesmo Peso"
+        never_drop: "Nunca Descartar"
+        no_assignments: "[Sem Tarefas]"
         weighted_by_points: "Weighted By Points"
       percent_of_total_grade: "%{percent} % of total grade"
     assignment: 
-      default_content: "No Content"
+      default_content: "Sem Conteúdo"
     assignment_count: 
-      one: "1 Assignment"
-      other: "%{count} Assignments"
+      one: "1 Tarefa"
+      other: "%{count} Tarefas"
     assignment_groups_count: 
-      one: "1 Group"
-      other: "%{count} Groups"
+      one: "1 Grupo"
+      other: "%{count} Grupo"
     assignment_locked: 
       assignment_locked: "This assignment is locked as of *%{lock_at}*"
       assignment_unlocked_from: "This assignment is locked until *%{unlock_at}*"
       assignment_unlocked_from_to: "This assignment is only unlocked from *%{unlock_at}* to *%{lock_at}*"
     assignment_sidebar: 
-      allowed_file_types: "The permitted file upload types are: %{extensions_list}."
+      allowed_file_types: "Os arquivos permitidos para upload são: %{extensions_list}."
       buttons: 
-        publish: "Publish this Assignment"
+        publish: "Publicar esta Tarefa"
       links: 
-        add_rubric: "Add Rubric"
-        align_outcomes: "Align Outcomes"
-        edit_assignment: "Edit Assignment"
-        submit: "Submit Assignment"
-        view_assignment: "View Assignment"
-      submission_types_for_graders: "Students can submit this assignment as *%{submission_types}*"
-      submission_types_for_student: "This assignment can be submitted as *%{submission_types}*"
+        add_rubric: "Adicionar Rubrica"
+        align_outcomes: "Alinhar Resultados"
+        edit_assignment: "Editar Tarefa"
+        submit: "Enviar Tarefa"
+        view_assignment: "Ver Tarefa"
+      submission_types_for_graders: "Estudantes podem submeter esta tarefa como *%{submission_types}*"
+      submission_types_for_student: "Esta tarefa pode ser submetida como *%{submission_types}*"
       titles: 
-        unpublished: Unpublished
-      turnitin_enabled: "Turnitin has been enabled for this assignment."
+        unpublished: "Não foi Publicado"
+      turnitin_enabled: "Turnitin esta disponível para esta tarefa."
       warnings: 
         unpublished: "You should publish assignments that you are finished grading so students can consider their grades \"official.\""
     assignments_content: 
       buttons: 
-        delete_group: "Delete Group"
+        delete_group: "Remover Grupo"
       labels: 
-        class_weighting_policy: "Weight the final grade based on assignment groups"
-        delete_assignments_in_group: "Delete assignments in this group"
-        move_assignments_to: "Move assignments from this group to"
+        class_weighting_policy: "Ponderar a nota final com base em tarefa de grupos"
+        delete_assignments_in_group: "Remover tarefas neste grupo"
+        move_assignments_to: "Mover tarefas deste grupo para"
       options: 
-        select_group: "[ Select a Group ]"
+        select_group: "[ Selecione um Grupo ]"
       titles: 
-        delete_assignment_group: "Delete Assignment Group?"
+        delete_assignment_group: "Remover Tarefa do Grupo?"
       tooltips: 
         target_group: "Select a group to move this assignment to"
+        target_group: "Selecione um grupo para mover esta tarefa"
       warnings: 
         delete_assignment_group: "The assignment group %{group} has %{assignment_count} in it. You can either delete these assignments or move them to another assignment group."
     assignments_list_content: 
       no_assignments: "No Assignments created for this course."
       titles: 
-        assignments: Assignments
+        assignments: Tarefas
         course_assignments: "Course Assignments"
         overdue_assignments: "Overdue Assignments"
         past_assignments: "Past Assignments"
@@ -787,12 +788,12 @@ pt-BR:
         show_only_assignments_from: "Show Only Assignments from"
         upcoming_assignments: "Upcoming Assignments"
     assignments_right_side: 
-      add_assignment_to_group: "*Add Assignment* to %{group}"
+      add_assignment_to_group: "*Adicionar Tarefa* para %{group}"
       assignment_groups_wrapper: "( in %{number_of_groups})"
       links: 
-        add_assignment_group: "Add Assignment Group"
+        add_assignment_group: "Adicionar Grupo de Tarefas"
     buttons: 
-      delete_group: "Delete Group"
+      delete_group: "Remover Grupo"
     confirm: 
       delete_assignment: "Are you sure you want to delete this assignment?"
       delete_group: "Are you sure you want to delete this group?"
@@ -841,7 +842,7 @@ pt-BR:
       assignment_locked: "This assignment is currently locked. Visit the assignment details page for more information."
       assignment_locked_tooltip: locked
       keycode_descriptions: 
-        add_assignment_or_group: "Add Assignment to Current Group"
+        add_assignment_or_group: "Adicionar Tarefa ao Grupo Atual"
         delete_assignment_or_group: "Delete Current Assignment/Group"
         edit_assignment_or_group: "Edit Current Assignment/Group"
         full_preview: "Full Preview/Edit Assignment"
@@ -856,7 +857,7 @@ pt-BR:
         previous_assignment_or_group: k
       links: 
         wizard: "How Do I...?"
-      page_title: Assignments
+      page_title: Tarefas
     messages: 
       agree_to_pledge: "You must agree to the submission pledge before you can submit this assignment."
       not_submitted_yet: "You haven't finished submitting your assignment.  You still need to click \"Submit\" to finish turning it in.  Do you want to leave this page anyway?"
@@ -929,7 +930,7 @@ pt-BR:
       deleting_group: "Deleting Group..."
     student_index: 
       labels: 
-        assignments: Assignments
+        assignments: Tarefas
     submission_sidebar: 
       comment_signature: "%{author}, %{created_at}"
       labels: 
@@ -1040,21 +1041,21 @@ pt-BR:
           details: "There's a lot more that goes into an assignment than due dates and points. If you want to type up a description of the assignment, allow file uploads, change the grading type or a bunch of other things, click the assignment's name or click the %{edit_icon} icon and then \"more options\"."
           group: 
             step1: "Assignment groups are used to organize assignments. You provide a name for each group. If you choose to weight the final grade based on groups (*where?*) then you can also set a percentage score for each group. Click \"Add Assignment Group\" to create a group."
-          overview: "This page is for setting up your course at a high level. You can add assignments, group them and then weight those groups. The idea is to get yourself organized first, dive into the specifics second. Even still, there's a lot you can do from here."
+          overview: "Esta página tem a finalidade de configurar o seu curso de um modo geral. Você pode adicionar tarefas, agrupá-los e em seguida as ponderações. A idéia é primeiro criar uma organização e depois aprofundar nas especificidades. Mesmo assim, há muita coisa que você pode fazer a partir daqui."
           quizzes: "Quizzes are special types of assignments. You can create or import quizzes by clicking the \"Quizzes\" link on the left sidebar."
           step1: "Assignments are always organized into groups, so to add an assignment you first need to know what group you want to add it to. Select the group and click \"Add Assignment to\" or Click the %{add_icon} icon to start a new assignment for a group."
           step2: "Great! Now fill in your details. You can enter a title for your assignment, a due date and the number of points possible. If you want to do more than that you can, but only after the assignment has been created."
           step3: "Done! The assignment is now added to the group! If you hover your mouse over the assignment, you'll see a bunch of options. Here's what they mean:"
       links: 
-        create_assignment: "Create a New Assignment"
-        create_assignment_group: "Create an Assignment Group"
-        create_or_import_quiz: "Create/Import a Quiz"
-        edit_assignment_in_detail: "Edit Assignments in Detail"
+        create_assignment: "Criar uma Nova Tarefa"
+        create_assignment_group: "Criar um Grupo de Tarefas"
+        create_or_import_quiz: "Criar/Importar um Teste"
+        edit_assignment_in_detail: "Editar Detalhes da Tarefa"
         show_me_where: "Show Me Where"
       subtitles: 
-        edit_assignment_in_detail: "(allow uploads, edit description, etc.)"
+        edit_assignment_in_detail: "(permitir uploads, editar descrição, etc.)"
       titles: 
-        wizard_box: "I would like to:"
+        wizard_box: "Eu gostaria de:"
   attachment: 
     default_filename: File
     errors: 
@@ -1066,7 +1067,7 @@ pt-BR:
   attendance: 
     default_attendance_title: "Attendance %{date}"
     errors: 
-      could_not_add_assignment: "Add Assignment Failed"
+      could_not_add_assignment: "Falha ao Adicionar Tarefa"
     options: 
       clear_attendance_marks: "Clear Attendance Marks"
       edit_assignment: "Edit Assignment"
@@ -1103,7 +1104,7 @@ pt-BR:
     ok: OK
     okay: Okay
     post_message: "Post Message"
-    previous: Previous
+    previous: Anterior 
     refresh: refresh
     reorder_topics: "Reorder Topics"
     save: Salvar
@@ -1275,7 +1276,7 @@ pt-BR:
     calendar: 
       alts: 
         next: Next
-        previous: Previous
+        previous: Anterior
       calendars_count: 
         one: "1 calendar, %{open_count} open"
         other: "%{count} calendars, %{open_count} open"
@@ -1387,10 +1388,10 @@ pt-BR:
         edit: "Great! Now just enter a name for the event (*where?*). You can specify a start and end time for the event if you like. Or just a start time. Or no time at all. Click \"Submit\" to finish."
         edit_assignment: "Now just enter a name for the assignment (*where?*) and the assignment group it belongs to. You can specify a due date if you want, too. Click \"Submit\" to finish."
       labels: 
-        i_would_like_to: "I would like to"
+        i_would_like_to: "Eu gostaria de"
       links: 
         change_date: "Change the Date of an Event/Assignment"
-        create_assignment: "Create a New Assignment"
+        create_assignment: "Criar uma Nova Tarefa"
         delete: "Delete an Event/Assignment"
         new: "Create a New Event"
   canvas: 
@@ -1407,8 +1408,8 @@ pt-BR:
     by_nc_sa: "CC Attribution Non-Commercial Share Alike"
     by_nd: "CC Attribution No Derivatives"
     by_sa: "CC Attribution Share Alike"
-    private: "Private (Copyrighted)"
-    public_domain: "Public Domain"
+    private: "Privado (Direitos Autorais)"
+    public_domain: "Domínio Público"
   collaboration: 
     default_title: "Unnamed Collaboration"
   collaborations: 
@@ -1657,9 +1658,9 @@ pt-BR:
         total: Total
         weight_groups: "Weight final grade by groups"
       links: 
-        add_group: "Add Assignment Group"
-        delete_group: "Delete Group"
-        edit_group: "Edit Group Name"
+        add_group: "Adicionar Grupo de Tarefas"
+        delete_group: "Remover Grupo"
+        edit_group: "Editar Nome do Grupo"
       titles: 
         assignment_groups: "Assignment Groups"
     buttons: 
@@ -2405,7 +2406,7 @@ pt-BR:
         unfulfilled: "must view the page"
     none_in_progress: "none in progress"
     optgroup: 
-      assignments: Assignments
+      assignments: Tarefas
       discussion_topics: Discussions
       external_tools: "External Tools"
       external_urls: "External URLs"
@@ -2471,7 +2472,7 @@ pt-BR:
         archived: Archived
         archived_messages: Archived
         discussion_replies: "Discussion Replies"
-        inbox: Inbox
+        inbox: "Caixa de Entrada"
         labeled: Labeled
         unread: Unread
         unread_messages: Unread
@@ -2916,8 +2917,8 @@ pt-BR:
         hide_final_grade: "Hide totals in student grades summary"
         indexed: "Include this course in the public course index"
         is_public: "Make this course publicly visible"
-        language: Language
-        license: License
+        language: Idioma 
+        license: Licença 
         limit_privileges_to_course_section: "these admins can only grade students in their section"
         observers: Observers
         open_enrollment: "Add a \"Join this Course\" link to the course home page"
@@ -3069,7 +3070,7 @@ pt-BR:
       all_rubrics: "All Rubrics"
       any: Any
       assignment_groups: "Assignment Groups"
-      assignments: Assignments
+      assignments: Tarefas
       course_rubrics: "Course Rubrics"
       discussion_posts: "Discussion Posts"
       discussion_topic: "Discussion Topic"
@@ -3104,7 +3105,7 @@ pt-BR:
       student_last_logged_in: "last logged in %{time}"
       submission_type: "Submission Type"
       tabs: 
-        assignments: Assignments
+        assignments: Tarefas
         files: "File Storage"
         students: Estudantes
         totals: Totals
@@ -3122,7 +3123,7 @@ pt-BR:
     discussion_replies: "Discussion Replies"
   crumbs: 
     access_report: "Access Report"
-    assignments: Assignments
+    assignments: Tarefas
     calendar_events: "Calendar Events"
     chat: Chat
     conferences: Conferences
@@ -3347,7 +3348,7 @@ pt-BR:
         one: "1 Post"
         other: "%{count} Posts"
       post_entry: "Post Entry"
-      previous_message: "Previous Message"
+      previous_message: "Mensagem Anterior"
       replace_file: "Replace File"
       reply_to_message: "Reply to Current Message"
       reply_to_topic: "Reply to Topic"
@@ -4013,35 +4014,35 @@ pt-BR:
       criterion_long_description: "Criterion Long Description"
   getting_started: 
     assignments: 
-      add_assignment_group_link: "Add Assignment Group"
-      add_assignment_link: "*Add Assignment* to %{group_name}"
-      confused_notice: "Confused? Click the \"How Do I...?\" link to the right for more help."
-      default_group_notice: "*Now we're getting somewhere!* Next you'll want to add your course assignments. Assignments are organized into groups (quizzes, papers, etc.), and each group can be weighted to count as a percentage of the final score. We've added a default group above to get you started. You can add assignments to it by clicking the plus icon, or use the links to the right to create your own groups."
+      add_assignment_group_link: "Adicionar Grupo de Tarefas"
+      add_assignment_link: "*Adicionar Tarefa* para %{group_name}"
+      confused_notice: "Confuso? Clique no link \"Como faço...?\" para obter ajuda."
+      default_group_notice: "*Agora estamos chegando a algum lugar!* Em seguida, você vai querer adicionar tarefas ao seu curso. As tarefas são organizadas em grupos (testes, trabalhos, etc.), e cada grupo pode ser ponderados para contar como um percentual da nota final. Nós adicionamos um grupo padrão acima para você começar. Você pode adicionar tarefas a ele, clicando no ícone com sinal de soma, ou use os links da direita para criar seus próprios grupos."
       grade_groups_notice: "Nicely done. Next you'll want to define the assignments for your course. Most classes base grades either on straight points, or points according to types (50% of your grade is from tests, 20% is from papers, etc.). In Canvas you add assignments, quizzes, or whatever into groups and optionally weight those groups. Build your Canvas course to match the grading scheme of your actual course, and we'll take care of computing your final grade for you."
-      grade_weight_label: "Weight the final grade based on assignment groups"
-      how_do_i: "How Do I...?"
-      page_title: "Try It: Assignments"
-      save_and_skip: "Save & Skip the Rest"
-      skip_assignments_notice: "Not ready to create your assignments? Feel free to skip this step, you can always come back to it later after your course is set up."
-      student_next_step_link: "Next Step: Students"
+      grade_weight_label: "Ponderar a nota final com base em tarefa de grupos"
+      how_do_i: "Como faço...?"
+      page_title: "Tente isso: Tarefas"
+      save_and_skip: "Salvar e Pular o Resto"
+      skip_assignments_notice: "Não está pronto para criar suas tarefas? Sinta-se livre para pular este passo, você pode sempre voltar a ele mais tarde, após o seu curso ser criado."
+      student_next_step_link: "Próximo Passo: Estudantes"
     course_created_notice: "Course created! You'll need to log in or register to claim this course."
     name: 
-      assignment_next_step_link: "Next Step: Assignments"
-      course_code_example: "(something like BIO 100, ENG 315, etc.)"
+      assignment_next_step_link: "Próximo Passo: Tarefas"
+      course_code_example: "(algo como BIO 100, ENG 315, etc.)"
       course_name_notice: "First thing's first, tell us the name of the course you'd like to track."
-      course_name_notice_longer: "Right, then. Let's get this course set up! It should only take a few minutes for the whole process. First off come up with a name for your course. Then you'll add your assignments and students. Shouldn't take too long at all."
+      course_name_notice_longer: "Vamos começar a criar este curso! O processo todo deve demorar apenas alguns minutos. Primeiramente iremos definir um nome para o curso. Após isso você irá adicionar estudantes e tarefas. Tudo não deve demorar muito."
       labels: 
-        course_code: "And a shorter reference code"
+        course_code: "E um pequeno código de referência"
         indexed: "Include this course in Instructure's public course index"
-        is_public: "Make this course publicly visible"
-        license: "License for course content"
-        name: "Enter a name for your course"
-      page_title: "Try It: Choose Course Name"
-      save_and_skip: "Save & Skip the Rest"
-      student_data_privacy: "(student data will remain private)"
+        is_public: "Tornar este curso público"
+        license: "Licença para o conteúdo do curso"
+        name: "Digite um nome para o seu curso"
+      page_title: "Tente Isso: Escolha o Nome do Curso"
+      save_and_skip: "Salvar e Pular o Resto"
+      student_data_privacy: "(as informações dos estudantes não serão publicas)"
       teacherless_grades_notice: "You can use Canvas to keep track of how you're doing in all your courses, whether they're using Canvas or not. Just tell us how your course's grading policy is set up and then enter your scores manually. You can also invite your classmates to use the course you set up so they can track their grades, too!"
     setup: 
-      assignments: Assignments
+      assignments: Tarefas
       labels: 
         course_name: "Course Name"
         students: Estudantes
@@ -4077,7 +4078,7 @@ pt-BR:
       no_enrollments: "No Students Enrolled"
       page_title: "Try It: Add Students"
       save_and_skip: "Save & Skip the Rest"
-      save_next_step_link: "Next Step: Save"
+      save_next_step_link: "Próximo Passo: Salvar"
       teacher_add_student_notice_just_email: "*Next, you'll want to add students to your course.* You can add them one by one or as a whole list. Paste in just email addresses (bob@example.com) or names with addresses #(\"Jones, Bob M.\" <bob@example.com>)# separated by commas or on separate lines."
       teacher_add_student_notice_with_login_handle: "*Next, you'll want to add students to your course.* You can add them one by one or as a whole list. You can paste in their %{login_handle_name}, just their email address (bob@example.com), or their name and address #(\"Jones, Bob M.\" <bob@example.com>)#. Multiple users should be separated by commas or be on separate lines."
       teacher_add_student_skip: "If you're not sure who's going to be in your class, you can skip this step and add students (along with TAs and other teachers) anytime after you finish the wizard."
@@ -4091,14 +4092,14 @@ pt-BR:
       teacherless_explanation: "You can use Canvas to keep track of how you're doing in all your courses, whether they're using Canvas or not. Just tell us how your course's grading policy is set up and then enter your scores manually. You can also invite your classmates to use the course you set up so they can track their grades, too!"
       use_canvas_for_grading: "Use Canvas for Grading"
     wizard_secondary_nav: 
-      assignments: Assignments
-      course_name: "Course Name"
-      review_and_save: "Review and Save"
-      start_from_scratch: "Start From Scratch"
-      step1: "Step 1"
-      step2: "Step 2"
-      step3: "Step 3"
-      step4: "Step 4"
+      assignments: Tarefas
+      course_name: "Nome do Curso"
+      review_and_save: "Revisar e Salvar"
+      start_from_scratch: "Começar do Início"
+      step1: "Passo 1"
+      step2: "Passo 2"
+      step3: "Passo 3"
+      step4: "Passo 4"
       students: Estudantes
       visit_course_page: "Visit Course Page"
   gradebook: 
@@ -4312,7 +4313,7 @@ pt-BR:
     attendance: 
       attendance_info: "No attendance assignments have been created."
       buttons: 
-        add_assignment: "Add Assignment"
+        add_assignment: "Adicionar Tarefa"
       edit_attendance_info: "To edit the details for an attendance assignment, click the dropdown icon just below the assignment's name and then click \"Edit Assignment\"."
       headers: 
         attendance: Attendance
@@ -4431,7 +4432,7 @@ pt-BR:
         sort_rows: "Sort Gradebook Rows"
         total_submitted: "Total Submitted"
       links: 
-        add_assignments: "Add Assignments to the Course"
+        add_assignments: "Adicionar Tarefas ao Curso"
         add_students: "Add Students to the Course"
         attach_file: "Attach File"
         manage: "Manage Assignment Groups"
@@ -4498,8 +4499,8 @@ pt-BR:
         more_information: "More Information for Current Cell"
         next_assignment: "Next Assignment"
         next_student: "Next Student"
-        previous_assignment: "Previous Assignment"
-        previous_student: "Previous Student"
+        previous_assignment: "Tarefa Anterior"
+        previous_student: "Estudante Anterior"
         refresh_gradebook: "Refresh Gradebook"
       keycodes: 
         edit_cell: enter
@@ -4532,7 +4533,7 @@ pt-BR:
         change_grade: "Change Grade"
         leave_comment: "Leave Comment"
         next_student: "Next Student"
-        previous_student: "Previous Student"
+        previous_student: "Estudante Anterior"
         use_rubric: "Use Rubric"
       keycodes: 
         change_grade: g
@@ -4559,7 +4560,7 @@ pt-BR:
         gradebook: Gradebook
         help: Help
         next: Next
-        previous: Previous
+        previous: Anterior
         remove_attachment: "Remove Attachment"
         settings: Settings
         show_all_sections: "Show all sections"
@@ -4867,7 +4868,7 @@ pt-BR:
       unrecognized: "Unrecognized Browser"
     buttons: 
       next_module: "Next Module"
-      previous_module: "Previous Module"
+      previous_module: "Módulo Anterior"
       search: Search
       search_by_tag: "Search by Tag"
     confirms: 
@@ -4955,7 +4956,7 @@ pt-BR:
       title: "Jobs CP"
   labels: 
     announcements: Announcements
-    assignments: Assignments
+    assignments: Tarefas
     calendar_events: "Calendar Events"
     discussion_responses: "Discussion Responses"
     discussions: Discussions
@@ -4981,7 +4982,7 @@ pt-BR:
         skip_to_content: "Skip To Content"
         support: Support
       menu: 
-        assignments: Assignments
+        assignments: Tarefas
         assignments_needing_grading: "Needing Grading"
         assignments_needing_submitting: "To Turn In"
         assignments_recently_graded: "Recently Graded"
@@ -6855,9 +6856,9 @@ pt-BR:
         password: Password
         time_zone: "Time Zone"
     headers: 
-      loading_images: "Loading Images..."
+      loading_images: "Carregando Imagens..."
     notices: 
-      updated_profile: "Profile successfully updated"
+      updated_profile: "Perfil atualizado com sucesso"
     notification_preference: 
       contact_types: 
         email: "Email Me at"
@@ -6892,7 +6893,7 @@ pt-BR:
         save_login: "Save Login"
         save_skype_name: "Save Skype Name"
         select_image: "Select Image"
-        update_profile: "Update Profile"
+        update_profile: "Atualizar Perfil"
       delicious_description: "Delicious is a tool that lets you store and share your bookmarks with others. Canvas's rich content editor will let you search your Delicious tags to easily link from within Canvas to other resources you find useful."
       diigo_description: "Diigo is a social bookmarking tool tailored specifically to research and education. Canvas's rich content editor will let you search your Diigo tags to easily link from within Canvas to other resources you find useful."
       error_loading_token_details: "Error Loading Token Details"
@@ -6964,10 +6965,10 @@ pt-BR:
       linkedin_description: "LinkedIn is a great resources for business networking, and can be helpful long after you've finished your education. If you have a LinkedIn account, you can register it here. Then if you allow fellow course/group members to see your registered services, they can easily invite you to link with them without having to search LinkedIn for your profile."
       links: 
         add_account: "Add Account"
-        delete_profile: "Delete My Profile"
+        delete_profile: "Apagar Meu Perfil"
         delicious: Delicious
         diigo: Diigo
-        edit_profile: "Edit Profile"
+        edit_profile: "Editar Perfil"
         facebook: Facebook
         google_docs: "Google Docs"
         linkedin: LinkedIn
@@ -6982,7 +6983,7 @@ pt-BR:
       no_language_preference: "System Default (%{language})"
       no_registered_services: "No Registered Services"
       none: None
-      page_title: Profile
+      page_title: Perfil
       profile_pictures: "Select the image you'd like to use as your profile pic, or upload a new image:"
       skype_description: "Skype offers free online voice and video calls. Lots of students use Skype as a free, easy way to communicate. If you register your Skype Name and enable visibility, then other students can easily find your contact and call or add you using Skype."
       titles: 
@@ -7767,7 +7768,7 @@ pt-BR:
         add_question_to_group: "Add Question to this Group"
         collapse_group: "Collapse Group"
         delete_group: "Delete Group"
-        edit_group_details: "Edit Group Details"
+        edit_group_details: "Editar Detalhes do Grupo"
         expand_group: "Expand Group"
     question_statistic: 
       attempts: 
@@ -8396,16 +8397,16 @@ pt-BR:
         find_user: "Find A User"
     add_assignment: 
       buttons: 
-        add_assignment: "Add Assignment"
+        add_assignment: "Adicionar Tarefa"
       labels: 
         assignment_group_id: Group
         due_at: Due
         points_possible: Points
         title: Name
       options: 
-        assignments: Assignments
+        assignments: Tarefas
       titles: 
-        add_assignment: "Add Assignment"
+        add_assignment: "Adicionar Tarefa"
     add_assignment_group: 
       buttons: 
         add_group: "Add Group"
@@ -8418,7 +8419,7 @@ pt-BR:
         adding_group: "Adding Group..."
       percent_of_grade: "%{percent} % of grade"
       titles: 
-        add_assignment_group: "Add Assignment Group"
+        add_assignment_group: "Adicionar Grupo de Tarefas"
     aligned_outcomes: 
       actions: 
         align_outcomes: "align outcomes"
@@ -8458,23 +8459,23 @@ pt-BR:
         sort_or_move: "Sort Assignments or Move to Another Group"
     assignment_group: 
       alts: 
-        add_assignment: "Add Assignment"
-        delete_assignment_group: Delete
-        edit_group_details: Edit
-        move: Move
+        add_assignment: "Adicionar Tarefa"
+        delete_assignment_group: Remover 
+        edit_group_details: Editar 
+        move: Mover
       defaults: 
         group_name: "Course Assignments"
       group_weight: "*%{percent}% of total grade"
       links: 
-        add_an_assignment: "Add an Assignment"
-        add_assignment: "Add Assignment"
-        edit_group_details: "Edit Group Details"
+        add_an_assignment: "Adicionar uma Tarefa"
+        add_assignment: "Adicionar Tarefa"
+        edit_group_details: "Editar Detalhes do Grupo"
         hide_info: "hide info"
         more_info: "more info..."
         reorder_groups: "Reorder Groups"
-      no_assignments: "No assignments yet"
+      no_assignments: "Nenhuma tarefa ainda"
       titles: 
-        delete_assignment_group: "Delete Assignment Group"
+        delete_assignment_group: "Remover Grupo de Tarefas"
         percent_of_final_grade: "Percent of Final Grade"
     assignment_rubric_dialog: 
       links: 
@@ -8729,10 +8730,10 @@ pt-BR:
     identity: 
       links: 
         help: Help
-        inbox: Inbox
-        log_in: "Log In"
-        logout: Logout
-        profile: Profile
+        inbox: "Caixa de Entrada"
+        log_in: "Entrar"
+        logout: Sair
+        profile: Perfil
         sign_up_as_teacher: "Sign Up as a Teacher"
         stop_masquerading: "[Stop Masquerading]"
     inline_preview: 
@@ -8954,7 +8955,7 @@ pt-BR:
     sequence_footer: 
       full_course_sequence: "see full course sequence"
       next: Next
-      previous: Previous
+      previous: Anterior
     submission_comment: 
       assignment: Assignment
       grading_alt: grading
@@ -9135,7 +9136,7 @@ pt-BR:
         wiki_pages_index: "Wiki Home"
       links_to: 
         announcements: Announcements
-        assignments: Assignments
+        assignments: Tarefas
         discussions: Discussions
         modules: Modules
         nav: 
@@ -9296,7 +9297,7 @@ pt-BR:
         save: Save
         save_comment: "Save Comment"
       crumbs: 
-        assignments: Assignments
+        assignments: Tarefas
       labels: 
         add_a_comment: "Add a Comment"
         grade: Grade
@@ -9357,7 +9358,7 @@ pt-BR:
     type: Tipo
   tabs: 
     announcements: Announcements
-    assignments: Assignments
+    assignments: Tarefas
     chat: Chat
     collaborations: Collaborations
     conferences: Conferences
@@ -9603,7 +9604,7 @@ pt-BR:
   user_profile: 
     tabs: 
       notifications: Notifications
-      profile: Profile
+      profile: Perfil
   user_service: 
     descriptions: 
       delicious: "Delicious is a collaborative link-sharing tool.  You can tag any page on the Internet for later reference.  You can also link to other users' Delicious accounts to share links of similar interest."
@@ -9719,10 +9720,10 @@ pt-BR:
       page_title: Grades
       percent: Percent
       send_teacher_message: "Send a Message to the Teacher"
-      show_previous_courses: "Show Previous Courses"
+      show_previous_courses: "Exibir Cursos Anteriores"
       titles: 
         current_student_courses: "Courses I'm Taking"
-        previous_courses: "Previous Courses"
+        previous_courses: "Cursos Anteriores"
     group: 
       show_hide_activity_list: "Show/Hide in the Recent Activity list"
     ie7_upgrade: 
