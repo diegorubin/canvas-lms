@@ -655,7 +655,7 @@ pt-BR:
     feed_entry_title_with_course: "Tarefa, %{course}: %{assignment}"
     imported_assignments_group: "Tarefas importadas"
     labels: 
-      due: Devido
+      due: Entrega 
     messages: 
       assignment_created: "Tarefa \"%{assignment}\" criada"
     submission_action_take_quiz: "Usar %{title}"
@@ -687,25 +687,25 @@ pt-BR:
     weight_final: "Weight final grade based on groups"
   assignment_groups: 
     notices: 
-      created: "Assignment Group was successfully created."
-      deleted: "This group has been deleted"
-      updated: "Assignment Group was successfully updated."
+      created: "Grupo de Tarefas foi criado com sucesso."
+      deleted: "Este grupo foi removido"
+      updated: "Grupo de Tarefas foi atualizado com sucesso."
   assignments: 
     add_assignment_form: 
       assignment_name: "Nome da Tarefa"
       labels: 
-        due: due
+        due: entrega
         points: pontos
       links: 
         full_edit: "Edição completa"
         more_options: "mais opções"
       options: 
         assignment: Tarefa
-        attendance: Attendance
+        attendance: Comparecimento 
         discussion: Discussão
         external_tool: "Ferramenta Externa"
         not_graded: "Não Classificado"
-        quiz: Quiz
+        quiz: Teste
       tooltips: 
         assignment_is_quiz: "Esta tarefa é um quiz, os pontos vem das perguntas e não podem ser ajustados manualmente."
     add_assignment_group_form: 
@@ -722,7 +722,7 @@ pt-BR:
         never_drop: "Nunca Descartar"
         no_assignments: "[Sem Tarefas]"
         weighted_by_points: "Weighted By Points"
-      percent_of_total_grade: "%{percent} % of total grade"
+      percent_of_total_grade: "%{percent} % da nota total"
     assignment: 
       default_content: "Sem Conteúdo"
     assignment_count: 
@@ -781,7 +781,7 @@ pt-BR:
     assignments_list_right_side: 
       links: 
         group_assignments_by_type: "Group Assignments by Type"
-        just_show_assignment_list: "Just Show the Assignment List"
+        just_show_assignment_list: "Apenas Exiba a Lista de Tarefas"
         manage_assignments: "Manage Assignments"
         see_current_grades: "See my grades so far"
       titles: 
@@ -810,7 +810,7 @@ pt-BR:
       speed_grader: "Speed Grader"
     grade_assignment: 
       buttons: 
-        upload_files: "Upload Files"
+        upload_files: "Enviar Arquivos"
       graded_count: "%{graded_count} *out of* %{total} Submissions Graded"
       links: 
         download_submissions: "Download Submissions"
@@ -835,8 +835,8 @@ pt-BR:
         group_submission: "Keep in mind, this submission will count for everyone in your %{group_type} group."
     group_weights: 
       headers: 
-        assignment_group: "Assignment Group"
-        group_weight: Weight
+        assignment_group: "Grupo de Tarefas"
+        group_weight: Peso
         total: Total
     index: 
       assignment_locked: "This assignment is currently locked. Visit the assignment details page for more information."
@@ -898,7 +898,7 @@ pt-BR:
       none_assigned: "None Assigned"
       not_yet_submitted: "not yet submitted"
       options: 
-        select_student: "[ Select Student ]"
+        select_student: "[ Selecione o Estudante ]"
       overview: "Student peer reviews will be considered complete when students have commented at least once on the page."
       overview_with_rubric: "Student peer reviews will be considered complete when students have commented at least once on the page and filled out the rubric form for the assignment."
       page_title: "Peer Reviews"
@@ -1019,7 +1019,7 @@ pt-BR:
       links: 
         jump_to_today: "Jump to Today"
       titles: 
-        course_syllabus: "Course Syllabus"
+        course_syllabus: "Syllabus do Curso"
     syllabus_right_side: 
       links: 
         edit_syllabus_description: "Edit Syllabus Description"
@@ -1036,6 +1036,7 @@ pt-BR:
         preview_icon: "%{icon}: Preview the assignment and edit it in full"
       errors: 
         no_assignment_group: "Oops. You need to add an assignment group first. Click \"Create an Assignment Group\" to see how."
+        no_assignment_group: "Oops. Você precisa adicionar um grupo de tarefas primeiro. Clique em \"Criar um Grupo de Tarefas\" para ver como."
       instructions: 
         wizard: 
           details: "There's a lot more that goes into an assignment than due dates and points. If you want to type up a description of the assignment, allow file uploads, change the grading type or a bunch of other things, click the assignment's name or click the %{edit_icon} icon and then \"more options\"."
@@ -1063,9 +1064,9 @@ pt-BR:
     feed_title: "File: %{title}"
     feed_title_with_context: "File, %{course_or_group}: %{title}"
     title: 
-      migration_list: "Associated Files"
+      migration_list: "Arquivos Associados"
   attendance: 
-    default_attendance_title: "Attendance %{date}"
+    default_attendance_title: "Comparecimento %{date}"
     errors: 
       could_not_add_assignment: "Falha ao Adicionar Tarefa"
     options: 
@@ -1080,7 +1081,7 @@ pt-BR:
       attendance_help: "Attendance Help"
       new_attendance_column: "New Attendance Column"
   bookmark_service: 
-    default_title: "No Title"
+    default_title: "Sem Título"
   buttons: 
     add: Add
     add_external_tool: "Add External Tool"
@@ -1093,12 +1094,12 @@ pt-BR:
     apply: Apply
     authorize_google_docs: "Authorize Google Docs Access"
     back_to_outcomes: "Back to Outcomes"
-    cancel: Cancel
+    cancel: Cancelar
     continue: Continue
     done: Done
     filter: Filter
     find_learning_outcome: "Find Learning Outcome"
-    hide: Hide
+    hide: Esconder
     hide_all_artifacts: "Hide All Artifacts"
     manage_rubrics: "Manage Rubrics"
     ok: OK
@@ -1287,7 +1288,7 @@ pt-BR:
         calendar: Calendário
         date: Data
         details: Detalhes
-        due: Due
+        due: Entrega
         from: De
         group: Grupo 
         title: Título
@@ -1312,8 +1313,8 @@ pt-BR:
       timespan: "%{start_time} *to* %{end_time}"
     default_title: evento
     event: 
-      due: due
-      event_title: "due: %{event_title}"
+      due: Entrega
+      event_title: "entrega: %{event_title}"
     event_details: "Detalhes do Evento"
     feed_dialog_title: "Feed do Calendário"
     feed_title: "%{course_or_group_name} Calendar Feed"
@@ -1486,7 +1487,7 @@ pt-BR:
       page_title: Collaboration
       started_by: "Started by *%{user}*, %{at}"
       titles: 
-        current: "Current Collaborations"
+        current: "Colaborações Atuais"
   communication_channel: 
     default_facebook_account: "Facebook Account"
     default_twitter_handle: "Twitter Handle"
@@ -1651,8 +1652,8 @@ pt-BR:
         discussion: Discussion
         file_upload: "File Upload"
         new_group: "[ New Group ]"
-        not_graded: "Not Graded"
-        quiz: Quiz
+        not_graded: "Não Classificados"
+        quiz: Teste
     assignment_groups: 
       labels: 
         total: Total
@@ -1662,9 +1663,9 @@ pt-BR:
         delete_group: "Remover Grupo"
         edit_group: "Editar Nome do Grupo"
       titles: 
-        assignment_groups: "Assignment Groups"
+        assignment_groups: "Grupos de Tarefas"
     buttons: 
-      import: "Import Course"
+      import: "Importar Curso"
     copy_course: 
       buttons: 
         copy_from_course: "Copy From this Course"
@@ -1686,17 +1687,17 @@ pt-BR:
         copy_everything: "Copy Everything from %{course}"
         copy_settings: "Settings from %{course}"
         dates_range: "**%{course}** dates range"
-        discussions: "Discussions for %{course}"
+        discussions: "Discussões para %{course}"
         events: "Events for %{course}"
         external_tools: "External Tools for %{course}"
-        files: "Files for %{course}"
+        files: "Arquivos para %{course}"
         learning_outcomes: "Learning Outcomes for %{course}"
-        modules: "Modules for %{course}"
-        quizzes: "Quizzes for %{course}"
+        modules: "Módulos para %{course}"
+        quizzes: "Testes para %{course}"
         search_for_course: "Search for Course"
         select_course: "Or Select from the List"
         shift_dates: "Adjust events and due dates"
-        wiki_ages: "Wiki Pages for %{course}"
+        wiki_ages: "Páginas Wiki para %{course}"
       links: 
         add_day_substitution: "Define a day substitution"
       move_from_to: "Move everything on %{old_day} to happen on %{new_day}"
@@ -1721,13 +1722,13 @@ pt-BR:
             [change them by dragging and dropping on the course calendar](%{url}).
       labels: 
         assignment: "Assignments for %{course}"
-        discussions: "Discussions for %{course}"
+        discussions: "Discussões para %{course}"
         events: "Events for %{course}"
         external_tools: "External Tools for %{course}"
-        files: "Files for %{course}"
-        modules: "Modules for %{course}"
-        quizzes: "Quizzes for %{course}"
-        wiki_ages: "Wiki Pages for %{course}"
+        files: "Arquivos para %{course}"
+        modules: "Módulos para %{course}"
+        quizzes: "Testes para %{course}"
+        wiki_ages: "Páginas Wiki para %{course}"
       links: 
         back: "Back to the %{course} Home Page"
       page_title: "Copy Results From %{course}"
@@ -1757,7 +1758,7 @@ pt-BR:
           : "Save the file to your local computer"
       links: 
         zip_from_webct: "How do I get a .zip file from WebCT?"
-      page_title: "Import Files"
+      page_title: "Importar Arquivos"
     index: 
       crumbs: 
         migrations: Migrations
@@ -1776,9 +1777,9 @@ pt-BR:
       if_any: "(if any)"
       links: 
         copy_course: "Copy content from **another Canvas course**"
-        import_files: "Import Files"
+        import_files: "Importar Arquivos"
         import_package: "Import content from a **content package** or from **another system**"
-        import_quizzes: "Import Quizzes"
+        import_quizzes: "Importar Testes"
       page_title: "Import Wizard"
       skip_steps: "You may skip any steps that don't apply."
       titles: 
@@ -1798,7 +1799,7 @@ pt-BR:
         selective_import: "Choose which parts of the course to migrate"
       labels: 
         question_banks: "Question Banks"
-        quizzes: "Quizzes and Assessments"
+        quizzes: "Testes e Avaliações"
       links: 
         view_migrations: "View Migrations"
       messages: 
@@ -1822,8 +1823,8 @@ pt-BR:
       from_to: "*from* %{start_date} **to** %{end_date}"
       instructions: "Select the content you'd like copied into this course. At the bottom you can also choose to adjust all dates for migrated items in case you've moved on to a new semester."
       labels: 
-        assignment_groups: "Assignment Groups"
-        content_folders: "Content Folders"
+        assignment_groups: "Grupos de Tarefas"
+        content_folders: "Pastas de Conteúdo"
         copy_all_question_banks: "Copy All Question Banks"
         copy_everything: "Copy Everything"
         dates_range: "%{course} dates range"
@@ -1900,21 +1901,21 @@ pt-BR:
         file_uploaded: "**Thank you!**  We'll start importing your QTI data and send you an email when it's complete. The process normally finishes within 10 minutes."
         uploading: "Uploading and processing your zip file, if it is large it may take a while."
         uploading_button: "Uploading QTI File..."
-      page_title: "Import Quizzes"
+      page_title: "Importar Testes"
       question_bank_configuration: "Question Bank Configuration"
       question_count: 
         one: "1 Question"
         other: "%{count} Questions"
       titles: 
-        current_quizzes: "Current Quizzes"
+        current_quizzes: "Testes Atuais"
         uploading: "Uploading, Please Wait."
       upload_qti_file: "Choose a QTI .zip package"
     titles: 
       copy_discussion_replies: "Copy Discussion Replies?"
     wizard_secondary_nav: 
       wizard_steps: 
-        import_files: "Import Files"
-        import_quizzes: "Import Quizzes"
+        import_files: "Importar Arquivos"
+        import_quizzes: "Importar Testes"
         intro: Intro
   content_locks: 
     buttons: 
@@ -1948,13 +1949,13 @@ pt-BR:
     titles: 
       content_is_locked: "Content Is Locked"
   content_migration: 
-    unknown: Unknown
+    unknown: Desconhecido
   content_tag: 
-    no_title: "No title"
+    no_title: "Sem Título"
   content_tags: 
     defaults: 
-      comments: Comments
-      page_title: "Page Title"
+      comments: Comentários 
+      page_title: "Título da Página"
     prompts: 
       delete_tag: "Are you sure you want to delete this tag?"
     titles: 
@@ -1968,10 +1969,10 @@ pt-BR:
     chat_not_enabled: "Chat has not been enabled for this Canvas site"
     communication: 
       headings: 
-        discussions: Discussions
+        discussions: Discussões
       links: 
         feeds: 
-          course_discussions: "Course Discussions Atom Feed"
+          course_discussions: "Atom Feed de Discussões do Curso"
         start_collaboration: "Start a Collaboration"
         start_conference: "Start a Web Conference"
         start_topic: "Start a New Topic"
@@ -2053,7 +2054,7 @@ pt-BR:
           one: "Show 1 More Entry"
           other: "Show %{count} More Entries"
         view_topic: "View Entire Topic"
-      no_title: "No Title"
+      no_title: "Sem Título"
       post_date: "posted *%{post_date}*"
       posts_for_grading: "Posts will be used for grading."
       read_more: more
@@ -2090,7 +2091,7 @@ pt-BR:
         remove: Remove
         title: 
           remove_message: "Remove this Message"
-      no_title: "No Title"
+      no_title: "Sem Título"
     inbox_items: 
       inbox_delete_confirm: "Are you sure you want to delete this item from your inbox?"
       loading_results: "Loading more results"
@@ -2118,7 +2119,7 @@ pt-BR:
         view_faculty_journals: "View Faculty Journals"
         view_prior_enrollments: "View Prior Enrollments"
         view_services: "View Registered Services"
-        view_student_groups: "View Student Groups"
+        view_student_groups: "Exibir Grupos de Estudantes"
       students: Estudantes
       teachers: "Teachers & TAs"
       titles: 
@@ -2163,7 +2164,7 @@ pt-BR:
         title: 
           enrollment_sis_defined: "This enrollment was defined by the university, and can't be deleted"
         user_account_details: "User Account Details"
-        user_grades: "Grades for %{user}"
+        user_grades: "Notas para %{user}"
         user_only_view_section: "limit this user to only see fellow section users"
         user_outcomes: "Outcomes for %{user}"
         user_view_all_sections: "let this user see all course users"
@@ -2292,7 +2293,7 @@ pt-BR:
         new_tab: "Load this tool in a new tab"
         require_sequential_progress: "students must move through requirements in this module in sequential order"
         sort_by: "Sort By"
-        title: Title
+        title: Título
         unlock_at: "Unlock At"
         url: URL
       links: 
@@ -2320,7 +2321,7 @@ pt-BR:
         instructions: "Select Module"
         name: "the module, %{module}"
       select_prerequisite: "Select the type of prerequisite. Students cannot see a module until all prerequisites are satisfied."
-      student_name: "Student Name"
+      student_name: "Nome do Estudante"
       table_headings: 
         module: Module
         state: State
@@ -2361,9 +2362,9 @@ pt-BR:
       reorder: "Reorder failed, please try again."
     index: 
       headings: 
-        course_modules: "Course Modules"
+        course_modules: "Módulos do Curso"
       titles: 
-        course_modules: "Course Modules"
+        course_modules: "Módulos do Curso"
     module_empty: "There are no items in the module \"%{module}\""
     module_item: 
       drag_to_reorder: "Drag to reorder or move item to another module"
@@ -2407,16 +2408,16 @@ pt-BR:
     none_in_progress: "none in progress"
     optgroup: 
       assignments: Tarefas
-      discussion_topics: Discussions
-      external_tools: "External Tools"
-      external_urls: "External URLs"
-      files: Files
-      quizzes: Quizzes
-      wiki_pages: "Wiki Pages"
-    points_possible_short: "%{points} pts"
+      discussion_topics: Discussões
+      external_tools: "Ferramentas Externas"
+      external_urls: "URL's Externas"
+      files: Arquivos
+      quizzes: Testes
+      wiki_pages: "Páginas Wiki"
+    points_possible_short: "%{points} pontos"
     still_needs_completing: "Still Needs to Complete"
     titles: 
-      add: "Add Module"
+      add: "Adicionar Módulo"
       add_item: "Add Item to %{module}"
       add_prerequisite: "Add Prerequisite to %{module}"
       edit: "Edit Module Settings"
@@ -2515,20 +2516,20 @@ pt-BR:
     no_red_messages: "You have no red messages"
     no_unread_messages: "You have no unread messages"
     no_yellow_messages: "You have no yellow messages"
-    student_groups: "Student Groups"
+    student_groups: "Grupos de Estudante"
   course: 
     csv: 
       comments: Comments
       current_score: "Current Score"
-      final_grade: "Final Grade"
-      final_score: "Final Score"
+      final_grade: "Classificação Final"
+      final_score: "Pontuação Final"
       id: ID
       points_possible: "Points Possible"
       read_only_field: "(read only)"
       section: Section
       sis_login_id: "SIS Login ID"
       sis_user_id: "SIS User ID"
-      student: Student
+      student: Estudante
     default_grading_scheme_name: "Default Grading Scheme"
     default_name: "My Course"
     default_short_name: Course-101
@@ -2645,9 +2646,9 @@ pt-BR:
       reset_course_content_dialog_help: "Reset Course Content"
   courses: 
     assignments_needing_grading: 
-      due_at: "Due %{date}"
+      due_at: "Entrega %{date}"
       headings: 
-        grade: "Grade %{assignment}"
+        grade: "Nota %{assignment}"
         to_do: "To Do"
       images: 
         alt: 
@@ -2775,7 +2776,7 @@ pt-BR:
       titles: 
         courses: Cursos 
         rss: 
-          course_announcements: "Course Announcements Atom Feed"
+          course_announcements: "Atom Feed de Anúncios do Curso"
     link_enrollment: 
       buttons: 
         link: "Link to Student"
@@ -2829,9 +2830,9 @@ pt-BR:
       submission_score: "%{score} *out of %{points_possible}*"
     recent_feedback: 
       comments: "Comments: %{count}"
-      graded: Graded
+      graded: Classificado
       labels: 
-        due_date: Due
+        due_date: Entrega
       not_graded: "not graded"
       submission_points: 
         with_score: "Score: %{score} *out of %{points_possible}*"
@@ -2847,7 +2848,7 @@ pt-BR:
         add_users: "OK Looks Good, Add These Users"
         continue: Continue...
         kthxbai: "Cool, Thanks"
-        modify_users: "Go back and edit the list of users"
+        modify_users: "Volte para a edição da lista de usuários"
         move_course: "Move Course"
         reset: "Reset Course Content"
         unconclude: "Un-Conclude Course"
@@ -2870,7 +2871,7 @@ pt-BR:
         current_users: "Current Users"
         details: "Course Details"
         external_tools: "External Tools"
-        grade_publishing: "Grade Publishing"
+        grade_publishing: "Publishing de Nota"
         move_course: "Move the course to another root account"
         observers: Observers
         sections: "Course Sections"
@@ -2948,7 +2949,7 @@ pt-BR:
         export: "Export this Course"
         hashtag_help: "What's a hashtag?"
         import: "Import Content into this Course"
-        more_options: "more options"
+        more_options: "mais opções"
         move_course: "Move To Another Account"
         re_send_invitation: "Re-Send Invitation"
         reset: "Reset Course Content"
@@ -2986,7 +2987,7 @@ pt-BR:
       tabs: 
         alerts: Alerts
         details: "Course Details"
-        grade_publishing: "Grade Publishing"
+        grade_publishing: "Publicação de Nota"
         navigation: Navigation
         sections: Sections
         tools: "External Tools"
@@ -2994,7 +2995,7 @@ pt-BR:
       teacherless_invite_details: "If you invite a teacher and they accept, you will give up administrative privileges for this course."
       titles: 
         course_section: "Course Section"
-        edit_navigation: "Edit Course Navigation"
+        edit_navigation: "Editar Navegação do Curso"
         enrollment_type: "Enrollment Type"
       too_general_twitter_hashtag: 
         example: "#biology"
@@ -3026,22 +3027,22 @@ pt-BR:
         confirm_unenroll: "Confirm Unenrollment"
         joining_a_course: "Joining a Course"
         set_layout: "Set Home Page Layout"
-        unpublished: "This Course is Unpublished"
+        unpublished: "Este Curso não foi Publicado"
       joining_course: "Joining Course..."
       labels: 
         set_layout: "When people visit the course page, show them"
       license_notice: "This course content is offered under a %{license_type} license. Content in this course can be considered under this license unless otherwise noted."
       links: 
-        change_layout: "Change Home Page Layout"
+        change_layout: "Trocar Layout da Página Inicial"
         course_setup: "Course Setup Checklist"
         course_stream: "See Course Stream"
-        delete: "Delete This Course"
+        delete: "Remover Este Curso"
         drop_course: "Drop this Course"
         join_course: "Join this Course"
-        new_announcement: "New Announcement"
+        new_announcement: "Novo Anúncio"
         restore_role: "Restore Role and Permissions"
       options: 
-        assignments: "the Assignment List"
+        assignments: "a Lista de Tarefas"
         communication_stream: "the Communication Stream"
         custom_page: "a Page I'll Design Myself"
         modules: "the Course Modules/Sections"
@@ -3050,7 +3051,7 @@ pt-BR:
       re_sending: Re-Sending...
       send_done: "Done! Message may take a few minutes."
       send_failed: "Request failed. Try again."
-      teachers_only: "Only teachers can see this course until it is *published*"
+      teachers_only: "Somente professores podem ver este curso até ele ser *publicado*"
       titles: 
         drop_course: "Drop this Course"
         join_course: "Join this Course"
@@ -3058,9 +3059,9 @@ pt-BR:
     sidebar_weighting: 
       default_name: Group
       headings: 
-        group: Group
+        group: Grupo
         total: Total
-        weight: Weight
+        weight: Peso
       labels: 
         assignments_weighting: "Assignments are weighted by group"
       no_groups: "No Groups Set Up"
@@ -3069,12 +3070,12 @@ pt-BR:
       active_students: "Active Students"
       all_rubrics: "All Rubrics"
       any: Any
-      assignment_groups: "Assignment Groups"
+      assignment_groups: "Grupos de Tarefas"
       assignments: Tarefas
       course_rubrics: "Course Rubrics"
       discussion_posts: "Discussion Posts"
       discussion_topic: "Discussion Topic"
-      discussions: Discussions
+      discussions: Discussões
       file_count: 
         one: "1 file"
         other: "%{count} files"
@@ -3092,16 +3093,16 @@ pt-BR:
         uploaded_files: "Uploaded Files"
       new: New
       new_discussion_entries: "New Discussion Entries"
-      new_discussions: "New Discussions"
+      new_discussions: "Novas Discussões"
       none_to_show: "None to show"
       num_assignments: "# Assignments"
       num_submissions: "# Submissions"
       page_title: "Course Statistics"
       page_views: "'Page Views'"
-      quiz: Quiz
+      quiz: Teste
       quiz_questions: "Quiz Questions"
       quiz_submissions: "Quiz Submissions"
-      quizzes: Quizzes
+      quizzes: Testes
       student_last_logged_in: "last logged in %{time}"
       submission_type: "Submission Type"
       tabs: 
@@ -3129,16 +3130,16 @@ pt-BR:
     conferences: Conferences
     confirmation: Confirmation
     copy_course: "Copy Course"
-    discussions: Discussions
+    discussions: Discussões
     eportfolio_welcome: "Welcome to Your ePortfolio"
     error_reports: "Error Reports"
     files: Files
     grading_schemes: "Grading Schemes"
     groups: Groups
     media: Media
-    modules: Modules
+    modules: Módulos
     outcomes: Outcomes
-    people: People
+    people: Pessoa
     plugins: Plugins
     prior_users: "Prior Users"
     registered_services: "Registered Services"
@@ -3166,35 +3167,35 @@ pt-BR:
       show_notifications: "click to show these notifications in the stream"
   date: 
     abbr_day_names: 
-      - Sun
-      - Mon
-      - Tue
-      - Wed
-      - Thu
-      - Fri
-      - Sat
+      - Dom
+      - Seg
+      - Ter
+      - Qua
+      - Qui
+      - Sex
+      - Sab
     abbr_month_names: 
       - ~
       - Jan
-      - Feb
+      - Fev
       - Mar
-      - Apr
-      - May
+      - Abr
+      - Mai
       - Jun
       - Jul
       - Aug
-      - Sep
-      - Oct
+      - Set
+      - Out
       - Nov
-      - Dec
+      - Dez
     day_names: 
-      - Sunday
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-      - Saturday
+      - Domingo
+      - Segunda-feira
+      - Terça-feira
+      - Quarta-feira
+      - Quinta-feira
+      - Sexta-feira
+      - Sábado
     days: 
       today: Today
       today_lower: today
@@ -3208,18 +3209,18 @@ pt-BR:
       weekday: "%A"
     month_names: 
       - ~
-      - January
-      - February
-      - March
-      - April
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+      - Janeiro
+      - Fevereiro
+      - Março
+      - Abril
+      - Maio
+      - Junho
+      - Julho
+      - Agosto
+      - Setembro
+      - Outubro
+      - Novembro
+      - Dezembro
     order: 
       - !ruby/symbol year
       - !ruby/symbol month
@@ -3281,7 +3282,7 @@ pt-BR:
     default_user_name: "User Name"
     file_added_warning: "Added file \"%{file_path}\" which is needed for an entry in the topic \"%{discussion_topic_title}\""
   discussion_topic: 
-    default_title: "No Title"
+    default_title: "Sem Título"
     default_user_name: "User Name"
     empty_message: "No message"
   discussion_topics: 
@@ -3305,21 +3306,21 @@ pt-BR:
         other: "%{count} Posts"
       separated_conversation_notice: "The conversation for this topic has been separated into separate groups. Below are all the group topics you have access to."
     index: 
-      course_discussions_atom_feed_title: "Course Discussions Atom Feed"
+      course_discussions_atom_feed_title: "Atom Feed de Discussões do Curso"
       drag_and_drop_notice: "You can manually define the order in which discussions will appear. Click and drag any topic to change where it will appear in the list."
       locked_message: "This topic is currently locked. Visit the topic details page for more information."
       locked_title: locked
-      manage_announcements: "Manage Announcements"
+      manage_announcements: "Gerenciar Anúncios"
       reorder_topics: "Reorder Topics"
       start_new_topic: "Start a New Topic"
       view_only_topics: "View Only Topics"
-      view_topics_and_announcements: "View Topics and Announcements"
+      view_topics_and_announcements: "Ver Tópicos e Anúncios"
     loading_results: "Loading more results"
     reordered_topics_notice: "Topics successfully reordered"
     show: 
       add_new_entry: "Add New Entry"
       add_new_topic: "Add New Entry"
-      attach_file: "Attach File"
+      attach_file: "Anexar Arquivo"
       delete_confirm: "Are you sure you want to delete this topic?"
       delete_current_message: "Delete Current Message"
       delete_topic: "Delete Topic"
@@ -3355,7 +3356,7 @@ pt-BR:
       separated_conversation_notice: "The conversation for this topic has been separated into separate groups. Below are the list of group topics you have access to."
       show_all_posts: "Show Posts from all Topics"
       show_assignment_rubric: "Show Assignment Rubric"
-      switch_views: "Switch Views"
+      switch_views: "Trocar Visualização"
       topic: Topic
       topic_agglomerated_notice: "This view shows all the messages from all this topic's group topics. If you want to comment or edit posts, you'll have to visit each topic individually."
       topic_for_assignment: |-
@@ -3386,7 +3387,7 @@ pt-BR:
       find_existing_rubric: "Find Existing Rubric"
       update_assignment_points: "Change points possible to match rubric?"
   editor: 
-    switch_views: "Switch Views"
+    switch_views: "Trocar Visualização"
   email: 
     default_from_name: "Instructure Canvas"
   enrollment: 
@@ -3573,7 +3574,7 @@ pt-BR:
         portfolio: "Go to the Actual ePortfolio"
         rich_content: "Rich Text Content"
         share: "Copy and share this link to give others access to your private ePortfolio."
-        switch_views: "Switch Views"
+        switch_views: "Trocar Visualização"
         view_original: "View the Original File"
         wizard: "Getting Started Wizard"
       login_required: "You must be *logged in* to make comments on this page."
@@ -3589,7 +3590,7 @@ pt-BR:
         already_used: "This submission is already included in your portfolio"
         feed: "Eportfolio Atom Feed"
         view_submission: "View the Submission"
-      upload_limit: "limit 50MB per file"
+      upload_limit: "limite de 50MB por arquivo"
       welcome: "If this is your first time here, you may want to pop up the wizard and see how best to get started. Otherwise you can quickly add recent submissions or just jump straight to the portfolio."
       write_only_comments: "Comments for this page are private. You can make comments, but only the portfolio's owner will be able to see them."
     show_me: "show me"
@@ -3675,7 +3676,7 @@ pt-BR:
     sis_id_in_use: "SIS ID \"%{sis_id}\" is already in use"
   external_content: 
     cancel: 
-      canceling: Canceling...
+      canceling: Cancelando...
       popup_failure: "Cannot find the parent window, you'll need to close this popup manually."
       popup_success: "Cancelled. This popup should close on its own..."
     success: 
@@ -3761,10 +3762,10 @@ pt-BR:
       instructure_canvas: "Instructure Canvas"
     invalid_signature: "Invalid Facebook signature"
     message: 
-      hide: Hide
+      hide: Esconder
     notification_policies: 
       alerts: Alerts
-      cancel: Cancel
+      cancel: Cancelar
       change_settings: "Change Settings"
       daily: Daily
       labels: 
@@ -3793,9 +3794,9 @@ pt-BR:
   files: 
     alts: 
       collaboration: Collaboration
-      file: File
-      folder_locked: "Locked Folder"
-      locked_file: "Locked File"
+      file: Arquivo 
+      folder_locked: "Pasta Travada"
+      locked_file: "Arquivo Travado"
     buttons: 
       add_collaboration: "Add Collaboration"
       update_collaboration: "Update Collaboration"
@@ -3842,7 +3843,7 @@ pt-BR:
         add_a_file: "Add File"
         add_collaboration: "Add Collaboration"
         lock_file: "Lock this File"
-        lock_folder: "Lock this Folder"
+        lock_folder: "Travar esta Pasta"
         overwrite_duplicate_attachment: Overwrite
         rename_duplicate_attachment: "Rename New Files"
         update: "Update File"
@@ -3871,10 +3872,10 @@ pt-BR:
         title: "Document Name"
       links: 
         add_file: "Add File"
-        add_folder: "Add Folder"
+        add_folder: "Adicionar Pasta"
         all_collaborations: "ALL Collaborations"
         delete_file: "Delete this File"
-        delete_folder: "Delete this Folder"
+        delete_folder: "Remover esta Pasta"
         download_as_zip: "Download files in this folder as a zip"
         download_file: "Download this File"
         download_with_size: "download the file (%{size})"
@@ -3882,16 +3883,16 @@ pt-BR:
         edit_content: "edit content"
         import_zip: "Import a zip file"
         lock_file: "Lock this File"
-        lock_folder: "Lock this Folder"
+        lock_folder: "Travar esta Pasta"
         new_collaboration: "New Collaboration"
         preview: preview
         rename_file: "Rename this File"
-        rename_folder: "Rename this Folder"
+        rename_folder: "Renomear esta Pasta"
         reorder_file: "Drag to reorder"
         show_all_files: "see files for all your courses/groups"
         show_personal_files: "just show my personal files"
         unlock_file: "Unlock this File"
-        unlock_folder: "Unlock this Folder"
+        unlock_folder: "Destravar esta Pasta"
         view_collaboration: "View this Collaboration"
         view_item: "Click here to view %{name}"
       locked: "This file isn't unlocked yet, so it can't be downloaded."
@@ -3930,7 +3931,7 @@ pt-BR:
         other: "%{count} Errors"
       extraction_complete: "Extraction complete!  Updating File Structure..."
       finalizing: Finalizing
-      folder_empty: "Nothing in this Folder"
+      folder_empty: "Nada nesta Pasta"
       gathering_data: "Gathering data..."
       gathering_files_with_progress: "Gathering Files (%{progress}%)..."
       loading_files: "Loading Files..."
@@ -3968,13 +3969,13 @@ pt-BR:
     titles: 
       add_collaboration: "Add New Collaboration"
       click_and_drag: "Click and drag to move folder to another folder"
-      download_folder_contents: "Download Folder Contents"
+      download_folder_contents: "Baixar Conteúdo da Pasta"
       drag_to_move: "Drag to move to a different folder"
       edit_collaboration: "Edit Collaboration"
-      extracting: "Extracting Files into Folder"
+      extracting: "Extraindo Arquivos na Pasta"
       file_uplaods_queue: "File Uploads Queue"
       lock_file: "Lock File"
-      lock_folder: "Lock Folder"
+      lock_folder: "Travar Pasta"
     warnings: 
       file_uploaded_without_response: "File may have uploaded, but the server failed to respond.  Reload the page to confirm."
   find_outcome: 
@@ -3991,13 +3992,13 @@ pt-BR:
     course_content_folder_name: "course content"
     default_folder_name: folder
     files_folder_name: files
-    folder_created: "Folder \"%{name}\" created"
+    folder_created: "Pasta \"%{name}\" criada"
     my_files_folder_name: "my files"
   folders: 
     event_updated: "Event was successfully updated."
     file_zip_in_process: "File zipping still in process..."
-    folder_created: "Folder was successfully created."
-    folder_filename: folder
+    folder_created: "Pasta foi criada com sucesso."
+    folder_filename: pasta
   full_assignment: 
     buttons: 
       select_url: Select
@@ -4021,7 +4022,7 @@ pt-BR:
       grade_groups_notice: "Nicely done. Next you'll want to define the assignments for your course. Most classes base grades either on straight points, or points according to types (50% of your grade is from tests, 20% is from papers, etc.). In Canvas you add assignments, quizzes, or whatever into groups and optionally weight those groups. Build your Canvas course to match the grading scheme of your actual course, and we'll take care of computing your final grade for you."
       grade_weight_label: "Ponderar a nota final com base em tarefa de grupos"
       how_do_i: "Como faço...?"
-      page_title: "Tente isso: Tarefas"
+      page_title: "Experimente Isso: Tarefas"
       save_and_skip: "Salvar e Pular o Resto"
       skip_assignments_notice: "Não está pronto para criar suas tarefas? Sinta-se livre para pular este passo, você pode sempre voltar a ele mais tarde, após o seu curso ser criado."
       student_next_step_link: "Próximo Passo: Estudantes"
@@ -4037,35 +4038,35 @@ pt-BR:
         is_public: "Tornar este curso público"
         license: "Licença para o conteúdo do curso"
         name: "Digite um nome para o seu curso"
-      page_title: "Tente Isso: Escolha o Nome do Curso"
+      page_title: "Experimente Isso: Escolha o Nome do Curso"
       save_and_skip: "Salvar e Pular o Resto"
       student_data_privacy: "(as informações dos estudantes não serão publicas)"
       teacherless_grades_notice: "You can use Canvas to keep track of how you're doing in all your courses, whether they're using Canvas or not. Just tell us how your course's grading policy is set up and then enter your scores manually. You can also invite your classmates to use the course you set up so they can track their grades, too!"
     setup: 
       assignments: Tarefas
       labels: 
-        course_name: "Course Name"
+        course_name: "Nome do Curso"
         students: Estudantes
-      new_student: "New Student"
-      no_assignments: "No Assignments Created"
-      no_email: "no email"
-      no_students: "No Students Added"
-      page_title: "Try It: Save"
+      new_student: "Novo Estudante"
+      no_assignments: "Nenhuma Tarefa Criada"
+      no_email: "sem email"
+      no_students: "Nenhum Estudante Adicionado"
+      page_title: "Experimente Isso: Salvar"
       short_header: 
-        assignment: Assignment
-        due: Due
+        assignment: Tarefa
+        due: Entrega
         email: Email
-        points: Pts
-        student: Student
+        points: Pontos
+        student: Estudante 
         type: Tipo
-      summary_notice: "*That's it! You're done!* Here's the summary of everything you put in. Feel free to click any section to go back and edit the information there. When you're sure you've got everything right, click the save button to go to your course page."
+      summary_notice: "*É isso ai! Está pronto!* Aqui está o resumo de tudo que você adicionou. Sinta-se livre para clicar em qualquer seção e voltar para editar saus informações. Quando você tiver certeza que está tudo certo, clique no botão Salvar para ir até a página do curso."
       total_assignment_count: 
-        one: "1 Assignment Total"
-        other: "%{count} Assignments Total"
+        one: "1 Tarefa no Total"
+        other: "%{count} Tarefas no Total"
       total_students_count: 
-        one: "1 Student Total"
-        other: "%{count} Students Total"
-      unpublished_notice: "Don't worry, this course will stay visible to just you until you publish it. When you publish, your course will become active and students will be notified that it's has been created and they are enrolled. You can publish at any time from the course's main page."
+        one: "1 Estudante no Total"
+        other: "%{count} Estudantes no Total"
+      unpublished_notice: "Não preocupe-se, este curso irá ficar visível apenas para você até que você publique-o. Quando você publicá-lo, o curso se tornará ativo e os estudantes serão notificados de que ele foi criado e que estão matriculados. Você pode publicá-lo a qualquer momento através da página principal do curso."
     student: 
       edit_name_title: "Click to Edit Name"
       missing_email: "no email"
@@ -4073,15 +4074,15 @@ pt-BR:
       remove_student_title: "Remove this Student"
       student_name_title: "Student Name"
     students: 
-      go_back_and_edit: "Go back and edit the list of users"
+      go_back_and_edit: "Volte para a edição da lista de usuários"
       looks_good: "OK Looks Good, Add These Users"
-      no_enrollments: "No Students Enrolled"
-      page_title: "Try It: Add Students"
-      save_and_skip: "Save & Skip the Rest"
+      no_enrollments: "Nenhum Estudante Inscrito"
+      page_title: "Experimente Isso: Adicionar Estudantes"
+      save_and_skip: "Salvar e Pular o Resto"
       save_next_step_link: "Próximo Passo: Salvar"
-      teacher_add_student_notice_just_email: "*Next, you'll want to add students to your course.* You can add them one by one or as a whole list. Paste in just email addresses (bob@example.com) or names with addresses #(\"Jones, Bob M.\" <bob@example.com>)# separated by commas or on separate lines."
-      teacher_add_student_notice_with_login_handle: "*Next, you'll want to add students to your course.* You can add them one by one or as a whole list. You can paste in their %{login_handle_name}, just their email address (bob@example.com), or their name and address #(\"Jones, Bob M.\" <bob@example.com>)#. Multiple users should be separated by commas or be on separate lines."
-      teacher_add_student_skip: "If you're not sure who's going to be in your class, you can skip this step and add students (along with TAs and other teachers) anytime after you finish the wizard."
+      teacher_add_student_notice_just_email: "*Em seguida, você poderá adicionar alunos ao seu curso.* Você pode adicioná-los um por um ou uma lista inteira. Coloque apenas endereços de email (joao@exemplo.com) ou nomes com endereços #(\"Jones, Bob M.\" <bob@example.com>)# separados por vírgula ou em linhas separadas."
+      teacher_add_student_notice_with_login_handle: "*Em seguida, você poderá adicionar alunos ao seu curso.* Você pode adicioná-los um por um ou uma lista inteira. Você pode colocar seu nome de usuário, endereços de email (joao@exemplo.com) ou nomes com endereços #(\"Jones, Bob M.\" <bob@example.com>)#. Vários usuários devem ser separados por vírgula ou em linhas separadas."
+      teacher_add_student_skip: "Se você não tiver certeza de quem estará na sua classe, você pode pular esta etapa e adicionar os estudantes (junto com outros monitores e professores) a qualquer momento após encerrar este assistente."
       teacherless_add_student_notice_just_email: "If you'd like, you can invite your fellow classmates to also use this course. That way they won't have to set up the grading policies all over again, and we'll also give you a place to share files and collaborate. Just paste in a list of email addresses below to invite others to join."
       teacherless_add_student_notice_with_login_handle: "If you'd like, you can invite your fellow classmates to also use this course. That way they won't have to set up the grading policies all over again, and we'll also give you a place to share files and collaborate. Just paste in a list of users below to invite others to join. You can use their email addresses or %{login_handle_name}."
       teacherless_add_student_skip: "You can always skip this step and invite your classmates (or even your teacher) to share this course later on."
@@ -4120,10 +4121,10 @@ pt-BR:
       submit_comment: "Submit Comment"
       submitting: Submitting...
       upload_data: "Upload Data"
-    cancel_button: Cancel
+    cancel_button: Cancelar
     click_to_change: "Click to test a different score"
     click_to_expand: "Click to expand"
-    computing_grades: "Computing Grades..."
+    computing_grades: "Computando Notas..."
     confirms: 
       delete_comment: "Are you sure you want to delete this comment?"
       unsaved_changes: |-
@@ -4190,7 +4191,7 @@ pt-BR:
     submission_information: "Submission Information"
     teacher_muted_title: "Assignment is muted"
     titles: 
-      assignment_groups: "Assignment Groups"
+      assignment_groups: "Grupos de Tarefas"
       click_to_record: "Click the mic to record your comments"
       dropped_assignment_no_total: "This assignment will not be considered in the total calculation"
       hypothetical_score: "This is a What-If score"
@@ -4275,7 +4276,7 @@ pt-BR:
       new_assignment_option: "A new assignment"
       notices: 
         unchanged: "Note: You uploaded some assignments that had no grade changes detected. They have been hidden."
-      page_title: Gradebook
+      page_title: Boletim
       student_answer: "This person is really"
       student_example: "Some Guy"
       student_question: "Student in question"
@@ -4316,7 +4317,7 @@ pt-BR:
         add_assignment: "Adicionar Tarefa"
       edit_attendance_info: "To edit the details for an attendance assignment, click the dropdown icon just below the assignment's name and then click \"Edit Assignment\"."
       headers: 
-        attendance: Attendance
+        attendance: Comparecimento 
         edit_attendance: "Edit Attendance Details"
         loading_attendance: "Loading Attendance Table..."
         mark_attendance: "Mark Attendance"
@@ -4326,18 +4327,18 @@ pt-BR:
         date: Date
         group: Group
         possible: Possible
-        title: Title
+        title: Título
       links: 
         add_column: "Add Column"
       mark_attendance_info: "The attendance view shows a table with students listed down the left and assignments listed across the top. To mark a student as present or absent, click the corresponding box until it shows the correct mark (%{present_icon} for present, %{absent_icon} for absent). You can also use the dropdown for each assignment to set everyone as present or absent."
       new_group: "New Group"
-      page_title: Attendance
+      page_title: Comparecimento
       points_abbrev: pts
       titles: 
         click_to_change: "Click to Change"
     blank_submission: 
       no_submission: "No Submission"
-    crumb: Attendance
+    crumb: Comparecimento
     errors: 
       missing_file: "Could not find file to upload"
       submission_failed: "Submission was unsuccessful: %{error}"
@@ -4356,8 +4357,8 @@ pt-BR:
       faculty_journal: "Faculty Journal for %{user}"
       for_course: "For the course,"
       headers: 
-        due: Due
-        grades: "Grades For %{student}"
+        due: Entrega
+        grades: "Notas Para %{student}"
         name: Name
         out_of: "Out of"
         score: Score
@@ -4379,7 +4380,7 @@ pt-BR:
         show_details: "Show All Details"
       media_comment: "This is a media comment,"
       not_official: "*NOTE*: This is NOT your official score."
-      page_title: "Grades for %{student}"
+      page_title: "Notas for %{student}"
       percent: Percent
       see_rubric_results: "See rubric results"
       see_scoring_details: "See scoring details"
@@ -4399,7 +4400,7 @@ pt-BR:
       buttons: 
         by_due_date: "By Due Date"
         by_email: "By Email/ID"
-        by_group: "By Assignment Group"
+        by_group: "Por Grupo de Tarefa"
         by_name: "By Student Name"
         by_section: "By Section Name"
         by_total_asc: "By Total (Lowest First)"
@@ -4407,7 +4408,7 @@ pt-BR:
         curve_grades: "Curve Grades"
         done: Done
         normalize: "Make it Total 100%"
-        set_grade: "Set Grade"
+        set_grade: "Definir Nota"
         update: Update
         upload: "Upload Files"
       curve_average: "Enter an average grade for the curve for *the assignment*. The chart shows a best attempt at curving the grades based on current student scores."
@@ -4415,7 +4416,7 @@ pt-BR:
       download: "Download %{attachment}"
       grade_statistics: "Grade statistics for %{assignment}"
       headers: 
-        loading_gradebook: "Loading Gradebook..."
+        loading_gradebook: "Carregando Boletim..."
       hide_names: "Hide Student Names"
       labels: 
         assign_blanks: "Assign zero's to unsubmitted students"
@@ -4423,7 +4424,7 @@ pt-BR:
         average_score: "Average Score"
         choose_section: "Section to show"
         comments: "Comments for student"
-        grade: Grade
+        grade: Notas
         group_comment: "Send Comment to the Whole Group"
         high_score: "High Score"
         low_score: "Low Score"
@@ -4434,8 +4435,8 @@ pt-BR:
       links: 
         add_assignments: "Adicionar Tarefas ao Curso"
         add_students: "Add Students to the Course"
-        attach_file: "Attach File"
-        manage: "Manage Assignment Groups"
+        attach_file: "Anexar Arquivo"
+        manage: "Gerenciar Grupos de Tarefas"
       loading_submission: "Loading Submission Details..."
       no_assignments: "No Assignments created yet for this course."
       no_comments: "No Comments"
@@ -4468,16 +4469,16 @@ pt-BR:
       upload_warning: "Make sure you don't change the names of the submission files so we can recognize them."
       weight_final: "Weight final grade based on groups"
     grades: 
-      complete: Complete
-      incomplete: Incomplete
-    grades_filename: Grades
+      complete: Completo
+      incomplete: Incompleto
+    grades_filename: Notas
     history: 
       headers: 
         after: After
         before: Before
         current: Current
-        student: Student
-      page_title: "Gradebook History"
+        student: Estudante
+      page_title: "Histórico do Boletim"
       revert: "Revert to this grade"
       submission_count: 
         one: "1 change"
@@ -4498,7 +4499,7 @@ pt-BR:
         edit_cell: "Edit Cell"
         more_information: "More Information for Current Cell"
         next_assignment: "Next Assignment"
-        next_student: "Next Student"
+        next_student: "Próximo Estudante"
         previous_assignment: "Tarefa Anterior"
         previous_student: "Estudante Anterior"
         refresh_gradebook: "Refresh Gradebook"
@@ -4530,9 +4531,9 @@ pt-BR:
         grading: Grading
         no_submission: "This student does not have a submission for this assignment"
       keycode_descriptions: 
-        change_grade: "Change Grade"
+        change_grade: "Alterar Nota"
         leave_comment: "Leave Comment"
-        next_student: "Next Student"
+        next_student: "Próximo Estudante"
         previous_student: "Estudante Anterior"
         use_rubric: "Use Rubric"
       keycodes: 
@@ -4544,7 +4545,7 @@ pt-BR:
       labels: 
         add_comment: "Add a Comment"
         average: Avg
-        grade: Grade
+        grade: Notas
         group_comment: "Send Comment to the Whole Group"
         hide_names: "Hide student names in the SpeedGrader"
         show_assessment_by: "Show Assessment By"
@@ -4588,16 +4589,16 @@ pt-BR:
         media_comment: "Media Comment"
         speech_recognition: "Speech Recognition"
     student: 
-      new_student: "New Student"
-      student: Student
+      new_student: "Novo Estudante"
+      student: Estudante
     student_attendance: 
       headers: 
         assignment: Assignment
         mark: Mark
-        no_attendance: Attendance
+        no_attendance: Comparecimento
         student_attendance: "Attendance for %{user}"
       links: 
-        grades: "Grades for %{user}"
+        grades: "Notas para %{user}"
         message_user: "Message %{user}"
       no_attendance_assignments: "No attendance assignments have been created."
       page_title: "Attendance for %{user}"
@@ -4623,7 +4624,7 @@ pt-BR:
         attached_files: "Attached files to the following user submissions"
       links: 
         back_to_assignment: "Back to Assignment Page"
-        back_to_gradebook: "Back to Gradebook"
+        back_to_gradebook: "Voltar ao Boletim"
       no_comments_added: "No Comments Added"
       renamed_file: "renamed from %{filename}"
       submissions_upload: "%{assignment} Submissions Upload"
@@ -4661,15 +4662,15 @@ pt-BR:
   group: 
     tabs: 
       chat: Chat
-      discussions: Discussions
+      discussions: Discussões
       files: Files
-      home: Home
+      home: Início 
       pages: Pages
-      people: People
+      people: Pessoas
   group_category: 
     group_categories: 
       imported: "Imported Groups"
-      student_organized: "Student Groups"
+      student_organized: "Grupos de Estudantes"
   group_membership: 
     errors: 
       not_in_group_section: "%{student} does not share a section with the other members of %{group}."
@@ -4758,7 +4759,7 @@ pt-BR:
       group_pages: "Group Pages"
       headings: 
         account_groups: "Account-level Student Groups"
-        course_groups: "Student Groups"
+        course_groups: "Grupos de Estudantes"
       messages: 
         no_students: "No students have been added for this course"
       page_title: "Course Groups"
@@ -4838,9 +4839,9 @@ pt-BR:
       update_success: "Group was successfully updated."
       welcome: "Welcome to the group %{group_name}!"
     show: 
-      coming_up: "Coming Up"
+      coming_up: "Chegando"
       group_atom_feed: "Group Atom Feed"
-      new_announcement: "New Announcement"
+      new_announcement: "Novo Anúncio"
       next_week: "the next week"
     status: 
       assigning_students: "Assigning Students..."
@@ -4955,18 +4956,18 @@ pt-BR:
       search_jobs: "Search Jobs"
       title: "Jobs CP"
   labels: 
-    announcements: Announcements
+    announcements: Anúncios
     assignments: Tarefas
     calendar_events: "Calendar Events"
     discussion_responses: "Discussion Responses"
-    discussions: Discussions
+    discussions: Discussões
     external_tools: "External Tools"
     files: Files
     goals: Goals
     groups: Groups
     learning_modules: "Learning Modules"
     lock_module_until: "lock module until a given date"
-    quizzes: Quizzes
+    quizzes: Testes
     rubrics: Rubrics
     tasks: Tasks
     web_links: "Web Links"
@@ -4978,7 +4979,7 @@ pt-BR:
         close: Close
         dashboard: "My Dashboard"
         help: Help
-        home: Home
+        home: Início
         skip_to_content: "Skip To Content"
         support: Support
       menu: 
@@ -4987,7 +4988,7 @@ pt-BR:
         assignments_needing_submitting: "To Turn In"
         assignments_recently_graded: "Recently Graded"
         calendar: Calendar
-        grades: Grades
+        grades: Notas
       missing_page_title: "Add a page title here."
       open_source_learning_management_system: "Open Source LMS"
     eportfolio: 
@@ -5052,7 +5053,7 @@ pt-BR:
       quoted_text_toggle: "show quoted text"
   link_enrollment: 
     buttons: 
-      link: "Link to Student"
+      link: "Link para Estudante"
     errors: 
       link_failed: "Linking Failed, please try again"
       load_failed: "Loading Students Failed, please try again"
@@ -5062,17 +5063,17 @@ pt-BR:
     options: 
       no_link: "[ No Link ]"
     titles: 
-      link_to_student: "Link to Student"
+      link_to_student: "Link para Estudante"
   links: 
     dashboard: "My Dashboard"
     deselect_all: "Deselect All"
     errors: 
       4xx_feedback: "Click here to tell us what you were looking for."
       feedback: "Click here to tell us what happened"
-    more_options: "more options"
+    more_options: "mais opções"
     select_all: "Select All"
     show_me_where: "Show Me Where"
-    switch_views: "Switch Views"
+    switch_views: "Trocar Visualização"
   locales: 
     en: English
   manage_avatars: 
@@ -5837,7 +5838,7 @@ pt-BR:
         labels: 
           file_included: "File Included"
       facebook: 
-        body: "New Announcement: %{title}, %{course}"
+        body: "Novo Anúncio: %{title}, %{course}"
       sms: 
         details: "More info at %{url}"
         subject: "New announcement: %{title}, %{course}"
@@ -6134,7 +6135,7 @@ pt-BR:
         regraded_date: "re-graded: %{date}"
         score: "score:  %{score} out of %{total}"
         score_pending: "score pending review by the teacher"
-        subject: "Grade Changed: %{assignment}, %{context}"
+        subject: "Nota Alterada: %{assignment}, %{context}"
       facebook: 
         body: "The grade on your assignment, *%{title}* has been changed."
         no_date_set: "No Date Set"
@@ -6156,7 +6157,7 @@ pt-BR:
         regraded_date: "re-graded: %{date}"
         score: "score:  %{score} out of %{total}"
         score_pending: "score pending review by the teacher"
-        subject: "Grade Changed: %{title}, %{context}"
+        subject: "Nota Alterada: %{title}, %{context}"
       twitter: 
         no_date_set: "No Date Set"
         not_applicable: N/A
@@ -6332,7 +6333,7 @@ pt-BR:
       migration_import_failed: "Migration Import Failed"
       migration_import_finished: "Migration Import Finished"
       new_account_user: "New Account User"
-      new_announcement: "New Announcement"
+      new_announcement: "Novo Anúncio"
       new_context_group_membership: "New Context Group Membership"
       new_context_group_membership_invitation: "New Context Group Membership Invitation"
       new_course: "New Course"
@@ -6368,7 +6369,7 @@ pt-BR:
       clear_hover: "Clear Notification"
       collapse_all_link: "Collapse All Notifications"
       collapse_hover: Collapse
-      coming_up: "Coming Up"
+      coming_up: "Chegando"
       expand_all_link: "Expand All Notifications"
       expand_over: Expand
       message_type_notifications: "%{message_type} Notifications"
@@ -6838,7 +6839,7 @@ pt-BR:
       adding_file_failed: "Adding File Failed"
       generating_token_failed: "Generating Token Failed"
       invalid_old_password: "Invalid old password for the login %{pseudonym}"
-      loading_images_failed: "Loading Images Failed, please try again"
+      loading_images_failed: "Falha ao Carregar Imagem, por favor tente novamente"
       no_channels: "Please define at least one email address or other way to be contacted before setting notification preferences."
       profile_update_failed: "Login failed to update"
       regenerating_token_failed: "Regenerating Token Failed"
@@ -6917,7 +6918,7 @@ pt-BR:
         generate_access_token: "Generate an Access Token"
         google_docs_access: "Google Docs Access"
         linkedin_access: "LinkedIn Access"
-        loading_images: "Loading Images..."
+        loading_images: "Carregando Imagens..."
         login: Login
         organization: Organization
         other_services: "Other Services"
@@ -6972,7 +6973,7 @@ pt-BR:
         facebook: Facebook
         google_docs: "Google Docs"
         linkedin: LinkedIn
-        more_options: "more options"
+        more_options: "mais opções"
         skype: Skype
         twitter: Twitter
         upload_new_image: "Upload a new Image"
@@ -7182,7 +7183,7 @@ pt-BR:
       bookmark_failed: "Bookmark Failed"
       bookmarking: Bookmarking...
       button: 
-        cancel: Cancel
+        cancel: Cancelar
         move_copy_question: "Move/Copy Question"
       buttons: 
         add_a_question: "Add a Question"
@@ -7247,7 +7248,7 @@ pt-BR:
       inexact_answer: "%{lower_bound} to %{upper_bound}"
       no_answer: "No Answer"
     types: 
-      quiz: Quiz
+      quiz: Teste
       survey: Survey
     warnings: 
       import_from_migration_failed: "Couldn't import the quiz \"%{quiz_title}\""
@@ -7508,7 +7509,7 @@ pt-BR:
       links: 
         add_another_answer: "Add Another Answer"
         need_help: "Need help?"
-        switch_views: "Switch Views"
+        switch_views: "Trocar Visualização"
       multi_answer_sets_example: "i.e. \"Roses are [color1], violets are [color2]\""
       offer_combinations: "Offer %{how_many} possible value combinations (max %{max_combinations})"
       options: 
@@ -7569,26 +7570,26 @@ pt-BR:
       unnamed_survey_results: "Survey Results for %{user}"
     index: 
       buttons: 
-        publish_quizzes: "Publish Quizzes"
-        publishing_quizzes: "Publishing Quizzes..."
+        publish_quizzes: "Publicar Testes"
+        publishing_quizzes: "Publicando Testes..."
       confirms: 
         delete_quiz: "Are you sure you want to delete this quiz?"
       default_title: "Unnamed Quiz"
       headers: 
-        assignment_quizzes: "Assignment Quizzes"
-        course_quizzes: "Course Quizzes"
-        practice_quizzes: "Practice Quizzes"
-        publish_multiple_quizzes: "Publish Multiple Quizzes"
+        assignment_quizzes: "Testes de Tarefa"
+        course_quizzes: "Testes do Curso"
+        practice_quizzes: "Testes de Prática"
+        publish_multiple_quizzes: "Publicar Multiplos Testes"
         surveys: Surveys
-        unpublished_quizzes: "Unpublished Quizzes"
+        unpublished_quizzes: "Testes não Publicados"
       labels: 
         publish_multiple_quizzes: "Select the quizzes you would like to publish at this time"
       links: 
         create_new_quiz: "Create a New Quiz"
         manage_question_banks: "Manage Question Banks"
-        publish_multiple_quizzes: "Publish Multiple Quizzes"
+        publish_multiple_quizzes: "Publicar Multiplos Testes"
       no_quizzes: "No quizzes available"
-      page_titles: Quizzes
+      page_titles: Testes
       titles: 
         this_quiz_is_locked: "This quiz is currently locked. Click for more details."
     invalid_ip: 
@@ -7734,7 +7735,7 @@ pt-BR:
         return_to_quiz_page: "Return to Quiz Page"
         show_assignment_rubric: "Show Assignment Rubric"
         start_over: "Start Over"
-        switch_views: "Switch Views"
+        switch_views: "Trocar Visualização"
       points_possible: "%{n} Points Possible"
       practice_quiz: "Practice Quiz"
       retrieving_filters: "Retrieving Filters..."
@@ -7890,7 +7891,7 @@ pt-BR:
         attempts_so_far: "Attempts So Far"
         latest_submission: "Latest Submission"
         quiz_details: "Quiz Details"
-        quiz_due: Due
+        quiz_due: Entrega
         quiz_time_limit: "Time Limit"
         survey_details: "Survey Details"
       links: 
@@ -8062,7 +8063,7 @@ pt-BR:
       headers: 
         draft_preview: "This is a preview of the draft version of the quiz"
         questions: Questions
-      hide_time_link: Hide
+      hide_time_link: Esconder
       hours_count: 
         one: "1 Hour"
         other: "%{count} Hours"
@@ -8073,7 +8074,7 @@ pt-BR:
         time_running: "Time Running"
         times_up: "Time's Up! Submitting results in"
       links: 
-        hide_time_running: Hide
+        hide_time_running: Esconder
         keep_editing_quiz: "Keep Editing This Quiz"
         keep_editing_survey: "Keep Editing This Survey"
       minutes_count: 
@@ -8123,12 +8124,12 @@ pt-BR:
       find_quiz_question: "Find Quiz Question"
       help_with_formulas: "Help with Quiz Question Formulas"
       ip_address_filtering: "IP Address Filtering"
-    top_level_crumb: Quizzes
+    top_level_crumb: Testes
     ? "true"
     : "True"
   re_upload_submissions_form: 
     buttons: 
-      upload: "Upload Files"
+      upload: "Enviar arquivos"
     reupload_submission_files: "Re-Upload Submission Files"
     upload_info: "If you made changes to the student submission files you downloaded before, just zip them back up and upload the zip with the form below. Students will see the modified files in their comments for the submission."
     upload_warning: "Make sure you don't change the names of the submission files so we can recognize them."
@@ -8147,7 +8148,7 @@ pt-BR:
       manage_calendar: "Add, edit and delete events on the course calendar"
       manage_content: "Manage all other course content"
       manage_courses: "Manage ( add / edit / delete ) courses"
-      manage_files: "Manage (add / edit / delete) course files"
+      manage_files: "Gerenciar (adicionar / editar / remover) arquivos do curso"
       manage_grades: "Edit grades (includes assessing rubrics)"
       manage_groups: "Manage (create / edit / delete) groups"
       manage_interaction_alerts: "Manage alerts"
@@ -8321,7 +8322,7 @@ pt-BR:
       access_limit: "Users can only participate in the course between these dates"
       buttons: 
         back_to_course: "Back to Course Settings"
-        cancel: Cancel
+        cancel: Cancelar
         crosslist_section: "Cross-List this Section"
         crosslist_this_section: "Cross-List This Section"
         decrosslit_section: "De-Cross-List This Section"
@@ -8378,7 +8379,7 @@ pt-BR:
     dialog_title: "Default grade for %{assignment.name}"
     overwrite: "Overwrite already-entered grades"
     set_grades_button: "Set Default Grade"
-    set_grades_button_loading: "Setting Grades..."
+    set_grades_button_loading: "Definindo Notas..."
   shared: 
     accounts_right_side_shared: 
       buttons: 
@@ -8400,7 +8401,7 @@ pt-BR:
         add_assignment: "Adicionar Tarefa"
       labels: 
         assignment_group_id: Group
-        due_at: Due
+        due_at: Entrega
         points_possible: Points
         title: Name
       options: 
@@ -8413,8 +8414,8 @@ pt-BR:
       errors: 
         add_group_failed: "Add Group Failed"
       labels: 
-        group_weight: Weight
-        name: Name
+        group_weight: Peso
+        name: Nome
       messages: 
         adding_group: "Adding Group..."
       percent_of_grade: "%{percent} % of grade"
@@ -8465,7 +8466,7 @@ pt-BR:
         move: Mover
       defaults: 
         group_name: "Course Assignments"
-      group_weight: "*%{percent}% of total grade"
+      group_weight: "*%{percent}% da nota total"
       links: 
         add_an_assignment: "Adicionar uma Tarefa"
         add_assignment: "Adicionar Tarefa"
@@ -8506,7 +8507,7 @@ pt-BR:
       must_submit_title: "Students must submit this assignment before the module is considered complete"
       must_view: "must view"
       must_view_title: "Students must view this item before the module is considered complete"
-      view_modules: "View Modules"
+      view_modules: "Visualização de Módulos"
     current_enrollment: 
       accept_or_reject: "When you're ready, you can either accept or reject the invitation."
       body_designer: "You've been invited to join %{course} as a **designer** for the user account **%{email_address}**."
@@ -8580,11 +8581,11 @@ pt-BR:
       at_least_more_events_one_week: "at least %{count_of_events} more in the next week"
       at_least_more_events_two_weeks: "at least %{count_of_events} more in the next two weeks"
       links: 
-        view_calendar: "View Calendar"
+        view_calendar: "Ver Calendário"
       more_events: "%{count_of_events} more"
       more_events_one_week: "%{count_of_events} more in the next week"
       more_events_two_weeks: "%{count_of_events} more in the next two weeks"
-      nothing_for_now: "Nothing for now"
+      nothing_for_now: "Nada por Enquanto"
       nothing_one_week: "Nothing for the next week"
       nothing_two_weeks: "Nothing for the next two weeks"
       titles: 
@@ -8632,7 +8633,7 @@ pt-BR:
         not_graded: "This assignment will not appear in the gradebook"
       due_by: "due %{date} by %{time}"
       labels: 
-        allow_file_uploads: "Allow File Uploads"
+        allow_file_uploads: "Permitir Envio de Arquivoss"
         allow_media_recordings: "Allow Media Recordings"
         allow_text_entry: "Allow Text Entry"
         allow_url: "Allow Website URL"
@@ -8640,9 +8641,9 @@ pt-BR:
         assign_grades_individually: "Assign grades to each student individually"
         assign_grades_individually_subtext: "(normally all students receive the same grade on group assignments)"
         assignment_description: "Assignment Description"
-        assignment_group_id: "Assignment Group"
+        assignment_group_id: "Grupo de Tarefas"
         automatically_assign_peer_reviews: "Automatically Assign Peer Reviews"
-        due: Due
+        due: Entrega
         external_tool_introduction: "External Tool Instructions/Introduction"
         external_tool_url: URL
         grades_from_quiz: "Grades for this assignment come from the quiz"
@@ -8663,7 +8664,7 @@ pt-BR:
         restrict_file_extensions: "Restrict the Permitted File Upload Extensions"
         score_range: "Score Range"
         submission: Submission
-        title: Title
+        title: Título
         turnitin_enabled: "Enable Turnitin Submission Evaluations"
         type: Tipo
       linked_to_discussion: "This assignment is linked to the discussion, %{discussion_topic}. Grading will be based on posts in the topic."
@@ -8672,16 +8673,16 @@ pt-BR:
         discussion: "Click here to go to the discussion"
         edit_assignment_details: "Edit Assignment Details"
         more_grading_options: "more grading options"
-        more_options: "more options"
+        more_options: "mais opções"
         quiz: "Click here to go to the quiz"
-        switch_views: "Switch Views"
+        switch_views: "Trocar Visualização"
         view_grading_levels: "View Grading Levels"
       mastery_level: "%{points} pts or higher"
       messages: 
         locked: "This assignment is currently locked."
       options: 
         assignment: Assignment
-        attendance: Attendance
+        attendance: Comparecimento
         discussion: Discussion
         external_tool: "External Tool"
         letter_grade: "Letter Grade"
@@ -8693,7 +8694,7 @@ pt-BR:
         pass_fail: Complete/Incomplete
         percentage: Percentage
         points: Points
-        quiz: Quiz
+        quiz: Teste
         select_group_set: "[ Select Group Set ]"
       out_of: "out of %{points}"
       score_range: "%{min_score} to %{max_score}"
@@ -8742,7 +8743,7 @@ pt-BR:
         exit_frame: "Lose the Frames"
         files: Files
         hide_sidebar: "Hide Sidebar"
-        modules: Modules
+        modules: Módulos
     keyboard_navigation_hint: 
       body: "Hit \"?\" to see a list of keyboard shortcuts for this page."
     login: 
@@ -8808,14 +8809,14 @@ pt-BR:
       teacher: "%{course} as a teacher."
       teacher_title: "Invited as a teacher, click to see the Course"
     recent_messages: 
-      empty_stream_message: "You don't have any messages to show in your stream yet. Once you begin participating in your courses you'll see this stream fill up with messages from discussions, grading updates, private messages between you and other users, etc."
+      empty_stream_message: "Você não tem mensagens para ser exibida ainda. Uma vez que você começar a participar em seus cursos esse painel será preenchido com mensagens a partir de discussões, autalizações de classificação, mensagens privadas entre você e outros usuários, etc..."
       headings: 
-        recent_activity: "Recent Activity"
+        recent_activity: "Atividades Recentes"
       information: Information
       more_messages: 
-        one: "1 more message from the past 2 weeks"
-        other: "%{count} more messages from the past 2 weeks"
-      no_recent_messages: "No Recent Messages"
+        one: "1 mensagem nas últimas 2 semanas"
+        other: "%{count} mensagens nas últimas 2 semanas"
+      no_recent_messages: "Sem Mensagens Recentes"
     right_side: 
       sidebar_content: "Sidebar content"
     rubric: 
@@ -8830,7 +8831,7 @@ pt-BR:
       labels: 
         custom_rating: "I'll write free-form comments when assessing students"
         grading_rubric: "Use this rubric for assignment grading"
-        title: Title
+        title: Título
         total_points: "Total Points"
         totallying_rubric: "Hide score total for assessment results"
       links: 
@@ -8891,7 +8892,7 @@ pt-BR:
       buttons: 
         edit_assessment: "Edit Assessment"
       defaults: 
-        title: Title
+        title: Título
       headers: 
         assessment: Assessment
         criteria: Criteria
@@ -8928,8 +8929,8 @@ pt-BR:
         zero: "*Don't Indent*"
       labels: 
         assignment_name: "Assignment Name"
-        file: File
-        folder: Folder
+        file: Arquivo
+        folder: Pasta
         header: Header
         indentation: Indentation
         page_name: "Page Name"
@@ -8986,7 +8987,7 @@ pt-BR:
       links: 
         reply: "Add New Entry"
       locked: "This topic is closed for comments"
-      no_title: "No Title"
+      no_title: "Sem Título"
       reply_count: 
         one: "1 Reply"
         other: "%{count} Replies"
@@ -8998,23 +8999,23 @@ pt-BR:
       labels: 
         assignment_group: Group
         delay_posting: "Delay posting this message"
-        due_at: Due
+        due_at: Entrega
         file_attach: File
         files_attached: "File Attached"
-        is_announcement: "Make this post an announcement"
+        is_announcement: "Fazer deste post um anúncio"
         podcast_enabled: "Enable Podcast Feed for this Topic"
         podcast_has_student_post: "Include Student Comments in the Feed"
         points_possible: Points
         require_initial_post: "Replies are not visible until after users post"
         set_assignment: "Use for grading"
-        title: Title
+        title: Título
       links: 
-        attach_file: "Attach File"
+        attach_file: "Anexar Arquivo"
         replace_file: "Replace File"
-      new_announcement: "Make a New Announcement"
+      new_announcement: "Faça um Novo Anúncio"
       new_topic: "Make a New Discussion"
-      no_announcements: "There are no announcements, sad to say."
-      no_announcements_admin: "There are no announcements, sad to say. Would you like to create one?"
+      no_announcements: "Não há anúncios, é triste dizer isso."
+      no_announcements_admin: "Não há anúncios, é triste dizer isso. Você gostaria de criar um?"
       no_discussions: "There are no discussions, sad to say."
       no_discussions_admin: "There are no discussions, sad to say. Would you like to start one?"
     turnitin_settings: 
@@ -9066,35 +9067,35 @@ pt-BR:
     user_lists: 
       copy_and_paste_notice_just_email: "Copy and paste a list of email addresses to add users."
       copy_and_paste_notice_with_login_handle: "Copy and paste a list of users. You can use their email address or %{login_handle_name}."
-      example_user_list: "\"Example Student\" <student@example.com> \"Other Student\" <otherstudent@example.com> \"Lastname, Firstname\" <firstlast@example.com> <justAnEmailAddress@example.com>"
+      example_user_list: "\"Estudante Exemplo\" <estudante@example.com> \"Outro Estudante\" <outroestudante@example.com> \"Sobrenome, Nome\" <nome@example.com> <justAnEmailAddress@example.com>"
       labels: 
-        alert: Alert
-        notice: Notice
-        only_search_existing_users: "only search existing users"
-      no_valid_users: "*Sorry,* it does not seem as if there were any valid email addresses or login IDs typed in, please go back and try again."
+        alert: Alerta
+        notice: Aviso 
+        only_search_existing_users: "busque somente usuários existentes"
+      no_valid_users: "*Desculpe,* não foi encontrado nenhum ID de login ou email cadastrado, por favor volte e tente novamente."
     wiki_image: 
       titles: 
         click_to_embed: "Click to embed %{image}"
         embed_image: "Click to embed image"
     wiki_sidebar: 
       buttons: 
-        insert_link: "Insert Link"
-        upload: Upload
-        upload_files: "Upload Files to Folder"
-      click_links: "Click any page to insert a link to that page."
-      course_links: "Link to other content in the course."
+        insert_link: "Inserir o Link"
+        upload: Enviar
+        upload_files: "Enviar Arquivos para a Pasta"
+      click_links: "Clique em qualquer página para inserir um link nesta página."
+      course_links: "Link para outro conteúdo dentro do curso."
       drop_files: "Drop Files Here to upload"
-      drop_images: "Drop Images Here to upload"
+      drop_images: "Arraste Imagens Aqui para enviar"
       file_size_limit: "limit %{size} per file"
       files_remaining: "*0* more to upload"
-      files_tab: "Click any file to insert a download link for that file."
+      files_tab: "Clique em qualquer arquivo para inserir um link para download do arquivo nesta página."
       group_links: "Link to other content in the group."
       headings: 
-        insert_content: "Insert Content into the Page"
+        insert_content: "Inserir Conteúdo dentro da Página"
       images: 
         alt: 
           loading: Loading...
-      images_tab: "Click any image to embed the image in the page."
+      images_tab: "Clique em qualquer imagem para adicion-la na página."
       insert: 
         announcements: "Click to insert a link to this announcement"
         announcements_page: "Click to insert a link to the announcements page"
@@ -9113,57 +9114,57 @@ pt-BR:
         wiki_pages: "Click to insert a link to this page"
         wiki_pages_index: "Click to insert a link to the wiki"
       labels: 
-        folder: Folder
+        folder: Pasta
       links: 
-        announcements: "Announcements List"
-        announcements_page: "Announcement List"
-        assignments: "Assignment List"
-        assignments_page: "Assignment List"
+        announcements: "Lista de Anúncios"
+        announcements_page: "Lista de Anúncios"
+        assignments: "Lista de Tarefas"
+        assignments_page: "Lista de Tarefas"
         collaborations_page: Collaborations
-        discussions: "Discussion Index"
-        discussions_page: "Discussions Index"
-        files_page: "Files Index"
-        find_on_flickr: "Find images on flickr creative commons"
-        grades_page: Grades
-        modules: "Modules List"
-        modules_page: Modules
-        new_page: "Link to a New Page"
-        quizzes: "Quiz List"
-        syllabus: "Course Syllabus"
-        upload_file: "Upload a new file"
-        upload_image: "Upload a new image"
-        users_page: People
+        discussions: "Índice de Discussões"
+        discussions_page: "Índice de Discussões"
+        files_page: "Índice de Arquivos"
+        find_on_flickr: "Procurar imagens em creative commons no flickr"
+        grades_page: Notas
+        modules: "Lista de Módulos"
+        modules_page: Módulos 
+        new_page: "Link para uma Nova Página"
+        quizzes: "Lista de Testes"
+        syllabus: "Syllabus do Curso"
+        upload_file: "Enviar um novo arquivo"
+        upload_image: "Enviar uma nova imagem"
+        users_page: Pessoas
         wiki_pages_index: "Wiki Home"
       links_to: 
-        announcements: Announcements
+        announcements: Anúncios 
         assignments: Tarefas
-        discussions: Discussions
-        modules: Modules
+        discussions: Discussões
+        modules: Módulos
         nav: 
-          course: "Course Navigation"
+          course: "Navegação do Curso"
           group: "Group Navigation"
-        quizzes: Quizzes
-        wiki_pages: "Wiki Pages"
+        quizzes: Testes
+        wiki_pages: "Páginas Wiki"
       messages: 
         loading: Loading...
-      new_page_name: "What would you like to call the new page?"
+      new_page_name: "Como você gostaria de chamar a nova página?"
       select_destination: "Select a destination folder for these %{count} files:"
       tabs: 
-        files: Files
-        images: Images
+        files: Arquivos
+        images: Imagens
         links: Links
-      uploading_file: "Uploading *file*..."
+      uploading_file: "Enviando *arquivo*..."
     zip_file_import_form: 
       buttons: 
-        upload_file: "Upload File"
+        upload_file: "Enviar Arquivo"
       labels: 
-        upload_to: "Upload to"
+        upload_to: "Enviar para"
       notices: 
         uploading_progress_info: "Uploading and processing your zip file, if there are a lot of files in the zip file or it is very large, this may take a while."
       prompts: 
         select_file: "Please select a .zip file for uploading"
       titles: 
-        uploading: "Uploading, Please Wait."
+        uploading: "Enviando, Por Favor Aguarde."
   shared/turnitin_settings: 
     buttons: 
       update_settings: "Update Settings"
@@ -9292,7 +9293,7 @@ pt-BR:
     gathering_files: "Gathering Files (%{progress})..."
     show: 
       anonymous: Anonymous
-      attach_file: "Attach File"
+      attach_file: "Anexar Arquivo"
       buttons: 
         save: Save
         save_comment: "Save Comment"
@@ -9327,7 +9328,7 @@ pt-BR:
       entry_no_image: "Keep in mind that this page may have changed since the submission originally occurred."
       entry_with_image: "We've included a snapshot of what the page looked like when it was submitted. Or you can click to view the original submission."
       external_url_submission: "This submission was a URL to an external page."
-      file_uploads_for_user: "File Uploads for **%{user}**"
+      file_uploads_for_user: "Arquivos Enviados para **%{user}**"
       media_comment_link: "This submission is a media recording. *click here to view*."
       no_files: "No files were uploaded for this submission"
       no_submission: "No Submission"
@@ -9357,21 +9358,21 @@ pt-BR:
     total: Total
     type: Tipo
   tabs: 
-    announcements: Announcements
+    announcements: Anúncios
     assignments: Tarefas
     chat: Chat
-    collaborations: Collaborations
+    collaborations: Colaborações 
     conferences: Conferences
-    discussions: Discussions
+    discussions: Discussões
     eportfolios: ePortfolios
-    files: Files
-    grades: Grades
-    home: Home
-    modules: Modules
+    files: Arquivos
+    grades: Notas
+    home: Início
+    modules: Módulos
     outcomes: Outcomes
     pages: Pages
-    people: People
-    quizzes: Quizzes
+    people: Pessoas
+    quizzes: Testes
     settings: Settings
     syllabus: Syllabus
   terms: 
@@ -9451,20 +9452,20 @@ pt-BR:
     with_ago: "%{time} ago"
   title_separator: ": "
   titles: 
-    add_students: "Add Students"
+    add_students: "Adicionar Estudantes"
     aligned_items: "Aligned Items"
-    announcement: Announcement
-    discussion: Discussion
-    discussions: Discussions
+    announcement: Anúncio
+    discussion: Discussão
+    discussions: Discussões
     error_reports: "Error Reports"
     group_discussion: "Group Discussion"
     learning_outcomes: "Learning Outcomes"
     notifications: Notifications
     outcome_artifacts: "Outcome Artifacts"
-    review_and_save: "Review and Save"
+    review_and_save: "Revisar e Salvar"
     students: Estudantes
   topics: 
-    add_new_announcement: "Add New Announcement"
+    add_new_announcement: "Adicionar um Novo Anúncio"
     add_new_entry: "Add New Entry"
     add_new_topic: "Add New Topic"
     adding: Adding...
@@ -9472,7 +9473,7 @@ pt-BR:
       delete_announcement: "Are you sure you want to delete this announcement?"
       delete_entry: "Are you sure you want to delete this entry?"
       delete_topic: "Are you sure you want to delete this topic?"
-    default_topic_title: "Topic Title"
+    default_topic_title: "Título do Tópico"
     default_user_name: "User Name"
     errors: 
       enter_a_message: "Please enter a message"
@@ -9480,7 +9481,7 @@ pt-BR:
     expand: Expand
     loading: Loading...
     no_replies: "No Replies"
-    no_title: "No Title"
+    no_title: "Sem Título"
     number_of_replies: 
       one: "1 Reply"
       other: "%{count} Replies"
@@ -9489,7 +9490,7 @@ pt-BR:
     titles: 
       assignment_rubric_details: "Assignment Rubric Details"
       lock_this_topic: "Lock this Topic"
-      reorder_discussions: "Reorder Discussions"
+      reorder_discussions: "Reordenar Discussões"
       unlock_this_topic: "Unlock this Topic"
     update_announcment: "Update Announcement"
     update_entry: "Update Entry"
@@ -9567,7 +9568,7 @@ pt-BR:
       crumbs: 
         faculty_journal: "Faculty Journal"
       labels: 
-        title: Title
+        title: Título
       links: 
         create_new_entry: "Create a New Entry"
       messages: 
@@ -9583,14 +9584,14 @@ pt-BR:
       labels: 
         created_by: "Created by"
         note: Note
-        title: Title
+        title: Título
         user: User
     tooltips: 
       loading_more: "loading more results"
     user_note: 
       links: 
         delete: "Delete this entry"
-      no_title: "No Title"
+      no_title: "Sem Título"
     user_notes: 
       crumbs: 
         faculty_journal: "Faculty Journal"
@@ -9642,11 +9643,11 @@ pt-BR:
         really_merge: "Really Merge User Accounts?"
     cc_prefs: 
       buttons: 
-        configure: "Configure Communication Preferences"
-      comm_preferences_instructions: "Now that you're registered with Canvas, you might want to configure what notifications you'll receive as your courses progress. Canvas is flexible enough to let you choose how and for what events you'd like to be notified. When things happen in your courses you can choose to be emailed or texted to your cell immediately, daily or weekly."
-      information: Information
+        configure: "Configurar Preferências de Comunicação"
+      comm_preferences_instructions: "Agora que você registrou-se no Canvas, você pode querer configurar sobre o que será notificado, como seu prograsso no curso. O Canvas é flexível o suficiente para deixá-lo escolher como e para quais eventos você gostaria de ser notificado. Quando as coisas acontecem em seus cursos você pode escolher receber um email ou sms imediatamente, diariamente ou semanalmente."
+      information: Informação 
       titles: 
-        configure_com_prefs: "Configure Communication Preferences"
+        configure_com_prefs: "Configurar Preferências de Comunicação"
     confirm_merge: 
       buttons: 
         merge_user_accounts: "Merge User Accounts"
@@ -9708,16 +9709,16 @@ pt-BR:
       average_grades: 
         one: "average for 1 student"
         other: "average for %{count} students"
-      course: Course
+      course: Cursos
       crumbs: 
-        grades: Grades
+        grades: Notas
       current_teacher_courses: "Courses I'm Teaching"
       linked_student_accounts: "Linked Student Accounts"
       links: 
         teacher_activity: "Student Interactions Report"
       no_grade: "no grade"
       no_grades: "no grades"
-      page_title: Grades
+      page_title: Notas
       percent: Percent
       send_teacher_message: "Send a Message to the Teacher"
       show_previous_courses: "Exibir Cursos Anteriores"
@@ -9896,7 +9897,7 @@ pt-BR:
     twitter_added: "Twitter access authorized!"
     twitter_fail_whale: "Twitter authorization failed. Please try again"
     user_dashboard: 
-      coming_up: "Coming Up"
+      coming_up: "Chegando"
       information: Information
       no_courses_message: "You don't have any courses, so this page won't be very exciting for now. Once you've created or signed up for courses, you'll start to see conversations from all of your classes."
       recent_feedback: "Recent Feedback"
@@ -9921,12 +9922,12 @@ pt-BR:
     front_page_name: "Front Page"
     sidebar: 
       buttons: 
-        uploading: Uploading...
+        uploading: Enviando...
       errors: 
         no_valid_files_selected: "No valid files were selected"
         no_valid_image_files_selected: "No valid image files were selected"
         unexpected_upload_problem: "Unexpected problem uploading %{filename}.  Please try again."
-        upload_failed: "Upload Failed, please try again"
+        upload_failed: "Falha ao Enviar, por favor tente novamente"
       loading_more_results: "Loading more results"
       titles: 
         select_folder_for_uploads: "Select folder for file uploads"
@@ -9939,9 +9940,9 @@ pt-BR:
     defaults: 
       no_content: "no content"
     errors: 
-      blank_title: "Title não pode estar vazio"
-      title_characters: "Title must contain at least one letter or number"
-      title_too_long: "Title can't exceed %{max_characters} characters"
+      blank_title: "Título não pode estar vazio"
+      title_characters: "Título deve conter pelo menos uma letra ou número"
+      title_too_long: "Título não pode exceder %{max_characters} caracteres"
     missing_name: "Unnamed Page"
     notices: 
       wiki_page_created: "Wiki Page \"%{title}\" created"
@@ -10056,7 +10057,7 @@ pt-BR:
   zip_file_import: 
     errors: 
       file_must_be_zip: "The file must be a valid .zip archive"
-      must_upload_file: "Must Upload A file"
+      must_upload_file: "Deve Enviar Um Arquivo"
       unexpected: "Unexpected Error (%{error_id}) while processing zipped files"
   zip_file_imports: 
     errors: 
