@@ -730,7 +730,7 @@ pt-BR:
       other: "%{count} Tarefas"
     assignment_groups_count: 
       one: "1 Grupo"
-      other: "%{count} Grupo"
+      other: "%{count} Grupos"
     assignment_locked: 
       assignment_locked: "This assignment is locked as of *%{lock_at}*"
       assignment_unlocked_from: "This assignment is locked until *%{unlock_at}*"
@@ -789,7 +789,7 @@ pt-BR:
         upcoming_assignments: "Upcoming Assignments"
     assignments_right_side: 
       add_assignment_to_group: "*Adicionar Tarefa* para %{group}"
-      assignment_groups_wrapper: "( in %{number_of_groups})"
+      assignment_groups_wrapper: "( em %{number_of_groups})"
       links: 
         add_assignment_group: "Adicionar Grupo de Tarefas"
     buttons: 
@@ -856,7 +856,7 @@ pt-BR:
         next_assignment_or_group: j
         previous_assignment_or_group: k
       links: 
-        wizard: "How Do I...?"
+        wizard: "Como Eu Faço...?"
       page_title: Tarefas
     messages: 
       agree_to_pledge: "You must agree to the submission pledge before you can submit this assignment."
@@ -1030,29 +1030,28 @@ pt-BR:
       assignment_details: "Assignment Details"
     wizard_box: 
       descriptions: 
-        delete_icon: "%{icon}: Delete the assignment"
-        edit_icon: "%{icon}: Edit the basic options again"
-        move_icon: "%{icon}: Move the assignment to another group"
-        preview_icon: "%{icon}: Preview the assignment and edit it in full"
+        delete_icon: "%{icon}: Remover esta tarefa"
+        edit_icon: "%{icon}: Editar opções básicas novamente"
+        move_icon: "%{icon}: Mover a tarefa para outro grupo"
+        preview_icon: "%{icon}: Previsualizar a tarefa e editá-la completamente."
       errors: 
-        no_assignment_group: "Oops. You need to add an assignment group first. Click \"Create an Assignment Group\" to see how."
         no_assignment_group: "Oops. Você precisa adicionar um grupo de tarefas primeiro. Clique em \"Criar um Grupo de Tarefas\" para ver como."
       instructions: 
         wizard: 
-          details: "There's a lot more that goes into an assignment than due dates and points. If you want to type up a description of the assignment, allow file uploads, change the grading type or a bunch of other things, click the assignment's name or click the %{edit_icon} icon and then \"more options\"."
+          details: "Há muito mais infomações que datas e notas para uma tarefa. Se você deseja digitar uma descrição da tarefa, permitir upload de arquivos, alterar o tipo de classificação ou outras coisas, clique no nome da tarefa ou clique no ícone %{edit_icon} e depois em \"mais opções\"."
           group: 
-            step1: "Assignment groups are used to organize assignments. You provide a name for each group. If you choose to weight the final grade based on groups (*where?*) then you can also set a percentage score for each group. Click \"Add Assignment Group\" to create a group."
+            step1: "Grupos de tarefas são usados para organizar tarefas. Você fornece um nome para cada grupo. Se você optar por ponderar a nota final com base em grupos (*onde?*) então você também pode definir uma pontuação percentual para cada grupo. Clique em \"Adicionar Grupo de Tarefas\" para criar um grupo."
           overview: "Esta página tem a finalidade de configurar o seu curso de um modo geral. Você pode adicionar tarefas, agrupá-los e em seguida as ponderações. A idéia é primeiro criar uma organização e depois aprofundar nas especificidades. Mesmo assim, há muita coisa que você pode fazer a partir daqui."
-          quizzes: "Quizzes are special types of assignments. You can create or import quizzes by clicking the \"Quizzes\" link on the left sidebar."
-          step1: "Assignments are always organized into groups, so to add an assignment you first need to know what group you want to add it to. Select the group and click \"Add Assignment to\" or Click the %{add_icon} icon to start a new assignment for a group."
-          step2: "Great! Now fill in your details. You can enter a title for your assignment, a due date and the number of points possible. If you want to do more than that you can, but only after the assignment has been created."
-          step3: "Done! The assignment is now added to the group! If you hover your mouse over the assignment, you'll see a bunch of options. Here's what they mean:"
+          quizzes: "Testes são um tipo especial de tarefas. Você pode criar ou importar testes clicando no link \"Testes\" na barra lateral esquerda."
+          step1: "As tarefas são sempre organizadas em grupos, de modo a adicionar uma tarefa você primeiro precisa saber em que grupo deseja adicioná-lo. Selecione o grupo e clique em \"Adicionar Tarefa\" ou clique no ícone %{add_icon} para adicionar uma nova tarefa ao grupo."
+          step2: "Ótimo! Agora preencha os seus dados. Você pode inserir um título para sua tarefa, uma data limite de entrega e o número de pontos possível. Se você quiser editar mais informações você pode, mas só depois de a tarefa ter sido criada."
+          step3: "Pronto! A tarefa foi adicionada ao grupo! Se você passar o mouse sobre a tarefa, você verá um monte de opções. Aqui está o que elas significam:"
       links: 
         create_assignment: "Criar uma Nova Tarefa"
         create_assignment_group: "Criar um Grupo de Tarefas"
         create_or_import_quiz: "Criar/Importar um Teste"
         edit_assignment_in_detail: "Editar Detalhes da Tarefa"
-        show_me_where: "Show Me Where"
+        show_me_where: "Mostre-me Onde"
       subtitles: 
         edit_assignment_in_detail: "(permitir uploads, editar descrição, etc.)"
       titles: 
@@ -1061,7 +1060,7 @@ pt-BR:
     default_filename: File
     errors: 
       not_found: "File data could not be found"
-    feed_title: "File: %{title}"
+    feed_title: "Arquivo: %{title}"
     feed_title_with_context: "File, %{course_or_group}: %{title}"
     title: 
       migration_list: "Arquivos Associados"
@@ -1299,7 +1298,7 @@ pt-BR:
         edit: Editar
         feed: "clique aqui para ver o feed"
         full_details: "Full Details"
-        how_do_i: "How Do I...?"
+        how_do_i: "Como Eu Faço...?"
         jump_to_calendar: "Ir para o Calendário"
         more_options: "mais opções"
         show_undated_events: "show %{count} undated events"
@@ -1500,26 +1499,26 @@ pt-BR:
         have_account: "I Have a Canvas Account"
         login_as: "Login as %{invited_user}"
         merge: Combine
-        new_account: "New Account"
+        new_account: "Nova Conta"
         register: Register
         transfer_enrollment: "Transfer Enrollment"
-        use_this_account: "Use This Account"
+        use_this_account: "Usar Esta Conta"
       details: 
         account_exists: "An account already exists for **%{email}**. Would you like to use this account?"
-        account_exists_course: "The invitation for %{course} was sent to **%{email}**. An account already exists for this email address. Would you like to use this account?"
-        account_needed: "You've been invited to join **%{course}**. To accept this request you need a Canvas account. Click the link below to create a Canvas account."
+        account_exists_course: "O convite para %{course} foi enviado para **%{email}**. Uma conta já existe para esse endereço de email. Você gostaria de usar esta conta?"
+        account_needed: "Você foi convidado a participar **%{course}**. Para aceitar este convite você precisa de uma conta no Canvas. Clique no link abaixo para criar uma conta no Canvas."
         add_email: "Would you like to add this email address to your current account?"
         choose_account: "Select the account you would like to use."
         choose_login: "Select where you would like to login at."
         logged_in_other_user: "**%{email}** is a new account, but you are currently logged in as **%{user}**."
-        logged_in_other_user_course: "The invitation for %{course} was sent to **%{email}**, but you are currently logged in as **%{user}**."
+        logged_in_other_user_course: "O convite para %{course} foi enviaido para **%{email}**, mas atualmente você está logado como **%{user}**."
         merge_multiple: "Select the account you would like to combine with **%{current_user}**."
         merge_one: "Would you like to combine **%{current_user}** and **%{other_user}**?"
         multiple_accounts: "There are %{count} accounts with the email address **%{email}**."
-        multiple_accounts_course: "The invitation for %{course} was sent to **%{email}**. There are %{count} accounts with this email address."
+        multiple_accounts_course: "O convite para %{course} foi enviado para **%{email}**. Existem %{count} contas com este endereço de email."
         register: "In order to finish signing you up, we'll need a few more pieces of information."
         register_with_course: "In order to finish signing you up for the course **%{course}**, we'll need a few more pieces of information."
-        wrong_account: "The invitation for %{course} was sent to **%{invited_user}**, but you are currently logged in as **%{current_user}**"
+        wrong_account: "O convite para %{course} foi enviado para **%{invited_user}**, mas atualmente você esta logado como **%{current_user}**"
       labels: 
         name: "Full Name"
         password: Password
@@ -1536,16 +1535,16 @@ pt-BR:
         short_name: "People will see this name in discussions, messages and comments."
         sortable_name: "This name appears in sorted lists."
       titles: 
-        welcome_aboard: "Welcome aboard!"
+        welcome_aboard: "Bem-vindo a bordo!"
     confirm_failed: 
       details: "It looks like you may have already confirmed your registration. Try *logging in* with the email address and password you registered. If you can't remember your password, click the \"Forgot Password\" link and you should get a new link that you can use to log in and re-set your password."
       feedback: "If you keep having problems, click the \"Feedback\" tab at the top right and let us know what's going on."
-      page_title: "Registration Confirmation Failed"
+      page_title: "Confirmação de Registro Falhou"
       titles: 
-        problems_with_registration: "Problem with Registration"
+        problems_with_registration: "Problema com Registro"
     notices: 
       login_to_confirm: "Please log in to confirm your e-mail address"
-      registration_confirmed: "Registration confirmed!"
+      registration_confirmed: "Registro confirmado!"
   conferences: 
     confirm: 
       close: "Are you sure you want to end this conference? You will not be able to reopen it"
@@ -2130,7 +2129,7 @@ pt-BR:
       confirm: 
         conclude_student: "Are you sure you want to conclude this student's enrollment?"
         delete_enrollment: "Are you sure you want to delete this student's enrollment?"
-      enrolled_as: "Enrolled as a %{enrollment_type}"
+      enrolled_as: "Escrito como um %{enrollment_type}"
       enrollment_change_failed: "Enrollment privilege change failed, please try again"
       enrollment_linked_to: "linked to %{linked_user}"
       headings: 
@@ -2531,7 +2530,7 @@ pt-BR:
       sis_user_id: "SIS User ID"
       student: Estudante
     default_grading_scheme_name: "Default Grading Scheme"
-    default_name: "My Course"
+    default_name: "Meu Curso"
     default_short_name: Course-101
     errors: 
       import: 
@@ -2745,19 +2744,19 @@ pt-BR:
           bookmark: "Copy or bookmark this link"
     enrollment_reminders: 
       buttons: 
-        accept: "Accept Invitation"
-        reject: "Reject Invitation"
+        accept: "Aceitar o Convite"
+        reject: "Rejeitar o Convite"
       headings: 
         invitation: Invitation
       invitation: 
-        designer: "You've been invited to join this course as a *designer* for the user account *%{user}*."
-        observer: "You've been invited to join this course as an *observer* for the user account *%{user}*."
-        other: "You've been invited to join this course for the user account *%{user}*."
-        student: "You've been invited to join this course as a *student* for the user account *%{user}*."
-        ta: "You've been invited to join this course as a *TA* for the user account *%{user}*."
-        teacher: "You've been invited to join this course as a *teacher* for the user account *%{user}*."
+        designer: "Você foi convidado a participar deste curso como um *designer* para a conta de usuário *%{user}*."
+        observer: "Você foi convidado a participar deste curso como um *observador* para a conta de usuário *%{user}*."
+        other: "Você foi convidado a participar deste curso para a conta de usuário *%{user}*."
+        student: "Você foi convidado a participar deste curso como um *estudante* para a conta de usuário *%{user}*."
+        ta: "Você foi convidado a participar deste curso como um *monitor* para a conta de usuário *%{user}*."
+        teacher: "Você foi convidado a participar deste curso como um *professor* para a conta de usuário *%{user}*."
       invitiation: 
-        look_around: "Feel free to wander around and look over the course. When you're ready, you can either accept or reject the invitation."
+        look_around: "Sinta-se livre para passear e ver informações sobre o curso. Quando estiver pronto, você pode aceitar ou rejeitar o convite."
     errors: 
       create_failed: "Course creation failed"
       invalid_email: "Invalid e-mail address, please try again."
@@ -2798,7 +2797,7 @@ pt-BR:
       invitation_cancelled: "Invitation cancelled."
       login_required: "Please log in to join this course."
       login_to_accept: "You'll need to log in before you can accept the enrollment."
-      preview_course: "You've been invited to join this course.  You can look around, but you'll need to accept the enrollment invitation before you can participate."
+      preview_course: "Você foi convidado a participar deste curso. Você pode olhar em volta, mas você precisa aceitar o convite de inscrição antes de poder participar."
       role_restored: "Your default role and permissions have been restored"
       role_switched: "You have switched roles for this course.  You will now see the course in this new role: %{enrollment_type}"
       unconcluded: "Course un-concluded"
@@ -3466,7 +3465,7 @@ pt-BR:
         one: "*1* page"
         other: "*%{count}* pages"
       updated_at: "last updated %{updated_at}"
-    help_link_text: "%{help_icon} How Do I...?"
+    help_link_text: "%{help_icon} Como Eu Faço...?"
     manage_pages_link_text: "Organize/Manage Pages"
     manage_sections_link_text: "Organize Sections"
     notices: 
@@ -4322,7 +4321,7 @@ pt-BR:
         loading_attendance: "Loading Attendance Table..."
         mark_attendance: "Mark Attendance"
         new_column: "New Attendance Column"
-      how_do_i: "How Do I...?"
+      how_do_i: "Como Eu Faço...?"
       labels: 
         date: Date
         group: Group
@@ -4400,7 +4399,7 @@ pt-BR:
       buttons: 
         by_due_date: "By Due Date"
         by_email: "By Email/ID"
-        by_group: "Por Grupo de Tarefa"
+        by_group: "Por Grupo de Tarefas"
         by_name: "By Student Name"
         by_section: "By Section Name"
         by_total_asc: "By Total (Lowest First)"
@@ -5001,9 +5000,9 @@ pt-BR:
     facebook: 
       title: "Facebook Page"
     menu: 
-      view_all_accounts: "View all accounts"
-      view_all_enrollments: "View all courses"
-      view_all_groups: "View all groups"
+      view_all_accounts: "Visualizar todas as contas"
+      view_all_enrollments: "visualizar todos os cursos"
+      view_all_groups: "Visualizar todos os grupos"
   learning_outcome: 
     align_item: "Align Item"
     align_to_outcome: "Align Item to this Outcome"
@@ -5116,15 +5115,15 @@ pt-BR:
       submitted: "Submitted Media File!"
       submitting: "Submitting Media File..."
     titles: 
-      click_to_view: "Click to View"
+      click_to_view: "Clique para Visualizar"
       media_contribution: "Media Contribution"
       play_comment: "Play Media Comment"
       record_upload_media_comment: "Record/Upload Media Comment"
   menu: 
-    current_groups: "Current Groups"
+    current_groups: "Grupos Atuais"
     customize: Customize
-    managed_accounts: "Managed Accounts"
-    my_courses: "My Courses"
+    managed_accounts: "Contas Gerenciadas"
+    my_courses: "Meus Cursos"
   message: 
     default_subject: "Canvas Alert"
   message_students: 
@@ -5464,7 +5463,7 @@ pt-BR:
       email: 
         body: "Thank you for registering with Canvas!  This email is confirmation that the user %{user} is registering for a new account at %{website}."
         details: "To finish the registration process, please visit the following url:"
-        subject: "Confirm Registration: Canvas"
+        subject: "Confirmação de Registro: Canvas"
     confirm_sms_communication_channel: 
       sms: 
         body: |-
@@ -5819,18 +5818,18 @@ pt-BR:
         subject: "Course Import Finished: %{course_name}"
     new_account_user: 
       email: 
-        body: "New Account Admin for %{account}"
+        body: "Nova Conta de Administração para %{account}"
         details: "A new admin, %{user}, has been added for the account %{account}"
-        subject: "New Account User"
+        subject: "Nova Conta de Usuário"
       facebook: 
         body: "A new admin **%{user}** has been added for the account **%{account}**."
-        subject: "New Account Admin for %{account}"
+        subject: "Nova Conta de Administração para %{account}"
       sms: 
         body: "A new admin, %{user}, has been added for the account %{account}"
         details: "More info at %{website}"
       summary: 
         body: "A new admin, %{user}, has been added for the account %{account}"
-        subject: "New Account User"
+        subject: "Nova Conta de Usuário"
       twitter: 
         body: "Canvas Alert - New Admin: %{user}, %{account}"
     new_announcement: 
@@ -5867,21 +5866,21 @@ pt-BR:
         body_course: "Canvas Alert - New Group: %{group} for the course %{course}"
     new_context_group_membership_invitation: 
       email: 
-        body_account: "You've been invited to join the group %{group} for the account %{account}."
-        body_course: "You've been invited to join the group %{group} for the course %{course}."
+        body_account: "Você foi convidado a participar do grupo %{group} para a conta de usuário %{account}."
+        body_course: "Você foi convidado a participar the group %{group} para a conta de usuário %{course}."
         details: "You can check out the group by clicking the link below:"
         subject: "New Group Membership for %{course_or_account}"
         title: "New Group Membership: %{group_name}"
       facebook: 
-        body_account: "You've been invited to join the group %{group} for the account %{account}."
-        body_course: "You've been invited to join the group %{group} for the course %{course}."
+        body_account: "Você foi convidado a participar the group %{group} para a conta de usuário %{account}."
+        body_course: "Você foi convidado a participar the group %{group} para a conta de usuário %{course}."
       sms: 
-        body_account: "You've been invited to join the group %{group} for the account %{account}."
-        body_course: "You've been invited to join the group %{group} for the course %{course}."
+        body_account: "Você foi convidado a participar the group %{group} para a conta de usuário %{account}."
+        body_course: "Você foi convidado a participar the group %{group} para a conta de usuário %{course}."
         details: "More info at %{url}"
       summary: 
-        body_account: "You've been invited to join the group %{group} for the account %{account}."
-        body_course: "You've been invited to join the group %{group} for the course %{course}."
+        body_account: "Você foi convidado a participar the group %{group} para a conta de usuário %{account}."
+        body_course: "Você foi convidado a participar the group %{group} para a conta de usuário %{course}."
         subject: "New Group Membership for %{course_or_account}"
       twitter: 
         body_account: "Canvas Alert - Invitation: %{group} for the account %{account}"
@@ -5993,10 +5992,10 @@ pt-BR:
           phone: Phone
           school_name: "School Name"
           school_position: "School Position"
-        subject: "New Teacher Registration"
+        subject: "Novo Professor Registrado"
       facebook: 
         body: "%{user} just registered as a teacher at %{website}."
-        subject: "New Teacher Registration"
+        subject: "Registro de Novo Professor"
       sms: 
         body: "%{user} just registered as a teacher at %{website}."
       summary: 
@@ -6006,7 +6005,7 @@ pt-BR:
           phone: Phone
           school_name: "School Name"
           school_position: "School Position"
-        subject: "New Teacher Registration"
+        subject: "Registro de Novo Professor"
       twitter: 
         body: "Canvas Alert - New Teacher: %{user}, %{account}"
     new_user: 
@@ -6033,7 +6032,7 @@ pt-BR:
       email: 
         body: "You have been registered for a Canvas account at %{account}!  Before you can log in and start using Canvas, you'll need to finish the configuration process."
         link_message: "To finish the registration process, please visit the following url:"
-        subject: "Finish Registration: Canvas"
+        subject: "Finalização de Registro: Canvas"
     quiz_locked: "This quiz is currently locked."
     quiz_locked_at: "This quiz was locked %{at}."
     quiz_locked_module: "This quiz is part of the module *%{module}* and hasn't been unlocked yet."
@@ -6280,7 +6279,7 @@ pt-BR:
       membership_update: "Membership Update"
       message: Message
       other: Other
-      registration: Registration
+      registration: Registro
       reminder: Reminder
       student_message: "Student Message"
       submission_comment: "Submission Comment"
@@ -6298,7 +6297,7 @@ pt-BR:
     missing_description_description: "For %{category} notifications"
     names: 
       account_user_notification: "Account User Notification"
-      account_user_registration: "Account User Registration"
+      account_user_registration: "Registro de Conta de Usuário"
       added_to_conversation: "Added To Conversation"
       alert: Alert
       assignment_changed: "Assignment Changed"
@@ -6313,7 +6312,7 @@ pt-BR:
       assignment_submitted_late: "Assignment Submitted Late"
       collaboration_invitation: "Collaboration Invitation"
       confirm_email_communication_channel: "Confirm Email Communication Channel"
-      confirm_registration: "Confirm Registration"
+      confirm_registration: "Confirmação de Registro"
       confirm_sms_communication_channel: "Confirm Sms Communication Channel"
       content_export_failed: "Content Export Failed"
       content_export_finished: "Content Export Finished"
@@ -6321,7 +6320,7 @@ pt-BR:
       enrollment_accepted: "Enrollment Accepted"
       enrollment_invitation: "Enrollment Invitation"
       enrollment_notification: "Enrollment Notification"
-      enrollment_registration: "Enrollment Registration"
+      enrollment_registration: "Registro de Inscrição"
       event_date_changed: "Event Date Changed"
       forgot_password: "Forgot Password"
       grade_weight_changed: "Grade Weight Changed"
@@ -6332,7 +6331,7 @@ pt-BR:
       migration_export_ready: "Migration Export Ready"
       migration_import_failed: "Migration Import Failed"
       migration_import_finished: "Migration Import Finished"
-      new_account_user: "New Account User"
+      new_account_user: "Nova Conta de Usuário"
       new_announcement: "Novo Anúncio"
       new_context_group_membership: "New Context Group Membership"
       new_context_group_membership_invitation: "New Context Group Membership Invitation"
@@ -6342,9 +6341,9 @@ pt-BR:
       new_event_created: "New Event Created"
       new_file_added: "New File Added"
       new_student_organized_group: "New Student Organized Group"
-      new_teacher_registration: "New Teacher Registration"
+      new_teacher_registration: "Registro de Novo Professor"
       new_user: "New User"
-      pseudonym_registration: "Pseudonym Registration"
+      pseudonym_registration: "Registro de Pseudônimo"
       report_generated: "Report Generated"
       report_generation_failed: "Report Generation Failed"
       rubric_assessment_invitation: "Rubric Assessment Invitation"
@@ -6693,7 +6692,7 @@ pt-BR:
         enabled: Enabled
     registration_form_recaptcha: 
       description: "CAPTCHA plugin for the registration form"
-      name: "Registration form ReCAPTCHA"
+      name: "Formulário de Registro de ReCAPTCHA"
     respondus_soap_endpoint: 
       description: "SOAP Endpoint for Respondus QTI uploads"
       name: "Respondus SOAP Endpoint"
@@ -6843,7 +6842,7 @@ pt-BR:
       no_channels: "Please define at least one email address or other way to be contacted before setting notification preferences."
       profile_update_failed: "Login failed to update"
       regenerating_token_failed: "Regenerating Token Failed"
-      registration_failed: "Registration failed. Check the user name and password, and try again."
+      registration_failed: "Registro Falhou. Verifique o nome de usuário e senha, e tente novamente."
       selecting_image_failed: "Selecting Image Failed, please try again"
     facebook_select: 
       facebook: Facebook
@@ -7105,7 +7104,7 @@ pt-BR:
         resend_email: "Re-Send the Email"
       page_title: "Log In to Canvas"
       titles: 
-        registration_complete: "Registration Incomplete"
+        registration_complete: "Registro Incompleto"
     notices: 
       logged_out: "You are currently logged out"
       login_success: "Login successful."
@@ -8137,7 +8136,7 @@ pt-BR:
     permissions: 
       become_user: "Become other users"
       change_course_state: "Change course state"
-      comment_on_others_submissions: "View all students' submissions and make comments on them"
+      comment_on_others_submissions: "Visualizar todas as submissões do estudante e fazer comentários nelas"
       create_collaborations: "Create student collaborations"
       create_conferences: "Create web conferences"
       manage_account_memberships: "Add/remove other admins for the account"
@@ -8171,7 +8170,7 @@ pt-BR:
       read_roster: "See the list of users"
       send_messages: "Send messages to course members"
       site_admin: "Use the Site Admin section and admin all other accounts"
-      view_all_grades: "View all grades"
+      view_all_grades: "Visualizar todas as notas"
       view_error_reports: "View error reports"
       view_group_pages: "View the group pages of all student groups"
       view_statistics: "View statistics"
@@ -8510,20 +8509,20 @@ pt-BR:
       view_modules: "Visualização de Módulos"
     current_enrollment: 
       accept_or_reject: "When you're ready, you can either accept or reject the invitation."
-      body_designer: "You've been invited to join %{course} as a **designer** for the user account **%{email_address}**."
-      body_observer: "You've been invited to join %{course} as an **observer** for the user account **%{email_address}**."
-      body_student: "You've been invited to join %{course} as a **student** for the user account **%{email_address}**."
-      body_ta: "You've been invited to join %{course} as a **TA** for the user account **%{email_address}**."
-      body_teacher: "You've been invited to join %{course} as a **teacher** for the user account **%{email_address}**."
+      body_designer: "Você foi convidado a participar %{course} como um **designer** para a conta de usuário **%{email_address}**."
+      body_observer: "Você foi convidado a participar %{course} como um **observador** para a conta de usuário **%{email_address}**."
+      body_student: "Você foi convidado a participar %{course} como um **estudante** para a conta de usuário **%{email_address}**."
+      body_ta: "Você foi convidado a participar %{course} como um **monitor** para a conta de usuário **%{email_address}**."
+      body_teacher: "Você foi convidado a participar %{course} como um **professor** para a conta de usuário **%{email_address}**."
       buttons: 
-        accept: "Accept Invitation"
-        reject: "Reject Invitation"
+        accept: "Aceitar o Convite"
+        reject: "Rejeitar o Convite"
       course_unpublished: "This course hasn't been published yet"
-      enrolled_as_designer: "Enrolled as a designer"
-      enrolled_as_observer: "Enrolled as an observer"
-      enrolled_as_student: "Enrolled as a student"
-      enrolled_as_ta: "Enrolled as a TA"
-      enrolled_as_teacher: "Enrolled as a teacher"
+      enrolled_as_designer: "Inscrito como um designer"
+      enrolled_as_observer: "Inscrito como um observador"
+      enrolled_as_student: "Inscrito como um estudante"
+      enrolled_as_ta: "Inscrito como um monitor"
+      enrolled_as_teacher: "Inscrito como um professor"
       wander_around_dont_get_lost: "Feel free to [wander around](%{link_to_course}) and see what it's like."
     custom_search_results: 
       links: 
@@ -8726,8 +8725,8 @@ pt-BR:
       use_this_standard: "Use This Grading Standard"
     home_menu: 
       links: 
-        courses: Courses
-        courses_and_groups: "Courses & Groups"
+        courses: Cursos
+        courses_and_groups: "Cursos e Grupos"
     identity: 
       links: 
         help: Help
@@ -8766,7 +8765,7 @@ pt-BR:
         other: "%{count} need grading"
     menu_enrollment: 
       labels: 
-        enrolled_as: "Enrolled as"
+        enrolled_as: "Inscrito como"
         invited_as: "Invited as"
     message_students: 
       buttons: 
@@ -9189,7 +9188,7 @@ pt-BR:
       imported_items: "Imported Items"
     import_counts: 
       accounts: "Accounts: %{account_count}"
-      courses: "Courses: %{course_count}"
+      courses: "Cursos: %{course_count}"
       crosslists: "Crosslists: %{crosslist_count}"
       enrollments: "Enrollments: %{enrollment_count}"
       sections: "Sections: %{section_count}"
@@ -9224,14 +9223,14 @@ pt-BR:
       delete_subaccount: "Are you sure you want to delete this sub-account?"
     courses_count: 
       one: "1 Course"
-      other: "%{count} Courses"
+      other: "%{count} Cursos"
     index: 
       titles: 
         sub_accounts: Sub-Accounts
     sub_accounts: 
       account_courses: 
         one: "1 Course"
-        other: "%{count} Courses"
+        other: "%{count} Cursos"
       account_sub_accounts: 
         one: "1 Sub-Account"
         other: "%{count} Sub-Accounts"
@@ -9400,7 +9399,7 @@ pt-BR:
         update: "Update Term"
       course_count: 
         one: "1 Course"
-        other: "%{count} Courses"
+        other: "%{count} Cursos"
       labels: 
         sis_id: "SIS ID"
         students_can_access_from: "**Students** can access from"
@@ -9598,7 +9597,7 @@ pt-BR:
       details_a_course: "Last Faculty Journal entries for students currently enrolled in a course."
       details_this_course: "Last Faculty Journal entries for students currently enrolled in this course."
       headers: 
-        current_courses: "Current Courses"
+        current_courses: "Cursos Atuais"
         last_entry: "Last Faculty Journal Entry"
         student: Student
       page_title: "Faculty Journal"
@@ -9677,11 +9676,11 @@ pt-BR:
       linked_to_user: "(Linked to %{user_name})"
       links: 
         teacher_activity: "See Student Interactions Report"
-      roles_designer: "Enrolled as a Designer."
-      roles_observer: "Enrolled as an Observer."
-      roles_student: "Enrolled as a Student."
-      roles_ta: "Enrolled as a TA."
-      roles_teacher: "Enrolled as a Teacher."
+      roles_designer: "Inscrito como um Designer."
+      roles_observer: "Inscrito como um Observador."
+      roles_student: "Inscrito como um Estudante."
+      roles_ta: "Inscrito como um Monitor."
+      roles_teacher: "Inscrito como um Professor."
       unpublished: Unpublished
     errors: 
       no_teacher_courses: "There are no courses shared between this teacher and student"
@@ -9712,7 +9711,7 @@ pt-BR:
       course: Cursos
       crumbs: 
         grades: Notas
-      current_teacher_courses: "Courses I'm Teaching"
+      current_teacher_courses: "Cursos que Sou Professor"
       linked_student_accounts: "Linked Student Accounts"
       links: 
         teacher_activity: "Student Interactions Report"
@@ -9723,7 +9722,7 @@ pt-BR:
       send_teacher_message: "Send a Message to the Teacher"
       show_previous_courses: "Exibir Cursos Anteriores"
       titles: 
-        current_student_courses: "Courses I'm Taking"
+        current_student_courses: "Cursos que Participo"
         previous_courses: "Cursos Anteriores"
     group: 
       show_hide_activity_list: "Show/Hide in the Recent Activity list"
@@ -9854,17 +9853,17 @@ pt-BR:
         download_pdf: "download PDF"
       need_flash: "You need Flash player 8+ and JavaScript enabled to view this video."
       overview_video: "Overview Video of Canvas"
-      registration_complete: "Registration Complete"
+      registration_complete: "Registro Completo"
       resending: Re-Sending...
       sent_email_paragraph: "We sent an email to %{email_address}. *Click the link in the email to finish registering*. If you don't see it, **click to re-send the email**, and make sure to check your spam box."
       while_you_wait: "While you're waiting..."
     service_not_enabled: "That service has not been enabled"
     show: 
-      accounts: Accounts
+      accounts: Contas
       buttons: 
         faculty_journal_for: "Faculty Journal for %{user}"
-      courses: Courses
-      enrollments: Enrollments
+      courses: Cursos
+      enrollments: Inscrições
       groups: Groups
       none_yet: "None yet."
       page_views: "Page Views"
@@ -9902,7 +9901,7 @@ pt-BR:
       no_courses_message: "You don't have any courses, so this page won't be very exciting for now. Once you've created or signed up for courses, you'll start to see conversations from all of your classes."
       recent_feedback: "Recent Feedback"
       start_new_course: "Start a New Course"
-      user_atom_feed: "User Atom Feed (All Courses)"
+      user_atom_feed: "Atom Feed de Usuários (Todos os Cursos)"
       user_dashboard: "User Dashboard"
       welcome_to_happiness: "Welcome to Canvas!"
     user_is_deleted: "%{user_name} has been deleted"
