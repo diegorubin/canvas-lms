@@ -806,7 +806,7 @@ pt-BR:
       deleting_group_failed: "Delete Failed"
       reminder_failed: "Reminder failed"
     external_grader_sidebar: 
-      edit_assignment_settings: "Edit Assignment Settings"
+      edit_assignment_settings: "Editar Informações da Tarefa"
       speed_grader: "Speed Grader"
     grade_assignment: 
       buttons: 
@@ -925,7 +925,7 @@ pt-BR:
     show_locked: 
       labels: 
         assignment: Assignment
-      locked: Locked
+      locked: Trancado
     status: 
       deleting_group: "Deleting Group..."
     student_index: 
@@ -1106,7 +1106,7 @@ pt-BR:
     post_message: "Post Message"
     previous: Anterior 
     refresh: refresh
-    reorder_topics: "Reorder Topics"
+    reorder_topics: "Reordenar Tópicos"
     save: Salvar
     save_course: "Salvar Curso"
     save_tool_settings: "Salvar Configurações de Ferramenta"
@@ -1266,7 +1266,7 @@ pt-BR:
         delete: "Remover o Evento"
         edit: "Editar Evento"
       page_title: "Novo Evento"
-    no_content: "No Content"
+    no_content: "Sem Conteúdo"
     notices: 
       created: "Event was successfully created."
       deleted: "This event has been deleted"
@@ -1647,8 +1647,8 @@ pt-BR:
       buttons: 
         save_assignment: "Save Assignment"
       options: 
-        assignment: Assignment
-        discussion: Discussion
+        assignment: Tarefa
+        discussion: Discussão
         file_upload: "File Upload"
         new_group: "[ New Group ]"
         not_graded: "Não Classificados"
@@ -1705,7 +1705,7 @@ pt-BR:
       page_title: "Copy From Another Course"
       term_with_account: "%{term_name} (%{account_name})"
       titles: 
-        copy_discussion_replies: "Copy Discussion Replies?"
+        copy_discussion_replies: "Copiar Respotas da Discussão?"
         copy_from: "Copy From another Course"
         copy_from_course: "Copy Content From %{course}"
       warnings: 
@@ -1910,7 +1910,7 @@ pt-BR:
         uploading: "Uploading, Please Wait."
       upload_qti_file: "Choose a QTI .zip package"
     titles: 
-      copy_discussion_replies: "Copy Discussion Replies?"
+      copy_discussion_replies: "Copiar Respostas da Discussão?"
     wizard_secondary_nav: 
       wizard_steps: 
         import_files: "Importar Arquivos"
@@ -1946,7 +1946,7 @@ pt-BR:
       topic_locked_until: "This topic is locked until %{date}."
       visit_modules_page_for_details: "Visit the modules page for information on how to unlock this content."
     titles: 
-      content_is_locked: "Content Is Locked"
+      content_is_locked: "Conteúdo Está Trancado"
   content_migration: 
     unknown: Desconhecido
   content_tag: 
@@ -1974,7 +1974,7 @@ pt-BR:
           course_discussions: "Atom Feed de Discussões do Curso"
         start_collaboration: "Start a Collaboration"
         start_conference: "Start a Web Conference"
-        start_topic: "Start a New Topic"
+        start_topic: "Iniciar um Novo Tópico"
       titles: 
         communication: Communication
     dashboard_conference: 
@@ -2043,7 +2043,7 @@ pt-BR:
           topic: topic
         title: 
           announcement: Announcement
-          topic: Discussion
+          topic: Discussão
       initial_post_required: "Replies are only visible to those who have posted at least one reply."
       labels: 
         attached_file: "Attached File"
@@ -2059,7 +2059,7 @@ pt-BR:
       read_more: more
       titles: 
         author_name: "Author's name"
-      topic_for_assignment: "This topic is for the assignment, %{assignment_name_link}."
+      topic_for_assignment: "Este tópico pertence a tarefa, %{assignment_name_link}."
     dashboard_topic_entry: 
       links: 
         title: 
@@ -2075,7 +2075,7 @@ pt-BR:
       errors: 
         mark_as_read_failed: "Marking failed, please try again"
       inbox: 
-        discussion_replies: "Discussion Replies"
+        discussion_replies: "Repostas da Discussão"
       status: 
         marking_all_as_read: "Marking All as Read..."
     inbox_item: 
@@ -2336,7 +2336,7 @@ pt-BR:
         title: 
           complete: "Module Completed"
           incomplete: "Module Incomplete"
-          locked: "Module Locked"
+          locked: "Módulo Trancado"
       labels: 
         prerequisites: Prerequisites
       links: 
@@ -2471,7 +2471,7 @@ pt-BR:
       inbox_views: 
         archived: Archived
         archived_messages: Archived
-        discussion_replies: "Discussion Replies"
+        discussion_replies: "Respostas da Discussão"
         inbox: "Caixa de Entrada"
         labeled: Labeled
         unread: Unread
@@ -3021,7 +3021,7 @@ pt-BR:
             This layout is probably best for courses that aren't based on a specific schedule like a term or semester.
         syllabus: "The **syllabus view** lets you write up a description of course expectations or introduce the course with links, images, etc. and then also shows a calendar view of all assignments and course events."
       dropping_course: "Dropping Course..."
-      empty_body: "No Content"
+      empty_body: "Sem Conteúdo"
       headings: 
         confirm_unenroll: "Confirm Unenrollment"
         joining_a_course: "Joining a Course"
@@ -3306,27 +3306,27 @@ pt-BR:
       separated_conversation_notice: "The conversation for this topic has been separated into separate groups. Below are all the group topics you have access to."
     index: 
       course_discussions_atom_feed_title: "Atom Feed de Discussões do Curso"
-      drag_and_drop_notice: "You can manually define the order in which discussions will appear. Click and drag any topic to change where it will appear in the list."
+      drag_and_drop_notice: "Você pode definir manualmente a ordem em que as discussões irão aparecer. Clique e arraste para alterar a posição de qualquer tópico na lista."
       locked_message: "This topic is currently locked. Visit the topic details page for more information."
       locked_title: locked
       manage_announcements: "Gerenciar Anúncios"
-      reorder_topics: "Reorder Topics"
-      start_new_topic: "Start a New Topic"
-      view_only_topics: "View Only Topics"
+      reorder_topics: "Reordenar Tópicos"
+      start_new_topic: "Iniciar um Novo Tópico"
+      view_only_topics: "Visualizar Apenas Tópicos"
       view_topics_and_announcements: "Ver Tópicos e Anúncios"
     loading_results: "Loading more results"
     reordered_topics_notice: "Topics successfully reordered"
     show: 
-      add_new_entry: "Add New Entry"
-      add_new_topic: "Add New Entry"
+      add_new_entry: "Adicionar Nova Entrada"
+      add_new_topic: "Adicionar Nova Entrada"
       attach_file: "Anexar Arquivo"
-      delete_confirm: "Are you sure you want to delete this topic?"
+      delete_confirm: "Você tem certeza que quer remover este tópico?"
       delete_current_message: "Delete Current Message"
-      delete_topic: "Delete Topic"
+      delete_topic: "Remover Tópico"
       discussion_atom_feed_title: "Discussion Atom Feed"
       discussion_podcast_feed_title: "Discussion Podcast Feed"
       edit_current_message: "Edit Current Message"
-      edit_topic: "Edit Topic"
+      edit_topic: "Editar Tópico"
       initial_post_required: "Replies are only visible to those who have posted at least one reply."
       just_due: "due %{date}"
       labels: 
@@ -3347,19 +3347,19 @@ pt-BR:
       post_count: 
         one: "1 Post"
         other: "%{count} Posts"
-      post_entry: "Post Entry"
+      post_entry: "Enviar Resposta"
       previous_message: "Mensagem Anterior"
       replace_file: "Replace File"
       reply_to_message: "Reply to Current Message"
       reply_to_topic: "Reply to Topic"
       separated_conversation_notice: "The conversation for this topic has been separated into separate groups. Below are the list of group topics you have access to."
       show_all_posts: "Show Posts from all Topics"
-      show_assignment_rubric: "Show Assignment Rubric"
+      show_assignment_rubric: "Exibir Rubricas da Tarefa"
       switch_views: "Trocar Visualização"
       topic: Topic
       topic_agglomerated_notice: "This view shows all the messages from all this topic's group topics. If you want to comment or edit posts, you'll have to visit each topic individually."
       topic_for_assignment: |-
-          This topic is for the assignment  
+          Este tópico pertence a tarefa
           **%{title}**
       topic_locked: "This topic is closed for comments"
       topic_locked_notice: "This topic is closed for comments."
@@ -3449,7 +3449,7 @@ pt-BR:
       missing_page: "Couldn't find that page"
   eportfolio_entry: 
     click_through: "Click to view page content"
-    default_content: "No Content Added Yet"
+    default_content: "Nenhum Conteúdo Adicionado Ainda"
     default_name: "Page Name"
   eportfolios: 
     _page_section: 
@@ -3912,8 +3912,8 @@ pt-BR:
         created_by_google_docs: "This document was created using Google Docs."
         edit_file: "Edit %{file}"
         edit_file_contents: "Edit File Contents"
-        file_locked: Locked
-        folder_locked: Locked
+        file_locked: Trancado
+        folder_locked: Trancado
         lock_file: "Lock %{file_name}"
         lock_folder: "Lock %{folder_name}"
       warnings: 
@@ -4449,7 +4449,7 @@ pt-BR:
         choose_section: "Choose A Section To Show"
         comments: "Submission Comments"
         complete: Complete
-        discussion: "Discussion Submission"
+        discussion: "Submissão de Discussão"
         fail: Fail
         incomplete: Incomplete
         media: "Media Comment Submission"
@@ -4526,7 +4526,7 @@ pt-BR:
         unmute_assignment: "Unmute Assignment"
       headers: 
         assessment: Assessment
-        discussion: Discussion
+        discussion: Discussão
         grading: Grading
         no_submission: "This student does not have a submission for this assignment"
       keycode_descriptions: 
@@ -4878,7 +4878,7 @@ pt-BR:
         am_pm: am/pm
     errors: 
       cannot_view_document_inline: "This document cannot be viewed inline, you might not have permission to view it or it might have been deleted."
-      field_is_required: "This field is required"
+      field_is_required: "Este campo é obrigatório"
       invalid_datetime: "Invalid date/time value"
       invalid_entry_for_field: "Invalid entry: %{field}"
       invalid_number: "This should be a number."
@@ -4958,7 +4958,7 @@ pt-BR:
     announcements: Anúncios
     assignments: Tarefas
     calendar_events: "Calendar Events"
-    discussion_responses: "Discussion Responses"
+    discussion_responses: "Respostas da Discussão"
     discussions: Discussões
     external_tools: "External Tools"
     files: Files
@@ -5929,14 +5929,14 @@ pt-BR:
         details: "Join the conversation here:"
         labels: 
           file_included: "File Included"
-        subject: "New Discussion - %{discussion_topic}: %{course}"
+        subject: "Nova Discussão - %{discussion_topic}: %{course}"
       facebook: 
         body: "New Forum Topic: %{discussion_topic}, %{course}"
       sms: 
         body: "New Topic for %{course}:"
         details: "More info at %{url}"
       summary: 
-        subject: "New Discussion - %{discussion_topic}: %{course}"
+        subject: "Nova Discussão - %{discussion_topic}: %{course}"
       twitter: 
         subject: "Canvas Alert - Topic: %{discussion_topic}, %{course}"
     new_event_created: 
@@ -6268,7 +6268,7 @@ pt-BR:
       announcement: Announcement
       calendar: Calendar
       course_content: "Course Content"
-      discussion: Discussion
+      discussion: Discussão
       discussion_entry: DiscussionEntry
       due_date: "Due Date"
       files: Files
@@ -6336,8 +6336,8 @@ pt-BR:
       new_context_group_membership: "New Context Group Membership"
       new_context_group_membership_invitation: "New Context Group Membership Invitation"
       new_course: "New Course"
-      new_discussion_entry: "New Discussion Entry"
-      new_discussion_topic: "New Discussion Topic"
+      new_discussion_entry: "Nova Entrada da Discussão"
+      new_discussion_topic: "Novo Tópico da Discussão"
       new_event_created: "New Event Created"
       new_file_added: "New File Added"
       new_student_organized_group: "New Student Organized Group"
@@ -7706,8 +7706,8 @@ pt-BR:
         hide_results_only_after_last: "Only After their Last Attempt"
         ip_filter: "Filter IP Addresses"
         limited_attempts: "Allowed Attempts"
-        locked_after: "Locked After"
-        locked_until: "Locked Until"
+        locked_after: "Trancado depois de"
+        locked_until: "Trancado até"
         never_hide_results: "Let Students See their Quiz Results"
         quiz_instructions: "Quiz Instructions"
         quiz_name: "Quiz Name"
@@ -7732,7 +7732,7 @@ pt-BR:
         preview_quiz: "Preview the Quiz"
         quiz_options: "Quiz Options"
         return_to_quiz_page: "Return to Quiz Page"
-        show_assignment_rubric: "Show Assignment Rubric"
+        show_assignment_rubric: "Exibir Rubricas da Tarefa"
         start_over: "Start Over"
         switch_views: "Trocar Visualização"
       points_possible: "%{n} Points Possible"
@@ -7970,7 +7970,7 @@ pt-BR:
         resume_quiz: "Resume Quiz"
         resume_survey: "Resume Survey"
         see_full_quiz: "See Full Quiz"
-        show_assignment_rubric: "Show Assignment Rubric"
+        show_assignment_rubric: "Exibir Rubricas da Tarefa"
         show_student_quiz_results: "Show Student Quiz Results"
         show_student_survey_results: "Show Student Survey Results"
         survey_statistics: "Survey Statistics"
@@ -8416,7 +8416,7 @@ pt-BR:
         group_weight: Peso
         name: Nome
       messages: 
-        adding_group: "Adding Group..."
+        adding_group: "Adicionando Grupo..."
       percent_of_grade: "%{percent} % of grade"
       titles: 
         add_assignment_group: "Adicionar Grupo de Tarefas"
@@ -8619,9 +8619,9 @@ pt-BR:
         redirected_from_pilot: "You've been redirected to the new version of Instructure Canvas. Welcome!"
     full_assignment: 
       buttons: 
-        update: "Update Assignment"
+        update: "Atualizar Tarefa"
       defaults: 
-        no_content: "No Content"
+        no_content: "Sem Conteúdo"
         other_group: other
       descriptions: 
         allowed_extensions: "enter a list of accepted extensions, for example: doc,xls,txt"
@@ -8650,11 +8650,11 @@ pt-BR:
         group_assignment: "This is a Group Assignment"
         group_set: "Group Set"
         lock_submits_after: "Lock Submits After"
-        locked_until: "Locked Until"
+        locked_until: "Trancado até"
         manually_assign_peer_reviews: "Manually Assign Peer Reviews"
         master_level: "Mastery Level"
         never_drop: "Never drop this assignment"
-        notify_of_update: "Notify users that this content has changed"
+        notify_of_update: "Avisar aos usuários que este conteúdo foi modificado"
         peer_review_count: "Reviews Per User"
         peer_reviews_assign_at: "Assign Reviews"
         points_possible: Points
@@ -8666,7 +8666,7 @@ pt-BR:
         title: Título
         turnitin_enabled: "Enable Turnitin Submission Evaluations"
         type: Tipo
-      linked_to_discussion: "This assignment is linked to the discussion, %{discussion_topic}. Grading will be based on posts in the topic."
+      linked_to_discussion: "Esta tarefa é vinculada à discussão, %{discussion_topic}. A nota será atribuida com base nos posts deste tópico."
       links: 
         advanced_turnitin_settings: "Advanced Settings..."
         discussion: "Click here to go to the discussion"
@@ -8682,7 +8682,7 @@ pt-BR:
       options: 
         assignment: Assignment
         attendance: Comparecimento
-        discussion: Discussion
+        discussion: Discussão
         external_tool: "External Tool"
         letter_grade: "Letter Grade"
         new_group_set: "[ New Group Set ]"
@@ -8912,7 +8912,7 @@ pt-BR:
       assignment_item: Assignment
       assignment_notice: "Select the assignment you want to associate with this *module*, or add an assignment by selecting \"New Assignment\"."
       content_page_item: "Content Page"
-      discussion_item: Discussion
+      discussion_item: Discussão
       domain_match_notice: "to use this tool the domain must match %{domain}"
       external_tool_item: "External Tool"
       external_tool_link_alt: "External tool"
@@ -8962,13 +8962,13 @@ pt-BR:
       submission_comment: "Submission Comment"
     topic: 
       assignment_points: 
-        one: "1 pt"
-        other: "%{count} pts"
-      assignment_topic: "This topic is an assignment *(%{points})*."
+        one: "1 ponto"
+        other: "%{count} pontos"
+      assignment_topic: "Este tópico é uma tarefa *(%{points})*."
       attached_file: "Attached File"
       date_created: "Date Created"
       edited_by: "This topic was edited by %{user}"
-      for_grading: "Grading will be based on posts submitted to this topic."
+      for_grading: "A nota será atribuida com base nos posts submetidos neste tópico."
       images: 
         alt: 
           announcement: announcement
@@ -8981,16 +8981,16 @@ pt-BR:
           delete: "Delete %{topic}"
           edit: "Edit %{topic}"
           podcast: "This topic has a podcast feed."
-          topic: Discussion
+          topic: Discussão
       last_post: "Last Post"
       links: 
-        reply: "Add New Entry"
+        reply: "Adicionar Nova Entrada"
       locked: "This topic is closed for comments"
       no_title: "Sem Título"
       reply_count: 
-        one: "1 Reply"
-        other: "%{count} Replies"
-        zero: "No Replies"
+        one: "1 Resposta"
+        other: "%{count} Repostas"
+        zero: "Sem Repostas"
       retrieved_from_feed: "Retrieved from %{feed}"
       topic_locked: "This topic will not be visible to users until *%{date}*"
     topics: 
@@ -9012,7 +9012,7 @@ pt-BR:
         attach_file: "Anexar Arquivo"
         replace_file: "Replace File"
       new_announcement: "Faça um Novo Anúncio"
-      new_topic: "Make a New Discussion"
+      new_topic: "Criar uma Nova Discussão"
       no_announcements: "Não há anúncios, é triste dizer isso."
       no_announcements_admin: "Não há anúncios, é triste dizer isso. Você gostaria de criar um?"
       no_discussions: "There are no discussions, sad to say."
@@ -9335,7 +9335,7 @@ pt-BR:
       plain_view: "Plain Text View"
       preview_document: "Preview the document"
       quiz_submission: "This submission was a quiz submission. Redirecting to quiz page."
-      show_entire_discussion: "Show the Entire Discussion"
+      show_entire_discussion: "Exibir a Discussão Completa"
       url_preview: "URL Preview"
       view_original_submission: "View the Original Submission for %{user}"
     still_zipping: "File zipping still in process..."
@@ -9457,7 +9457,7 @@ pt-BR:
     discussion: Discussão
     discussions: Discussões
     error_reports: "Error Reports"
-    group_discussion: "Group Discussion"
+    group_discussion: "Discussão em Grupo"
     learning_outcomes: "Learning Outcomes"
     notifications: Notifications
     outcome_artifacts: "Outcome Artifacts"
@@ -9465,9 +9465,9 @@ pt-BR:
     students: Estudantes
   topics: 
     add_new_announcement: "Adicionar um Novo Anúncio"
-    add_new_entry: "Add New Entry"
-    add_new_topic: "Add New Topic"
-    adding: Adding...
+    add_new_entry: "Adicionar Nova Entrada"
+    add_new_topic: "Adicionar Novo Tópico"
+    adding: Adicionando...
     confirms: 
       delete_announcement: "Are you sure you want to delete this announcement?"
       delete_entry: "Are you sure you want to delete this entry?"
@@ -9475,17 +9475,17 @@ pt-BR:
     default_topic_title: "Título do Tópico"
     default_user_name: "User Name"
     errors: 
-      enter_a_message: "Please enter a message"
+      enter_a_message: "Por favor, insira a mensagem"
       invalid_date_time: "Please select a valid date time"
     expand: Expand
     loading: Loading...
-    no_replies: "No Replies"
+    no_replies: "Sem Respostas"
     no_title: "Sem Título"
     number_of_replies: 
-      one: "1 Reply"
-      other: "%{count} Replies"
-      zero: "No Replies"
-    reordering: Reordering...
+      one: "1 Resposta"
+      other: "%{count} Repostas"
+      zero: "Sem Respostas"
+    reordering: Reordenando...
     titles: 
       assignment_rubric_details: "Assignment Rubric Details"
       lock_this_topic: "Lock this Topic"
@@ -9504,11 +9504,11 @@ pt-BR:
     add_n_users: 
       one: "OK Looks Good, Add This 1 User"
       other: "OK Looks Good, Add These %{count} Users"
-    adding_users: "Adding Users..."
+    adding_users: "Adicionando Usuários..."
     buttons: 
       continue: Continue...
     cant_unenroll: "This user was automatically enrolled using the campus enrollment system, so they can't be manually removed.  Please contact your system administrator if you have questions."
-    delete_confirm: "Are you sure you want to remove this user?"
+    delete_confirm: "Você tem certeza que quer remover este usuário?"
     duplicate_users: 
       one: "1 duplicate user found, duplicates have been removed."
       other: "%{count} duplicate user found, duplicates have been removed."
@@ -9532,7 +9532,7 @@ pt-BR:
       save: Save
       update_login: "Update Login"
     confirms: 
-      delete_login: "Are you sure you want to delete the login, \"%{login}\"?"
+      delete_login: "Você tem certeza que quer remover o login, \"%{login}\"?"
     errors: 
       passwords_do_not_match: "passwords do not match"
       save_failed: "Save Failed"
@@ -9547,7 +9547,7 @@ pt-BR:
     buttons: 
       update_user: "Update User"
     confirms: 
-      remove_profile_picture: "Are you sure you want to remove this user's profile picture?"
+      remove_profile_picture: "Você tem certeza que quer remover esta imagem de perfil do usuário?"
     errors: 
       failed_to_remove_image: "Failed to remove the image, please try again"
       failed_to_report_image: "Failed to report the image, please try again"
@@ -9560,7 +9560,7 @@ pt-BR:
       image_reported: "This image has been reported"
   user_notes: 
     confirms: 
-      delete_journal_entry: "Are you sure you want to delete this journal entry?"
+      delete_journal_entry: "Você tem certeza que quer remover esta entrada do diário?"
     index: 
       buttons: 
         create: "Create Entry"
