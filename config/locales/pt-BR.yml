@@ -2677,24 +2677,24 @@ pt-BR:
     confirm_reject_invitation: "Are you sure you want to reject the invitation to participate in this course?"
     copy: 
       buttons: 
-        create_course: "Create Course"
+        create_course: "Curso Criado"
       details: "Enter the following details to begin creating a copy of this course."
       headings: 
-        copy_course: "Copy %{course}"
+        copy_course: "Copiar %{course}"
       labels: 
-        conclude_at: "End Date"
+        conclude_at: "Data de Término"
         course_code: "Course Code"
         enrollment_term_id: Term
-        name: Name
-        start_at: "Start Date"
+        name: Nome
+        start_at: "Data de Início"
       titles: 
-        copy_course: "Copy Course"
+        copy_course: "Copiar Curso"
     course_wizard_box: 
       buttons: 
-        publish: "Publish Course"
+        publish: "Publicar Curso"
       details: 
-        assignments: "Add your assignments. You can just make a long list, or break them up into groups -- and even specify weights for each assignment group."
-        available: "Now that your course is set up and available, you probably won't need this checklist anymore.  But we'll keep it around in case you realize later you want to try something new, or you just want a little extra help as you make changes to your course content."
+        assignments: "Adicionar suas tarefas. Você pode apenas fazer uma longa lista, ou dividi-las em grupos - e até mesmo especificar pesos para cada grupo de tarefa."
+        available: "Agora que o seu curso está configurado e disponível, você provavelmente não vai precisar mais desta lista. Mas nós vamos mantê-la no caso de você perceber mais tarde que você quer fazer algo novo, ou precisar de uma ajuda extra para fazer algo no conteúdo do seu curso."
         calendar: "Here's a great chance to get to know the calendar -- and add any non-assignment events you might have to the course. Don't worry, we'll help you through it."
         claimed: 
           not_saved: |-
@@ -2717,29 +2717,29 @@ pt-BR:
               Please **log in** or ***register*** to claim this course.
         files: "The Files tab is the place to share lecture slides, example documents, study helps -- anything your students will want to download. Uploading and organizing your files is easy with Canvas. We'll show you how."
         home: "When people visit the course, this is the page they'll see. You can set it to show an activity stream, the list of course modules, a syllabus, or a custom page you write yourself. The default is the course activity stream. To customize this, just click %{change_layout}."
-        import: "If you've been using another course management system, you probably have stuff in there that you're going to want moved over to Canvas. We can walk you through the process of easily migrating your content into Canvas."
-        navigation: "By default all links are enabled for a course. Students won't see links to sections that don't have content. For example, if you haven't created any quizzes, they won't see the quizzes link. You can sort and explicitly disable these links if there are areas of the course you don't want your students accessing."
+        import: "Se você estiver outro sistema de controle de cursos, você provavelmente tem coisas lá que vai querer mover para o Canvas. Nós podemos orientá-los através do processo simples de migração seu conteúdo para o Canvas."
+        navigation: "Por padrão todos os links estão habilitados para um curso. Os alunos não vão ver os links para as seções que não têm conteúdo. Por exemplo, se você não tiver criado qualquer teste, eles não vão ver o link Testes. Você pode classificar e explicitamente desativar esses links, se existem áreas do curso que você não quer que seus alunos acessem."
         publish: 
           form: |-
               All finished?  Time to publish your course!  Click the button below to make it official!
               
               Publishing will send out email invitations to all the course users so they can sign up and start participating.
           not_registered: "This course is claimed and ready, but you'll need to finish the registration process before you can publish the course. You should have received an email from Canvas with a link to finish the process. Be sure to check your spam box."
-        students: "You'll definitely want some of these. What's the fun of teaching a course if nobody's even listening?"
+        students: "Você definitivamente quer alguns deles. Qual é a graça de dar um curso se não houver ninguém para participar?"
         tas: "You may want to assign some TAs to help you with the course. TAs can grade student submissions, help moderate the discussions and even update due dates and assignment details for you."
       headings: 
         next_steps: "Próximos Passos"
       links: 
-        assignments: "Add Course Assignments"
-        calendar: "Adicionar Course Calendar Events"
+        assignments: "Adicionar Tarefas no Curso"
+        calendar: "Adicionar Eventos no Calendário do Curso"
         files: "Adicionar Arquivos ao Curso"
-        home: "Choose a Course Home Page"
+        home: "Escolher uma Página Inicial do Curso"
         import: "Importar Conteúdo"
-        navigation: "Select Navigation Links"
+        navigation: "Selecione Links de Navegação"
         publish: "Publicar Curso"
         re_send_confirmation: "Re-Send the Confirmation Email"
-        students: "Add Students to the Course"
-        tas: "Add TAs to the Course"
+        students: "Adicionar Estudantes no Curso"
+        tas: "Adicionar monitor ao Curso"
         title: 
           bookmark: "Copy or bookmark this link"
     enrollment_reminders: 
@@ -2935,24 +2935,24 @@ pt-BR:
         too_general_twitter_hashtag: 
           description: "too general"
         too_long_twitter_hashtag: 
-          description: "too long"
+          description: "muito longo"
         turnitin_comments: "Turnitin Submission Comments"
       language_overrides_preferences: "This will override any user/system language preferences. This is only recommended for foreign language courses"
       links: 
-        add_users: "Add Users"
+        add_users: "Adicionar Usuários"
         calendar: "Calendário do Curso"
-        conclude: "End this Course"
-        copy: "Copy this Course"
+        conclude: "Encerrar este Curso"
+        copy: "Copiar este Curso"
         delete: "Permanently Delete this Course"
-        edit_course: "Edit Course Details"
-        export: "Export this Course"
-        hashtag_help: "What's a hashtag?"
-        import: "Import Content into this Course"
+        edit_course: "Editar Detalhes do Curso"
+        export: "Exportar este Curso"
+        hashtag_help: "O que é uma hashtag?"
+        import: "Importar Conteúdo neste Curso"
         more_options: "mais opções"
         move_course: "Move To Another Account"
         re_send_invitation: "Re-Send Invitation"
-        reset: "Reset Course Content"
-        stats: "Course Statistics"
+        reset: "Reiniciar Conteúdo do Curso"
+        stats: "Estatísticas do Curso"
         title: 
           cant_delete: "You can't delete sections that have users enrolled"
           delete_section: "Delete Section"
@@ -3008,7 +3008,7 @@ pt-BR:
     show: 
       acting_as: "You are currently viewing this course with the role: %{enrollment_type}. You will only have permissions and access available to users of this role."
       buttons: 
-        update_layout: "Update Layout"
+        update_layout: "Atualizar Layout"
       details: 
         assignments: "This view shows the **list of assignments** for this course, with upcoming and recent assignments at the top."
         communication_stream: "The **communication stream** lets participants see the most recent conversations, notifications, and interactions for this course.  It's very similar to the dashboard page users see when they first log in, but only shows content for this specific course."
@@ -3020,40 +3020,40 @@ pt-BR:
             
             This layout is probably best for courses that aren't based on a specific schedule like a term or semester.
         syllabus: "The **syllabus view** lets you write up a description of course expectations or introduce the course with links, images, etc. and then also shows a calendar view of all assignments and course events."
-      dropping_course: "Dropping Course..."
+      dropping_course: "Descartando Curso..."
       empty_body: "Sem Conteúdo"
       headings: 
         confirm_unenroll: "Confirm Unenrollment"
         joining_a_course: "Joining a Course"
-        set_layout: "Set Home Page Layout"
+        set_layout: "Definir Layout da Página Inicial"
         unpublished: "Este Curso não foi Publicado"
       joining_course: "Joining Course..."
       labels: 
-        set_layout: "When people visit the course page, show them"
+        set_layout: "Quando as pessoas visitarem a página do curso, exibir"
       license_notice: "This course content is offered under a %{license_type} license. Content in this course can be considered under this license unless otherwise noted."
       links: 
         change_layout: "Trocar Layout da Página Inicial"
-        course_setup: "Course Setup Checklist"
+        course_setup: "Passos Para Configuração do Curso"
         course_stream: "See Course Stream"
         delete: "Remover Este Curso"
-        drop_course: "Drop this Course"
-        join_course: "Join this Course"
+        drop_course: "Descartar este Curso"
+        join_course: "Entrar neste Curso"
         new_announcement: "Novo Anúncio"
         restore_role: "Restore Role and Permissions"
       options: 
         assignments: "a Lista de Tarefas"
-        communication_stream: "the Communication Stream"
+        communication_stream: "o Fluxo de Comunicação"
         custom_page: "a Page I'll Design Myself"
         modules: "the Course Modules/Sections"
         syllabus: "the Assignments with Syllabus"
-      period_name: "the last 2 weeks"
-      re_sending: Re-Sending...
+      period_name: "as 2 últimas semanas"
+      re_sending: Reenviando...
       send_done: "Done! Message may take a few minutes."
-      send_failed: "Request failed. Try again."
+      send_failed: "Soliciatação falhou. Tente novamente."
       teachers_only: "Somente professores podem ver este curso até ele ser *publicado*"
       titles: 
         drop_course: "Drop this Course"
-        join_course: "Join this Course"
+        join_course: "Entrar neste Curso"
         recent_feedback: "Recent Feedback"
     sidebar_weighting: 
       default_name: Group
@@ -3109,7 +3109,7 @@ pt-BR:
         files: "File Storage"
         students: Estudantes
         totals: Totals
-      text_entry: "Text Entry"
+      text_entry: "Entrada de Texto"
       unaccepted_students: "Unaccepted Students"
       website_url: "Website URL"
     titles: 
@@ -3119,38 +3119,38 @@ pt-BR:
       not_started_yet: "The course you are trying to access has not started yet.  It will start %{date}."
       unpublished: "This course has not been published by the instructor yet."
   crumb: 
-    conversations: Conversations
+    conversations: Conversas
     discussion_replies: "Discussion Replies"
   crumbs: 
     access_report: "Access Report"
     assignments: Tarefas
     calendar_events: "Calendar Events"
     chat: Chat
-    conferences: Conferences
-    confirmation: Confirmation
-    copy_course: "Copy Course"
+    conferences: Conferências
+    confirmation: Confirmação
+    copy_course: "Copiar Curso"
     discussions: Discussões
     eportfolio_welcome: "Welcome to Your ePortfolio"
     error_reports: "Error Reports"
-    files: Files
+    files: Arquivos 
     grading_schemes: "Grading Schemes"
-    groups: Groups
+    groups: Grupos
     media: Media
     modules: Módulos
-    outcomes: Outcomes
+    outcomes: Resultados
     people: Pessoa
     plugins: Plugins
     prior_users: "Prior Users"
     registered_services: "Registered Services"
-    results: Results
+    results: Resultados
     revisions: Revisions
     rubrics: Rubrics
-    settings: Settings
-    stats: Statistics
+    settings: Configurações
+    stats: Estatísticas
     syllabus: Syllabus
-    users: Users
-    wiki_page_revisions: Revisions
-    wiki_pages: Pages
+    users: Usuários 
+    wiki_page_revisions: Revisões 
+    wiki_pages: Páginas
   curve_grades_dialog: 
     average_score: "Average Score"
     buttons: 
@@ -3314,7 +3314,7 @@ pt-BR:
       start_new_topic: "Iniciar um Novo Tópico"
       view_only_topics: "Visualizar Apenas Tópicos"
       view_topics_and_announcements: "Ver Tópicos e Anúncios"
-    loading_results: "Loading more results"
+    loading_results: "Carregando novos comentários"
     reordered_topics_notice: "Topics successfully reordered"
     show: 
       add_new_entry: "Adicionar Nova Entrada"
@@ -3332,7 +3332,7 @@ pt-BR:
       labels: 
         file: File
         file_attached: "File Attached"
-      lock_topic: "Close for Comments"
+      lock_topic: "Não Permitir Novos Comentários"
       locked_topic: "This topic is currently locked."
       message_count: 
         one: "*1* **post**"
@@ -3361,11 +3361,11 @@ pt-BR:
       topic_for_assignment: |-
           Este tópico pertence a tarefa
           **%{title}**
-      topic_locked: "This topic is closed for comments"
-      topic_locked_notice: "This topic is closed for comments."
+      topic_locked: "Este tópico está fechado para novos comentários"
+      topic_locked_notice: "Este tópico está fechado para novos comentários."
       topic_podcast_feed_link: "Topic Podcast Feed"
-      total_message_count: "*%{count}* including subtopics"
-      unlock_topic: "Re-Open for Comments"
+      total_message_count: "*%{count}* incluindo subtópicos"
+      unlock_topic: "Permitir Novos Comentários"
     sub_entry: 
       authors_name: "Author's name"
       post_message: "Post Message"
@@ -4138,7 +4138,7 @@ pt-BR:
     download_submissions: "Download Submissions"
     edit_view_rubric: "View Rubric"
     errors: 
-      failed_to_load: "Gradebook failed to load, please try refreshing the page"
+      failed_to_load: "Falha ao carregar boletim, por favor tente novamente atualizando a página"
       none_to_update: "None to Update"
       select_an_option: "Please select an option"
       upload_as_zip: "Please upload files as a .zip"
@@ -4202,7 +4202,7 @@ pt-BR:
     unmute_assignment: "Unmute Assignment"
     unmute_button: "Unmute Assignment"
     upload_scores: "Upload Scores (from %{format})"
-    view_grading_history: "View Grading History"
+    view_grading_history: "Visualizar Histórico de Notas"
   gradebook2: 
     assignment_group_weights_dialog: 
       buttons: 
@@ -4222,21 +4222,21 @@ pt-BR:
     section_to_show_menu: 
       choose_a_section_to_show: "Choose a section to show"
     show: 
-      arrange_columns_by_due_date: "Arrange columns by due date"
-      arrange_columns_by_group: "Arrange columns by assignment group"
-      download_scores: "Download Scores (.csv)"
+      arrange_columns_by_due_date: "Organizar colunas pela data de entrega"
+      arrange_columns_by_group: "Organizar colunas pelo grupo de tarefas"
+      download_scores: "Baixar Pontuação (.csv)"
       dropped_for_grading: "Dropped for grading purposes"
-      go_back_to_the_old_gradebook: "Go back to the old gradebook"
+      go_back_to_the_old_gradebook: "Voltar ao boletim antigo"
       include_ungraded: "Include Ungraded Assignments"
       muted_students_wont_see: "This assignment is muted, students will not see changes"
       publish_to_sis: "Publish grades to SIS"
       resubmitted: "Resubmitted since last graded"
-      set_group_weights: "Set Group Weights"
+      set_group_weights: "Definir Peso dos Grupos"
       show_attendance_columns: "Show Attendance Columns"
       submitted_late: "Submitted late"
       ungraded: "Not factored into grading"
-      upload_scores: "Upload Scores (from .csv)"
-      view_grading_history: "View Grading History"
+      upload_scores: "Enviar Pontuação (em .csv)"
+      view_grading_history: "Visualizar Histórico de Notas"
   gradebook_uploads: 
     errors: 
       invalid_file: "Invalid csv file, grades could not be updated"
@@ -4248,7 +4248,7 @@ pt-BR:
         upload_form: "Choose a CSV file to upload"
     new: 
       titles: 
-        new_upload: "Upload Gradebook"
+        new_upload: "Enviar Boletim"
     notices: 
       updated: 
         one: "Successfully updated 1 submission."
@@ -4271,7 +4271,7 @@ pt-BR:
       labels: 
         points_possible: "Points Possible"
       links: 
-        back: "Go back to Gradebook"
+        back: "Voltar ao boletim"
       new_assignment_option: "A new assignment"
       notices: 
         unchanged: "Note: You uploaded some assignments that had no grade changes detected. They have been hidden."
@@ -4280,7 +4280,7 @@ pt-BR:
       student_example: "Some Guy"
       student_question: "Student in question"
       titles: 
-        feed: "Course Gradebook Atom Feed"
+        feed: "Atom Feed de Boletim do Curso"
   gradebook_uploads_form: 
     buttons: 
       upload_data: "Upload Data"
@@ -4428,8 +4428,8 @@ pt-BR:
         high_score: "High Score"
         low_score: "Low Score"
         send_comment: "Send a Comment to the Student"
-        sort_columns: "Sort Gradebook Columns"
-        sort_rows: "Sort Gradebook Rows"
+        sort_columns: "Ordenar Colunas do Boletim"
+        sort_rows: "Ordenar Linhas do Boletim"
         total_submitted: "Total Submitted"
       links: 
         add_assignments: "Adicionar Tarefas ao Curso"
@@ -4463,7 +4463,7 @@ pt-BR:
         upload: "File Upload Submission"
         url: "URL Submission"
         view: View
-      try_out_the_new_gradebook: "Try out the new gradebook"
+      try_out_the_new_gradebook: "Tente o novo boletim"
       upload_info: "If you made changes to the student submission files you downloaded before, just zip them back up and upload the zip with the form below. Students will see the modified files in their comments for the submission."
       upload_warning: "Make sure you don't change the names of the submission files so we can recognize them."
       weight_final: "Weight final grade based on groups"
@@ -4483,7 +4483,7 @@ pt-BR:
         one: "1 change"
         other: "%{count} changes"
       titles: 
-        feed: "Course Gradebook Atom Feed"
+        feed: "Atom Feed de Boletim do Curso"
         submission_graded: "%{graded_date} by %{grader}"
     notices: 
       unauthorized: "You are not authorized to view attendance for this course"
@@ -4501,7 +4501,7 @@ pt-BR:
         next_student: "Próximo Estudante"
         previous_assignment: "Tarefa Anterior"
         previous_student: "Estudante Anterior"
-        refresh_gradebook: "Refresh Gradebook"
+        refresh_gradebook: "Atualizar Boletim"
       keycodes: 
         edit_cell: enter
         more_information: i
@@ -4510,11 +4510,11 @@ pt-BR:
         previous_assignment: left
         previous_student: up
         refresh_gradebook: r
-      page_title: Gradebook
+      page_title: Boletim
       titles: 
-        feed: "Course Gradebook Atom Feed"
+        feed: "Atom Feed de Boletim do Curso"
     speed_grader: 
-      all_sections: "All Sections"
+      all_sections: "Todas as Seções"
       attach: Attach
       buttons: 
         save: Save
@@ -4557,13 +4557,13 @@ pt-BR:
         click_to_view: "click here to view"
         course_home: "Course Home"
         download_file: "Download File"
-        gradebook: Gradebook
-        help: Help
-        next: Next
+        gradebook: Boletim
+        help: Ajuda
+        next: Próximo
         previous: Anterior
-        remove_attachment: "Remove Attachment"
-        settings: Settings
-        show_all_sections: "Show all sections"
+        remove_attachment: "Remover Anexo"
+        settings: Configurações
+        show_all_sections: "Exibir todas as seções"
         submit_same_score: "Use this same grade for the resubmission"
       loading: loading...
       new_assessment_option: "[New Assessment]"
@@ -4628,7 +4628,7 @@ pt-BR:
       renamed_file: "renamed from %{filename}"
       submissions_upload: "%{assignment} Submissions Upload"
     titles: 
-      feed_for_course: "%{course} Gradebook Feed"
+      feed_for_course: "Feed do Boletim de %{course}"
       total: Total
   grading_box: 
     out_of_points_possible: "out of %{assignment.points_possible}"
@@ -9899,7 +9899,7 @@ pt-BR:
       coming_up: "Chegando"
       information: Information
       no_courses_message: "You don't have any courses, so this page won't be very exciting for now. Once you've created or signed up for courses, you'll start to see conversations from all of your classes."
-      recent_feedback: "Recent Feedback"
+      recent_feedback: "Comentários Recentes"
       start_new_course: "Start a New Course"
       user_atom_feed: "Atom Feed de Usuários (Todos os Cursos)"
       user_dashboard: "User Dashboard"
