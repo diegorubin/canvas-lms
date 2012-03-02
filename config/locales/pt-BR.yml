@@ -894,9 +894,9 @@ pt-BR:
         back_to_assignment: "Back to Assignment"
       messages: 
         cancel_peer_review: "Cancel this peer review?"
-        no_students_found: "No Students Found"
-      none_assigned: "None Assigned"
-      not_yet_submitted: "not yet submitted"
+        no_students_found: "Nenhum Estudante Encontado"
+      none_assigned: "Nada Atribuido"
+      not_yet_submitted: "ainda não enviado"
       options: 
         select_student: "[ Selecione o Estudante ]"
       overview: "Student peer reviews will be considered complete when students have commented at least once on the page."
@@ -939,7 +939,7 @@ pt-BR:
       links: 
         resubmit: "Re-submit Assignment"
         submission: 
-          details: "Submission Details"
+          details: "Detalhes do Envio"
           download_attachment: "Download %{attachment_display_name}"
           view_original_entry: "View the Original Entry"
           view_original_page: "View the Original Page"
@@ -1006,7 +1006,7 @@ pt-BR:
       headers: 
         date: Date
         day: Day
-        details: Details
+        details: Detalhes
       instructions: 
         syllabus: |-
             The syllabus page shows a table-oriented view of the course schedule, and the basics of
@@ -1027,7 +1027,7 @@ pt-BR:
       syllabus: 
         other_day: Other
     titles: 
-      assignment_details: "Assignment Details"
+      assignment_details: "Detalhes da Tarefa"
     wizard_box: 
       descriptions: 
         delete_icon: "%{icon}: Remover esta tarefa"
@@ -1272,7 +1272,7 @@ pt-BR:
       deleted: "This event has been deleted"
       updated: "Event was successfully updated."
   calendars: 
-    assignment_details: "Assignment Details"
+    assignment_details: "Detalhes da Tarefa"
     calendar: 
       alts: 
         next: Next
@@ -1297,7 +1297,7 @@ pt-BR:
         delete: Remover
         edit: Editar
         feed: "clique aqui para ver o feed"
-        full_details: "Full Details"
+        full_details: "Detalhes Completos"
         how_do_i: "Como Eu Faço...?"
         jump_to_calendar: "Ir para o Calendário"
         more_options: "mais opções"
@@ -1337,8 +1337,8 @@ pt-BR:
     notices: 
       event_moved: "%{event} foi movido para %{day}"
     prompts: 
-      delete_assignment: "Are you sure you want to delete this assignment?"
-      delete_event: "Are you sure you want to delete this event?"
+      delete_assignment: "Você tem certeza que quer remover esta tarefa?"
+      delete_event: "Você tem certeza que quer remover este evento?"
     show: 
       crumbs: 
         my_calendar: "Meu Calendário"
@@ -1488,15 +1488,15 @@ pt-BR:
       titles: 
         current: "Colaborações Atuais"
   communication_channel: 
-    default_facebook_account: "Facebook Account"
+    default_facebook_account: "Conta no Facebook"
     default_twitter_handle: "Twitter Handle"
   communication_channels: 
     confirm: 
       buttons: 
         add_email_address: "Add Email Address"
         back: Back
-        create_account: "Create My Account"
-        have_account: "I Have a Canvas Account"
+        create_account: "Criar Minha Conta"
+        have_account: "Eu Tenho uma Conta no Canvas"
         login_as: "Login as %{invited_user}"
         merge: Combine
         new_account: "Nova Conta"
@@ -1526,7 +1526,7 @@ pt-BR:
         short_name: "Apelido"
         sortable_name: "Nome Classificável"
         subscribe_to_emails: "I want to receive information, news and tips from Instructure"
-        time_zone: "Time Zone"
+        time_zone: "Fuso Horário"
         unique_id: "Email Address"
       page_title: "Register %{email}"
       tips: 
@@ -1548,7 +1548,7 @@ pt-BR:
   conferences: 
     confirm: 
       close: "Are you sure you want to end this conference? You will not be able to reopen it"
-      delete: "Are you sure you want to delete this conference?"
+      delete: "Você tem certeza que quer remover esta conferência?"
       quit: "It looks like you are already editing another conference. Do you wish to continue? Any unsaved changes will be lost."
     disabled_error: "Web conferencing has not been enabled for this Canvas site"
     general_error: "There was an error joining the conference"
@@ -1956,7 +1956,7 @@ pt-BR:
       comments: Comentários 
       page_title: "Título da Página"
     prompts: 
-      delete_tag: "Are you sure you want to delete this tag?"
+      delete_tag: "Você tem certeza que quer remover esta tag?"
     titles: 
       tag_external_web_page: "Tag External Web Page"
   context: 
@@ -2092,7 +2092,7 @@ pt-BR:
           remove_message: "Remove this Message"
       no_title: "Sem Título"
     inbox_items: 
-      inbox_delete_confirm: "Are you sure you want to delete this item from your inbox?"
+      inbox_delete_confirm: "Você tem certeza que quer remover este item de sua caixa de entrada?"
       loading_results: "Carregando mais resultados"
       no_messages: "Sorry, no messages yet."
     media_object_inline: 
@@ -2122,60 +2122,60 @@ pt-BR:
       students: Estudantes
       teachers: "Professores e Monitores"
       titles: 
-        course_roster: "Course Roster"
-        group_roster: "Group Roster"
+        course_roster: "Lista do Curso"
+        group_roster: "Lista do Grupo"
     roster_user: 
       completed_enrollment: "completed *%{completed_at}*"
       confirm: 
         conclude_student: "Are you sure you want to conclude this student's enrollment?"
-        delete_enrollment: "Are you sure you want to delete this student's enrollment?"
-      enrolled_as: "Escrito como um %{enrollment_type}"
+        delete_enrollment: "Você tem certeza que quer remover esta inscrição do estudante?"
+      enrolled_as: "Inscrito como um %{enrollment_type}"
       enrollment_change_failed: "Enrollment privilege change failed, please try again"
       enrollment_linked_to: "linked to %{linked_user}"
       headings: 
-        recent_messages: "Recent Messages"
-        user_details: "User Details"
-        user_services: "%{user}'s Services"
-        users_details: "%{user}'s Details"
+        recent_messages: "Mensagens Recentes"
+        user_details: "Detalhes do Usuário"
+        user_services: "Serviços do %{user}"
+        users_details: "Detalhes do %{user}"
       help: 
         list_services: "You haven't enabled your list of registered services. Enabling this list will let fellow course and group members more easily link up with you outside of class."
         services: "You haven't linked your user profile to any external services. You can link your Canvas account to services like Facebook and Twitter. This will make it easier for fellow course and group members to link up with you outside of class."
       labels: 
         public_list_services: "Let fellow course/group members see which services I've linked to my profile"
-        user_privileges: Privileges
+        user_privileges: Privilégios
       legends: 
-        memberships: Membership(s)
+        memberships: Filiação(ões)
       links: 
-        access_report: "Access Report for %{user}"
-        cant_delete: "Can't Delete"
-        conclude_enrollment: "Conclude this Enrollment"
-        delete_enrollment: "Delete this Enrollment"
+        access_report: "Relatório de Acessos de %{user}"
+        cant_delete: "Não é Possível Remover"
+        conclude_enrollment: "Concluir esta Inscrição"
+        delete_enrollment: "Remover esta Inscrição"
         faculty_journal: "Faculty Journal for %{user}"
-        link_enrollment: "Link this Enrollment"
+        link_enrollment: "Vincular esta Inscrição"
         link_services: "Link web services to my account"
-        message_user: "Message %{user}"
-        more_user_details: "more user details..."
+        message_user: "Mensagem para %{user}"
+        more_user_details: "mais detalhes do usuário..."
         remove_avatar: "Remove avatar picture"
         report_avatar: "Report inappropriate picture"
         restore_enrollment: "Restore this Enrollment"
-        student_teacher_activity: "Your Interactions Report with %{user}"
+        student_teacher_activity: "Relatório de Suas Interações com %{user}"
         teacher_activity: "Student Interactions Report for %{user}"
         title: 
           enrollment_sis_defined: "This enrollment was defined by the university, and can't be deleted"
-        user_account_details: "User Account Details"
+        user_account_details: "Detalhes da Conta do Usuário"
         user_grades: "Notas para %{user}"
-        user_only_view_section: "limit this user to only see fellow section users"
-        user_outcomes: "Outcomes for %{user}"
-        user_view_all_sections: "let this user see all course users"
-      no_messages: "No Messages"
+        user_only_view_section: "limitar este usuário para ver apenas os usuários que pertencem a mesma seção"
+        user_outcomes: "Resultados para %{user}"
+        user_view_all_sections: "deixe que este usuário veja todos os usuários do curso"
+      no_messages: "Sem Mensagens"
       no_services: "%{user} hasn't linked any external services to their account yet."
       services_not_visible: "%{user}'s registered services are not visible to you at this time."
-      user_only_view_section: "this user can only view students in their assigned course section(s)"
-      user_view_all_sections: "this user can view students in any course section"
+      user_only_view_section: "Este usuário só pode ver os alunos que estão nas mesmas seções que ele pertence"
+      user_view_all_sections: "este usuário pode ver estudantes em qualquer seção do curso"
     roster_user_services: 
       headings: 
         registered_services: "Registered Services"
-        service_types: "Service Types"
+        service_types: "Tipos de Serviço"
       help: 
         no_services: "You haven't linked your user profile to any external services. You can link your Canvas account to services like Facebook and Twitter."
         services_private: "You haven't enabled your list of registered services. Enabling this list will let fellow course and group members see which services you have linked to your Canvas account."
@@ -2224,7 +2224,7 @@ pt-BR:
       add_module: "Add a New Module"
       update: "Update Module"
     confirm: 
-      delete: "Are you sure you want to delete this module?"
+      delete: "Você tem certeza que quer remover este módulo?"
       delete_item: "Are you sure you want to remove this item from the module?"
     content: 
       add_prerequisite: "Add prerequisite to *%{module}*"
@@ -2269,7 +2269,7 @@ pt-BR:
       key: 
         description: 
           delete: "Delete Current Module/Item"
-          edit: "Edit Module/Item"
+          edit: "Editar Módule/Item"
           indent: "Indent Current Item"
           new: "New Module"
           next: "Next Module/Item"
@@ -2346,7 +2346,7 @@ pt-BR:
         show_contents: "Show module contents"
         title: 
           delete_module: "Delete this module"
-          edit_module: "Edit module settings"
+          edit_module: "Editar configurações do módule"
           remove_prerequisite: "Remove this prerequisite"
           student_progress: "See Student Progress for this Module"
       module_will_unlock_at: "will unlock *%{unlock_date}*"
@@ -2385,7 +2385,7 @@ pt-BR:
           must_submit: "Students must submit this assignment before the module is considered complete"
           must_view: "Students must view this item before the module is considered complete"
       links: 
-        edit_item: "Edit item details"
+        edit_item: "Editar detalhes do item"
         indent: "Indent item"
         outdent: "Outdent item"
         remove_item: "Remove this item from the module"
@@ -2419,8 +2419,8 @@ pt-BR:
       add: "Adicionar Módulo"
       add_item: "Add Item to %{module}"
       add_prerequisite: "Add Prerequisite to %{module}"
-      edit: "Edit Module Settings"
-      edit_item: "Edit Item Details"
+      edit: "Editar Configurações do Módulo"
+      edit_item: "Editar Detalhes do Item"
       student_progress: "Student Progress for Module"
   conversation_message: 
     conversation_message: 
@@ -2636,11 +2636,11 @@ pt-BR:
       re_sending_invitation: "Re-Sending Invitation..."
       republish: "Republish grades to SIS"
     private_course: Private
-    public_course: Public
+    public_course: Público
     titles: 
-      click_to_edit: "Click to Edit"
+      click_to_edit: "Clique para Editar"
       enrollment_details: "Enrollment Details"
-      hashtag_help: "What's a Hashtag?"
+      hashtag_help: "O Que é um Hashtag?"
       move_course: "Move Course"
       reset_course_content_dialog_help: "Reset Course Content"
   courses: 
@@ -2648,23 +2648,23 @@ pt-BR:
       due_at: "Entrega %{date}"
       headings: 
         grade: "Nota %{assignment}"
-        to_do: "To Do"
+        to_do: "Para Fazer"
       images: 
         alt: 
-          ignore: ignore
+          ignore: ignorar
       links: 
         title: 
-          ignore: "Ignore this assignment"
+          ignore: "Ignorar esta tarefa"
       need_grading_count: 
         one: "1 needs grading"
         other: "%{count} need grading"
       points_possible: "out of %{points_possible}"
       tooltip: 
-        due_at: "due: %{date}"
+        due_at: "entrega: %{date}"
     confirm_action: 
       buttons: 
-        conclude_course: "Conclude Course"
-        delete_course: "Delete Course"
+        conclude_course: "Concluir Curso"
+        delete_course: "Remover Curso"
       details: 
         confirm_conclude: "Are you sure you want to conclude this course? Students and teachers will still be able to see the course contents in a read-only format from their \"past courses\" page. If you don't want anyone to see the course, you can *delete the course completely*."
         confirm_delete: "Are you sure you want to delete this course? Once it is deleted students and teachers will no longer have access to it. If you just want to remove it from the course dropdown then you should *conclude the course instead*."
@@ -3356,7 +3356,7 @@ pt-BR:
       show_all_posts: "Show Posts from all Topics"
       show_assignment_rubric: "Exibir Rubricas da Tarefa"
       switch_views: "Trocar Visualização"
-      topic: Topic
+      topic: Tópico
       topic_agglomerated_notice: "This view shows all the messages from all this topic's group topics. If you want to comment or edit posts, you'll have to visit each topic individually."
       topic_for_assignment: |-
           Este tópico pertence a tarefa
@@ -3417,7 +3417,7 @@ pt-BR:
     buttons: 
       done_editing: "Done Editing"
       manage_sections: "Gerenciar Seções"
-    confirm_delete_message: "Are you sure you want to delete this message?"
+    confirm_delete_message: "Você tem certeza que quer remover esta mensagem?"
     confirm_delete_page: "Delete this page and all its content?"
     confirm_delete_section: "Remover esta seção e todos suas páginas?"
     default_description: "This is my %{assignment} submission for %{course}."
@@ -3818,7 +3818,7 @@ pt-BR:
       extracting: "There were errors extracting the zip file.  Please try again."
       failed: Failed
       failed_uploading: "Failed uploading: %{error_info}"
-      loading_file: "Error Loading File Contents.  Please try again."
+      loading_file: "Erro ao Carregar Conteúdo do Arquivo.  Por Favor Tente Novamente."
       missing_field: "Upload failed, expected form field missing"
       not_found: "It looks like something went wrong when this file was uploaded, and we can't find the actual file.  You may want to notify the owner of the file and have them re-upload it."
       server_error: "Upload failed, server error, please try again."
@@ -3933,7 +3933,7 @@ pt-BR:
       folder_empty: "Nada nesta Pasta"
       gathering_data: "Gathering data..."
       gathering_files_with_progress: "Gathering Files (%{progress}%)..."
-      loading_files: "Loading Files..."
+      loading_files: "Carregando Arquivos..."
       no_collaborations: "There are no collaborations to show"
       no_files_selected: "No valid files were selected"
       queue: Queued
@@ -3981,7 +3981,7 @@ pt-BR:
     errors: 
       outcome_retrieval_failed: "Outcomes Retrieval failed unexpected.  Please try again."
     messages: 
-      loading_outcomes: "Loading Outcomes..."
+      loading_outcomes: "Carregando Resultados..."
       no_outcomes_found: "No Outcomes found"
       no_rubric_outcomes_found: "No Rubric-Configured Outcomes found"
     titles: 
@@ -4194,7 +4194,7 @@ pt-BR:
       click_to_record: "Click the mic to record your comments"
       dropped_assignment_no_total: "This assignment will not be considered in the total calculation"
       hypothetical_score: "This is a What-If score"
-      loading: Loading...
+      loading: Carregando...
       turnitin_score: "Turnitin similarity score -- more information"
     tooltips: 
       submission_dropped: "This submission is dropped for grading purposes"
@@ -4436,7 +4436,7 @@ pt-BR:
         add_students: "Add Students to the Course"
         attach_file: "Anexar Arquivo"
         manage: "Gerenciar Grupos de Tarefas"
-      loading_submission: "Loading Submission Details..."
+      loading_submission: "Carregando Detalhes do Envio..."
       no_assignments: "No Assignments created yet for this course."
       no_comments: "No Comments"
       no_students: "No Students are enrolled in the course."
@@ -4703,33 +4703,33 @@ pt-BR:
         delete_category: "Remover Este Conjunto de Grupos"
         edit_category: "Editar Este Conjunto de Grupos"
       group_category_all: Everyone
-      group_category_unassigned: Unassigned
+      group_category_unassigned: "Não Atribuidos"
       group_name: Nome
       instructions: 
-        group_assignment: "drag students to assign to groups"
-      random_distribution_explanation: "Distribute Unassigned Students Equally Among Groups"
-      randomly_distribute_students: "randomly assign students"
+        group_assignment: "arrastar estudantes para atibuir a grupos"
+      random_distribution_explanation: "Distribuir os alunos não atribuidos igualmente entre os grupos"
+      randomly_distribute_students: "atribuir estudantes aleatoriamente"
       restricted_self_signup_blurb: "All students in a group are required to be in the same section."
       self_signup_blurb: "Self sign-up is enabled for these groups."
       self_signup_help_tooltip: "What Are Self Sign-Up Groups?"
       status: 
-        loading: Loading...
+        loading: Carregando...
       student: 
-        one: "1 student"
-        other: "%{count} students"
+        one: "1 estudante"
+        other: "%{count} estudantes"
       warnings: 
         studend_groups: "These groups are self-organized by students. Unlike other types of groups, students can belong to more than one of these groups at a time, so these groups may not be the best solution for graded assignments."
     confirm: 
-      assign_students: "This will randomly assign all unassigned students as evenly as possible among the existing student groups"
+      assign_students: "Isto irá designar aleatoriamente todos os alunos não atribuídos tão uniformemente quanto possível entre os grupos de alunos existentes."
       delete_group: "Are you sure you want to delete this group?"
       remove_category: "Are you sure you want to remove this set of groups?"
     context_groups: 
       account_groups: "Account Groups"
       actions: 
-        add: "Start a New Group"
+        add: "Iniciar um Novo Grupo"
       buttons: 
-        create: "Create Group"
-      course_groups: "Course Groups"
+        create: "Criar Grupo"
+      course_groups: "Grupos do Curso"
       group_explanation: "Groups are a good place to collaborate on projects or to figure out schedules for study sessions and the like. Every group gets a calendar, a wiki, discussions, and a little bit of space to store files. Groups can collaborate on documents, or even schedule web conferences. It's really like a mini-course where you can work with a smaller number of students on a more focused project."
       groups_disabled: "Student-organized groups have been disabled for this course, so you'll have to be content with the groups the teacher makes for you."
       headings: 
@@ -4741,7 +4741,7 @@ pt-BR:
         users_to_invite: Invite
       options: 
         course_member_can_request_access: "Course members can request to join"
-        invite_only: "Membership by invitation only"
+        invite_only: "Filiação por convite apenas"
         open_to_course_members: "Course members are free to join"
       page_title: "Course Groups"
       student_group_warning: "If your teacher has talked about putting you into groups as part of an assignment, this is not the way to make that happen. Groups you organize yourself can't be used for grading... you can still form your own groups, but you won't be able to turn in an electric copy of any assignments unless your teacher builds the groups for you."
@@ -4774,7 +4774,7 @@ pt-BR:
         update: "Update Group"
       confirm: 
         delete: "Are you sure you want to delete this group?"
-      group_settings_title: "%{group_name} Settings"
+      group_settings_title: "Configurações do %{group_name}"
       labels: 
         name: "Nome do Grupo"
       title: 
@@ -4808,7 +4808,7 @@ pt-BR:
       other: "%{count} Groups"
     group_name: "Nome do Grupo"
     index: 
-      heading_current_groups: "Current Groups"
+      heading_current_groups: "Grupos Atuais"
       no_groups: "No Groups"
     loading: "loading group roster..."
     member_tooltip_hide: "Hide group roster"
@@ -4818,7 +4818,7 @@ pt-BR:
       group_join_request_acknowledged: "Thanks for the request, please stay tuned"
       group_join_request_info: "This group has received your request to join. You'll be notified once they accept or reject your request."
     messages: 
-      creating_group: "Creating Group..."
+      creating_group: "Criando Grupo..."
     notices: 
       already_deleted: "That group has been deleted"
       create_category_success: "Category was successfully created."
@@ -4835,14 +4835,14 @@ pt-BR:
       coming_up: "Chegando"
       group_atom_feed: "Group Atom Feed"
       new_announcement: "Novo Anúncio"
-      next_week: "the next week"
+      next_week: "a próxima semana"
     status: 
-      assigning_students: "Assigning Students..."
+      assigning_students: "Atribuindo..."
       creating_groups: "Criando Categoria..."
       loading: Carregando...
       updating: Atualizando...
     student: 
-      drag_drop_instructions: "Click and Drag to move student to another group"
+      drag_drop_instructions: "Clique e Arraste para mover o estudante para outro grupo"
     titles: 
       add_group_category: "Adicionar Conjunto de Grupos"
       self_signup_help: "Auto inscrição em Grupos"
@@ -5750,7 +5750,7 @@ pt-BR:
         group_request_accepted: "Group Request Accepted: %{group_name}"
         labels: 
           click_below: "You can check out the group by clicking the link below"
-        subject: "Group Membership Accepted: %{group_name}"
+        subject: "Filiação no Grupo Aceita: %{group_name}"
       facebook: 
         account_group: "Your request to join the group **[%{group_name}](%{group_url})** for the account %{account_name} has been accepted."
         course_group: "Your request to join the group **[%{group_name}](%{group_url})** for the course %{course_name} has been accepted."
@@ -5762,10 +5762,10 @@ pt-BR:
       summary: 
         account_group: "Your request to join the group %{group_name} for the account %{account_name} has been accepted."
         course_group: "Your request to join the group %{group_name} for the course %{course_name} has been accepted."
-        subject: "Group Membership Accepted: %{group_name}"
+        subject: "Filiação no Grupo Aceita: %{group_name}"
       twitter: 
-        account_group: "Canvas Alert - Group Membership Accepted: %{group_name} for the account %{account_name}."
-        course_group: "Canvas Alert - Group Membership Accepted: %{group_name} for the course %{course_name}."
+        account_group: "Alerta do Canvas - Filiação no Grupo Aceita: %{group_name} para a conta %{account_name}."
+        course_group: "Alerta do Canvas - Filiação no Grupo Aceita: %{group_name} para a conta %{course_name}."
     group_membership_rejected: 
       email: 
         account_group: "Your request to join the group %{group_name} for the account %{account_name} has been rejected."
@@ -5791,7 +5791,7 @@ pt-BR:
     merge_email_communication_channel: 
       email: 
         body: "An account has been created for you at %{url}, but you already have a Canvas account.  If you would like to merge them together, please visit the following url:"
-        subject: "New Canvas Account"
+        subject: "Nova Conta Canvas"
     migration_export_ready: 
       email: 
         body: "The extraction process for the course, %{course_name}, has completed. The content is now ready to be imported into your course."
@@ -6290,7 +6290,7 @@ pt-BR:
     message_description: "For new email messages"
     missing_description_description: "For %{category} notifications"
     names: 
-      account_user_notification: "Account User Notification"
+      account_user_notification: "Notificação de Conta de Usuário"
       account_user_registration: "Registro de Conta de Usuário"
       added_to_conversation: "Added To Conversation"
       alert: Alert
@@ -6411,7 +6411,7 @@ pt-BR:
       outcome_description: "Some outcome"
       select_this_outcome: "Select this outcome"
     index: 
-      back_to_account_home: "Back to Account Home"
+      back_to_account_home: "Voltar para Página Inicial da Home"
       back_to_course_home: "Back to Course Home"
       back_to_group_home: "Back to Group Home"
       back_to_unknown_home: "Back to Home"
@@ -6640,7 +6640,7 @@ pt-BR:
           
           Then check the boxes for "Add Entry" and "Delete Entry" in the "Sent by Server" column.
       headers: 
-        account_settings: "Account Settings"
+        account_settings: "Configurações da Conta"
         domain_settings: "Domain Settings"
         ui_conf_ids: "UI Conf IDs"
       hints: 
@@ -6842,13 +6842,13 @@ pt-BR:
       facebook: Facebook
     form: 
       buttons: 
-        register: Register
+        register: Registrar 
       labels: 
-        change_password: "Change password"
-        confirm_password: "Confirm Password"
-        email_address: "Email Address"
-        password: Password
-        time_zone: "Time Zone"
+        change_password: "Alterar senha"
+        confirm_password: "Confirmar Senha"
+        email_address: "Endereço de Email"
+        password: Senha 
+        time_zone: "Fuso Horário"
     headers: 
       loading_images: "Carregando Imagens..."
     notices: 
@@ -6948,7 +6948,7 @@ pt-BR:
         skype_name: "Nome do Skype"
         sortable_name: "Ordenar Nome"
         subscribe_to_emails: "I want to receive information, news and tips from Instructure"
-        time_zone: "Time Zone"
+        time_zone: "Fuso Horário"
         token: Token
         token_application: App
         token_created: Created
@@ -6958,7 +6958,7 @@ pt-BR:
         user_name: "Nome de Usuário"
       linkedin_description: "LinkedIn is a great resources for business networking, and can be helpful long after you've finished your education. If you have a LinkedIn account, you can register it here. Then if you allow fellow course/group members to see your registered services, they can easily invite you to link with them without having to search LinkedIn for your profile."
       links: 
-        add_account: "Add Account"
+        add_account: "Adicionar Conta"
         delete_profile: "Apagar Meu Perfil"
         delicious: Delicious
         diigo: Diigo
@@ -6976,7 +6976,7 @@ pt-BR:
       no_approved_integrations: "Third-party applications can request permission to access the Canvas site on your behalf. As you begin authorizing applications you will see them listed here."
       no_language_preference: "System Default (%{language})"
       no_registered_services: "No Registered Services"
-      none: None
+      none: Nenhum
       page_title: Perfil
       profile_pictures: "Select the image you'd like to use as your profile pic, or upload a new image:"
       skype_description: "Skype offers free online voice and video calls. Lots of students use Skype as a free, easy way to communicate. If you register your Skype Name and enable visibility, then other students can easily find your contact and call or add you using Skype."
@@ -7126,8 +7126,8 @@ pt-BR:
       invalid_password: "Invalid password"
       password_confirmation_sent: "Password confirmation sent to %{email_address}. Make sure you check your spam box."
     notices: 
-      account_registered: "Account registered!"
-      account_updated: "Account updated!"
+      account_registered: "Conta registrada!"
+      account_updated: "Conta atualizada!"
       email_sent: "Confirmation email sent to %{email}, make sure to check your spam box"
       link_invalid: "The link you used appears to no longer be valid.  If you can't login, try clicking \"Don't Know My Password\" and having a new message sent for you."
       password_changed: "Password changed"
@@ -7753,7 +7753,7 @@ pt-BR:
     question_group: 
       buttons: 
         update: Update
-      default_group_name: Group
+      default_group_name: Grupo
       labels: 
         question_bank: "Questions will be pulled from the bank"
       links: 
@@ -8169,19 +8169,19 @@ pt-BR:
       view_group_pages: "View the group pages of all student groups"
       view_statistics: "View statistics"
     roles: 
-      account_admin: "Account Admin"
-      designer: "Course Designer"
-      observer: Observer
-      student: Student
-      ta: TA
-      teacher: Teacher
+      account_admin: "Conta de Administrador"
+      designer: "Designer"
+      observer: Observador
+      student: Estudante
+      ta: Monitor
+      teacher: Professor
     tooltips: 
       readonly: "you do not have permission to change this."
       toogle: "Click to toggle this permission ON or OFF"
   role_overrides: 
     index: 
       buttons: 
-        save: "Save Changes"
+        save: "Salvar Alterações"
       crumbs: 
         permissions: Permissions
       explanation_defaults: "The partially transparent checkboxes (%{default_checked} and %{default_unchecked}) indicate the system default."
@@ -8189,7 +8189,7 @@ pt-BR:
       explanation_locked: "If you would like to prevent anyone from overriding this in any sub-accounts, click the lock (%{lock}) icon."
       explanation_normal: "You can click to override the default and explicitly **allow** (%{normal_checked}) or **deny** (%{normal_unchecked}) this action."
       headers: 
-        account_permissions: "Account Permissions"
+        account_permissions: "Permissões da Conta"
         account_role_type: "Account Role Type"
         course_permissions: "Course & Account Permissions"
         site_admin_permissions: "Site Admin Permissions"
@@ -8265,7 +8265,7 @@ pt-BR:
         show_rubric: "Show Rubric"
       no_description: "No Description"
       no_name: "Sem Nome"
-      none_invited: "None Invited"
+      none_invited: "Nenhum Convidado"
       special_instructions: "Type any special instructions you have for those assessing your work"
       submitting_instructions: "Type any instructions for those submitting items for assessment"
       view_assessed_page: "View the Page Being Assessed"
@@ -8458,7 +8458,7 @@ pt-BR:
         edit_group_details: Editar 
         move: Mover
       defaults: 
-        group_name: "Course Assignments"
+        group_name: "Tarefas do Curso"
       group_weight: "*%{percent}% da nota total"
       links: 
         add_an_assignment: "Adicionar uma Tarefa"
@@ -9181,7 +9181,7 @@ pt-BR:
       import_warnings: Warnings
       imported_items: "Imported Items"
     import_counts: 
-      accounts: "Accounts: %{account_count}"
+      accounts: "Contas: %{account_count}"
       courses: "Cursos: %{course_count}"
       crosslists: "Crosslists: %{crosslist_count}"
       enrollments: "Enrollments: %{enrollment_count}"
@@ -9226,9 +9226,9 @@ pt-BR:
         one: "1 Course"
         other: "%{count} Cursos"
       account_sub_accounts: 
-        one: "1 Sub-Account"
-        other: "%{count} Sub-Accounts"
-      add_sub_accounts: "Add Sub-Account"
+        one: "1 Subconta"
+        other: "%{count} Subcontas"
+      add_sub_accounts: "Adicionar Subcontas"
       can_not_delete: "You can't delete a sub-account that has courses in it"
       delete_sub_account: "Delete Sub-Account"
       edit_account_name: "Editar Nome da Conta"
@@ -9522,7 +9522,7 @@ pt-BR:
       other: "If you proceed as is, %{count} users will be added."
   user_logins: 
     buttons: 
-      add_login: "Add Login"
+      add_login: "Adicionar Login"
       save: Save
       update_login: "Update Login"
     confirms: 
@@ -9535,7 +9535,7 @@ pt-BR:
     notices: 
       cant_delete_last_login: "You can't delete the last login for a user"
     titles: 
-      add_login: "Add Login"
+      add_login: "Adicionar Login"
       update_login: "Update Login"
   user_name: 
     buttons: 
@@ -9549,7 +9549,7 @@ pt-BR:
     messages: 
       removing_image: "Removing image..."
       reporting_image: "Reporting image..."
-      updating_user_details: "Updating User Details..."
+      updating_user_details: "Atualizando Detalhes do Usuário..."
     notices: 
       image_reported: "This image has been reported"
   user_notes: 
@@ -9692,9 +9692,9 @@ pt-BR:
         password_confirmation: "Confirm Password"
         phone: "Phone Number"
         school_name: School/Institution
-        school_position: "Position at School"
-        time_zone: "Time Zone"
-        unique_id: "Email Address"
+        school_position: "Posição na Escola"
+        time_zone: "Fuso Horário"
+        unique_id: "Endereço de Email"
       optional: (optional)
     google_docs_added: "Google Docs access authorized!"
     google_docs_fail: "Google Docs authorization failed. Please try again"
@@ -9713,7 +9713,7 @@ pt-BR:
       no_grades: "no grades"
       page_title: Notas
       percent: Percent
-      send_teacher_message: "Send a Message to the Teacher"
+      send_teacher_message: "Enviar uma Mensagem para o Professor"
       show_previous_courses: "Exibir Cursos Anteriores"
       titles: 
         current_student_courses: "Cursos que Participo"
@@ -9726,12 +9726,12 @@ pt-BR:
       ie7_really_is_old: "You are using Internet Explorer 7. This browser is not fully supported by Canvas (and many other web sites) and you should %{link}. Until you upgrade, some portions of Canvas will not be fully functional."
       information: Information
     index: 
-      all_users: "All Users"
+      all_users: "Todos Usuários"
       buttons: 
         manage_profile_pictures: "Manage Profile Pictures"
         student_groups: "View Student Groups"
       crumbs: 
-        users: Users
+        users: Usuários
       labels: 
         show_users_for_term: "Show users with enrollments in the term"
       no_results_found: "Nenhum Resultado Encontrado"
@@ -9743,25 +9743,25 @@ pt-BR:
     linkedin_added: "LinkedIn account successfully added!"
     linkedin_fail: "LinkedIn authorization failed. Please try again"
     logins: 
-      add_login: "Add Login"
+      add_login: "Adicionar Login"
       buttons: 
         update_login: "Update Login"
       labels: 
-        account_id: Account
+        account_id: Conta 
         current_ip: "Current login IP"
         current_login: "Current login"
         last_ip: "Last login IP"
         last_login: "Last login"
         last_request: "Last request"
-        password: Password
+        password: Senha
         sis_id: "SIS ID"
         sis_user_id: "SIS ID"
         unique_id: Login
-      more: more...
-      never: never
-      none: none
+      more: mais...
+      never: nunca 
+      none: nenhum
       titles: 
-        logins: "Login Information"
+        logins: "Informações de Login"
     masquerade: 
       are_you_sure_start: "Are you sure you want to masquerade as this user?"
       are_you_sure_stop: "Are you sure you want to stop masquerading?"
@@ -9778,7 +9778,7 @@ pt-BR:
       login_to_merge_different_account: "To merge the account, %{current_user_name} (%{current_user_email}) into another account, please log in to the new account:"
       merge_definition: "For one reason or another you may end up with two logins instead of just one. If that happens, you can merge the two logins together and consolidate the information from them."
       titles: 
-        merge_accounts: "Merge User Accounts"
+        merge_accounts: "Mesclar Conta de Usuários"
     merge_results: 
       action: Action
       emails: Emails
@@ -9791,33 +9791,33 @@ pt-BR:
       will_be_deleted: "will be deleted"
       will_be_kept: "will be kept"
     name: 
-      become: Become
+      become: Tornar-se
       buttons: 
-        update_details: "Update Details"
-      delete_from_account: "Delete from %{account}"
-      edit: Edit
+        update_details: "Atualizar Detalhes"
+      delete_from_account: "Remover de %{account}"
+      edit: Editar
       labels: 
-        default_email: "Default Email"
+        default_email: "Email Padrão"
         display_name: "Nome de Exibição"
         full_name: "Nome Complete"
         name: "Nome Complete"
-        profile_picture: "Profile Picture"
+        profile_picture: "Figura do Perfil"
         short_name: "Nome de Exibição"
         sortable_name: "Nome Classificável"
-        time_zone: "Time Zone"
-      merge_with_another_user: "Merge with Another User"
-      none: None
-      remove_avatar: "Remove avatar picture"
+        time_zone: "Fuso Horário"
+      merge_with_another_user: "Mesclar com Outro Usuário"
+      none: Nenhum
+      remove_avatar: "Remover avatar"
       report_naughtiness: "Report inappropriate picture"
       titles: 
-        edit_user_details: "Edit User Details"
+        edit_user_details: "Editar Detalhes do Usuário"
         name_and_email: "Nome e Email"
-      update_instructions: "You can update some of this user's information, but they can change it back if they choose."
+      update_instructions: "Você pode atualizar algumas informações do utilizador, mas ele pode aterá-las de volta se ele quiser."
     new: 
       buttons: 
-        register: Register
-      email_address: "Email address"
-      invalid_email: "Invalid Email Address"
+        register: Registrar
+      email_address: "Endereço de Email"
+      invalid_email: "Email de Endereço Inválido"
       problems_with_fields: "There were problems with the following fields: %{errors}"
       register_as_teacher: "Register as a Teacher"
       register_for_new_account: "Register for a new account"
@@ -9858,19 +9858,19 @@ pt-BR:
         faculty_journal_for: "Faculty Journal for %{user}"
       courses: Cursos
       enrollments: Inscrições
-      groups: Groups
-      none_yet: "None yet."
-      page_views: "Page Views"
+      groups: Grupos
+      none_yet: "Nenhum ainda."
+      page_views: "Visualização de Páginas"
       see_outcomes: "See Outcome Results for %{user}"
     teacher_activity: 
       crumbs: 
         interaction_report: "Student Interactions Report"
       headings: 
-        current_score: "Current Score"
-        final_score: "Final Score"
-        last_interaction: "Last Student Interaction"
+        current_score: "Pontuação Atual"
+        final_score: "Pontuação Final"
+        last_interaction: "Última Interação do Estudante"
         last_journal_entry: "Last Faculty Journal Entry"
-        student_name: Student
+        student_name: Estudante
         teacher_activity: "Teacher Activity Report for %{teacher}"
         ungraded: "Ungraded Assignments"
       last_time: 
@@ -9926,7 +9926,7 @@ pt-BR:
         select_folder_for_uploads: "Select folder for file uploads"
   wiki_namespace: 
     default_course_wiki_name: "%{course_name} Wiki"
-    default_group_wiki_name: "%{group_name} Wiki"
+    default_group_wiki_name: "Wiki do %{group_name}"
   wiki_page: 
     anonymous_user_name: Anonymous
     atom_entry_title: "Wiki Page, %{course_or_group_name}: %{page_title}"
