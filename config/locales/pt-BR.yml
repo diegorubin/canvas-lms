@@ -829,7 +829,7 @@ pt-BR:
       titles: 
         submission: Submissions
     graded: "This assignment has been graded"
-    group_name: "Group Name"
+    group_name: "Nome do Grupo"
     group_submission_reminder: 
       warnings: 
         group_submission: "Keep in mind, this submission will count for everyone in your %{group_type} group."
@@ -1118,7 +1118,7 @@ pt-BR:
     update_learning_outcome: "Update Learning Outcome"
     update_outcome_group: "Update Outcome Group"
     view_account_roster: "View Account Roster"
-    view_course_roster: "View Course Roster"
+    view_course_roster: "Visualizar Lista do Curso"
   calculator: 
     buttons: 
       save: Salvar
@@ -1239,8 +1239,8 @@ pt-BR:
     last_formula_row: "the last formula row will be used to compute the final answer"
     sample_final_answer: "This value is an example final answer for this question type"
   calendar_event: 
-    feed_item_title: "Calendar Event: %{event_title}"
-    feed_item_title_with_context: "Calendar Event, %{course_or_account_name}: %{event_title}"
+    feed_item_title: "Evento do Calendário: %{event_title}"
+    feed_item_title_with_context: "Evento do Calendário, %{course_or_account_name}: %{event_title}"
     see_assignment: "See %{assignment_name}"
     see_discussion_topic: "See %{discussion_topic_name}"
     see_file: "See %{file_name}"
@@ -1346,14 +1346,14 @@ pt-BR:
       keycode_descriptions: 
         delete: "Delete Current Event"
         edit: "Edit Current Event"
-        next_day: "Next Calendar Day"
-        next_event: "Next Calendar Day/Event"
-        next_week: "Next Week"
-        open: "Open Current Event"
-        previous_day: "Previous Calendar Day"
-        previous_event: "Previous Calendar Day/Event"
+        next_day: "Próximo Dia do Calendário"
+        next_event: "Próximo Dia/Evento do Calendário"
+        next_week: "Próxima Semana"
+        open: "Abrir Evento Atual"
+        previous_day: "Dia Anterior do Calendário"
+        previous_event: "Dia/Evento Anterior do Calendário"
         previous_week: "Previous Week"
-        refresh: "Refresh Calendar"
+        refresh: "Atualizar Calendário"
       keycode_descriptoins: 
         new: "New Event for Current Day"
       keycodes: 
@@ -1451,7 +1451,7 @@ pt-BR:
       labels: 
         collaborate_using: "Collaborate Using"
         description: Description
-        document_name: "Document Name"
+        document_name: "Nome do Documento"
       messages: 
         delete_google_doc_as_well: "This collaboration is being stored as a Google Doc. Did you want to delete it just from Canvas, or remove it from Google Docs as well?"
       titles: 
@@ -1520,11 +1520,11 @@ pt-BR:
         register_with_course: "In order to finish signing you up for the course **%{course}**, we'll need a few more pieces of information."
         wrong_account: "O convite para %{course} foi enviado para **%{invited_user}**, mas atualmente você esta logado como **%{current_user}**"
       labels: 
-        name: "Full Name"
-        password: Password
+        name: "Nome Completo"
+        password: Senha
         password_confirmation: "Confirm Password"
-        short_name: "Short Name"
-        sortable_name: "Sortable Name"
+        short_name: "Apelido"
+        sortable_name: "Nome Classificável"
         subscribe_to_emails: "I want to receive information, news and tips from Instructure"
         time_zone: "Time Zone"
         unique_id: "Email Address"
@@ -1573,7 +1573,7 @@ pt-BR:
           all_group_members: "Invite All Group Members"
         long_running: "This is a long-running conference and should not be automatically closed"
         members: Members
-        name: Name
+        name: Nome
         options: Options
         type: Tipo
       links: 
@@ -1602,7 +1602,7 @@ pt-BR:
         description: Description
         duration: Duration
         members: Members
-        name: Name
+        name: Nome
         status: Status
         type: Tipo
       minute: 
@@ -2112,15 +2112,15 @@ pt-BR:
       titles: 
         prior_users: "Prior Users"
     roster: 
-      group_members: "Group Members"
+      group_members: "Membros do Grupo"
       links: 
-        manage_users: "Manage Users"
+        manage_users: "Gerenciar Usuários"
         view_faculty_journals: "View Faculty Journals"
-        view_prior_enrollments: "View Prior Enrollments"
-        view_services: "View Registered Services"
+        view_prior_enrollments: "Visualizar Inscrições Prévias"
+        view_services: "Visualizar serviços registrados"
         view_student_groups: "Exibir Grupos de Estudantes"
       students: Estudantes
-      teachers: "Teachers & TAs"
+      teachers: "Professores e Monitores"
       titles: 
         course_roster: "Course Roster"
         group_roster: "Group Roster"
@@ -2286,7 +2286,7 @@ pt-BR:
       labels: 
         indent: Indent
         module_complete_when: "This module is complete when"
-        module_name: Name
+        module_name: Nome
         modules: 
           before_students_view: "Before students can view this module"
         new_tab: "Load this tool in a new tab"
@@ -2299,7 +2299,7 @@ pt-BR:
         add_prerequisite: "Add prerequisite"
         add_requirement: "Add requirement"
         reload_student: "Reload Student's Progress"
-        sort_by_name: Name
+        sort_by_name: Nome
         sort_by_progress: Progress
         title: 
           remove_prerequisite: "Remove this prerequisite"
@@ -2437,7 +2437,7 @@ pt-BR:
       red: Red
       yellow: Yellow
   conversations: 
-    course_sections: "Course Sections"
+    course_sections: "Seções do Curso"
     crumbs: 
       messages: Conversations
     enrollments_observers: Observers
@@ -2519,17 +2519,17 @@ pt-BR:
   course: 
     csv: 
       comments: Comments
-      current_score: "Current Score"
+      current_score: "Pontuação Atual"
       final_grade: "Classificação Final"
       final_score: "Pontuação Final"
       id: ID
       points_possible: "Points Possible"
       read_only_field: "(read only)"
-      section: Section
+      section: Seção
       sis_login_id: "SIS Login ID"
       sis_user_id: "SIS User ID"
       student: Estudante
-    default_grading_scheme_name: "Default Grading Scheme"
+    default_grading_scheme_name: "Sistema de Classificação Padrão"
     default_name: "Meu Curso"
     default_short_name: Course-101
     errors: 
@@ -2602,18 +2602,18 @@ pt-BR:
     sis_id_taken: "SIS ID \"%{sis_id}\" is already in use"
   course_settings: 
     buttons: 
-      add_section: "Add Section"
-      adding_section: "Adding Section..."
+      add_section: "Adicionar Seção"
+      adding_section: "Adicionando Seção..."
       re_sending_all: "Re-Sending Unaccepted Invitations..."
       re_sent_all: "Re-Sent All Unaccepted Invitations!"
     confirm: 
-      delete_section: "Are you sure you want to delete this section?"
+      delete_section: "Você tem certeza que quer remover esta seção?"
       publish_grades: "Are you sure you want to publish these grades to the student information system? You should only do this if all your grades have been finalized."
       re_publish_grades: "Are you sure you want to republish these grades to the student information system?"
-    course_dates_enforced: "Users can only participate in the course between these dates"
-    course_dates_unenforced: "These dates will not affect course availability"
+    course_dates_enforced: "Os usuários só podem participar do curso entre essas datas"
+    course_dates_unenforced: "Estas datas não afetaram a disponibilidade do curso"
     defaults: 
-      user_name: User
+      user_name: Usuário
     details: 
       re_send_invitation: "This user has not yet accepted their invitation.  Click to re-send invitation."
     errors: 
@@ -2622,9 +2622,9 @@ pt-BR:
       move_user: "Something went wrong moving the user to the new section. Please try again later."
       publish_grades: "Something went wrong when trying to publish grades to the student information system. Please try again later."
       re_send_all: "Send Failed, Please Try Again"
-      section: "Add Section Failed, Please Try Again"
+      section: "Adicionar Seção Falhou, Por Favor Tente Novamente"
     grading_standard_set: "Currently Set"
-    grading_standard_unset: "Not Set"
+    grading_standard_unset: "Não Definido"
     indexed_course: "Included in public course index"
     invitation_sent: "Invitation Sent!"
     invitation_sent_now: "Just Now"
@@ -2683,7 +2683,7 @@ pt-BR:
         copy_course: "Copiar %{course}"
       labels: 
         conclude_at: "Data de Término"
-        course_code: "Course Code"
+        course_code: "Código do Curso"
         enrollment_term_id: Term
         name: Nome
         start_at: "Data de Início"
@@ -2769,7 +2769,7 @@ pt-BR:
     index: 
       headings: 
         my_courses: "Meus Cursos"
-        past_enrollments: "Past Enrollments"
+        past_enrollments: "Inscrições Passadas"
       links: 
         start_course: "Iniciar um Novo Curso"
       titles: 
@@ -2843,40 +2843,40 @@ pt-BR:
       admin_invitation_unaccepted: "%{user} hasn't yet accepted the invitation to join the course. The invitation was sent: %{time}"
       alerts_title: Alerts
       buttons: 
-        add_section: "Add Section"
+        add_section: "Adicionar Seção"
         add_users: "OK Looks Good, Add These Users"
         continue: Continue...
-        kthxbai: "Cool, Thanks"
+        kthxbai: "Legal, Obrigado"
         modify_users: "Volte para a edição da lista de usuários"
         move_course: "Move Course"
         reset: "Reset Course Content"
         unconclude: "Un-Conclude Course"
-        update_course: "Update Course Details"
+        update_course: "Atualizar Detalhes do Curso"
       course_overrides_term: "This will override any term availability settings."
-      date_restricted: "Users can only participate in the course between these dates"
+      date_restricted: "Os usuários só podem participar do curso entre essas datas"
       deatils: 
         move_course: "Select a new root account for this course. After you move the course you'll want to specify a new department for the course as well."
       drag_details: "Disabling most pages will cause students who visit those pages to be redirected to the course home page."
       drag_to_hide: "Drag items here to hide them from students."
       enrollment_count: 
-        one: "1 User"
-        other: "%{count} Users"
+        one: "1 Usuário"
+        other: "%{count} Usuários"
       good_twitter_hashtag: 
         example: "#sfu-bio100"
       grading_standard_currently_set: "Currently Set"
-      grading_standard_not_set: "Not Set"
+      grading_standard_not_set: "Não Definido"
       headings: 
         add_users: "Add Course Users"
-        current_users: "Current Users"
-        details: "Course Details"
-        external_tools: "External Tools"
+        current_users: "Usuários Atuais"
+        details: "Detalhes do Curso"
+        external_tools: "Ferramentas Externas"
         grade_publishing: "Publishing de Nota"
         move_course: "Move the course to another root account"
-        observers: Observers
-        sections: "Course Sections"
+        observers: Observadores
+        sections: "Seções do Curso"
         students: Estudantes
-        tas: TAs
-        teachers: Teachers
+        tas: Monitores
+        teachers: Professores
       help: 
         edit_navigation: "Drag and drop items to reorder them in the course navigation."
         hashtags: |-
@@ -2887,31 +2887,31 @@ pt-BR:
         reset_course_content: "Resetting course content will permanently delete all associated assignments, discussions, quizzes, modules, rubrics, pages, files, learning outcomes, question banks, collaborations, conferences, or any other content.  This action is irreversible, and the data *cannot* be recovered. Are you sure you wish to continue?"
       images: 
         alt: 
-          cant_delete: "can't delete"
-          delete: delete
-          edit: edit
+          cant_delete: "não é possível remover"
+          delete: remover
+          edit: editar
       indexed_course: "Included in public course index"
       invitations_pending_publish: "Invitations aren't sent until the course is *published*"
       invite_to_unpublished_course: "Since the course hasn't been published, students and TAs will be added, but won't be invited to join the course. Invitations will be sent out when the course is published."
       labels: 
-        account_id: Department
+        account_id: Departamento 
         allow_student_assignment_edits: "Let Students edit Assignment Descriptions"
         allow_student_forum_attachments: "Let Students attach files to Discussion Posts"
         allow_student_organized_groups: "Let Students organize their own Groups"
         auto_accept_enrollment: "don't send invite, just auto-accept these users"
-        conclude_at: Ends
-        course_code: "Course Code"
-        course_name: Name
+        conclude_at: Término
+        course_code: "Código do Curso"
+        course_name: Nome
         course_open_enrollment: "This course has enabled open enrollment. Students can self-enroll in the course once you share with them this url"
         course_section_id: "For the section"
-        course_section_name: "Add a New Section"
-        course_visibility: Visibility
-        enrollment_term_id: Term
-        enrollment_type: "Add More"
-        examples: Examples
+        course_section_name: "Adicionar uma Nova Seção"
+        course_visibility: Visibilidade
+        enrollment_term_id: Prazo
+        enrollment_type: "Adicionar Mais"
+        examples: Exemplos
         good_twitter_hashtag: 
           description: "much better"
-        grading_scheme: "Grading Scheme"
+        grading_scheme: "Sistema de Classificação"
         grading_standard_enabled: "Enable course grading scheme"
         hashtag: Hashtag
         hide_final_grade: "Hide totals in student grades summary"
@@ -2922,15 +2922,15 @@ pt-BR:
         limit_privileges_to_course_section: "these admins can only grade students in their section"
         observers: Observers
         open_enrollment: "Add a \"Join this Course\" link to the course home page"
-        restrict_enrollments_to_course_dates: "Users can only participate in the course between these dates"
-        root_account_id: "Root Account"
+        restrict_enrollments_to_course_dates: "Os usuários só podem participar do curso entre essas datas"
+        root_account_id: "Conta Raiz"
         self_enrollment: "Let students self-enroll by sharing with them a secret URL"
         show_public_context_messages: "collect public messages for this hashtag"
         sis_source_id: "SIS ID"
-        start_at: Starts
-        storage_quota: "File Storage"
+        start_at: Início
+        storage_quota: "Espaço de Armazenamento"
         students: Estudantes
-        tas: TAs
+        tas: Monitores
         teachers: Professores 
         too_general_twitter_hashtag: 
           description: "too general"
@@ -2943,37 +2943,37 @@ pt-BR:
         calendar: "Calendário do Curso"
         conclude: "Encerrar este Curso"
         copy: "Copiar este Curso"
-        delete: "Permanently Delete this Course"
+        delete: "Remover esta Conta Permanentemente"
         edit_course: "Editar Detalhes do Curso"
         export: "Exportar este Curso"
         hashtag_help: "O que é uma hashtag?"
         import: "Importar Conteúdo neste Curso"
         more_options: "mais opções"
-        move_course: "Move To Another Account"
+        move_course: "Mover Para Outra Conta"
         re_send_invitation: "Re-Send Invitation"
         reset: "Reiniciar Conteúdo do Curso"
         stats: "Estatísticas do Curso"
         title: 
-          cant_delete: "You can't delete sections that have users enrolled"
-          delete_section: "Delete Section"
-          edit_section: "Edit Section"
+          cant_delete: "Você não pode remover seções que possuem usuários inscritos"
+          delete_section: "Remover Seção"
+          edit_section: "Editar Seção"
       megabytes: megabytes
-      no_date: "No Date Set"
-      no_language_preference: "Not set (user-configurable, defaults to %{language})"
+      no_date: "Sem Data Definida"
+      no_language_preference: "Não definido (configurado pelo usuário, o padrão é %{language})"
       no_observers: "No Observers Enrolled"
       no_students: "No Students Enrolled"
       no_tas: "No TAs Assigned"
       no_teachers: "No Teachers Assigned"
-      none: None
-      not_date_restricted: "These dates will not affect course availability"
+      none: Nenhum
+      not_date_restricted: "Estas datas não afetaram a disponibilidade do curso"
       option: 
-        observers: Observers
+        observers: Observadores
         students: Estudantes
-        tas: TAs
-        teachers: Teachers
-      page_title: "Course Details"
-      private_course: Private
-      public_course: Public
+        tas: Monitores
+        teachers: Professores
+      page_title: "Detalhes do Curso"
+      private_course: Particular
+      public_course: Público
       re_send_all: "or *Re-Send All Unaccepted Invitations*"
       section_sis_id: "SIS ID: %{section_sis}"
       set_grading_scheme: "set grading scheme"
@@ -2985,10 +2985,10 @@ pt-BR:
       tab_hidden_if_disabled: "Page disabled, won't appear in navigation"
       tabs: 
         alerts: Alerts
-        details: "Course Details"
+        details: "Detalhes do Curso"
         grade_publishing: "Publicação de Nota"
         navigation: Navigation
-        sections: Sections
+        sections: Seções
         tools: "External Tools"
         users: Users
       teacherless_invite_details: "If you invite a teacher and they accept, you will give up administrative privileges for this course."
@@ -3044,7 +3044,7 @@ pt-BR:
         assignments: "a Lista de Tarefas"
         communication_stream: "o Fluxo de Comunicação"
         custom_page: "a Page I'll Design Myself"
-        modules: "the Course Modules/Sections"
+        modules: "os Módulos/Seções do Curso"
         syllabus: "the Assignments with Syllabus"
       period_name: "as 2 últimas semanas"
       re_sending: Reenviando...
@@ -3124,7 +3124,7 @@ pt-BR:
   crumbs: 
     access_report: "Access Report"
     assignments: Tarefas
-    calendar_events: "Calendar Events"
+    calendar_events: "Eventos do Calendário"
     chat: Chat
     conferences: Conferências
     confirmation: Confirmação
@@ -3133,7 +3133,7 @@ pt-BR:
     eportfolio_welcome: "Welcome to Your ePortfolio"
     error_reports: "Error Reports"
     files: Arquivos 
-    grading_schemes: "Grading Schemes"
+    grading_schemes: "Sistema de Classificação"
     groups: Grupos
     media: Media
     modules: Módulos
@@ -3278,11 +3278,11 @@ pt-BR:
     posts_feed_title: "%{title} Posts Feed"
     updated_entry_notice: "Entry was successfully updated."
   discussion_entry: 
-    default_user_name: "User Name"
+    default_user_name: "Nome do Usuário"
     file_added_warning: "Added file \"%{file_path}\" which is needed for an entry in the topic \"%{discussion_topic_title}\""
   discussion_topic: 
     default_title: "Sem Título"
-    default_user_name: "User Name"
+    default_user_name: "Nome do Usuário"
     empty_message: "No message"
   discussion_topics: 
     deleted_topic_notice: "That topic has been deleted"
@@ -3416,10 +3416,10 @@ pt-BR:
     action_instructions: "Click to %{action}"
     buttons: 
       done_editing: "Done Editing"
-      manage_sections: "Manage Sections"
+      manage_sections: "Gerenciar Seções"
     confirm_delete_message: "Are you sure you want to delete this message?"
     confirm_delete_page: "Delete this page and all its content?"
-    confirm_delete_section: "Delete this section and all its pages?"
+    confirm_delete_section: "Remover esta seção e todos suas páginas?"
     default_description: "This is my %{assignment} submission for %{course}."
     eportfolio_settings: "ePortfolio Settings"
     errors: 
@@ -3441,7 +3441,7 @@ pt-BR:
     errors: 
       missing_page: "Couldn't find that page"
   eportfolio_category: 
-    default_section: "Section Name"
+    default_section: "Nome da Seção"
   eportfolio_entries: 
     errors: 
       not_found: "Not Found"
@@ -3450,7 +3450,7 @@ pt-BR:
   eportfolio_entry: 
     click_through: "Click to view page content"
     default_content: "Nenhum Conteúdo Adicionado Ainda"
-    default_name: "Page Name"
+    default_name: "Nome da Página"
   eportfolios: 
     _page_section: 
       section_types: 
@@ -3467,7 +3467,7 @@ pt-BR:
       updated_at: "last updated %{updated_at}"
     help_link_text: "%{help_icon} Como Eu Faço...?"
     manage_pages_link_text: "Organize/Manage Pages"
-    manage_sections_link_text: "Organize Sections"
+    manage_sections_link_text: "Organizar Seções"
     notices: 
       created: "Porfolio successfully created"
       deleted: "Portfolio successfully deleted"
@@ -3476,7 +3476,7 @@ pt-BR:
     page_list: 
       buttons: 
         done_editing: "Done Editing"
-      default_page_name: "Page Name"
+      default_page_name: "Nome da Página"
       edit_instructions: "Click any page name to rename it, or click and drag to reorder."
       headers: 
         page_list: "Pages for this section"
@@ -3497,7 +3497,7 @@ pt-BR:
         rich_text: "Rich Text Content"
         submission: "Course Submission"
       titles: 
-        delete_section: "Delete this section"
+        delete_section: "Remover esta seção"
         move_section: "Drag to rearrange sections"
     page_section_static: 
       headers: 
@@ -3513,9 +3513,9 @@ pt-BR:
     section_list: 
       buttons: 
         done_editing: "Done Editing"
-      default_section_name: "Section Name"
+      default_section_name: "Nome da Seção"
       links: 
-        add_section: "Add Section"
+        add_section: "Adicionar Seção"
         settings: "ePortfolio Settings"
       titles: 
         manage_sections: "Add, remove or rearrange sections for this portfolio"
@@ -3552,13 +3552,13 @@ pt-BR:
         add_comment: "Add a New Comment"
         allow_comments: "Allow Comments on this Page"
         choose_submission: "Select an assignment submission to embed in this page"
-        eportfolio_name: "ePortfolio Name"
+        eportfolio_name: "Nome do ePortfolio"
         file_select: "Select a file to include on this page"
         file_upload: "Or upload a new file"
         html_content: "Copy and paste your HTML code into the box below"
         loading_submission: "Loading Submission"
         make_public: "Make it Public"
-        page_name: "Page Name"
+        page_name: "Nome da Página"
         section: Section
         show_comments: "Make Comments Public"
         uploading_file: Uploading
@@ -3611,8 +3611,8 @@ pt-BR:
         my_eportfolios: "My ePortfolios"
         what: "What's an ePortfolio?"
       labels: 
-        eportfolio_name: "ePortfolio Name"
-        make_public: "Make it Public"
+        eportfolio_name: "Nome do ePortfolio"
+        make_public: "Torna-lo Público"
       links: 
         create: "Create an ePortfolio"
       page_title: "My ePortfolios"
@@ -3641,7 +3641,7 @@ pt-BR:
         introduction: Introduction
         page_content: "Page Content"
         pages: "Section Pages"
-        sections: "Portfolio Sections"
+        sections: "Seções do Portfolio"
         settings: "ePortfolio Settings"
         submissions: "Adding Submissions"
       introduction: 
@@ -3711,11 +3711,11 @@ pt-BR:
         description: Description
         domain: Domain
         match_by: "Match By"
-        name: Name
+        name: Nome
         privacy_level: Privacy
         shared_secret: "Shared Secret"
         url: URL
-      name_only: "Name Only"
+      name_only: "Apenas o Nome"
       public: Public
       shared_secret_note: "enter a new value to change"
       url: URL
@@ -3868,7 +3868,7 @@ pt-BR:
         lock_after: "Lock After"
         lock_until: "Lock Until"
         locked: "Lock until I manually unlock it"
-        title: "Document Name"
+        title: "Nome do Documento"
       links: 
         add_file: "Add File"
         add_folder: "Adicionar Pasta"
@@ -4067,11 +4067,11 @@ pt-BR:
         other: "%{count} Estudantes no Total"
       unpublished_notice: "Não preocupe-se, este curso irá ficar visível apenas para você até que você publique-o. Quando você publicá-lo, o curso se tornará ativo e os estudantes serão notificados de que ele foi criado e que estão matriculados. Você pode publicá-lo a qualquer momento através da página principal do curso."
     student: 
-      edit_name_title: "Click to Edit Name"
+      edit_name_title: "Clique para Editar o Nome"
       missing_email: "no email"
       new_student_name: "New Student"
       remove_student_title: "Remove this Student"
-      student_name_title: "Student Name"
+      student_name_title: "Nome do Estudante"
     students: 
       go_back_and_edit: "Volte para a edição da lista de usuários"
       looks_good: "OK Looks Good, Add These Users"
@@ -4147,7 +4147,7 @@ pt-BR:
     graded_then_resubmitted: "graded, then resubmitted (%{when})"
     hide_all_things: "Hide All %{things}"
     hide_column: "Hide Column"
-    hide_student_name: "Hide Student Names"
+    hide_student_name: "Esconder Nomes do Estudantes"
     ignore_ungraded: "Ignore Ungraded Assignments"
     include_ungraded: "Include Ungraded Assignments"
     labels: 
@@ -4174,15 +4174,15 @@ pt-BR:
     scored_more_than: "Scored more than"
     set_default_grade: "Set Default Grade"
     set_group_weights: "Set Group Weights"
-    show_student_name: "Show Student Names"
-    showing_all_sections: "Showing All Sections"
+    show_student_name: "Exibir Nomes do Estudantes"
+    showing_all_sections: "Exibindo Todas as Seções"
     showing_section: "Showing Section: %{section}"
     sort_columns_by: "Sort Columns By..."
     sort_rows_by: "Sort Rows By..."
     speed_grader: SpeedGrader
     student: Student
     student_mute_notification: "Instructor is working on grades"
-    student_name: "Student Name"
+    student_name: "Nome do Estudante"
     students_who: 
       havent_submitted_yet: "Haven't submitted yet"
       scored_less_than: "Scored less than"
@@ -4358,7 +4358,7 @@ pt-BR:
       headers: 
         due: Entrega
         grades: "Notas Para %{student}"
-        name: Name
+        name: Nome
         out_of: "Out of"
         score: Score
       labels: 
@@ -4400,8 +4400,8 @@ pt-BR:
         by_due_date: "By Due Date"
         by_email: "By Email/ID"
         by_group: "Por Grupo de Tarefas"
-        by_name: "By Student Name"
-        by_section: "By Section Name"
+        by_name: "Pelo Nome do Estudante"
+        by_section: "Pelo Nome da Seção"
         by_total_asc: "By Total (Lowest First)"
         by_total_desc: "By Total (Highest First)"
         curve_grades: "Curve Grades"
@@ -4416,7 +4416,7 @@ pt-BR:
       grade_statistics: "Grade statistics for %{assignment}"
       headers: 
         loading_gradebook: "Carregando Boletim..."
-      hide_names: "Hide Student Names"
+      hide_names: "Esconder Nomes dos Estudantes"
       labels: 
         assign_blanks: "Assign zero's to unsubmitted students"
         assignment_submitted: Submitted
@@ -4646,18 +4646,18 @@ pt-BR:
       cannot_remove_grading_scheme: "There was a problem removing this grading scheme.  Please reload the page and try again."
       save_failed: "Save Failed"
     grading_scheme_currently_set: "Currently Set"
-    grading_scheme_not_set: "Not Set"
+    grading_scheme_not_set: "Não Definido"
     index: 
       buttons: 
-        add: "Add Grading Scheme"
-      heading_grading_schemes: "Grading Schemes"
+        add: "Adicionar Sistema de Graduação"
+      heading_grading_schemes: "Sistemas de Graduação"
       title: "Grading Standards"
     no_grading_standards: "No grading standards found"
     status: 
       loading_grading_standards: "Loading Grading Standards..."
       saving: Saving...
     titles: 
-      grading_scheme_info: "View/Edit Grading Scheme"
+      grading_scheme_info: "Exibir/Editar Sistema de Graduação"
   group: 
     tabs: 
       chat: Chat
@@ -4684,7 +4684,7 @@ pt-BR:
       labels: 
         group_structure: "Group Structure"
         manually_create_groups: "I'll create groups manually"
-        name_for_groups: "Name for Groups"
+        name_for_groups: "Nome para Grupos"
         self_signup: "Self Sign-Up"
       restricted_self_signup: "Require group members to be in the same section"
       self_signup_help_tooltip: "What Are Self Sign-Up Groups?"
@@ -4704,7 +4704,7 @@ pt-BR:
         edit_category: "Edit This Set of Groups"
       group_category_all: Everyone
       group_category_unassigned: Unassigned
-      group_name: Name
+      group_name: Nome
       instructions: 
         group_assignment: "drag students to assign to groups"
       random_distribution_explanation: "Distribute Unassigned Students Equally Among Groups"
@@ -4736,7 +4736,7 @@ pt-BR:
         available_groups: "Available Groups"
         new_group: "Make a New Group"
       labels: 
-        name: "Group Name"
+        name: "Nome do Grupo"
         restrictions_for_joining_groups: Joining
         users_to_invite: Invite
       options: 
@@ -4750,12 +4750,12 @@ pt-BR:
       actions: 
         add_students: "Add Students to the Course"
       buttons: 
-        add_group: "Make a New Set of Groups"
-      course_group_explanation: "Student groups are a useful way to organize students for things like group projects or papers. Every student group gets their own calendar, discussion board and collaboration tools so they can organize themselves and work together more effectively."
+        add_group: "Criar um Novo Conjunto de Grupos"
+      course_group_explanation: "Os grupos de alunos são uma maneira útil de organizar os estudantes para coisas como projetos e trabalhos. Cada grupo de alunos possue seu próprio calendário, fórum de discussão e ferramentas de colaboração para que eles possam se orgranizar e trabalhar juntos de forma eficaz."
       drag_and_drop_instructions: "Click and drag to move student to another group."
-      get_started_info: "To get started, click the \"Make a New Set of Groups\" link to the right."
-      group_assignment_instructions: "You can randomly assign students to groups of a specific size, or manually create and organize the groups. Once your groups are created, you can set assignments to be \"group submission\" assignments, which means each group will have one submission for all users of that group."
-      group_pages: "Group Pages"
+      get_started_info: "Para iniciar, clique em \"Criar um Novo Conjunto de Grupos\" na barra lateral direita."
+      group_assignment_instructions: "Você pode atribuir aleatoriamente os alunos em grupos de um tamanho específico ou manualmente criar e organizar os grupos. Uma vez que os grupos são criados, você pode definir tarefas para serem \"enviadas em grupo\", o que significa que cada grupo terá uma entrega para todos os usuários desse grupo."
+      group_pages: "Páginas de Grupo"
       headings: 
         account_groups: "Account-level Student Groups"
         course_groups: "Grupos de Estudantes"
@@ -4782,7 +4782,7 @@ pt-BR:
         delete: "Are you sure you want to delete this group?"
       group_settings_title: "%{group_name} Settings"
       labels: 
-        name: "Group Name"
+        name: "Nome do Grupo"
       title: 
         confirm_delete: "Confirm Group Delete"
     edit_group_category: 
@@ -4812,7 +4812,7 @@ pt-BR:
       no_members: "No members"
       one: "1 Group"
       other: "%{count} Groups"
-    group_name: "Group Name"
+    group_name: "Nome do Grupo"
     index: 
       heading_current_groups: "Current Groups"
       no_groups: "No Groups"
@@ -4850,7 +4850,7 @@ pt-BR:
     student: 
       drag_drop_instructions: "Click and Drag to move student to another group"
     titles: 
-      add_group_category: "Add Set of Groups"
+      add_group_category: "Adicionar Conjunto de Grupos"
       self_signup_help: "Self Sign-Up Groups"
   info: 
     feedback_subject: "Student Feedback on %{course}"
@@ -4897,7 +4897,7 @@ pt-BR:
       view_equella_content_in_new_window: "view the content in a new window"
     loading: Loading...
     no_description: "No description"
-    no_results_found: "No Results Found"
+    no_results_found: "Nenhum Resultado Encontrado"
     status: 
       diigo_search_throttling: "Diigo limits users to one search every ten seconds.  Please wait..."
       posting_message: "Posting Message..."
@@ -4957,7 +4957,7 @@ pt-BR:
   labels: 
     announcements: Anúncios
     assignments: Tarefas
-    calendar_events: "Calendar Events"
+    calendar_events: "Eventos do Calendário"
     discussion_responses: "Respostas da Discussão"
     discussions: Discussões
     external_tools: "External Tools"
@@ -4986,7 +4986,7 @@ pt-BR:
         assignments_needing_grading: "Needing Grading"
         assignments_needing_submitting: "To Turn In"
         assignments_recently_graded: "Recently Graded"
-        calendar: Calendar
+        calendar: Calendário
         grades: Notas
       missing_page_title: "Add a page title here."
       open_source_learning_management_system: "Open Source LMS"
@@ -5144,7 +5144,7 @@ pt-BR:
       email: 
         added_message: "You've been added as an %{role_type} to the account %{account} at %{website}."
         email_info: "Email: %{email}"
-        name_info: "Name: %{name}"
+        name_info: "Nome: %{name}"
         subject: "Canvas Account Admin Invitation"
         url_info: |-
             You'll need to register with Canvas before you can participate as an account admin.  You can finish the registration process here:
@@ -5550,7 +5550,7 @@ pt-BR:
         details: "Visit the course page here:"
         labels: 
           email: Email
-          name: Name
+          name: Nome
           username: Username
         none: none
         subject: "Course Invitation"
@@ -5562,7 +5562,7 @@ pt-BR:
         body_teacher: "You've been invited to participate in the course %{course} as a teacher."
         labels: 
           email: Email
-          name: Name
+          name: Nome
           username: Username
         none: none
       sms: 
@@ -5574,7 +5574,7 @@ pt-BR:
         details: "More info at %{url}"
         labels: 
           email: Email
-          name: Name
+          name: Nome 
           username: Username
         none: none
       summary: 
@@ -5596,7 +5596,7 @@ pt-BR:
         details: "Visit the course page here:"
         labels: 
           email: Email
-          name: Name
+          name: Nome
           username: Username
         none: none
         register: "Visit %{link} to complete registration"
@@ -5609,7 +5609,7 @@ pt-BR:
         body_teacher: "You've been enrolled in the course %{course} as a teacher."
         labels: 
           email: Email
-          name: Name
+          name: Nome 
           username: Username
         none: none
       sms: 
@@ -5621,7 +5621,7 @@ pt-BR:
         details: "More info at %{url}"
         labels: 
           email: Email
-          name: Name
+          name: Nome
           username: Username
         none: none
       summary: 
@@ -5643,7 +5643,7 @@ pt-BR:
         details: "You'll need to register with Canvas before you can participate in the class.  To get started, visit the course page here:"
         labels: 
           email: Email
-          name: Name
+          name: Nome 
           username: Username
         none: none
         subject: "Course Invitation"
@@ -5656,7 +5656,7 @@ pt-BR:
         details: "More info at %{url}"
         labels: 
           email: Email
-          name: Name
+          name: Nome
           username: Username
         none: none
       summary: 
@@ -5990,7 +5990,7 @@ pt-BR:
         labels: 
           email: Email
           phone: Phone
-          school_name: "School Name"
+          school_name: "Nome da Escola"
           school_position: "School Position"
         subject: "Novo Professor Registrado"
       facebook: 
@@ -6003,7 +6003,7 @@ pt-BR:
         labels: 
           email: Email
           phone: Phone
-          school_name: "School Name"
+          school_name: "Nome da Escola"
           school_position: "School Position"
         subject: "Registro de Novo Professor"
       twitter: 
@@ -6129,7 +6129,7 @@ pt-BR:
       email: 
         body: "The grade on your assignment, %{assignment_title} has been changed."
         link_message: "You can review the assignment here:"
-        no_date_set: "No Date Set"
+        no_date_set: "Sem Data Definida"
         not_applicable: N/A
         regraded_date: "re-graded: %{date}"
         score: "score:  %{score} out of %{total}"
@@ -6137,7 +6137,7 @@ pt-BR:
         subject: "Nota Alterada: %{assignment}, %{context}"
       facebook: 
         body: "The grade on your assignment, *%{title}* has been changed."
-        no_date_set: "No Date Set"
+        no_date_set: "Sem Data Definida"
         not_applicable: N/A
         regraded_date: "re-graded: %{date}"
         score: "score: %{score} out of %{total}"
@@ -6145,20 +6145,20 @@ pt-BR:
       sms: 
         body_sms: "Your grade for %{title}, %{context} just changed."
         more_info: "More info at %{url}"
-        no_date_set: "No Date Set"
+        no_date_set: "Sem Data Definida"
         not_applicable: N/A
         regraded_date: "re-graded: %{date}"
         score: "score:  %{score} out of %{total}"
         score_pending: "score pending review by the teacher"
       summary: 
-        no_date_set: "No Date Set"
+        no_date_set: "Sem Data Definida"
         not_applicable: N/A
         regraded_date: "re-graded: %{date}"
         score: "score:  %{score} out of %{total}"
         score_pending: "score pending review by the teacher"
         subject: "Nota Alterada: %{title}, %{context}"
       twitter: 
-        no_date_set: "No Date Set"
+        no_date_set: "Sem Data Definida"
         not_applicable: N/A
         score: "score:  %{score} out of %{total}"
         score_pending: "(pending review)"
@@ -6168,7 +6168,7 @@ pt-BR:
         body: "Your assignment, %{assignment}, has been graded."
         graded_date: "graded: %{date}"
         link_message: "You can review the assignment here:"
-        no_date_set: "No Date Set"
+        no_date_set: "Sem Data Definida"
         not_applicable: N/A
         score: "score:  %{score} out of %{total}"
         score_pending_review: "score pending review by the teacher"
@@ -6176,27 +6176,27 @@ pt-BR:
       facebook: 
         body: "Your assignment, *%{title}*, has been graded."
         graded_date: "graded: %{date}"
-        no_date_set: "No Date Set"
+        no_date_set: "Sem Data Definida"
         not_applicable: N/A
         score: "score: %{score} out of %{total}"
         score_pending_review: "score pending review by the teacher"
       sms: 
         graded_date: "graded: %{date}"
         more_info: "More info at %{url}"
-        no_date_set: "No Date Set"
+        no_date_set: "Sem Data Definida"
         not_applicable: N/A
         score: "score:  %{score} out of %{total}"
         score_pending_review: "score pending review by the teacher"
         sms_body: "%{assignment}, %{context} has been graded."
       summary: 
         graded_date: "graded: %{date}"
-        no_date_set: "No Date Set"
+        no_date_set: "Sem Data Definida"
         not_applicable: N/A
         score: "score:  %{score} out of %{total}"
         score_pending_review: "score pending review by the teacher"
         subject: "Assignment Graded: %{assignment}, %{context}"
       twitter: 
-        no_date_set: "No Date Set"
+        no_date_set: "Sem Data Definida"
         not_applicable: N/A
         score: "score:  %{score} out of %{total}"
         score_pending_review: "(pending review)"
@@ -6266,7 +6266,7 @@ pt-BR:
     categories: 
       all_submissions: "All Submissions"
       announcement: Announcement
-      calendar: Calendar
+      calendar: Calendário
       course_content: "Course Content"
       discussion: Discussão
       discussion_entry: DiscussionEntry
@@ -6442,7 +6442,7 @@ pt-BR:
       labels: 
         criterion_ratings: "Criterion ratings"
         grouping_description: "Grouping Description"
-        grouping_name: "Grouping Name"
+        grouping_name: "Nome do Agrupamento"
         longer_description: "Longer description"
         short_description: "Short description"
         threshold: Threshold
@@ -6565,7 +6565,7 @@ pt-BR:
       host_your_own: "Or you can always [set up your own EtherPad site](%{etherpad_url})."
       labels: 
         domain: Domain
-        name: Name
+        name: Nome
       pirate_pad: "Pirate Pad"
       primary_pad: "Primary Pad"
       sketchpad: SketchPad
@@ -6596,7 +6596,7 @@ pt-BR:
         api_key: "API Key"
         app_id: "App ID"
         canvas_domain: "Canvas Domain"
-        canvas_name: "Canvas Name"
+        canvas_name: "Nome do Canvas"
         disable_ssl: "Disable SSL"
         secret: "App Secret"
     google_docs: 
@@ -6622,7 +6622,7 @@ pt-BR:
       author: Author
       configure_plugin: Configure
       description: Description
-      name: Name
+      name: Nome
       no_plugins: "There are no Canvas plugins installed"
       page_title: "Canvas Plugins"
       tag: Tag
@@ -6891,7 +6891,7 @@ pt-BR:
         register_facebook_account: "Register Your Facebook Account"
         register_linkedin_account: "Register Your LinkedIn Account"
         save_login: "Save Login"
-        save_skype_name: "Save Skype Name"
+        save_skype_name: "Salvar Nome do Skype"
         select_image: "Select Image"
         update_profile: "Atualizar Perfil"
       delicious_description: "Delicious is a tool that lets you store and share your bookmarks with others. Canvas's rich content editor will let you search your Delicious tags to easily link from within Canvas to other resources you find useful."
@@ -6942,17 +6942,17 @@ pt-BR:
         headers: 
           approved_integrations: "Approved Integrations"
         locale: Language
-        name: "Full Name"
+        name: "Nome Completo"
         new_password: "New Password"
         old_password: "Old Password"
         other_services: "Click any service below to register"
         password: Password
         password_for: "Password For"
         purpose: Purpose
-        short_name: "Display Name"
+        short_name: "Nome de Exibição"
         show_user_services: "Let fellow course/group members see which services I've linked to my profile"
-        skype_name: "Skype Name"
-        sortable_name: "Sortable Name"
+        skype_name: "Nome do Skype"
+        sortable_name: "Ordenar Nome"
         subscribe_to_emails: "I want to receive information, news and tips from Instructure"
         time_zone: "Time Zone"
         token: Token
@@ -6961,7 +6961,7 @@ pt-BR:
         token_expires: Expires
         token_last_used: "Last Used"
         token_purpose: Purpose
-        user_name: "User Name"
+        user_name: "Nome de Usuário"
       linkedin_description: "LinkedIn is a great resources for business networking, and can be helpful long after you've finished your education. If you have a LinkedIn account, you can register it here. Then if you allow fellow course/group members to see your registered services, they can easily invite you to link with them without having to search LinkedIn for your profile."
       links: 
         add_account: "Add Account"
@@ -7158,14 +7158,14 @@ pt-BR:
       add_bank: "Add Question Bank"
       course_question_banks: "Course Question Banks"
       labels: 
-        title: "Bank Name"
+        title: "Nome do Banco"
       page_title: "Question Banks"
       see_bookmarked_banks: "See My Bookmarked Banks"
       user_question_banks: "User Question Banks"
     question_bank: 
       bookmark_bank: "Bookmark this Question Bank"
       last_updated: "Last Updated: *%{datetime}*"
-      no_name: "No Name"
+      no_name: "Sem Nome"
       no_questions: "No Questions"
       question_count: 
         one: "1 Question"
@@ -7205,7 +7205,7 @@ pt-BR:
           other: "Moving Questions Failed, please try again"
         submit_retry_copying: "Copying Question Failed, please try again..."
         submit_retry_moving: "Moving Question Failed, please try again..."
-      default_name: "No Name"
+      default_name: "Sem Nome"
       delete_are_you_sure: "Are you sure you want to delete this bank of questions?"
       edit_warning: "Remember, changes to question templates won't automatically update quizzes that are already using those questions."
       error_loading_banks: "Error loading banks"
@@ -7213,9 +7213,9 @@ pt-BR:
         aligned_outcomes: "Aligned Outcomes"
       labels: 
         keep_copy: "Keep a copy in this question bank as well"
-        new_bank_name: "New Bank Name"
+        new_bank_name: "Nome do Novo Banco"
         new_question_bank: "New Question Bank"
-        title: "Bank Name"
+        title: "Nome do Banco"
       links: 
         align_outcome: "Align Outcome"
         more_questions: "more questions"
@@ -7420,14 +7420,14 @@ pt-BR:
       group_pick_count: "%{pick_count} questions"
       group_points: "%{points} per question"
       headers: 
-        bank_name: "Bank Name"
+        bank_name: "Nome do Banco"
         find_questions_to_add: "Find Quiz Questions to Add"
         link_to_question_bank: "Link to Question Bank"
       hints: 
         group_pick_count: "%{pick_count} selected so far"
       labels: 
         add_questions_to_group: "Add questions to the quiz group"
-        group_name: "Group Name"
+        group_name: "Nome do Grupo"
         group_pick_count: Pick
         group_points: Points
       links: 
@@ -7710,8 +7710,8 @@ pt-BR:
         locked_until: "Trancado até"
         never_hide_results: "Let Students See their Quiz Results"
         quiz_instructions: "Quiz Instructions"
-        quiz_name: "Quiz Name"
-        quiz_score: Score
+        quiz_name: "Nome do Teste"
+        quiz_score: Pontuação
         require_access_code: "Require an access code"
         require_lockdown_browser: "Require Respondus LockDown Browser"
         require_lockdown_browser_for_results: "Required to view quiz results"
@@ -8250,10 +8250,10 @@ pt-BR:
         rubrics: Rubrics
     rubric_association: 
       assessment_completed: "Assessment Completed"
-      assessment_name: "Assessment Name"
+      assessment_name: "Nome da Avaliação"
       buttons: 
         invite: Invite
-        save_assessment: "Save Assessment"
+        save_assessment: "Salvar Avaliação"
       emails_to_invite: "\"Paste in here the email addresses of those you want to invite to assess this work\""
       instructions: Instructions
       invite_new_assessor: "Invite New Assessor"
@@ -8264,13 +8264,13 @@ pt-BR:
         invited_assessors: "Invited Assessors"
         submitted_and_completed_assessments: "Submitted and Completed"
         submitted_and_incomplete_assessments: "Submitted and Incomplete"
-        title: Name
+        title: Nome
         unsubmitted_assessments: Unsubmitted
         url: "URL to Assess"
       links: 
         show_rubric: "Show Rubric"
       no_description: "No Description"
-      no_name: "No Name"
+      no_name: "Sem Nome"
       none_invited: "None Invited"
       special_instructions: "Type any special instructions you have for those assessing your work"
       submitting_instructions: "Type any instructions for those submitting items for assessment"
@@ -8313,41 +8313,41 @@ pt-BR:
     section_creation_failed: "Section creation failed"
     section_crosslisted: "Section successfully cross-listed!"
     section_decrosslisted: "Section successfully de-cross-listed!"
-    section_delete_not_allowed: "You can't delete a section that has enrollments"
+    section_delete_not_allowed: "Você não pode remover uma seção que tem matrículas"
     section_deleted: "Course section successfully deleted!"
     section_update_error: "Section update failed"
     section_updated: "Section successfully updated!"
     show: 
-      access_limit: "Users can only participate in the course between these dates"
+      access_limit: "Os usuários só podem participar do curso entre essas datas"
       buttons: 
-        back_to_course: "Back to Course Settings"
+        back_to_course: "Voltar para as Configurações do Curso"
         cancel: Cancelar
         crosslist_section: "Cross-List this Section"
         crosslist_this_section: "Cross-List This Section"
         decrosslit_section: "De-Cross-List This Section"
-        edit_section: "Edit Section"
+        edit_section: "Editar Seção"
         recrosslist_section: "Re-Cross-List this Section"
         uncrosslist_section: "De-Cross-List this Section"
-        update_section: "Update Section"
+        update_section: "Atualizar Seção"
       crosslist_description: "Cross-listing allows you to create a section in one account and then move it to a course on a different account. To cross-list this course, you'll need to find the course you want to move it to, either using the search tool or by entering the course's ID."
       decrosslist_description: "This will move the section back to its original course, **%{course_name}**."
       decrosslist_long_description: "All grades for students in this course will no longer be visible. You can retrieve the grades later by re-cross-listing the course, but in the mean time the grades for these students will come from the original course."
       enrollment: 
-        one: "1 Enrollment"
-        other: "%{count} Enrollments"
+        one: "1 Inscrição"
+        other: "%{count} Inscrições"
       labels: 
-        end_at: Ends
+        end_at: Término
         enter_course_id: "Or Enter the Course's ID"
         labels: 
-          account: Account
-          selected_course: "Selected Course"
+          account: Conta
+          selected_course: "Curso Selecionado"
           sis_id: "SIS ID"
-        name: "Section Name"
-        search_for_course: "Search for Course"
+        name: "Nome da Seção"
+        search_for_course: "Busca por Curso"
         sis_id: "SIS ID"
         sis_source_id: "SIS ID"
-        start_at: Starts
-      override_settings: "This will override any term or course date settings."
+        start_at: Início
+      override_settings: "Isto irá sobrescrever qualquer prazo ou configuração de data do curso."
       prompts: 
         are_you_sure_decrosslist: "Are you sure you want to de-cross-list this section?"
       run_dates: "Runs from %{start_date} to %{end_date}"
@@ -8355,10 +8355,10 @@ pt-BR:
       runs_until: "Runs until %{end_date}"
       student_access_dates: "Students can only access the course between these dates"
       titles: 
-        completed_enrollments: "Completed Enrollments"
+        completed_enrollments: "Inscrições Completas"
         cross_listed_sections: "Cross-List Section"
         crosslist_this_section: "Cross-List this Section"
-        current_enrollments: "Current Enrollments"
+        current_enrollments: "Inscrições Atuais"
         decrosslist_section: "De-Cross-List this Section"
   select_content_dialog: 
     buttons: 
@@ -8402,7 +8402,7 @@ pt-BR:
         assignment_group_id: Group
         due_at: Entrega
         points_possible: Points
-        title: Name
+        title: Nome
       options: 
         assignments: Tarefas
       titles: 
@@ -8528,25 +8528,25 @@ pt-BR:
       links: 
         search_for_resources: "Search for Open Resources Related to this Page"
       status: 
-        loading: Loading
+        loading: Carregando
     enrollment: 
-      enrolled_as_designer: "enrolled as a designer"
-      enrolled_as_limited_designer: "enrolled as a designer with section-only access"
-      enrolled_as_limited_observer: "enrolled as an observer with section-only access"
-      enrolled_as_limited_student: "enrolled as a student with section-only access"
-      enrolled_as_limited_ta: "enrolled as a TA with section-only access"
-      enrolled_as_limited_teacher: "enrolled as a teacher with section-only access"
-      enrolled_as_observer: "enrolled as an observer"
-      enrolled_as_student: "enrolled as a student"
-      enrolled_as_ta: "enrolled as a TA"
-      enrolled_as_teacher: "enrolled as a teacher"
+      enrolled_as_designer: "inscrito como um designer"
+      enrolled_as_limited_designer: "inscrito como um designer com acesso apenas nesta seção"
+      enrolled_as_limited_observer: "inscrito como um observador com acesso apenas nesta seção"
+      enrolled_as_limited_student: "inscrito como um estudante com acesso apenas nesta seção"
+      enrolled_as_limited_ta: "inscrito como um monitor com acesso apenas nesta seção"
+      enrolled_as_limited_teacher: "inscrito como um professor com acesso apenas nesta seção"
+      enrolled_as_observer: "inscrito como um observador"
+      enrolled_as_student: "inscrito como um estudante"
+      enrolled_as_ta: "inscrito como um monitor"
+      enrolled_as_teacher: "inscrito como um professor"
       labels: 
         linked_to: "linked to"
       links: 
         link_to_a_student: "link to a student"
         unenroll_user: "Remove User from Course"
       titles: 
-        course_section: "Course Section"
+        course_section: "Seção do Curso"
     errors: 
       400_message: 
         description: "Huh. Looks like there was a problem loading the page you requested."
@@ -8707,20 +8707,20 @@ pt-BR:
     grading_standard: 
       buttons: 
         save: Save
-      delete_scheme: "Delete Grading Scheme"
-      edit_scheme: "Edit Grading Scheme"
+      delete_scheme: "Remover Sistema de Classificação"
+      edit_scheme: "Editar Sistema de Classificação"
       find: Find
-      find_existing_scheme: "Find Existing Grading Scheme"
+      find_existing_scheme: "Encontrar Sistema de Classificação Existentes"
       full_name: "Full name, smaller text"
-      insert_here: "insert here"
+      insert_here: "inserir aqui"
       labels: 
-        name: Name
-        range: Range
-        scheme_name: "Scheme Name"
+        name: Nome
+        range: Intervalo
+        scheme_name: "Nome do Esquema"
       loading_grading_standards: "Loading Grading Standards..."
       managing_grading_standards: "manage grading schemes"
       range_of_numbers: "%{lower_number} to %{higher_number}"
-      remove_scheme: "Remove Grading Scheme"
+      remove_scheme: "Remover Sistema de Classificação"
       some_standard: "Some standard"
       use_this_standard: "Use This Grading Standard"
     home_menu: 
@@ -8927,14 +8927,14 @@ pt-BR:
         other: "*Indent %{count} levels*"
         zero: "*Don't Indent*"
       labels: 
-        assignment_name: "Assignment Name"
+        assignment_name: "Nome da Tarefa"
         file: Arquivo
         folder: Pasta
         header: Header
         indentation: Indentation
-        page_name: "Page Name"
-        quiz_name: "Quiz Name"
-        topic_name: "Topic Name"
+        page_name: "Nome do Página"
+        quiz_name: "Nome do Teste"
+        topic_name: "Nome do Tópico"
         url: URL
       loading: Loading...
       new_assignment_option: "[ New Assignment ]"
@@ -9191,7 +9191,7 @@ pt-BR:
       courses: "Cursos: %{course_count}"
       crosslists: "Crosslists: %{crosslist_count}"
       enrollments: "Enrollments: %{enrollment_count}"
-      sections: "Sections: %{section_count}"
+      sections: "Seções: %{section_count}"
       terms: "Terms: %{term_count}"
       users: "Users: %{user_count}"
     messages: 
@@ -9237,7 +9237,7 @@ pt-BR:
       add_sub_accounts: "Add Sub-Account"
       can_not_delete: "You can't delete a sub-account that has courses in it"
       delete_sub_account: "Delete Sub-Account"
-      edit_account_name: "Edit Account Name"
+      edit_account_name: "Editar Nome da Conta"
       hide_sub_accounts: "Hide Sub-Accounts"
       show_sub_accounts: "Show Sub-Accounts"
     sub_accounts_count: 
@@ -9353,7 +9353,7 @@ pt-BR:
     select: 
       prompt: "Please select"
   table_headings: 
-    name: Name
+    name: Nome
     total: Total
     type: Tipo
   tabs: 
@@ -9473,7 +9473,7 @@ pt-BR:
       delete_entry: "Are you sure you want to delete this entry?"
       delete_topic: "Are you sure you want to delete this topic?"
     default_topic_title: "Título do Tópico"
-    default_user_name: "User Name"
+    default_user_name: "Nome do Usuário"
     errors: 
       enter_a_message: "Por favor, insira a mensagem"
       invalid_date_time: "Please select a valid date time"
@@ -9623,7 +9623,7 @@ pt-BR:
         go: Go
         merge_user_account: "Merge User Accounts"
       labels: 
-        name: Name
+        name: Nome
         user_id: "User ID"
       links: 
         select: Select
@@ -9693,7 +9693,7 @@ pt-BR:
       including_department: "(including dept)"
       labels: 
         change_password: "Change password"
-        name: Name
+        name: Nome
         password: Password
         password_confirmation: "Confirm Password"
         phone: "Phone Number"
@@ -9740,7 +9740,7 @@ pt-BR:
         users: Users
       labels: 
         show_users_for_term: "Show users with enrollments in the term"
-      no_results_found: "No Results Found"
+      no_results_found: "Nenhum Resultado Encontrado"
       search_for_user: "User Search results for %{user_name}"
       titles: 
         all_users: "All Users"
@@ -9804,12 +9804,12 @@ pt-BR:
       edit: Edit
       labels: 
         default_email: "Default Email"
-        display_name: "Display Name"
-        full_name: "Full Name"
-        name: "Full Name"
+        display_name: "Nome de Exibição"
+        full_name: "Nome Complete"
+        name: "Nome Complete"
         profile_picture: "Profile Picture"
-        short_name: "Display Name"
-        sortable_name: "Sortable Name"
+        short_name: "Nome de Exibição"
+        sortable_name: "Nome Classificável"
         time_zone: "Time Zone"
       merge_with_another_user: "Merge with Another User"
       none: None
@@ -9817,7 +9817,7 @@ pt-BR:
       report_naughtiness: "Report inappropriate picture"
       titles: 
         edit_user_details: "Edit User Details"
-        name_and_email: "Name and Email"
+        name_and_email: "Nome e Email"
       update_instructions: "You can update some of this user's information, but they can change it back if they choose."
     new: 
       buttons: 
