@@ -7932,7 +7932,7 @@ pt-BR:
         delete_quiz: "Are you sure you want to delete this quiz?"
         delete_quiz_submissions_warning: 
           one: "Warning: 1 student has already taken this quiz. If you delete it, any completed submissions will be deleted and no longer appear in the gradebook."
-          other: "Warning: %{count} students have already taken this quiz. If you delete it, any completed submissions will be deleted and no longer appear in the gradebook."
+          other: "Aviso: %{count} alunos já finalizaram este teste. Se você apagá-lo, quaisquer envios concluídos serão eliminados e deixarão de aparecer no boletim."
       have_not_taken_the_quiz: "Have NOT taken the quiz"
       have_taken_the_quiz: "Have taken the quiz"
       headers: 
@@ -7976,22 +7976,22 @@ pt-BR:
       points_possible: 
         one: "1 pt"
         other: "%{count} pts"
-      publish_quiz_instructions: "To publish the quiz, click \"Edit This Quiz\" to the right and then click the \"Publish\" button."
-      publish_survey_instructions: "To publish the survey, click \"Edit This Survey\" to the right and then click the \"Publish\" button."
-      quiz_all_students_submitted: "All Students have taken the quiz"
-      quiz_for_assignment: "This quiz is for the assignment **%{assignment}**"
-      quiz_in_progress: "You're in the middle of taking this quiz."
-      quiz_no_submissions: "No Students have taken the quiz yet"
-      quiz_not_published: "This quiz hasn't been published yet. Students can't take the quiz until it's published."
+      publish_quiz_instructions: "Para publicar o teste, clique em \"Edita este Teste\" na direita e depois clique no botão \"Publicar\"."
+      publish_survey_instructions: "Para publicar a pesquisa, clique em \"Editar esta Pesquisa\" na direita e depois clique no botão \"Publicar\"."
+      quiz_all_students_submitted: "Todos os alunos finalizaram o teste"
+      quiz_for_assignment: "Este teste é para a tarefa **%{assignment}**"
+      quiz_in_progress: "Você está no meio de terminar este teste."
+      quiz_no_submissions: "Nenhum aluno realizou o teste ainda"
+      quiz_not_published: "Este teste não foi publicado ainda. Os alunos não podem fazer o teste até que seja publicado."
       speed_grader: SpeedGrader™
       students_submitted_so_far: 
         one: "1 student submitted so far"
         other: "%{count} students submitted so far"
-      survey_all_students_submitted: "All Students have taken the survey"
-      survey_for_assignment: "This survey is for the assignment **%{assignment}**"
-      survey_in_progress: "You're in the middle of taking this survey."
-      survey_no_submissions: "No Students have taken the survey yet"
-      survey_not_published: "This survey hasn't been published yet. Students can't take the survey until it's published."
+      survey_all_students_submitted: "Todos os alunos participaram da pesquisa"
+      survey_for_assignment: "Esta pesquisa é para a tarefa **%{assignment}**"
+      survey_in_progress: "Você está no meio de finalizar esta pesquisa."
+      survey_no_submissions: "Nenhum estudante participou da pesquisa ainda"
+      survey_not_published: "Esta pesquisa não foi publicada ainda. Os alunos não podem participar da pesquisa até que seja publicada."
       titles: 
         submission_needs_review: "This submission needs review"
         unlock_for_how_long: "How long would you like to unlock the quiz for?"
@@ -8021,11 +8021,11 @@ pt-BR:
         count_only_latest_attempts: "Count Only Each Latest Attempt"
         download_csv: "Download csv"
       page_title: Statistics
-      quiz_all_version_disclaimer: "This report is showing quiz statistics based on all attempts for all users."
-      quiz_latest_version_disclaimer: "This report is showing quiz statistics based on the latest attempt for each user."
+      quiz_all_version_disclaimer: "Este relatório está mostrando estatísticas do teste baseadas em toda a atividade de todos os usuários."
+      quiz_latest_version_disclaimer: "Este relatório está mostrando estatísticas do teste com base na mais recente atividade de cada usuário."
       student_n: "Student %{n}"
-      survey_all_version_disclaimer: "This report is showing survey statistics based on all attempts for all users."
-      survey_latest_version_disclaimer: "This report is showing survey statistics based on the latest attempt for each user."
+      survey_all_version_disclaimer: "Este relatório está mostrando estatísticas da pesquisa baseadas em toda a atividade de todos os usuários."
+      survey_latest_version_disclaimer: "Este relatório está mostrando estatísticas da pesquisa baseadas na mais recente atividade de cada usuário."
       titles: 
         submitted_users_for_quesiton: "Submitted Users for %{user}"
       uncounted_submissions: 
@@ -8035,26 +8035,26 @@ pt-BR:
     statistics_filename: "%{title} %{type} Report"
     submission_score: 
       titles: 
-        score_needs_review: "This score needs review"
-        score_pending_review: "This score is pending review, and may change"
+        score_needs_review: "Esta pontuação necessita de revisão"
+        score_pending_review: "Esta pontuação está pendente de revisão e pode mudar"
     take_quiz: 
       buttons: 
         out_of_time_submit: "Ok, fine"
         submit_answer: "Submit Answers"
       confirms: 
-        navigate_away: "You're about to navigate away from this page.  Continue anyway?"
+        navigate_away: "Você esta prestes a sair desta página. Continuar mesmo assim?"
         unanswered_questions: 
-          one: "You have 1 unanswered question (see the right sidebar for details).  Submit anyway?"
-          other: "You have %{count} unanswered questions (see the right sidebar for details).  Submit anyway?"
-        unfinished_quiz: "You're about to leave the quiz unfinished.  Continue anyway?"
+          one: "Você tem uma questão não respondida (veja a barra leteral direita para detalhes). Enviar mesmo assim?"
+          other: "Você tem %{count} questões não respondidas (veja a barra leteral direita para detalhes). Enviar mesmo assim?"
+        unfinished_quiz: "Você está prestes a deixar este teste incacabdo. Continuar mesmo assim?"
       days_count: 
         one: "1 Day"
         other: "%{count} Days"
       errors: 
-        connection_lost: "Connection to %{host} was lost.  Please make sure you're connected to the Internet before continuing."
+        connection_lost: "A conexão com %{host} foi perdida. Certifique-se que você está conectado a internet antes de continuar."
         only_numerical_values: "only numerical values are accepted"
       headers: 
-        draft_preview: "This is a preview of the draft version of the quiz"
+        draft_preview: "Esta é a mostra do rascunho do teste"
         questions: Questions
       hide_time_link: Esconder
       hours_count: 
@@ -8092,7 +8092,7 @@ pt-BR:
       show_time_link: Show
       titles: 
         answered: Answered
-        come_back_later: "You marked this question to come back to later"
+        come_back_later: "Você marcou esta questão para reê-la depois."
         not_answered: "Haven't Answered yet"
         times_up: "Time's Up!"
       years_count: 
@@ -8109,8 +8109,8 @@ pt-BR:
         time_remaining: "Time Remaining"
     titles: 
       add_questions_as_group: "Add Questions as a Group"
-      click_to_enter_comments_on_answer: "Click to enter comments for the student if they choose this answer"
-      click_to_enter_comments_on_wrong_match: "Click to enter comments for the student if they miss this match"
+      click_to_enter_comments_on_answer: "Clique para adicionar comentários se o aluno escolher esta resposta"
+      click_to_enter_comments_on_wrong_match: "Clique para adicionar comentários para o aluno se ele errar a alternativa"
       click_to_set_as_correct: "Click to set this answer as correct"
       click_to_unset_as_correct: "Click to unset this answer as correct"
       find_question_bank: "Find Question Bank"
@@ -8124,8 +8124,8 @@ pt-BR:
     buttons: 
       upload: "Enviar arquivos"
     reupload_submission_files: "Re-Upload Submission Files"
-    upload_info: "If you made changes to the student submission files you downloaded before, just zip them back up and upload the zip with the form below. Students will see the modified files in their comments for the submission."
-    upload_warning: "Make sure you don't change the names of the submission files so we can recognize them."
+    upload_info: "Se você fez alterações no arquivo enviado que você fez download, zip os arquivos novamente e os envie através do formulário abaixo. Os estudantes vão ver as mudanças nos arquivos nos comentários dos envios."
+    upload_warning: "Certifique-se de não alterar os nomes dos arquivos enviados, para que possamos reconhecê-los."
   role_override: 
     permissions: 
       become_user: "Become other users"
@@ -8184,10 +8184,10 @@ pt-BR:
         save: "Salvar Alterações"
       crumbs: 
         permissions: Permissions
-      explanation_defaults: "The partially transparent checkboxes (%{default_checked} and %{default_unchecked}) indicate the system default."
-      explanation_disabled: "A grayed out box (%{disabled_checked} or %{disabled_unchecked}) means you are not allowed to change it."
-      explanation_locked: "If you would like to prevent anyone from overriding this in any sub-accounts, click the lock (%{lock}) icon."
-      explanation_normal: "You can click to override the default and explicitly **allow** (%{normal_checked}) or **deny** (%{normal_unchecked}) this action."
+      explanation_defaults: "As caixas de verificação parcialmente transparentes (%{default_checked} e {%default_unchecked}) indicam o padrão do sistema."
+      explanation_disabled: "Uma caixa cinza (%{disabled_checked} ou {%disabled_unchecked}) significa que você não tem permissão para alterar isso."
+      explanation_locked: "Se você gostaria de impedir que alguém substitua isto em qualquer sub-conta, clique no ícone do cadeado (%{lock})."
+      explanation_normal: "Você pode clicar aqui para substituir o padrão e explicitamente **permitir** (%{normal_checked}) ou **negar** (%{normal_unchecked}) esta ação."
       headers: 
         account_permissions: "Permissões da Conta"
         account_role_type: "Account Role Type"
@@ -8200,14 +8200,14 @@ pt-BR:
         manage_course_roles: "Manage Course-Level Roles"
       page_title: "Manage Permissions for %{account}"
       prompts: 
-        delete_role_type: "Are you sure you want to delete this role type?"
+        delete_role_type: "Tem certeza de que deseja excluir este tipo de papel?"
       titles: 
         explanation: "Explanation:"
         manage_permissions: "Manage Permissions"
-        subhead: "Set what users are allowed to do based on their role in the course."
+        subhead: "Defina o que os usuários estão autorizados a fazer com base em seu papel no curso."
       tooltips: 
-        lock: "Click to not allow anyone to override what is set here."
-        locked: "This permission is locked, no one can override what is set here."
+        lock: "Clique aqui para proibir que alguém possa substituir o que foi definido aqui."
+        locked: "Esta permissão está bloqueada, ninguém pode substituir o que foi definido aqui."
     notices: 
       saved: "Changes Saved Successfully."
     update_failed_notice: "Role creation failed"
@@ -8229,10 +8229,10 @@ pt-BR:
   rubrics: 
     assessments: 
       add_rubric_assessment: "Add Rubric Assessment"
-      are_you_sure_prompt: "Are you sure you want to delete this assessment?  All results will be lost."
+      are_you_sure_prompt: "Tem certeza que quer apagar esta avaliação? Todos os resultados serão perdidos."
       page_title: Assessments
     index: 
-      are_you_sure_prompt: "Are you sure you want to delete this rubric?  Anywhere currently using the rubric will still have access to it, but no one else will be able to use it."
+      are_you_sure_prompt: "Você tem certeza que quer deletar esta assunatura?  Em qualquer lugar que, atualmente, ainda estiver usando esta assinatura, ainda vai ter acesso a ela, mas ninguém mais será capaz de usá-la."
       buttons: 
         add_rubric: "Add Rubric"
       delete_rubric: "Delete Rubric"
@@ -8248,7 +8248,7 @@ pt-BR:
       buttons: 
         invite: Invite
         save_assessment: "Salvar Avaliação"
-      emails_to_invite: "\"Paste in here the email addresses of those you want to invite to assess this work\""
+      emails_to_invite: "\"Cole aqui os endereços de e-mail de quem você deseja convidar para avaliar este trabalho\""
       instructions: Instructions
       invite_new_assessor: "Invite New Assessor"
       labels: 
@@ -8266,15 +8266,15 @@ pt-BR:
       no_description: "No Description"
       no_name: "Sem Nome"
       none_invited: "Nenhum Convidado"
-      special_instructions: "Type any special instructions you have for those assessing your work"
-      submitting_instructions: "Type any instructions for those submitting items for assessment"
+      special_instructions: "Digite as instruções especiais que você tem para aqueles que vão avaliar o seu trabalho"
+      submitting_instructions: "Digite as instruções para os itens enviados para a avaliação"
       view_assessed_page: "View the Page Being Assessed"
     show: 
       buttons: 
         delete: "Delete Rubric"
       prompts: 
-        are_you_sure_delete: "Are you sure you want to delete this rubric?  Anywhere currently using the rubric will still have access to it, but no one else will be able to use it."
-      rubric_can_not_modify: "Rubrics cannot be modified once they have been used in more than one place."
+        are_you_sure_delete: "Você tem certeza que quer deletar esta assunatura?  Em qualquer lugar que, atualmente, ainda estiver usando esta assinatura, ainda vai ter acesso a ela, mas ninguém mais será capaz de usá-la."
+      rubric_can_not_modify: "Assinaturas não podem ser modificadas uma vez que foram usadas em mais de um lugar"
       titles: 
         edit_rubric: "Edit Rubric"
     user_index: 
@@ -8288,8 +8288,8 @@ pt-BR:
         one: "point possible"
         other: "points possible"
       prompts: 
-        are_you_sure_delete: "Are you sure you want to delete this rubric?  Anywhere currently using the rubric will still have access to it, but no one else will be able to use it."
-        are_you_sure_remove: "Are you sure you want to remove this rubric from your list?"
+        are_you_sure_delete: "Você tem certeza que quer deletar esta assunatura?  Em qualquer lugar que, atualmente, ainda estiver usando esta assinatura, ainda vai ter acesso a ela, mas ninguém mais será capaz de usá-la."
+        are_you_sure_remove: "Você tem certeza que quer remover essa assinatura da sua lista?"
       remove_rubric: "Remove this Rubric from my list"
   score_out_of: "%{score} out of %{points_possible}"
   section: 
@@ -8308,9 +8308,9 @@ pt-BR:
     section_crosslisted: "Section successfully cross-listed!"
     section_decrosslisted: "Section successfully de-cross-listed!"
     section_delete_not_allowed: "Você não pode remover uma seção que tem matrículas"
-    section_deleted: "Course section successfully deleted!"
-    section_update_error: "Section update failed"
-    section_updated: "Section successfully updated!"
+    section_deleted: "Seção do curso deletada com sucesso!"
+    section_update_error: "Falha na atualização da seção"
+    section_updated: "Seção atualizada com sucesso!"
     show: 
       access_limit: "Os usuários só podem participar do curso entre essas datas"
       buttons: 
@@ -8323,9 +8323,9 @@ pt-BR:
         recrosslist_section: "Re-Cross-List this Section"
         uncrosslist_section: "De-Cross-List this Section"
         update_section: "Atualizar Seção"
-      crosslist_description: "Cross-listing allows you to create a section in one account and then move it to a course on a different account. To cross-list this course, you'll need to find the course you want to move it to, either using the search tool or by entering the course's ID."
-      decrosslist_description: "This will move the section back to its original course, **%{course_name}**."
-      decrosslist_long_description: "All grades for students in this course will no longer be visible. You can retrieve the grades later by re-cross-listing the course, but in the mean time the grades for these students will come from the original course."
+      crosslist_description: "Cross-listing permite que você crie uma seção em uma conta e depois a mova para um curso em uma conta diferente. Para fazer o cross-list deste curso, você terá que encontrar o curso que você deseja mover, ou usar a ferramenta de pesquisa ou inserir o ID do curso."
+      decrosslist_description: "Isto irá mover a seção de volta ao seu curso original, **%{course_name}**."
+      decrosslist_long_description: "Todas as notas para os alunos deste curso não será mais visíveis. Você pode recuperar as notas mais tarde no re-cross-listing do curso, mas enquanto isso, as notas para estes alunos virão do curso original."
       enrollment: 
         one: "1 Inscrição"
         other: "%{count} Inscrições"
@@ -8343,11 +8343,11 @@ pt-BR:
         start_at: Início
       override_settings: "Isto irá sobrescrever qualquer prazo ou configuração de data do curso."
       prompts: 
-        are_you_sure_decrosslist: "Are you sure you want to de-cross-list this section?"
+        are_you_sure_decrosslist: "Você tem certeza que quer deletar a cross-list para esta seção?"
       run_dates: "Runs from %{start_date} to %{end_date}"
       run_from: "Runs from %{start_date} with no end date"
       runs_until: "Runs until %{end_date}"
-      student_access_dates: "Students can only access the course between these dates"
+      student_access_dates: "Estudantes só podem acessar o curso entre essas datas"
       titles: 
         completed_enrollments: "Inscrições Completas"
         cross_listed_sections: "Cross-List Section"
@@ -8360,15 +8360,15 @@ pt-BR:
     errors: 
       failed_to_create_item: "Failed to Create new Item"
       loading_failed: "Falha ao Carregar"
-    invalid_lti_resource_selection: "There was a problem retrieving a valid link from the external tool"
+    invalid_lti_resource_selection: "Houve um problema ao recuperar um link válido a partir da ferramenta externa"
     link_from_external_tool: "Link Resource from External Tool"
     titles: 
       add_item_to_module: "Add Item to Module"
       find_links_using_service: "Find links using %{service}"
   services_api: 
-    must_be_logged_in: "You must be logged in to use Kaltura"
+    must_be_logged_in: "você precisa estar logado para usar o Kaltura"
   set_default_grade_dialog: 
-    default_grades: "Give all students the same grade for *%{assignment.name}* by entering and submitting a grade value below:"
+    default_grades: "Dê todos os alunos a mesma nota para *%{assignment.name} enviando um valor para a nota abaixo:"
     dialog_title: "Default grade for %{assignment.name}"
     overwrite: "Overwrite already-entered grades"
     set_grades_button: "Set Default Grade"
@@ -8420,15 +8420,15 @@ pt-BR:
       buttons: 
         align_outcomes: "Align Outcomes"
       errors: 
-        align_outcomes_failed: "Aligning Outcomes Failed, Please Try Again"
+        align_outcomes_failed: "Resultados Atingidos falharam, por favor tente novamente"
       instructions: 
-        select_outcomes: "Select the outcomes you'd like aligned with this assignment."
-        specify_mastery: "Then specify a mastery threshold for student scores on this assignment."
-      mastery_info: "mastery details (either see rubric, or mastery as this point level)"
-      mastery_info_see_rubric: "see the rubric for mastery details"
-      mastery_score_details: "*Students achieve mastery with a score of* %{score_text_field} or higher."
-      mastery_score_info: "mastery with a score of %{score} or higher"
-      outcome_mastery_based_on_rubric: "mastery based on rubric assessment"
+        select_outcomes: "Selecione os resultados que você quer atingir com esta tarefa"
+        specify_mastery: "Em seguida, especifique um limiar de domínio do tema para as notas dos alunos nessa tarefa."
+      mastery_info: "detalhes do domínio do tema (ver assinatura ou domínio do tema para este nível)"
+      mastery_info_see_rubric: "veja a assinatura para detalhes do domínio do tema"
+      mastery_score_details: "*Estudantes conseguem o domínio do tema com uma pontuação de* %{score_text_field} ou superior."
+      mastery_score_info: "domínio do tema com uma pontuação de %{score} ou superior"
+      outcome_mastery_based_on_rubric: "domínio do tema baseado na avaliação por assinatura"
       status: 
         aligning_outcomes: "Aligning Outcomes..."
       titles: 
@@ -8450,7 +8450,7 @@ pt-BR:
       submitted_and_graded_count: "%{submitted_count} Submitted, %{graded_count} Graded"
       submitted_count: "%{submitted_count} Submitted"
       titles: 
-        sort_or_move: "Sort Assignments or Move to Another Group"
+        sort_or_move: "Ordenar Tarefas ou Mover para Outro Grupo"
     assignment_group: 
       alts: 
         add_assignment: "Adicionar Tarefa"
@@ -8485,21 +8485,21 @@ pt-BR:
         one: "1 participant"
         other: "%{count} participants"
     context_module_legend: 
-      content_part_of_module: "This content is part of the module, %{module_name}"
+      content_part_of_module: "Este conteúdo é parte do módulo, %{module_name}"
       labels: 
         module: module
       max_score: "maximum score"
-      max_score_required: "Students must get no more than a %{max_score} on this item before the module is considered complete"
-      min_score_required: "Students must get at least a %{min_score} on this item before the module is considered complete"
+      max_score_required: "Os alunos devem obter mais do que %{max_score} neste item antes do módulo ser considerado completo"
+      min_score_required: "Os alunos devem obter pelo menos %{min_score} neste item antes do módulo ser considerado completo"
       minimum_score: "minimum score"
       module_completed: "This module is completed"
-      module_not_unlocked: "This module hasn't been unlocked yet"
+      module_not_unlocked: "Este módulo não foi desbloqueado ainda"
       must_contribute: "must contribute"
-      must_contribute_title: "Students must contribute to this item before the module is considered complete"
+      must_contribute_title: "Os alunos devem contribuir para este item antes do módulo ser considerado completo"
       must_submit: "must submit"
-      must_submit_title: "Students must submit this assignment before the module is considered complete"
+      must_submit_title: "Os alunos devem enviar a tarefa antes do módulo ser considerado completo"
       must_view: "must view"
-      must_view_title: "Students must view this item before the module is considered complete"
+      must_view_title: "Os alunos devem ver este item antes do módulo ser considerado completo"
       view_modules: "Visualização de Módulos"
     current_enrollment: 
       accept_or_reject: "When you're ready, you can either accept or reject the invitation."
@@ -8543,22 +8543,22 @@ pt-BR:
         course_section: "Seção do Curso"
     errors: 
       400_message: 
-        description: "Huh. Looks like there was a problem loading the page you requested."
+        description: "Ops! Parece que houve um problema ao carregar a página solicitada."
         headings: 
           page: "Page Error"
         title: "Page Error"
       404_message: 
-        generic_description: "Oops, we couldn't find that page."
+        generic_description: "Opa, não consegui encontrar essa página."
         headings: 
           page: "Page Not Found"
         title: "Page Not Found"
       500_message: 
-        description: "Well, it looks like something broke unexpectedly. Sorry you had to see that. If you have a second, please let us know what you were doing when the error happened."
+        description: "Parece que ocorreu um erro inesperado. Desculpe por você ter que ver isso. Se você tem um segundo, por favor deixe-nos saber o que você estava fazendo quando o erro aconteceu."
         headings: 
           page: "Page Error"
         title: "Page Error"
       AUT_message: 
-        description: "There was a problem with your last request. You may have tried to perform an action after a long period of inactivity. If that's the case, try going back, reloading the page you were working on, and resubmitting. If not, please let us know what you were doing when the error happened."
+        description: "Houve um problema com o seu último pedido. Você pode ter tentado executar uma ação após um longo período de inatividade. Se for esse o caso, tente voltar, recarregar a página que você estava trabalhando, e reenviá-lo. Se não, por favor deixe-nos saber o que você estava fazendo quando o erro aconteceu."
         headings: 
           page: "Page Error"
         title: "Session Timeout"
@@ -8610,7 +8610,7 @@ pt-BR:
       links: 
         close: close
       notices: 
-        redirected_from_pilot: "You've been redirected to the new version of Instructure Canvas. Welcome!"
+        redirected_from_pilot: "Você foi redirecionado para a nova versão do Canvas Instructure. Bem-vindo!"
     full_assignment: 
       buttons: 
         update: "Atualizar Tarefa"
@@ -8618,12 +8618,12 @@ pt-BR:
         no_content: "Sem Conteúdo"
         other_group: other
       descriptions: 
-        allowed_extensions: "enter a list of accepted extensions, for example: doc,xls,txt"
-        assign_reviews_after_due_date: "Must come after due date. If blank, uses due date."
-        grades_for_external_tool: "Grades for this assignment can be sent from the external tool, or entered manually."
-        grades_from_discussion: "Grading for this assignment will be based on posts in the discussion"
-        grades_from_quiz: "Grades for this assignment will be pulled from the quiz results"
-        not_graded: "This assignment will not appear in the gradebook"
+        allowed_extensions: "inserir uma lista de extensões aceitas, por exemplo: doc, xls, txt"
+        assign_reviews_after_due_date: "Deve vir após a data de vencimento. Se estiver em branco, usae a data de vencimento."
+        grades_for_external_tool: "Notas para esta tarefa podem ser enviadas a partir da ferramenta externa, ou introduzidas manualmente."
+        grades_from_discussion: "A avaliação para este trabalho será baseada nos posts da discussão"
+        grades_from_quiz: "Notas para esta tarefa vai serão puxadas a partir dos resultados do teste"
+        not_graded: "Esta nota não aparecerá no diário de classe"
       due_by: "due %{date} by %{time}"
       labels: 
         allow_file_uploads: "Permitir Envio de Arquivoss"
@@ -8631,8 +8631,8 @@ pt-BR:
         allow_text_entry: "Allow Text Entry"
         allow_url: "Allow Website URL"
         allowed_extensions: "Allowed File Extensions"
-        assign_grades_individually: "Assign grades to each student individually"
-        assign_grades_individually_subtext: "(normally all students receive the same grade on group assignments)"
+        assign_grades_individually: "Atribuir notas para cada aluno individualmente"
+        assign_grades_individually_subtext: "(normalmente todos os alunos recebem a mesma nota em trabalhos em grupo)"
         assignment_description: "Assignment Description"
         assignment_group_id: "Grupo de Tarefas"
         automatically_assign_peer_reviews: "Automatically Assign Peer Reviews"
@@ -8697,7 +8697,7 @@ pt-BR:
       buttons: 
         install_video_plugin: "Install the Video Plugin"
       dont_have_a_webcam: "Don't have a webcam?"
-      you_need_a_webcam: "In order to create video or audio recordings your computer needs to be webcam-enabled. If you don't have a webcam on your computer, you can still record audio-only messages by first installing the Google Video Chat plugin."
+      you_need_a_webcam: "Para criar um vídeo ou gravações de áudio do seu computador, é necessário ter a webcam habilitada. Se você não tem uma webcam em seu computador, você pode gravar mensagens de áudio ,apenas, instalanado o plugin Google Video Chat."
     grading_standard: 
       buttons: 
         save: Save
@@ -8738,7 +8738,7 @@ pt-BR:
         hide_sidebar: "Hide Sidebar"
         modules: Módulos
     keyboard_navigation_hint: 
-      body: "Hit \"?\" to see a list of keyboard shortcuts for this page."
+      body: "Aperte \"?\" para ver uma lista de atalhos do teclado para esta página."
     login: 
       back_to_login: "Back to Login"
       buttons: 
@@ -8750,7 +8750,7 @@ pt-BR:
         remember_me: "Stay logged in"
       login: Login
       login_at_account: "Log in at %{school_name}"
-      login_handle: "Enter your %{login_handle_name} and we'll send you a link to change your password."
+      login_handle: "Digite seu %{login_handle_name} e nós lhe enviaremos um link para alterar sua senha."
     menu_assignment: 
       labels: 
         due: due
@@ -8773,19 +8773,22 @@ pt-BR:
       gradebook: 
         mute_assignment: "Mute Assignment"
       mute_dialog: |-
-          Are you sure you want to mute this assignment? While this assignment
-          is muted, students will not receive new notifications about or be
-          able to see:
+         
+          Tem certeza que você quer silenciar esta tarefa? Enquanto esta tarefa
+          está silenciada, os alunos não receberão novas notificações sobre ela ou serão
+          capazes de ver:   
           
-          *  Grade change notifications
-          *  Submission comments
-          *  Curving assignments
-          *  Score change notifications
+          * Notificações de mudança de note
+          * Comentários sobre envios
+          * Aplicação de curvas as tarefas
+          * Notificação de mudança de qualificação
           
           Students will be able to see that this assignment is muted.
           
-          Once you have muted this assignment, you can begin sending
-          notifications again by clicking the "Unmute Assignment" link.
+          Serão capazes de ver que esta tarefa está silenciada.
+          
+          Uma  vez que você silenciou esta tarefa, você pode começar a enviar
+          notificações novamente clicando no link "Deselenciar Tarefa".
     notification_list: 
       no_notifications: "No Notifications"
       notifications: Notifications
@@ -8802,7 +8805,7 @@ pt-BR:
       teacher: "%{course} as a teacher."
       teacher_title: "Invited as a teacher, click to see the Course"
     recent_messages: 
-      empty_stream_message: "Você não tem mensagens para ser exibida ainda. Uma vez que você começar a participar em seus cursos esse painel será preenchido com mensagens a partir de discussões, autalizações de classificação, mensagens privadas entre você e outros usuários, etc..."
+      empty_stream_message: "Você não tem mensagens para serem exibidas ainda. Uma vez que você começar a participar em seus cursos esse painel será preenchido com mensagens a partir de discussões, autalizações de classificação, mensagens privadas entre você e outros usuários, etc..."
       headings: 
         recent_activity: "Atividades Recentes"
       information: Information
@@ -8836,11 +8839,11 @@ pt-BR:
         find_outcome_criterion: "Find Outcome Criterion"
         find_rubric: "Find Rubric"
       messages: 
-        locked: "Can't change a rubric once you've started using it."
+        locked: "Não é possível alterar uma assinatura, uma vez que você começou a usá-la."
         rubric_in_use: 
-          one: "Keep in mind that 1 student has already been assessed using this rubric. Changing it will affect their evaluation."
-          other: "Keep in mind that %{count} students have already been assessed using this rubric. Changing it will affect their evaluations."
-        rubric_in_use2: "You've already rated students with this rubric. Any major changes could affect their assessment results."
+          one: "Tenha em mente que um aluno já foi avaliado usando esta assinatura. A alteração disso afetará a sua avaliação."
+          other: "Tenha em mente que %{count} estudantes já foram avaliados utilizando esta assinatura. A alteração disso afetará suas avaliações."
+        rubric_in_use2: "Você já avaliou alunos com esta assinatura. Mudanças maiores poderão afetar os resultados da sua avaliação."
       out_of: "%{points} *out of %{total}*"
       titles: 
         find_existing_rubric: "Find Existing Rubric"
@@ -8848,7 +8851,7 @@ pt-BR:
       defaults: 
         description: "Description of criterion"
       description: 
-        custom_comments_area: "This area will be used by the assessor to leave comments related to this criterion."
+        custom_comments_area: "Esta área será utilizada pelo avaliador para deixar comentários relacionados a este critério."
       full_marks: "Full Marks"
       ignored_in_total: "ignored in total"
       labels: 
@@ -8904,18 +8907,18 @@ pt-BR:
       add_to_module: "Add %{item} to *module*"
       assignment_alt: Assignment
       assignment_item: Assignment
-      assignment_notice: "Select the assignment you want to associate with this *module*, or add an assignment by selecting \"New Assignment\"."
+      assignment_notice: "Selecione uma tarefa que você deseja associar a este *módulo*. Ou adicione uma nova tarefa selecionando \"Nova Tarefa\"."
       content_page_item: "Content Page"
       discussion_item: Discussão
       domain_match_notice: "to use this tool the domain must match %{domain}"
       external_tool_item: "External Tool"
       external_tool_link_alt: "External tool"
-      external_tool_notice: "Select a tool from the list below, or enter a URL for an external tool you already know is configured with Basic LTI to add a link to it to this *module*."
+      external_tool_notice: "Selecione uma ferramenta a partir da lista abaixo ou digite a URL de uma ferramenta externa que você sabe que está configurada com Basic LTI para adicionar um link para ele para este *módulo*."
       external_url_item: "External URL"
       external_url_link_alt: "External URL"
-      external_url_notice: "Enter a URL and page name to add a link to any website URL to this *module*."
+      external_url_notice: "Digite uuma URL e o nome da página para adicionar um link para qualquer URL de um site para este *módulo*."
       file_item: File
-      file_notice: "Select the file you want to associate with this *module*, or add a file by selecting \"New File\"."
+      file_notice: "Selecione um arquivo que você deseja associar a este *módulo*. Ou adicione um novo arquivo selecionando \"Novo Arquivo\"."
       indent_level: 
         one: "*Indent 1 Level*"
         other: "*Indent %{count} levels*"
@@ -8939,13 +8942,13 @@ pt-BR:
       new_topic_option: "[ New Topic ]"
       quiz_alt: Quiz
       quiz_item: Quiz
-      quiz_notice: "Select the quiz you want to associate with this *module*, or add a new one by selecting \"New Quiz\"."
+      quiz_notice: "Selecione os testes que você deseja associar a este *módulo*. Ou adicione um novo teste selecionando \"Novo Teste\"."
       sub_header_notice: "Type the text you'd like to add as a *module* sub-header"
       text_header_item: "Text Header"
       topic_alt: Topic
-      topic_notice: "Select the topic you want to associate with this *module*, or add a topic by selecting \"New Topic\"."
+      topic_notice: "Selecione o tópico que você deseja associar a este *módulo*. Ou adicione um novo tópico selecionando \"Novo Tópico\"."
       wiki_page_alt: "Wiki page"
-      wiki_page_notice: "Select the wiki page you want to associate with this *module*, or add a new page by selecting \"New Page\"."
+      wiki_page_notice: "Selecione a página da wiki que você deseja associar a este *módulo*. Ou adicione uma nova página selecionando \"Nova Página\"."
     sequence_footer: 
       full_course_sequence: "see full course sequence"
       next: Next
@@ -9038,20 +9041,20 @@ pt-BR:
         needs_cookies: "Cookies Required"
         needs_login: "Please Log In"
         unauthorized_action: Unauthorized
-      needs_cookies: "Cookies are not enabled on your browser. Please adjust this in your security preferences before continuing."
-      needs_login: "Access to this page is limited to authorized users. You do not have currently have permission to view this page."
-      public_course: "This page is part of the content for the course, **%{course}**."
+      needs_cookies: "Os cookies não estão habilitados em seu navegador. Por favor modifique isso em suas preferências de segurança antes de continuar."
+      needs_login: "O acesso a esta página está limitado para usuários autorizados. Você não têm permissão para visualizar esta página."
+      public_course: "Esta página é parte do conteúdo para o curso, **%{course}**."
       titles: 
         log_in: "Please Log In"
         unauthorized_action: Unauthorized
-      unauthorized_1: "It appears that you don't have permission to access this page. Please make sure you're authorized to view this content."
-      unauthorized_2: "If you think you should be able to view this page, please use the \"Help\" link to notify support of the problem."
-      unauthorized_action: "Access to this page is limited to authorized users. You will need to log in before you can view the content on this page."
-      unauthorized_user: "%{user_name}, you'll need to log in before you can view that page. Click \"Forgot Password\" if you forgot or don't know your password."
-      unauthorized_user_is_other: "%{current_user}, you are not authorized to view this page.  The link you followed to get here was for **%{unauthorized_user} (%{unauthorized_user_email})**.  If that's you, you may want to log out and log back in with that email address to gain access to this page."
+      unauthorized_1: "Parece que você não tem permissão para acessar esta página. Por favor, verifique se você está autorizado a ver este conteúdo."
+      unauthorized_2: "Se você acha que deve ser capaz de visualizar esta página, por favor use o link de  \"Ajuda\" para notificar e receber suporte sobre o problema."
+      unauthorized_action: "O acesso a esta página está limitada aos usuários autorizados. Você precisa fazer o login antes de poder ver o conteúdo desta página."
+      unauthorized_user: "%{user_name}, você precisa fazer o login antes de poder ver essa página. Clique em \"Esqueci a senha\" se você se esqueceu ou não sabe sua senha."
+      unauthorized_user_is_other: "%{current_user}, você não está autorizado a ver esta página. O link que você seguiu para chegar até aqui foi para **%{unauthorized_user} (%{unauthorized_user_email})**. Se este usuário é você, você pode deslogar e logar com esse endereço de e-mail para ter acesso a esta página."
     unauthorized_feed: 
       bad_params: "The parameters for the feed you were trying to access are invalid."
-      feedback: "If you're pretty sure this url was supposed to work, please tell us how you got here by clicking the link below, and we'll look into it."
+      feedback: "Se você tem certeza que essa url deveria funcionar, por favor diga-nos como você chegou aqui clicando no link abaixo, e vamos olhar para ele."
       headings: 
         problem: "There was a problem loading your feed"
       links: 
