@@ -992,7 +992,7 @@ pt-BR:
         record_before_submitting: "Record Before Submitting"
         submitting: Submitting...
         uploading: "Retrieving a copy of your Google Doc to submit for this assignment. This may take a little while, depending on the size of the file..."
-      no_files: "No Files"
+      no_files: "Sem Arquivos"
       titles: 
         media_recordings_disabled: "Media recordings are not enabled for this Canvas site"
         uploading: "Uploading Submission"
@@ -3088,8 +3088,8 @@ pt-BR:
         totals: "Running Totals"
       labels: 
         allotted_storage: "Allotted Storage"
-        media_files: "Media Files"
-        uploaded_files: "Uploaded Files"
+        media_files: "Arquivos de Mídia"
+        uploaded_files: "Enviado Arquivo"
       new: New
       new_discussion_entries: "New Discussion Entries"
       new_discussions: "Novas Discussões"
@@ -3578,8 +3578,8 @@ pt-BR:
         wizard: "Getting Started Wizard"
       login_required: "You must be *logged in* to make comments on this page."
       new_section: "New Section"
-      no_comments: "No Comments"
-      no_files: "No Files Uploaded"
+      no_comments: "Sem Comentários"
+      no_files: "Nenhum Arquivo Enviado"
       no_submissions: "No Submissions Found"
       private_comments: "Right now only you can see the comments for this page. You can make the comments public if you like by *changing the settings for this page*."
       private_eportfolio: "That means people can't find it or even view it without permission. You can see it since it's your portfolio, but if you want to let anybody else see it, you'll need to copy and share the the following special link so they can access your portfolio:"
@@ -3829,7 +3829,7 @@ pt-BR:
       update_file_failed: "Updating File Failed, please try again"
       upload_failed: "Upload failed, please try again."
       uploading: "Uploading Error"
-    feed_title: "%{course_or_group} Files Feed"
+    feed_title: "Feed de Arquivo do %{course_or_group}"
     fields: 
       file: File
     full_index: 
@@ -3844,7 +3844,7 @@ pt-BR:
         lock_file: "Lock this File"
         lock_folder: "Travar esta Pasta"
         overwrite_duplicate_attachment: Overwrite
-        rename_duplicate_attachment: "Rename New Files"
+        rename_duplicate_attachment: "Renomear Novo Arquivo"
         update: "Update File"
       descriptions: 
         etherpad: "EtherPad is a site that lets you quickly set up shared documents. It's fast enough that you can see what others are typing as they're typing it -- although \"pads\" aren't protected by a password so anyone that knows about them can edit them. EtherPad might be better suited than Google Docs for things like taking notes because it's so fast."
@@ -3872,46 +3872,46 @@ pt-BR:
       links: 
         add_file: "Add File"
         add_folder: "Adicionar Pasta"
-        all_collaborations: "ALL Collaborations"
-        delete_file: "Delete this File"
+        all_collaborations: "Todas Colaborações"
+        delete_file: "Remover este Arquivo"
         delete_folder: "Remover esta Pasta"
         download_as_zip: "Download files in this folder as a zip"
         download_file: "Download this File"
         download_with_size: "download the file (%{size})"
         edit_collaboration: "Edit this Collaboration"
         edit_content: "edit content"
-        import_zip: "Import a zip file"
-        lock_file: "Lock this File"
+        import_zip: "Importar um arquivo zip"
+        lock_file: "Travar este Arquivo"
         lock_folder: "Travar esta Pasta"
-        new_collaboration: "New Collaboration"
+        new_collaboration: "Nova Colaboração"
         preview: preview
-        rename_file: "Rename this File"
+        rename_file: "Renomear este Arquivo"
         rename_folder: "Renomear esta Pasta"
-        reorder_file: "Drag to reorder"
-        show_all_files: "see files for all your courses/groups"
+        reorder_file: "Arraste para reordenar"
+        show_all_files: "ver arquivos de todos seus cursos/grupos"
         show_personal_files: "just show my personal files"
-        unlock_file: "Unlock this File"
+        unlock_file: "Destravar este Arquivo"
         unlock_folder: "Destravar esta Pasta"
-        view_collaboration: "View this Collaboration"
-        view_item: "Click here to view %{name}"
+        view_collaboration: "Visualizar esta Colaboração"
+        view_item: "Clique aqui para visualizar %{name}"
       locked: "This file isn't unlocked yet, so it can't be downloaded."
       locked2: "This file is locked and cannot be downloaded by students."
       messages: 
         gathering_and_zipping: |-
             **The contents of this folder are being gathered** and compressed
             into a zip file.  This may take some time, depending on the size and number of files.
-        gathering_files: "Gathering Files..."
+        gathering_files: "Recolhendo Arquivos..."
         no_preview_avaialble: "No Preview Available"
-        uploading: "Uploading 5 Files..."
-      page_title: Files
-      storage_used: "Storage Used: %{size1} out of %{size2}"
+        uploading: "Enviando 5 Arquivos..."
+      page_title: Arquivos 
+      storage_used: "Espaço Utilizado: %{size1} de %{size2}"
       titles: 
-        collaborations: "Collaborations for %{name}"
-        collaborators: Collaborators
+        collaborations: "Colaborações de %{name}"
+        collaborators: Colaborações 
         created_by_etherpad: "This document was created using EtherPad."
         created_by_google_docs: "This document was created using Google Docs."
-        edit_file: "Edit %{file}"
-        edit_file_contents: "Edit File Contents"
+        edit_file: "Editar %{file}"
+        edit_file_contents: "Editar Conteúdo do Arquivo"
         file_locked: Trancado
         folder_locked: Trancado
         lock_file: "Lock %{file_name}"
@@ -3919,31 +3919,31 @@ pt-BR:
       warnings: 
         too_many: "There were too many courses/groups to show all at once. Below are the first 15 results."
     links: 
-      add_files: "Add Files"
-      download_zip: "Click here to download %{size}"
+      add_files: "Adicionar Arquivos"
+      download_zip: "Clique aqui para baixar %{size}"
     messages: 
-      access_denied: "You cannot read the contents of this folder."
-      creating_zip: "Creating zip file..."
-      done_uploading: "Done uploading"
+      access_denied: "Você não pode ler o conteúdo desta pasta."
+      creating_zip: "Criando arquivo zip..."
+      done_uploading: "Envio completo"
       error_count: 
-        one: "1 Error"
-        other: "%{count} Errors"
+        one: "1 Erro"
+        other: "%{count} Erros"
       extraction_complete: "Extraction complete!  Updating File Structure..."
-      finalizing: Finalizing
+      finalizing: Finalizando
       folder_empty: "Nada nesta Pasta"
       gathering_data: "Gathering data..."
-      gathering_files_with_progress: "Gathering Files (%{progress}%)..."
+      gathering_files_with_progress: "Recolhendo Arquivos(%{progress}%)..."
       loading_files: "Carregando Arquivos..."
-      no_collaborations: "There are no collaborations to show"
+      no_collaborations: "Não existem colaborações para serem exibidasw"
       no_files_selected: "No valid files were selected"
       queue: Queued
       queued: Queued
-      updating_file: "Updating File..."
-      upload_complete: "Done uploading"
-      uploading: Uploading
+      updating_file: "Enviando Arquivo..."
+      upload_complete: "Envio pronto"
+      uploading: Enviando
       uploading_files: 
-        one: "Uploading 1 File..."
-        other: "Uploading %{count} Files..."
+        one: "Enviando 1 Arquivo..."
+        other: "Enviando %{count} Arquivos..."
       uploading_with_speed: "Uploading (%{speed}KB/s)"
       zip_finished: "Finished!  Redirecting to File..."
     new: 
@@ -3957,7 +3957,7 @@ pt-BR:
     prompts: 
       delete_file: "Are you sure you want to delete this file?"
       delete_folder: "Are you sure you want to delete this folder and all of its contents?"
-      duplicate_filenames: "Files with the following names already exist in this folder. Do you want to replace them, or rename the new files with unique names?"
+      duplicate_filenames: "Arquivos com os seguintes nomes existem na pasta. Do you want to replace them, or rename the new files with unique names?"
       extract_zip: "This file is a zip file.  Do you want to extract its contents into this folder?"
     show: 
       messages: 
@@ -6814,16 +6814,16 @@ pt-BR:
         right_away: "Imediatamente"
         weekly: Semanalmente
       headers: 
-        notification_preferences: "Notification Preferences"
+        notification_preferences: "Preferências de Notificação"
       notices: 
-        communication_preferences_updated: "Communication Preferences updated"
-      page_title: "Notification Preferences"
+        communication_preferences_updated: "Preferências de Notificação atualizada"
+      page_title: "Preferências de Notificação"
     confirms: 
       delete_access_key: "Are you sure you want to delete this access key?"
       delete_login: "Are you sure you want to delete this login?"
       regenerate_token: "Are you sure you want to regenerate this token?  Anything using this token will have to be updated."
       unregister_service: "Are you sure you want to unregister this service?"
-    crumb: "%{user}'s profile"
+    crumb: "perfil de %{user}"
     crumb_notification_preferences: "Notification Preferences"
     email_select: 
       default_email_option: "[Select Email]"
@@ -6919,7 +6919,7 @@ pt-BR:
         registered_services: "Serviços Registrados"
         share_skype_id: "Share your Skype ID"
         twitter_access: "Twitter Access"
-        users_profile: "%{user}'s Profile"
+        users_profile: "Perfil de %{user}"
         ways_to_log_in: "Formas de Log In"
         web_services: "Serviçoes Web"
       hints: 
@@ -6970,11 +6970,11 @@ pt-BR:
         skype: Skype
         twitter: Twitter
         upload_new_image: "Enviar uma nova Imagem"
-        view_facebook_app: "view the Facebook app"
-        view_your_profile: "view your profile"
-      loading_token_details: "Loading Token Details..."
+        view_facebook_app: "visualizar o app do Facebook"
+        view_your_profile: "visualizar seu perfil"
+      loading_token_details: "Carregando Detalhes do Token..."
       no_approved_integrations: "Third-party applications can request permission to access the Canvas site on your behalf. As you begin authorizing applications you will see them listed here."
-      no_language_preference: "System Default (%{language})"
+      no_language_preference: "Padrão do Sistema (%{language})"
       no_registered_services: "Nenhum Serviço Registrado"
       none: Nenhum
       page_title: Perfil
@@ -6986,7 +6986,7 @@ pt-BR:
         authorize_google_docs: "Authorize Google Docs"
         authorize_linkedin: "Authorize LinkedIn"
         authorize_twitter: "Authorize Twitter"
-        click_to_change_profile_pic: "Click to change profile pic"
+        click_to_change_profile_pic: "Clique para alterar a figura do perfil"
         delicious_login: "Delicious Login"
         diigo_login: "Diigo Login"
         new_access_token: "Novo Token de Acesso"
@@ -7067,13 +7067,13 @@ pt-BR:
         should_be_10_digits: "deve ser um número de 10 dígitos"
   pseudonym: 
     errors: 
-      invalid_email_address: "\"%{email}\" is not a valid email address"
+      invalid_email_address: "\"%{email}\" não é uma endereço de email válido"
   pseudonym_session: 
     errors: 
       max_attempts: "Too many failed login attempts. Please try again later or contact your system administrator."
   pseudonym_sessions: 
     errors: 
-      invalid_credentials: "Incorrect username and/or password"
+      invalid_credentials: "Nome de usuário e/ou senha incorreto"
       login_error: "There was a problem logging in at %{institution}"
       max_attempts: "Too many failed login attempts. Please try again later or contact your system administrator."
       no_matching_user: "Canvas doesn't have an account for user: %{user}"
@@ -8123,17 +8123,17 @@ pt-BR:
   re_upload_submissions_form: 
     buttons: 
       upload: "Enviar arquivos"
-    reupload_submission_files: "Re-Upload Submission Files"
+    reupload_submission_files: "Reenviar Arquivos Submetidos"
     upload_info: "Se você fez alterações no arquivo enviado que você fez download, zip os arquivos novamente e os envie através do formulário abaixo. Os estudantes vão ver as mudanças nos arquivos nos comentários dos envios."
     upload_warning: "Certifique-se de não alterar os nomes dos arquivos enviados, para que possamos reconhecê-los."
   role_override: 
     permissions: 
       become_user: "Become other users"
-      change_course_state: "Change course state"
+      change_course_state: "Alterar estado do curso"
       comment_on_others_submissions: "Visualizar todas as submissões do estudante e fazer comentários nelas"
-      create_collaborations: "Create student collaborations"
-      create_conferences: "Create web conferences"
-      manage_account_memberships: "Add/remove other admins for the account"
+      create_collaborations: "Criar colaborações de estudantes"
+      create_conferences: "Criar conferência web"
+      manage_account_memberships: "Adicionar/remover outros administradore da conta"
       manage_account_settings: "Manage account-level settings"
       manage_admin_users: "Add/remove other teachers, course designers or TAs to the course"
       manage_alerts: "Manage global alerts"
@@ -9097,7 +9097,7 @@ pt-BR:
         announcements_page: "Click to insert a link to the announcements page"
         assignments: "Click to insert a link to this assignment"
         assignments_page: "Click to insert a link to the assignments page"
-        collaborations_page: "Click to insert a link to the collaborations page"
+        collaborations_page: "Clique para inserir um link para a página de colaborações"
         discussions: "Click to insert a link to this topic"
         discussions_page: "Click to insert a link to the discussions page"
         files_page: "Click to insert a link to the files page"
@@ -9116,7 +9116,7 @@ pt-BR:
         announcements_page: "Lista de Anúncios"
         assignments: "Lista de Tarefas"
         assignments_page: "Lista de Tarefas"
-        collaborations_page: Collaborations
+        collaborations_page: Colaborações 
         discussions: "Índice de Discussões"
         discussions_page: "Índice de Discussões"
         files_page: "Índice de Arquivos"
@@ -9730,8 +9730,8 @@ pt-BR:
     index: 
       all_users: "Todos Usuários"
       buttons: 
-        manage_profile_pictures: "Manage Profile Pictures"
-        student_groups: "View Student Groups"
+        manage_profile_pictures: "Gerenciar Figuras do Perfil"
+        student_groups: "Visualizar Grupos de Estudantes"
       crumbs: 
         users: Usuários
       labels: 
