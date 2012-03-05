@@ -9602,7 +9602,7 @@ pt-BR:
   user_service: 
     descriptions: 
       delicious: "Delicious é uma ferramenta coloborativa de compartilhamento de links. Você pode marcar qualquer página na Internet para consulta posterior. Você também pode criar um link para contas de outros usuários do Delicious para compartilhar links de interesse semelhante."
-      diigo: "Diigo é uma ferramenta coloborativa de compartilhamento de links. Você pode marcar qualquer página na Internet para consulta posterior. Você também pode criar um link para contas de outros usuários do Diigo para compartilhar links de interesse semelhante.
+      diigo: "Diigo é uma ferramenta coloborativa de compartilhamento de links. Você pode marcar qualquer página na Internet para consulta posterior. Você também pode criar um link para contas de outros usuários do Diigo para compartilhar links de interesse semelhante."
       google_docs: "Os alunos podem usar o Google Docs para trabalho de projetos em grupo. Google Docs permite, em tempo real, a edição colaborativa de documentos, planilhas e apresentações."
       linked_in: "LinkedIn é uma rede para o mercado de trabalho. Muitos dos relacionamentos que você constrói na escola, também podem ser úteis para inserção no mercado de trabalho."
       skype: "Skype é uma ferramenta gratuita para chamadas de voz e vídeo online."
@@ -9623,7 +9623,7 @@ pt-BR:
       merge_result_explanation: "Você tem certeza que deseja mesclar a conta, %{source_user_name} (% {source_user_email}) com esta conta, %{target_user_name} (%{target_user_email})? Este processo irá ter o seguinte resultado final:"
       merge_result_explanation_again: "Você selecionou mesclar o usuário, %{user_name} (%{user_email}) na conta,% {pending_other_user_name} (% {pending_other_user_email}). Este processo irá ter o seguinte resultado final:"
       merge_somone_else: "Merge Someone Else With %{user_name}"
-      merge_user_initial_instructions: "Você selecionou mesclar o usuário, %{user_name} (%{user_email}) com outra conta. Você pode procurar o usuário que você gostaria de mesclar utilizando o formulário abaixo, ou simplesmente navegar para a página do usuário e clicar em \"Mesclar Usuário"\."
+      merge_user_initial_instructions: "Você selecionou mesclar o usuário, %{user_name} (%{user_email}) com outra conta. Você pode procurar o usuário que você gostaria de mesclar utilizando o formulário abaixo, ou simplesmente navegar para a página do usuário e clicar em \"Mesclar Usuário\"."
       no_merge_undo: "This process cannot be undone, so please make sure you're certain before you continue."
       no_permission: "You don't have permission to search any accounts"
       prepare_to_merge: "Prepare to Merge Users"
@@ -9973,9 +9973,9 @@ pt-BR:
         anyone: Anyone
         only_teachers: "Only Teachers"
         teachers_and_students: "Teacher and Students"
-      course_home_wiki_page_description: "Você pode usar esta página para organizar ou apresentar o curso da maneira que quiser. Você pode facilmente vincular as tarefas, arquivos, etc usando a seção \ "Ferramentas da página \", que você verá à direita uma vez que você iniciar a edição."
+      course_home_wiki_page_description: "Você pode usar esta página para organizar ou apresentar o curso da maneira que quiser. Você pode facilmente vincular as tarefas, arquivos, etc usando a seção \"Ferramentas da página\", que você verá à direita uma vez que você iniciar a edição."
       course_wiki_page_description: "Você pode usar esta wiki para criar páginas suplementares ou descrições para o seu material do curso. Você pode facilmente vincular páginas da  wiki à atribuições, ou vinculá-las para o material do curso e outros arquivos a partir de qualquer página da wiki. Isto  torna um ótimo lugar para explicar conceitos complexos, permitindo que projetos de grupos, ou criar praticamente qualquer tipo de página que você pode precisar em seu curso."
-      default_wiki_page_description: "Esta é a página da wiki padrão, e os alunos irão vê-la quando ele clicar na guia \ "Páginas \" para este curso."
+      default_wiki_page_description: "Esta é a página da wiki padrão, e os alunos irão vê-la quando ele clicar na guia \"Páginas\" para este curso."
       default_wiki_page_is_course_home_page_warning: |-
           Agora esta página está definida como a página padrão do curso, assim os visitantes do seu
           curso verão primeiro esta página. Você pode mudar isso a partir de [página principal do curso](%{link}).
