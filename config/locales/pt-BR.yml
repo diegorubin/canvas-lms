@@ -7626,7 +7626,7 @@ pt-BR:
       end_quiz_when: "End the quiz %{n} minutes from %{reference_time}."
       errors: 
         server_communication_failed: "There was a problem communicating with the server.  The system will try again in five minutes, or you can reload the page"
-      extended_quiz_time_explanation: "You can give this student extra time on their current quiz attempt. How much time would you like to give them?"
+      extended_quiz_time_explanation: "Você pode dar a esses alunos tempo extra para realizarem o teste atual. Quanto tempo você gostaria de dar-lhes?"
       extensions_for_student: "Extensions for %{student}"
       extensions_for_students: 
         one: "Extensions for 1 Student"
@@ -7666,7 +7666,7 @@ pt-BR:
     multi_answer: 
       choose_answer: Choose
     muted: 
-      muted_quiz_description: "Your quiz score is unavailable because your instructor has not finished grading it. When your instructor finishes grading this quiz, your score will be available on this page."
+      muted_quiz_description: "Sua pontuação do teste está indisponível porque seu instrutor não acabou sua avaliação. Quando o instrutor terminar a avaliação deste teste, a sua pontuação estará disponível nesta página."
       muted_quiz_header: "Your quiz has been muted"
     new: 
       buttons: 
@@ -7686,8 +7686,8 @@ pt-BR:
         link_to_content: "Link to Content"
         quiz_options: "Quiz Options"
       hints: 
-        quiz_score: "students will automatically receive full credit once they take the survey"
-      ip_filters: "Quiz IP filters are a way to limit access to quizzes to computers in a specified IP range. Filters can be a comma-separated list of addresses, or an address followed by a mask (\"192.168.217.1\", \"192.168.217.1/24\" or \"192.168.217.1/255.255.255.0\")."
+        quiz_score: "os alunos irão receber automaticamente o crédito total, uma vez que participarem da pesquisa"
+      ip_filters: "Os filtros de ip para testes são uma maneira de limitar o acesso a testes por computadores em um intervalo de ip's especificado. Os filtros podem ser uma lista separada por vírgulas de endereços, ou um endereço seguido de uma máscara (\"192.168.217.1\", \"192.168.217.1/24\" or \"192.168.217.1/255.255.255.0\")."
       keep_highest: Highest
       keep_latest: Latest
       labels: 
@@ -7737,14 +7737,14 @@ pt-BR:
         find_ip_address_filter: "Find IP Address Filter"
       ungraded_survey: "Ungraded Survey"
       warnings: 
-        has_student_submissions: "Students have either already taken or started taking this quiz, so be careful about editing it. If you change any quiz questions in a significant way, you may want to consider re-grading students who took the old version of the quiz."
-        unpublished_changes: "You have made unpublished changes to this quiz. These changes will not appear for students until you publish or re-publish the quiz."
+        has_student_submissions: "Os alunos já finalizaram ou já começaram este teste, então seja cuidadoso em editá-lo. Se você alterar as perguntas do teste de forma significativa, você pode considerar a reavaliação dos alunos que fizeram a versão antiga do teste."
+        unpublished_changes: "Você fez novas alterações para este teste. Estas mudanças não irão aparecer para os alunos até que você publicar ou republicar este teste."
     no_filters_found: "No filters found"
     notices: 
-      cant_view_submission_while_muted: "You cannot view the quiz history while the quiz is muted."
-      has_submissions_already: "Keep in mind, some students have already taken or started taking this quiz"
-      less_than_allotted_time: "You started this quiz near when it was due, so you won't have the full amount of time to take the quiz."
-      no_submission_for_user: "There is no submission available for that user"
+      cant_view_submission_while_muted: "Você não pode ver o histórico do teste, enquanto o teste está silenciado."
+      has_submissions_already: "Tenha em mente, alguns alunos já finalizaram ou começaram a realizar este teste"
+      less_than_allotted_time: "Você começou esse teste de perto seu encerramento, assim você não terá a quantidade total de tempo para fazer o teste."
+      no_submission_for_user: "Não há envio disponível por este usuário"
       quiz_data_saved: "Quiz data saved"
       quiz_updated: "Quiz successfully updated"
       quizzes_published: 
@@ -7848,32 +7848,32 @@ pt-BR:
       labels: 
         final_score: "Final Score"
         fudge_points: "Fudge Points"
-        fudge_points_changed_points_quiz: "Since %{user} took this quiz, the points possible for the quiz has changed by %{difference}. You can adjust for this change and manually add positive or negative points using this box:"
-        fudge_points_changed_points_survey: "Since %{user} took this survey, the points possible for the survey has changed by %{difference}. You can adjust for this change and manually add positive or negative points using this box:"
-        fudge_points_generic_explanation: "You can manually adjust the score by adding positive or negative points to this box:"
-        questions_need_review: "The following questions need review"
+        fudge_points_changed_points_quiz: "Desde que %{user} finalizou este teste, os pontos possíveis para o teste mudaram para %{difference}. Você pode ajustar esta mudança e adicionar manualmente os pontos positivos ou negativos utilizando esta caixa:"
+        fudge_points_changed_points_survey: "Desde que %{user} finalizou esta pesquisa, os pontos possíveis para a pesquisa mudaram para %{difference}. Você pode ajustar esta mudança e adicionar manualmente os pontos positivos ou negativos utilizando esta caixa:"
+        fudge_points_generic_explanation: "Você pode ajustar manualmente a pontuação, acrescentando pontos positivos ou negativos a esta caixa:"
+        questions_need_review: "As seguintes questão necessitam de revisão"
         quiz_score: "Quiz Score"
         score_for_attempt: "Score for this attempt"
         score_for_quiz: "Score for this quiz"
         score_for_survey: "Score for this survey"
         survey_score: "Survey Score"
       links: 
-        click_to_view_results: "Click here to view the results."
-      quiz_fudged_negative: "This quiz score has been manually adjusted by %{fudge} points."
-      quiz_fudged_positive: "This quiz score has been manually adjusted by +%{fudge} points."
-      quiz_not_yet_taken: "The quiz hasn't been taken yet."
-      quiz_results_protected: "Quiz results are protected for this quiz, and are not visible to students."
-      quiz_results_protected_until_last_attempt: "Quiz results are protected for this quiz, and are not visible to students until they have submitted their last attempt."
+        click_to_view_results: "Clique aqui para vizualizar os resultados."
+      quiz_fudged_negative: "A pontuação deste teste foi manualmente ajustada por %{fudge} pontos."
+      quiz_fudged_positive: "A pontuação deste teste foi manualmente ajustada por +%{fudge} pontos."
+      quiz_not_yet_taken: "O teste não foi realizado ainda."
+      quiz_results_protected: "Resultados do teste são protegidos por este teste e não são visíveis pelos alunos."
+      quiz_results_protected_until_last_attempt: "Resultados do teste são protegidos por este teste e não são visíveis pelos alunos até que eles apresentem sua última tentativa."
       requires_lockdown: "Respondus LockDown Browser is required to view your quiz results."
       score_out_of_points_possible: "%{score} out of %{points_possible}"
       submitted_at: "Submitted %{when}"
-      survey_fudged_negative: "This survey score has been manually adjusted by %{fudge} points."
-      survey_fudged_positive: "This survey score has been manually adjusted by +%{fudge} points."
-      survey_not_yet_taken: "The survey hasn't been taken yet."
+      survey_fudged_negative: "A pontuação desta pesquisa foi manualmente ajustada por %{fudge} pontos."
+      survey_fudged_positive: "A pontuação desta pesquisa foi manualmente ajustada por +%{fudge} pontos."
+      survey_not_yet_taken: "A pesquisa não foi realizada ainda."
       titles: 
-        this_is_an_external_element: "This is an external element, not text, and could have changed since the student submitted"
-        this_is_an_external_frame: "This is an external frame, not text, and could have changed since the student submitted"
-        this_is_an_image: "This is an image, not text, and could have changed since the student submitted"
+        this_is_an_external_element: "Este é um elemento externo e não um texto e pode ter mudado desde que o aluno enviou"
+        this_is_an_external_frame: "Este é um quadro externo e não um texto e pode ter mudado desde que o aluno enviou"
+        this_is_an_image: "Esta é uma imagem e não um texto e pode ter mudado desde que o aluno enviou"
     quiz_summary: 
       assignment_points_possible: 
         one: "1 pt"
@@ -7931,7 +7931,7 @@ pt-BR:
       confirms: 
         delete_quiz: "Are you sure you want to delete this quiz?"
         delete_quiz_submissions_warning: 
-          one: "Warning: 1 student has already taken this quiz. If you delete it, any completed submissions will be deleted and no longer appear in the gradebook."
+          one: "Aviso: Um alunos já finalizou este teste. Se você apagá-lo, quaisquer envios concluídos serão eliminados e deixarão de aparecer no boletim."
           other: "Aviso: %{count} alunos já finalizaram este teste. Se você apagá-lo, quaisquer envios concluídos serão eliminados e deixarão de aparecer no boletim."
       have_not_taken_the_quiz: "Have NOT taken the quiz"
       have_taken_the_quiz: "Have taken the quiz"
