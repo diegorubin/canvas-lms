@@ -1525,7 +1525,7 @@ pt-BR:
         password_confirmation: "Confirm Password"
         short_name: "Apelido"
         sortable_name: "Nome Classificável"
-        subscribe_to_emails: "I want to receive information, news and tips from Instructure"
+        subscribe_to_emails: "Eu quero receber informações, notícias e dicas da Instructure"
         time_zone: "Fuso Horário"
         unique_id: "Email Address"
       page_title: "Register %{email}"
@@ -2141,7 +2141,7 @@ pt-BR:
         list_services: "You haven't enabled your list of registered services. Enabling this list will let fellow course and group members more easily link up with you outside of class."
         services: "You haven't linked your user profile to any external services. You can link your Canvas account to services like Facebook and Twitter. This will make it easier for fellow course and group members to link up with you outside of class."
       labels: 
-        public_list_services: "Let fellow course/group members see which services I've linked to my profile"
+        public_list_services: "Deixar colegas de curso/grupo ver quais serviços estão vínculados ao meu perfil"
         user_privileges: Privilégios
       legends: 
         memberships: Filiação(ões)
@@ -2152,14 +2152,14 @@ pt-BR:
         delete_enrollment: "Remover esta Inscrição"
         faculty_journal: "Faculty Journal for %{user}"
         link_enrollment: "Vincular esta Inscrição"
-        link_services: "Link web services to my account"
+        link_services: "Víncular serviços web para minha conta"
         message_user: "Mensagem para %{user}"
         more_user_details: "mais detalhes do usuário..."
         remove_avatar: "Remove avatar picture"
         report_avatar: "Report inappropriate picture"
         restore_enrollment: "Restore this Enrollment"
         student_teacher_activity: "Relatório de Suas Interações com %{user}"
-        teacher_activity: "Student Interactions Report for %{user}"
+        teacher_activity: "Relatório de Interações do Estudante para %{user}"
         title: 
           enrollment_sis_defined: "This enrollment was defined by the university, and can't be deleted"
         user_account_details: "Detalhes da Conta do Usuário"
@@ -2168,29 +2168,29 @@ pt-BR:
         user_outcomes: "Resultados para %{user}"
         user_view_all_sections: "deixe que este usuário veja todos os usuários do curso"
       no_messages: "Sem Mensagens"
-      no_services: "%{user} hasn't linked any external services to their account yet."
+      no_services: "%{user} não possui qualquer vínculo com serviços externos para esta conta ainda."
       services_not_visible: "%{user}'s registered services are not visible to you at this time."
       user_only_view_section: "Este usuário só pode ver os alunos que estão nas mesmas seções que ele pertence"
       user_view_all_sections: "este usuário pode ver estudantes em qualquer seção do curso"
     roster_user_services: 
       headings: 
-        registered_services: "Registered Services"
+        registered_services: "Serviços registrados"
         service_types: "Tipos de Serviço"
       help: 
         no_services: "You haven't linked your user profile to any external services. You can link your Canvas account to services like Facebook and Twitter."
         services_private: "You haven't enabled your list of registered services. Enabling this list will let fellow course and group members see which services you have linked to your Canvas account."
         user_services: "If other members choose, they can let you see which outside services they've linked to their Canvas account. This can make it easier to coordinate group projects and also link up outside of class."
       labels: 
-        allow_view_services: "Let fellow course/group members see which services I've linked to my profile"
+        allow_view_services: "Deixar colegas de curso/grupo ver quais serviços estão vínculados ao meu perfil"
       links: 
         alt: 
           skype_status: "skype status"
         back_to_roster: "Back to Roster"
         link_existing_service_account: "Link Existing Account"
-        link_service: "Link web services to my account"
+        link_service: "Víncular serviços web para minha conta"
         sign_up_for_service: "Sign Up"
       titles: 
-        registered_services: "Registered Services"
+        registered_services: "Serviços Registrados"
     roster_user_usage: 
       headings: 
         user_access_report: "%{user} Access Report"
@@ -3141,9 +3141,9 @@ pt-BR:
     people: Pessoa
     plugins: Plugins
     prior_users: "Prior Users"
-    registered_services: "Registered Services"
+    registered_services: "Serviços Registrados"
     results: Resultados
-    revisions: Revisions
+    revisions: Revisões
     rubrics: Rubrics
     settings: Configurações
     stats: Estatísticas
@@ -4259,7 +4259,7 @@ pt-BR:
       assignment_question: "Assignment in question"
       buttons: 
         continue: "Continue %{icon}"
-        save_changes: "Save Changes"
+        save_changes: "Salvar Alterações"
       choose_option: "-- Choose --"
       headers: 
         import_error: "There was some stuff I couldn't figure out with the data that you uploaded:"
@@ -4664,7 +4664,7 @@ pt-BR:
       discussions: Discussões
       files: Files
       home: Início 
-      pages: Pages
+      pages: Páginas
       people: Pessoas
   group_category: 
     group_categories: 
@@ -5451,8 +5451,8 @@ pt-BR:
     confirm_email_communication_channel: 
       email: 
         body: "The email address, %{email} is being registered at %{website} for the user, %{user}."
-        details: "To confirm this registration, please visit the following url:"
-        subject: "Confirm Email: Canvas"
+        details: "Para confirmar este registro, por favor visite a seguinte url:"
+        subject: "Email de Confirmação: Canvas"
     confirm_registration: 
       email: 
         body: "Thank you for registering with Canvas!  This email is confirmation that the user %{user} is registering for a new account at %{website}."
@@ -5839,21 +5839,21 @@ pt-BR:
         body: "Canvas Alert - Announcement: %{title}, %{course}."
     new_context_group_membership: 
       email: 
-        body_account: "You've been added to a new group for the account %{account}.  The name of the group is %{group_name}."
-        body_course: "You've been added to a new group for the course %{course}.  The name of the group is %{group_name}."
+        body_account: "Você foi adicionado a um novo grupo para a conta %{account}.  O nome do grupo é %{group_name}."
+        body_course: "Você foi adicionado a um novo grupo para o curso %{course}. O nome deste grupo é %{group_name}."
         details_account: "You can see which groups you're a part of for this account by clicking the link below:"
         subject: "New Group Membership for %{course_or_account}"
         title: "New Group Membership: %{group_name}"
       facebook: 
-        body_account: "You've been added to a new group for the account %{account}. The name of the group is %{group_name}."
-        body_course: "You've been added to a new group for the course %{course}. The name of the group is %{group_name}."
+        body_account: "Você foi adicionado a um novo grupo para a conta %{account}. O nome do grupo é %{group_name}."
+        body_course: "Você foi adicionado a um novo grupo para o curso %{course}. O nome do grupo é %{group_name}."
       sms: 
-        body_account: "You've been added to a new group for the account %{account}.  The name of the group is %{group_name}."
-        body_course: "You've been added to a new group for the course %{course}.  The name of the group is %{group_name}."
+        body_account: "Você foi adicionado a um novo grupo para a conta %{account}.  O nome do grupo é %{group_name}."
+        body_course: "Você foi adicionado a um novo grupo para o curso %{course}.  O nome do grupo é %{group_name}."
         details: "More info at %{url}"
       summary: 
-        body_account: "You've been added to a new group for the account %{account}.  The name of the group is %{group_name}."
-        body_course: "You've been added to a new group for the course %{course}.  The name of the group is %{group_name}."
+        body_account: "Você foi adicionado a um novo grupo para a conta %{account}.  O nome do grupo é %{group_name}."
+        body_course: "Você foi adicionado a um novo grupo para o curso %{course}.  O nome do grupo é %{group_name}."
         subject: "New Group Membership for %{course_or_account}"
       twitter: 
         body_account: "Canvas Alert - New Group: %{group} for the account %{account}"
@@ -6761,58 +6761,58 @@ pt-BR:
       requirements_must_be_completed: "The following requirements need to be completed before this page will be unlocked"
   profile: 
     _ways_to_contact: 
-      confirming_contact: Confirming...
+      confirming_contact: Confirmando...
       errors: 
-        confirmation_failed: "Confirmation failed.  Please try again."
+        confirmation_failed: "Falha na confirmação.  Por favor tente novamente."
       links: 
-        resend_confirmation: "Re-Send Confirmation"
-        resend_confirmation_failed: "Request failed. Try again."
+        resend_confirmation: "Reenviar Confirmação"
+        resend_confirmation_failed: "Falha no Solicitação. Tente novamente."
         resending_confirmation: Re-Sending...
         resent_confirmation: "Done! Message may take a few minutes."
       notices: 
-        contact_confirmed: "Contact successfully confirmed!"
+        contact_confirmed: "Contato confirmado com sucesso!"
       titles: 
-        confirm_email_address: "Confirm Email Address"
-        confirm_sms_number: "Confirm SMS Number"
-        contact_not_confirmed: "This contact has not been confirmed.  Click the address for more details"
-        email_not_confirmed: "This email has not been confirmed.  Click the address for more details"
-        register_communication: "Register Communication"
-        unconfirmed_click_to_confirm: "Unconfirmed.  Click to confirm"
+        confirm_email_address: "Confirmar Endereço de Email"
+        confirm_sms_number: "Confirmar Número de SMS"
+        contact_not_confirmed: "Este contato não foi confirmado.  Clique no endereço para mais detalhes"
+        email_not_confirmed: "Este email não foi convirmado.  Clique no endereço para mais detalhes"
+        register_communication: "Registrar Forma de Contato"
+        unconfirmed_click_to_confirm: "Não Confirmado. Clique para confirmar"
     access_token: 
-      default_app_name: "No App"
+      default_app_name: "Sem App"
       labels: 
-        token_expires: Expires
-        token_last_used: "Last Used"
+        token_expires: Expira
+        token_last_used: "Usado pela última vez"
       links: 
-        token_details: details
+        token_details: detalhes
       profile: 
-        token_never_expires: never
+        token_never_expires: nunca 
       titles: 
-        delete_this_token: "Delete this Token"
+        delete_this_token: "Remover este Token"
     alerts: 
       profile_picture_locked: "Your profile picture has been locked by an administrator, and cannot be changed."
     buttons: 
-      add_file: "Add File"
-      adding_file: "Adding File..."
-      generate_token: "Generate Token"
-      generating_token: "Generating Token..."
-      regenerate_token: "Regenerate Token"
-      regenerating_token: "Regenerating token..."
-      select_image: "Select Image"
-      selecting_image: "Selecting Image..."
+      add_file: "Adicionar Arquivo"
+      adding_file: "Adicionando Arquivo..."
+      generate_token: "Gerar Token"
+      generating_token: "Gerando Token..."
+      regenerate_token: "Token Gerado"
+      regenerating_token: "Gerando Token..."
+      select_image: "Selecione uma Imagem"
+      selecting_image: "Selecionando Imagem..."
     communication: 
       buttons: 
-        problem_saving_preferences: "Problem Saving Preferences"
-        save_preferences: "Save Preferences"
-        saved_preferences: "Saved Preferences!"
-        saving_preferences: "Saving Preferences..."
+        problem_saving_preferences: "Problema ao Salvar Preferências"
+        save_preferences: "Salvar Preferências"
+        saved_preferences: "Salvar Preferências!"
+        saving_preferences: "Salvando Preferências..."
       errors: 
-        saving_preferences_failed: "Oops! Something broke.  Try saving again"
+        saving_preferences_failed: "Opa! Alguma coisa quebrou.  Tente salvar novamente"
       frequencies: 
-        daily: Daily
-        never: Never
-        right_away: "Right Away"
-        weekly: Weekly
+        daily: Diariamente
+        never: Nunca 
+        right_away: "Imediatamente"
+        weekly: Semanalmente
       headers: 
         notification_preferences: "Notification Preferences"
       notices: 
@@ -6827,7 +6827,7 @@ pt-BR:
     crumb_notification_preferences: "Notification Preferences"
     email_select: 
       default_email_option: "[Select Email]"
-      new_email_option: "New Email Address"
+      new_email_option: "Novo Endereço de Email"
     errors: 
       adding_file_failed: "Adding File Failed"
       generating_token_failed: "Generating Token Failed"
@@ -6876,17 +6876,17 @@ pt-BR:
       access_token_description: "Access tokens can be used to allow other applications to make API calls on your behalf. You can also generate access tokens and *use the Canvas Open API* to come up with your own integrations."
       approved_integrations: "These are the third-party applications you have authorized to access the Canvas site on your behalf:"
       buttons: 
-        add_picture_file: "Add File"
+        add_picture_file: "Adicionar Arquivo"
         authorize_google_docs: "Authorize Google Docs Access"
         authorize_twitter: "Authorize Twitter Access"
         generate_token: "Generate Token"
-        new_access_token: "New Access Token"
+        new_access_token: "Novo Token de Acesso"
         regenerate_token: "Regenerate Token"
-        register_facebook_account: "Register Your Facebook Account"
-        register_linkedin_account: "Register Your LinkedIn Account"
-        save_login: "Save Login"
+        register_facebook_account: "Registrar Sua Conta no Facebook"
+        register_linkedin_account: "Registrar Sua Conta no LinkedIn"
+        save_login: "Salvar Login"
         save_skype_name: "Salvar Nome do Skype"
-        select_image: "Select Image"
+        select_image: "Selecionar Imagem"
         update_profile: "Atualizar Perfil"
       delicious_description: "Delicious is a tool that lets you store and share your bookmarks with others. Canvas's rich content editor will let you search your Delicious tags to easily link from within Canvas to other resources you find useful."
       diigo_description: "Diigo is a social bookmarking tool tailored specifically to research and education. Canvas's rich content editor will let you search your Diigo tags to easily link from within Canvas to other resources you find useful."
@@ -6913,48 +6913,48 @@ pt-BR:
         linkedin_access: "LinkedIn Access"
         loading_images: "Carregando Imagens..."
         login: Login
-        organization: Organization
-        other_services: "Other Services"
+        organization: Organização 
+        other_services: "Outros Serviços"
         purpose: Purpose
-        registered_services: "Registered Services"
+        registered_services: "Serviços Registrados"
         share_skype_id: "Share your Skype ID"
         twitter_access: "Twitter Access"
         users_profile: "%{user}'s Profile"
-        ways_to_log_in: "Ways to Log In"
-        web_services: "Web Services"
+        ways_to_log_in: "Formas de Log In"
+        web_services: "Serviçoes Web"
       hints: 
         expires_at: "leave blank for no expiration"
         language: "This will override any browser or account settings."
-        name: "This name will be used by teachers for grading."
-        short_name: "People will see this name in discussions, messages and comments."
-        sortable_name: "This name appears in sorted lists."
+        name: "Este nome será usado por professores para a classificação."
+        short_name: "Pessoas irão ver este nome em discussões, mensagens e comentários."
+        sortable_name: "Este nome rá aparecer em listas ordenadas."
       labels: 
-        change_password: "Change Password"
-        confirm_password: "Confirm Password"
+        change_password: "Alterar Senha"
+        confirm_password: "Confirmar Senha"
         default_email: "Default Email"
         expires_at: Expires
         headers: 
-          approved_integrations: "Approved Integrations"
-        locale: Language
+          approved_integrations: "Integrações Aprovadas"
+        locale: Idioma
         name: "Nome Completo"
-        new_password: "New Password"
-        old_password: "Old Password"
-        other_services: "Click any service below to register"
-        password: Password
-        password_for: "Password For"
+        new_password: "Nova Senha"
+        old_password: "Senha Antiga"
+        other_services: "Clique em qualquer serviço abaixo para registro"
+        password: Senha
+        password_for: "Senha Para"
         purpose: Purpose
         short_name: "Nome de Exibição"
-        show_user_services: "Let fellow course/group members see which services I've linked to my profile"
+        show_user_services: "Deixar colegas de curso/grupo ver quais serviços estão vínculados ao meu perfil"
         skype_name: "Nome do Skype"
-        sortable_name: "Ordenar Nome"
-        subscribe_to_emails: "I want to receive information, news and tips from Instructure"
+        sortable_name: "Nome para Ordenação"
+        subscribe_to_emails: "Eu quero receber informações, notícias e dicas da Instructure"
         time_zone: "Fuso Horário"
         token: Token
         token_application: App
-        token_created: Created
-        token_expires: Expires
-        token_last_used: "Last Used"
-        token_purpose: Purpose
+        token_created: Criado 
+        token_expires: Expira
+        token_last_used: "Usado pela última vez"
+        token_purpose: Propósito
         user_name: "Nome de Usuário"
       linkedin_description: "LinkedIn is a great resources for business networking, and can be helpful long after you've finished your education. If you have a LinkedIn account, you can register it here. Then if you allow fellow course/group members to see your registered services, they can easily invite you to link with them without having to search LinkedIn for your profile."
       links: 
@@ -6975,7 +6975,7 @@ pt-BR:
       loading_token_details: "Loading Token Details..."
       no_approved_integrations: "Third-party applications can request permission to access the Canvas site on your behalf. As you begin authorizing applications you will see them listed here."
       no_language_preference: "System Default (%{language})"
-      no_registered_services: "No Registered Services"
+      no_registered_services: "Nenhum Serviço Registrado"
       none: Nenhum
       page_title: Perfil
       profile_pictures: "Select the image you'd like to use as your profile pic, or upload a new image:"
@@ -6989,7 +6989,7 @@ pt-BR:
         click_to_change_profile_pic: "Click to change profile pic"
         delicious_login: "Delicious Login"
         diigo_login: "Diigo Login"
-        new_access_token: "New Access Token"
+        new_access_token: "Novo Token de Acesso"
         register_skype: "Register Skype"
         remove_account_from_profile: "Remove account from this profile"
         unregister_service: "Unregister Service"
@@ -7006,22 +7006,22 @@ pt-BR:
       web_services: "Canvas can make your life a lot easier by tying itself in with the web tools you already use. Click any of the services in \"Other Services\" to see what we mean."
     secondary_nav: 
       links: 
-        communication_preferences: "Communicaton Preferences"
-        user_settings: "User Settings"
+        communication_preferences: "Preferências de Comunicação"
+        user_settings: "Configurações do Usuário"
     sms_select: 
-      default_sms_option: "[Select Cell]"
-      new_sms_option: "New Cell Number"
+      default_sms_option: "[Selecionar Celuluar]"
+      new_sms_option: "Novo Número de Celular"
     titles: 
-      select_profile_pic: "Select Profile Pic"
+      select_profile_pic: "Selecione uma Image para o Perfil"
     token_never_expires: never
     twitter_select: 
       twitter: Twitter
     ways_to_contact: 
       buttons: 
-        confirm: Confirm
-        ok_thanks: "Ok, Thanks"
-        register_email: "Register Email"
-        register_sms: "Register SMS"
+        confirm: Confirmar
+        ok_thanks: "Ok, Obrigado"
+        register_email: "Regitrar Email"
+        register_sms: "Registrar SMS"
       carriers: 
         a_t_and_t: AT&T
         alltel: Alltel
@@ -7030,41 +7030,41 @@ pt-BR:
         cingular: Cingular
         cricket: Cricket
         nextel: Nextel
-        other: "Other Carrier"
+        other: "Outra Operadora"
         sprint_psc: "Sprint PCS"
         t_mobile: T-Mobile
         verizon: Verizon
         virgin_mobile: "Virgin Mobile"
-      confirming_contact: Confirming...
+      confirming_contact: Confirmando...
       contact_types: 
         sms: sms
-      default_carrier_option: "[Select Carrier]"
+      default_carrier_option: "[Selecione uma Operadora]"
       headers: 
         contact_type: Tipo
-        email_addresses: "Email Addresses"
-        other_contact: "Other Contacts"
-        ways_to_contact: "Ways to Contact"
+        email_addresses: "Endereços de Email"
+        other_contact: "Outros Contatos"
+        ways_to_contact: "Formas de Contato"
       labels: 
-        carrier: Carrier
-        cell_number: "Cell Number"
-        email_address: "Email Address"
-        enable_login_for_email: "I want to log in to Canvas using this email address"
-        sms_email: "SMS Email"
+        carrier: Operadora 
+        cell_number: "Número de Celular"
+        email_address: "Endereço de Email"
+        enable_login_for_email: "Eu quero fazer log in no Canvas utilizando este endereço de email"
+        sms_email: "Email de SMS"
       links: 
-        add_contact_method: "Add Contact Method"
-        add_email_address: "Add Email Address"
+        add_contact_method: "Adicionar Forma de Contato"
+        add_email_address: "Adicionar Endereço de Email"
         email: Email
-        resend_confirmation: "Re-Send Confirmation"
-        text_sms: "Text (SMS)"
+        resend_confirmation: "Reenviando Confirmação"
+        text_sms: "SMS"
       sent_confirmation_email: "We emailed a confirmation link to %{email_address}. Click the link in that email to finish registering. Make sure to check your spam box in case it got filtered."
-      sent_confirmation_sms: "We sent a four-character confirmation code to %{sms_number}. Enter the code below to activate this sms number."
+      sent_confirmation_sms: "Nós enviamos um código 4 caracteres de confirmação parao %{sms_number}. Insira o código abaixo para ativar este número de sms."
       titles: 
-        confirm_email_address: "Confirm email address"
-        default_email_address: "Default email address"
-        merge_users: "Another user has the same email address. Click here to combine user accounts."
-        remove_email_address: "Remove email address"
+        confirm_email_address: "Confirmar endereço de email"
+        default_email_address: "Endereço de email padrão"
+        merge_users: "Outro usuário tem o mesmo endereço de email. Clique aqui para combinar as contas de usuários."
+        remove_email_address: "Remover endereço de email"
       validations: 
-        should_be_10_digits: "should be 10-digit number"
+        should_be_10_digits: "deve ser um número de 10 dígitos"
   pseudonym: 
     errors: 
       invalid_email_address: "\"%{email}\" is not a valid email address"
@@ -7114,7 +7114,7 @@ pt-BR:
         login_to_change: "Login to Change"
         new_password: "New Password"
         password: Password
-        password_confirmation: "Confirm New Password"
+        password_confirmation: "Confirmar Nova Senha"
       page_title: "Change Password"
       titles: 
         change_password: "Change login password for %{user}"
@@ -7128,7 +7128,7 @@ pt-BR:
     notices: 
       account_registered: "Conta registrada!"
       account_updated: "Conta atualizada!"
-      email_sent: "Confirmation email sent to %{email}, make sure to check your spam box"
+      email_sent: "Email de confirmação enviado para %{email}, não esqueça de checar sua caixa de spam"
       link_invalid: "The link you used appears to no longer be valid.  If you can't login, try clicking \"Don't Know My Password\" and having a new message sent for you."
       password_changed: "Password changed"
     regisration_confirmation: 
@@ -8297,10 +8297,10 @@ pt-BR:
       delete_enrollment: "Are you sure you want to delete this enrollment permanently?"
     default_course_name: "Course ID \"%{course_id}\""
     errors: 
-      confirmation_failed: "Confirmation Failed"
+      confirmation_failed: "Falha na Confirmação"
       course_not_authorized_for_crosslist: "%{course_name} not authorized for cross-listing"
     status: 
-      confirming_course: "Confirming %{course_name}..."
+      confirming_course: "Confirmando %{course_name}..."
       removing_crosslisting_of_section: "De-Cross-Listing Section..."
   sections: 
     section_created: "Section successfully created!"
@@ -8579,12 +8579,12 @@ pt-BR:
       more_events_one_week: "%{count_of_events} more in the next week"
       more_events_two_weeks: "%{count_of_events} more in the next two weeks"
       nothing_for_now: "Nada por Enquanto"
-      nothing_one_week: "Nothing for the next week"
-      nothing_two_weeks: "Nothing for the next two weeks"
+      nothing_one_week: "Nada para a próxima semana"
+      nothing_two_weeks: "Nada para as próximas duas semanas"
       titles: 
-        events: Events
+        events: Eventos
     exit_frame: 
-      redirecting: Redirecting...
+      redirecting: Redirecionando...
     feedback: 
       canvas_help: "Search Canvas Guides"
       canvas_help_sub: "Find answers to common questions"
@@ -9363,16 +9363,16 @@ pt-BR:
     home: Início
     modules: Módulos
     outcomes: Outcomes
-    pages: Pages
+    pages: Páginas
     people: Pessoas
     quizzes: Testes
-    settings: Settings
+    settings: Configurações 
     syllabus: Syllabus
   terms: 
     index: 
       date: 
-        term_end: "term end"
-        term_start: "term start"
+        term_end: "término do prazo"
+        term_start: "início do prazo"
         unspecified: whenever
       errors: 
         submit: "Error Submitting"
@@ -9380,7 +9380,7 @@ pt-BR:
         add_new_term: "Add New Term"
       messages: 
         classes_in_term: "You can't delete a term that still has classes in it."
-        submitting: Submitting...
+        submitting: Enviando...
       page_title: "%{account} Terms"
       prompts: 
         delete: "Are you sure you want to delete this term?"
@@ -9422,11 +9422,11 @@ pt-BR:
   time: 
     am: am
     count_hours_ago: 
-      one: "1 hour ago"
-      other: "%{count} hours ago"
+      one: "1 hora atrás"
+      other: "%{count} horas atrás"
     count_minutes_ago: 
-      one: "1 minute ago"
-      other: "%{count} minutes ago"
+      one: "1 minuto atrás"
+      other: "%{count} minutos atrás"
     due_date: "%{date} by %{time}"
     event: "%{date} at %{time}"
     formats: 
@@ -9435,14 +9435,14 @@ pt-BR:
       short: "%d %b %H:%M"
       tiny: "%l:%M%P"
       tiny_on_the_hour: "%l%P"
-    less_than_a_minute_ago: "less than a minute ago"
+    less_than_a_minute_ago: "menos de um minuto atrás"
     pm: pm
     ranges: 
       different_days: "%{start_date_and_time} to %{end_date_and_time}"
       same_day: "%{date} from %{start_time} to %{end_time}"
       times: "%{start_time} to %{end_time}"
     unknown_date: "Unknown date"
-    with_ago: "%{time} ago"
+    with_ago: "%{time} atrás"
   title_separator: ": "
   titles: 
     add_students: "Adicionar Estudantes"
@@ -9630,9 +9630,9 @@ pt-BR:
       switch_user_positions: "Switch User Positions"
       titles: 
         enter_user_id: "Or Enter a User ID"
-        find_user: "Find a User"
+        find_user: "Encontrar um Usuário"
         merge_users: "Merge User Accounts"
-        really_merge: "Really Merge User Accounts?"
+        really_merge: "Realmente Mesclar Contas de Usuário?"
     cc_prefs: 
       buttons: 
         configure: "Configurar Preferências de Comunicação"
@@ -9642,39 +9642,39 @@ pt-BR:
         configure_com_prefs: "Configurar Preferências de Comunicação"
     confirm_merge: 
       buttons: 
-        merge_user_accounts: "Merge User Accounts"
-      login_to_merge_different_account: "To merge the account, %{current_user_name} (%{current_user_email}) into another account, please log in to the new account:"
+        merge_user_accounts: "Mesclar Contas de Usuário"
+      login_to_merge_different_account: "Para mesclar a conta, %{current_user_name} (%{current_user_email}) em outra conta, por favor faça login com a nova conta:"
       merge_result_explanation: "Are you sure you want to merge the account, %{user_name} (%{user_email}) into this account, %{current_user_name} (%{current_user_email})?"
-      no_undo_for_merge: "This process cannot be undone, so please make sure you're certain before you continue."
+      no_undo_for_merge: "Este procedimento não pode ser desfeito, então por favor verifique se você está certo antes de continuar."
       titles: 
-        confirm_user_merge: "Confirm Merge User Accounts"
-        really_merge: "Really Merge User Accounts?"
-      users_to_merge: "%{first_user} and %{second_user}"
+        confirm_user_merge: "Confirmar Mescla das Contas de Usuário"
+        really_merge: "Realmente Mesclar Contas do Usuário?"
+      users_to_merge: "%{first_user} e %{second_user}"
     confirms: 
       unenroll_user: "Are you sure you want to unenroll this user?"
-    could_not_find_url: "Could not find download URL"
+    could_not_find_url: "Não foi possível encontrar a URL de download"
     crumbs: 
-      profile: "%{user}'s profile"
+      profile: "Perfil do %{user}"
     delete: 
-      are_you_sure: "Are you sure you want to delete this user account?"
+      are_you_sure: "Você tem certeza que quer remover esta conta de usuário?"
       buttons: 
-        delete_user: "Delete %{user_name}"
+        delete_user: "Remover %{user_name}"
       titles: 
-        confirm_delete: "Confirm Delete User"
-        confirm_deletion_of_user: "Confirm deletion of %{user_name}"
-        delete_user: "Delete User"
-        really_delete_user: "Really delete %{user_name}"
+        confirm_delete: "Confirmar Remoção do Usuário"
+        confirm_deletion_of_user: "Confirmar remoção do %{user_name}"
+        delete_user: "Remover Usuário"
+        really_delete_user: "Realmente excluir %{user_name}"
     enrollment: 
-      course_not_published: "This course hasn't been published yet"
-      linked_to_user: "(Linked to %{user_name})"
+      course_not_published: "Este curso não foi publicado ainda"
+      linked_to_user: "(Vinculado à %{user_name})"
       links: 
-        teacher_activity: "See Student Interactions Report"
+        teacher_activity: "Ver Relatório da Interações do Estudante"
       roles_designer: "Inscrito como um Designer."
       roles_observer: "Inscrito como um Observador."
       roles_student: "Inscrito como um Estudante."
       roles_ta: "Inscrito como um Monitor."
       roles_teacher: "Inscrito como um Professor."
-      unpublished: Unpublished
+      unpublished: "Não Publicado"
     errors: 
       no_teacher_courses: "There are no courses shared between this teacher and student"
       user_not_teacher: "That user is not a teacher in this course"
@@ -9707,7 +9707,7 @@ pt-BR:
       current_teacher_courses: "Cursos que Sou Professor"
       linked_student_accounts: "Linked Student Accounts"
       links: 
-        teacher_activity: "Student Interactions Report"
+        teacher_activity: "Relatório de Interações do Estudante"
       no_grade: "no grade"
       no_grades: "no grades"
       page_title: Notas
@@ -9863,7 +9863,7 @@ pt-BR:
       see_outcomes: "See Outcome Results for %{user}"
     teacher_activity: 
       crumbs: 
-        interaction_report: "Student Interactions Report"
+        interaction_report: "Relatório de Interações do Estudante"
       headings: 
         current_score: "Pontuação Atual"
         final_score: "Pontuação Final"
@@ -9873,18 +9873,18 @@ pt-BR:
         teacher_activity: "Teacher Activity Report for %{teacher}"
         ungraded: "Ungraded Assignments"
       last_time: 
-        one: "1 day ago"
-        other: "%{count} days ago"
-        zero: "less than 1 day ago"
+        one: "1 dia atrás"
+        other: "%{count} dias atrás"
+        zero: "menos de um 1 dia atrás"
       last_time_never: never
       links: 
         view_full_course: "View the full Student Interaction Report for %{course}"
       message_student: "Message this student"
       no_students: "There are no students to report on."
       submitted_time: 
-        one: "submitted 1 day ago"
-        other: "submitted %{count} days ago"
-        zero: "submitted less than 1 day ago"
+        one: "enviado há 1 dia atrás"
+        other: "enviado há %{count} dias atrás"
+        zero: "enviado há menos de 1 dia atrás"
       title: "Teacher Activity Report"
     twitter_added: "Twitter access authorized!"
     twitter_fail_whale: "Twitter authorization failed. Please try again"
@@ -9893,7 +9893,7 @@ pt-BR:
       information: Information
       no_courses_message: "Você não tem nenhum curso, assim esta página não será muito emocionante agora. Depois de ter criado ou se inscrito para algum curso, você vai começar a ver as conversas de todos as suas aulas."
       recent_feedback: "Comentários Recentes"
-      start_new_course: "Start a New Course"
+      start_new_course: "Iniciar um Novo Curso"
       user_atom_feed: "Atom Feed de Usuários (Todos os Cursos)"
       user_dashboard: "User Dashboard"
       welcome_to_happiness: "Welcome to Canvas!"
@@ -9911,7 +9911,7 @@ pt-BR:
         ? "true"
         : "On"
   wiki: 
-    front_page_name: "Front Page"
+    front_page_name: "Página Inicial"
     sidebar: 
       buttons: 
         uploading: Enviando...
@@ -9928,51 +9928,51 @@ pt-BR:
     default_group_wiki_name: "Wiki do %{group_name}"
   wiki_page: 
     anonymous_user_name: Anonymous
-    atom_entry_title: "Wiki Page, %{course_or_group_name}: %{page_title}"
+    atom_entry_title: "Página Wiki, %{course_or_group_name}: %{page_title}"
     defaults: 
-      no_content: "no content"
+      no_content: "sem conteúdo"
     errors: 
       blank_title: "Título não pode estar vazio"
       title_characters: "Título deve conter pelo menos uma letra ou número"
       title_too_long: "Título não pode exceder %{max_characters} caracteres"
-    missing_name: "Unnamed Page"
+    missing_name: "Página sem nome"
     notices: 
-      wiki_page_created: "Wiki Page \"%{title}\" created"
+      wiki_page_created: "Página Wiki \"%{title}\" criada"
     title_for_topics_category: "%{category} Topics"
     warnings: 
       truncated_wiki_title: "The title of the following wiki page was truncated: %{title}"
   wiki_page_revisions: 
     index: 
       links: 
-        back_to_current_version: "Back to Current Version"
-      page_edited_by: "by %{user_name}"
-      page_edited_by_with_link: "by [%{user_name}](%{link})"
+        back_to_current_version: "Voltar a Versão Atual"
+      page_edited_by: "por %{user_name}"
+      page_edited_by_with_link: "por [%{user_name}](%{link})"
       titles: 
-        revisions_for_page: "Revisions for: %{title}"
+        revisions_for_page: "Revisões para: %{title}"
     notices: 
-      page_rolled_back: "Page was successfully rolled-back to previous version."
+      page_rolled_back: "Página retornada para a versão prévia com sucesso."
     show: 
       buttons: 
-        roll_back_version: "Roll-back to this Version"
+        roll_back_version: "Retornar para esta Versão"
       labels: 
-        by_user: "by %{user}"
-        on_date: "on *%{date_time}*"
+        by_user: "por %{user}"
+        on_date: "em *%{date_time}*"
       links: 
-        back_to_history: "Back to Revision history"
-        go_to_latest: "Go to Latest Version"
-      not_most_recent_version_warning: "This is NOT the most recent version"
-      saved_by: "Saved: *%{time_ago}* by %{user}"
+        back_to_history: "Voltar para Histórico de Revisões"
+        go_to_latest: "Ir para Última Versão"
+      not_most_recent_version_warning: "Esta não é a versão mais recente"
+      saved_by: "Salvo: *%{time_ago}* por %{user}"
   wiki_pages: 
     buttons: 
-      add_comment: "Add Comment"
+      add_comment: "Adicionar Comentário"
     content: 
       buttons: 
-        save_changes: "Save Changes"
+        save_changes: "Salvar Alterações"
         start_editing: "Start Editing It now"
       course_editing_roles: 
-        anyone: Anyone
-        only_teachers: "Only Teachers"
-        teachers_and_students: "Teacher and Students"
+        anyone: "Qualquer Um"
+        only_teachers: "Somente Professores"
+        teachers_and_students: "Professores e Estudantes"
       course_home_wiki_page_description: "Você pode usar esta página para organizar ou apresentar o curso da maneira que quiser. Você pode facilmente vincular as tarefas, arquivos, etc usando a seção \"Ferramentas da página\", que você verá à direita uma vez que você iniciar a edição."
       course_wiki_page_description: "Você pode usar esta wiki para criar páginas suplementares ou descrições para o seu material do curso. Você pode facilmente vincular páginas da  wiki à atribuições, ou vinculá-las para o material do curso e outros arquivos a partir de qualquer página da wiki. Isto  torna um ótimo lugar para explicar conceitos complexos, permitindo que projetos de grupos, ou criar praticamente qualquer tipo de página que você pode precisar em seu curso."
       default_wiki_page_description: "Esta é a página da wiki padrão, e os alunos irão vê-la quando ele clicar na guia \"Páginas\" para este curso."
@@ -9980,36 +9980,36 @@ pt-BR:
           Agora esta página está definida como a página padrão do curso, assim os visitantes do seu
           curso verão primeiro esta página. Você pode mudar isso a partir de [página principal do curso](%{link}).
       editing_roles: 
-        anyone: Anyone
-        only_members: "Only Members"
-        prompt: "%{options} can edit this page"
+        anyone: "Qualquer Um"
+        only_members: "Somente Membros"
+        prompt: "%{options} pode editar esta página"
       group_wiki_warning: "Esta página é parte do grupo da wiki, * não * é a wiki do seu curso. Se você está procurando a wiki do curso, [clique aqui](%{link})."
       headings: 
-        page_comments: "Page Comments"
+        page_comments: "Comentários da Página"
       labels: 
-        hide_from_students: "Hide this Page from Students"
-        last_edited: "Last edited by %{name} %{time_ago} ago"
-        notify_of_update: "Notify users that this content has changed"
+        hide_from_students: "Esconder esta página dos estudantes"
+        last_edited: "Última edição por %{name} há %{time_ago}"
+        notify_of_update: "Notificar usuários quando esta página for alterada"
       links: 
-        page_history: "Page history"
+        page_history: "Histórico da Página"
       notices: 
-        page_deleted: "This page has been deleted."
-        page_does_not_exist: "This page doesn't exist yet."
+        page_deleted: "Esta página foi removida."
+        page_does_not_exist: "Esta página não criada ainda."
         page_edited_while_viewing: "Esta página foi atualizada por outra pessoa enquanto você começou a exibi-la. [Clique aqui para recarregar a página.](%{link})"
         page_edited_while_viewing_detailed: "Alguém editou esta página antes que tenha você carregado pela primeira vez e se você enviar agora, você vai sobrescrever suas alterações. Você pode querer recarregar a página e entrar novamente as suas alterações para se certificar de você não vai perder nenhum trabalho de outra pessoa."
-      welcome_message: "Welcome to the Course Wiki"
-    delete_comment_confirmation: "Are you sure you want to delete this comment?"
+      welcome_message: "Bem-vindo a Wiki do Curso"
+    delete_comment_confirmation: "Você tem certeza que quer remover este comentário?"
     errors: 
-      permission_denied: "You are not permitted to delete that page."
-    front_page: "Front Page"
+      permission_denied: "Você não tem permissão para remover esta página."
+    front_page: "Página Inicial"
     loading_comments: "Carregando mais resultados"
     notices: 
       add_comment_failed: "Falha ao adicionar comentário, por favor tente novamente"
       adding_comment: "Adicionando Comentário..."
-      page_deleted: "The page \"%{title}\" has been deleted."
-      page_updated: "Page was successfully updated."
+      page_deleted: "A página \"%{title}\" foi removida."
+      page_updated: "Página foi atualizado com sucesso."
     page_link: 
-      link_hidden_from_students_warning: "Students won't see this link"
+      link_hidden_from_students_warning: "Estudantes não irão ver este link"
     wiki_page_comment: 
       links: 
         delete_comment: "Remover Comentário"
@@ -10031,7 +10031,7 @@ pt-BR:
       labels: 
         title: "Novo título da página"
       links: 
-        create_page: "Criar uma Nova Págian"
+        create_page: "Criar uma Nova Página"
         delete_page: "Remover esta Página"
         edit_page: "Editar esta Página"
         more: mais...
@@ -10039,7 +10039,7 @@ pt-BR:
         show_all: "exibir todos..."
       wiki_description_for_course: "Pense nisso como um lugar aberto para armazenar conteúdo. Você poderia usá-lo para descrever o seu curso, para fornecer explicações úteis sobre temas difíceis, ou mesmo para permitir que os alunos trabalhem juntos em elaboração de projetos."
       wiki_description_for_group: "Pense nisso como um lugar aberto para armazenar conteúdo. Você poderia usá-lo para descrever o seu grupo, para fornecer explicações úteis sobre temas difíceis, ou mesmo para permitir que os alunos trabalhem juntos em elaboração de projetos."
-      wiki_description_header: "What's a wiki for?"
+      wiki_description_header: "O quê é uma wiki?"
   wimba_conference: 
     external_urls: 
       archive: Arquivo
@@ -10048,9 +10048,9 @@ pt-BR:
     step: "Passo %{number}"
   zip_file_import: 
     errors: 
-      file_must_be_zip: "The file must be a valid .zip archive"
+      file_must_be_zip: "O arquivo deve ser um .zip válido"
       must_upload_file: "Deve Enviar Um Arquivo"
-      unexpected: "Unexpected Error (%{error_id}) while processing zipped files"
+      unexpected: "Erro inesperado (%{error_id}) enquanto os arquivos compactados eram processados"
   zip_file_imports: 
     errors: 
       extracting_file: "There were some errors extracting the zip file.  Please try again"
