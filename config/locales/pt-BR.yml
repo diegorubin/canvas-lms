@@ -9153,7 +9153,7 @@ pt-BR:
       labels: 
         upload_to: "Enviar para"
       notices: 
-        uploading_progress_info: "Uploading and processing your zip file, if there are a lot of files in the zip file or it is very large, this may take a while."
+        uploading_progress_info: "Enviando e processando o seu arquivo zip, se há muitos arquivos no arquivo zip, ou este é muito grande, isso pode demorar um pouco."
       prompts: 
         select_file: "Please select a .zip file for uploading"
       titles: 
@@ -9174,7 +9174,7 @@ pt-BR:
     buttons: 
       process_data: "Process Data"
     errors: 
-      import_failed_code: "There was an error importing your SIS data. No records were imported.  Please notify your system administrator and give them the following code: \"%{code}\""
+      import_failed_code: "Ocorreu um erro ao importar os dados do SIS. Nenhum registro foi importados. Por favor, notifique o administrador do sistema e lhe forneça o seguinte código:\"%{code}\""
       import_failed_messages: "No SIS records were imported. The import failed with these messages:"
     headers: 
       import_errors: "Errors that prevent importing"
@@ -9299,14 +9299,14 @@ pt-BR:
       late_submission: (late)
       media_comment: "Media Comment"
       media_comment_link: "This is a media comment, *click here to view*."
-      only_see_your_own_comments: "You may not see all comments right now because the assignment is currently being graded, or you are reviewing your peer's assignment"
+      only_see_your_own_comments: "Você não pode ver todos os comentários agora, porque a tarefa está sendo avalida, ou você está revendo sua rivisão po pares"
       options: 
         new_assessment: "[New Assessment]"
       out_of_points: "out of %{points_possible}"
       peer_review: "Peer Review"
-      peer_review_not_done: "**This peer review is not finished yet.**  For it to be considered finished, you need to leave at least one comment."
-      peer_review_not_done_rubric: "**This peer review is not finished yet.**  For it to be considered finished, you need to leave at least one comment and fill out the rubric form to the right."
-      peer_review_steps_complete: "You have finished the required steps for this peer review."
+      peer_review_not_done: "** Esta revisão por pares ainda não está terminada. ** Para que possa ser considerada finalizada, você precisa deixar pelo menos um comentário."
+      peer_review_not_done_rubric: "** Esta revisão por pares ainda não está terminada. ** Para que possa ser considerada finalizada, você precisa deixar pelo menos um comentário e preencher o formulário de avaliação da direita."
+      peer_review_steps_complete: "Você finalizou os passos requeridos da revisão por pares."
       resubmit: "Re-Submit Assignment"
       see_attached_files: "See attached files"
       sent_to_whole_group: "Send Comment to the Whole Group"
@@ -9317,9 +9317,9 @@ pt-BR:
       submitted_at: "submitted %{submit_date}"
       teachers_notified_of_comments: "Teachers and submitter will be notified of all comments"
     show_preview: 
-      discussion_submission_description: "The submissions for this assignment are posts in the assignment's discussion. Below are the discussion posts for %{user}, or you can *view the full discussion*."
-      entry_no_image: "Keep in mind that this page may have changed since the submission originally occurred."
-      entry_with_image: "We've included a snapshot of what the page looked like when it was submitted. Or you can click to view the original submission."
+      discussion_submission_description: "Os envios para as tarefas são posts na discussão da tarefa. Abaixo estão os posts da discussão de %{user}. Você também pode *ver a discussão completa*. "
+      entry_no_image: "Tenha em mente que esta página pode ter sido mudada desde que a apresentação original ocorreu."
+      entry_with_image: "Nós incluímos um snapshot do que a página parecia quando foi apresentada. Você também pode clicar para ver a apresentação original."
       external_url_submission: "This submission was a URL to an external page."
       file_uploads_for_user: "Arquivos Enviados para **%{user}**"
       media_comment_link: "This submission is a media recording. *click here to view*."
@@ -9334,7 +9334,7 @@ pt-BR:
       view_original_submission: "View the Original Submission for %{user}"
     still_zipping: "File zipping still in process..."
     submission_download: 
-      download_message: "**Your student submissions are being gathered** and compressed into a zip file. This may take some time, depending on the size and number of submission files."
+      download_message: "**Suas submissões estudantis estão sendo reunidas ** e comprimidas em um arquivo zip. Isso pode levar algum tempo, dependendo do tamanho e número de arquivos dsubmetidos."
       gathering_files: "Gathering Files..."
   support: 
     array: 
@@ -9501,7 +9501,7 @@ pt-BR:
     adding_users: "Adicionando Usuários..."
     buttons: 
       continue: Continue...
-    cant_unenroll: "This user was automatically enrolled using the campus enrollment system, so they can't be manually removed.  Please contact your system administrator if you have questions."
+    cant_unenroll: "Este usuário foi automaticamente inscrito usando o sistema de inscrição campus, assim ele não pode ser removido manualmente. Entre em contato com o administrador do sistema se tiver dúvidas."
     delete_confirm: "Você tem certeza que quer remover este usuário?"
     duplicate_users: 
       one: "1 duplicate user found, duplicates have been removed."
@@ -9601,13 +9601,12 @@ pt-BR:
       profile: Perfil
   user_service: 
     descriptions: 
-      delicious: "Delicious is a collaborative link-sharing tool.  You can tag any page on the Internet for later reference.  You can also link to other users' Delicious accounts to share links of similar interest."
-      diigo: "Diigo is a collaborative link-sharing tool.  You can tag any page on the Internet for later reference.  You can also link to other users' Diigo accounts to share links of similar interest."
-      facebook: "Listing your Facebook profile will let you more easily connect with friends you make in your classes and groups."
-      google_docs: "Students can use Google Docs to collaborate on group projects.  Google Docs allows for real-time collaborative editing of documents, spreadsheets and presentations."
-      linked_in: "LinkedIn is a resource for business networking.  Many of the relationships you build while in school can also be helpful once you enter the workplace."
-      skype: "Skype is a free tool for online voice and video calls."
-      twitter: "Twitter is a great resource for out-of-class communication."
+      delicious: "Delicious é uma ferramenta coloborativa de compartilhamento de links. Você pode marcar qualquer página na Internet para consulta posterior. Você também pode criar um link para contas de outros usuários do Delicious para compartilhar links de interesse semelhante."
+      diigo: "Diigo é uma ferramenta coloborativa de compartilhamento de links. Você pode marcar qualquer página na Internet para consulta posterior. Você também pode criar um link para contas de outros usuários do Diigo para compartilhar links de interesse semelhante.
+      google_docs: "Os alunos podem usar o Google Docs para trabalho de projetos em grupo. Google Docs permite, em tempo real, a edição colaborativa de documentos, planilhas e apresentações."
+      linked_in: "LinkedIn é uma rede para o mercado de trabalho. Muitos dos relacionamentos que você constrói na escola, também podem ser úteis para inserção no mercado de trabalho."
+      skype: "Skype é uma ferramenta gratuita para chamadas de voz e vídeo online."
+      twitter: "O Twitter é uma boa ferramenta para comunicação fora da classe."
   users: 
     account_notification: 
       announcmenet: Announcement
@@ -9621,10 +9620,10 @@ pt-BR:
         user_id: "User ID"
       links: 
         select: Select
-      merge_result_explanation: "Are you sure you want to merge the account, %{source_user_name} (%{source_user_email}) into this account, %{target_user_name} (%{target_user_email})? This process will have the following end result:"
-      merge_result_explanation_again: "You've selected to merge the user, %{user_name} (%{user_email}) into the account, %{pending_other_user_name} (%{pending_other_user_email}). This process will have the following end result:"
+      merge_result_explanation: "Você tem certeza que deseja mesclar a conta, %{source_user_name} (% {source_user_email}) com esta conta, %{target_user_name} (%{target_user_email})? Este processo irá ter o seguinte resultado final:"
+      merge_result_explanation_again: "Você selecionou mesclar o usuário, %{user_name} (%{user_email}) na conta,% {pending_other_user_name} (% {pending_other_user_email}). Este processo irá ter o seguinte resultado final:"
       merge_somone_else: "Merge Someone Else With %{user_name}"
-      merge_user_initial_instructions: "You've selected to merge the user, %{user_name} (%{user_email}) with another account. You can search for the user you'd like to merge with this user using the form below, or just navigate to that user's page and click \"Merge User\" again to merge someone else with this user."
+      merge_user_initial_instructions: "Você selecionou mesclar o usuário, %{user_name} (%{user_email}) com outra conta. Você pode procurar o usuário que você gostaria de mesclar utilizando o formulário abaixo, ou simplesmente navegar para a página do usuário e clicar em \"Mesclar Usuário"\."
       no_merge_undo: "This process cannot be undone, so please make sure you're certain before you continue."
       no_permission: "You don't have permission to search any accounts"
       prepare_to_merge: "Prepare to Merge Users"
@@ -9723,7 +9722,7 @@ pt-BR:
     ie7_upgrade: 
       browser_upgrade: "You should upgrade your browser"
       consider_upgrading_browser: "consider upgrading"
-      ie7_really_is_old: "You are using Internet Explorer 7. This browser is not fully supported by Canvas (and many other web sites) and you should %{link}. Until you upgrade, some portions of Canvas will not be fully functional."
+      ie7_really_is_old: "Você está usando o Internet Explorer 7. Este navegador não é totalmente suportado pelo Canvas (e muitos outros sites) e você deve %{link}. Até que você atualize seu navegador, algumas partes do Canvas não estará completamente funcionais."
       information: Information
     index: 
       all_users: "Todos Usuários"
@@ -9769,14 +9768,14 @@ pt-BR:
         masquerade: "Masquerade as user"
         unmasquerade: "Stop Masquerading"
       details: |-
-          Masquerading is essentially logging in as this user without a password.
-          You will be able to take any action as if you were this user, and from other users' points of views,
-          it will be as if this user performed them. However, audit logs record the fact that
-          **you** were the one that actually performed the actions on behalf of this user.
+          Mascarar é, essencialmente, logar como um usuário sem utilizar uma senha.
+          Você será capaz de tomar qualquer ação como se fosse este usuário e de pontos de vista
+          de outros usuários, como se este executasse ações por eles. Entretanto, será gravado que
+          *você* realizou ações em nome deste usuário.
       masquerade_as: "Masquerade as %{user_name}"
     merge: 
-      login_to_merge_different_account: "To merge the account, %{current_user_name} (%{current_user_email}) into another account, please log in to the new account:"
-      merge_definition: "For one reason or another you may end up with two logins instead of just one. If that happens, you can merge the two logins together and consolidate the information from them."
+      login_to_merge_different_account: "Para mesclar a conta,% {current_user_name} (% {} current_user_email) em outra conta, faça login na nova conta:"
+      merge_definition: "Por alguma razão, você pode acabar com dois logins ao invés de apenas um. Se isso acontecer, você pode mesclar os dois logins e consolidar as informações deles"
       titles: 
         merge_accounts: "Mesclar Conta de Usuários"
     merge_results: 
@@ -9828,13 +9827,13 @@ pt-BR:
     oauth_fail: "OAuth Request failed. Couldn't find valid request"
     recaptcha_settings: 
       instructions: |-
-          Before you can use the ReCAPTCHA plugin you'll need to 
-          [sign up for an account on ReCAPTCHA](%{url}). Make sure to set up your
-          domain correctly to handle your site domain(s).  After you've set up an
-          account, enter your public and private keys below.
-          
-          **Note:** any changes you make to these settings won't be
-          updated until you restart your server.
+          Antes que você possa usar o plugin do ReCAPTCHA você precisará
+          [criar uma conta no ReCAPTCHA](%{url}). Certifique de configurar
+          corretamente seu domínio para todos os domínios do site. Após criar
+          uma conta, entre com sua chave pública e privada abaixo.
+
+          **Nota:** todas as alterações feitas a essas configurações não serão
+           atualizadas até você reiniciar o servidor.
       labels: 
         private_key: "ReCAPTCHA Private Key"
         public_key: "ReCAPTCHA Public Key"
@@ -9842,14 +9841,14 @@ pt-BR:
       almost_there: "You're almost there..."
       done_resending: "Done! Message may take a few minutes."
       failed_resending: "Request failed. Try again."
-      invite_to_read: "We invite you to watch this brief overview of Canvas. You may also *read about how Canvas is helping* to bring students in 27 countries closer to lecture halls, instructors and classmates."
+      invite_to_read: "Convidamos você para assistir a este breve panorama do Canvas. Você pode também * ler sobre como o Canvas está ajudando * a trazer estudantes, em 27 países, mais perto de salas de aula, instrutores e colegas."
       links: 
         download_pdf: "download PDF"
       need_flash: "You need Flash player 8+ and JavaScript enabled to view this video."
       overview_video: "Overview Video of Canvas"
       registration_complete: "Registro Completo"
       resending: Re-Sending...
-      sent_email_paragraph: "We sent an email to %{email_address}. *Click the link in the email to finish registering*. If you don't see it, **click to re-send the email**, and make sure to check your spam box."
+      sent_email_paragraph: "Enviamos um e-mail para %{email_address}. *Clique no link do e-mail para concluir a inscrição *. Se você não receber o email, clique ** para re-enviar o e-mail** e verifique se está na sua caixa de spam."
       while_you_wait: "While you're waiting..."
     service_not_enabled: "That service has not been enabled"
     show: 
@@ -9892,7 +9891,7 @@ pt-BR:
     user_dashboard: 
       coming_up: "Chegando"
       information: Information
-      no_courses_message: "You don't have any courses, so this page won't be very exciting for now. Once you've created or signed up for courses, you'll start to see conversations from all of your classes."
+      no_courses_message: "Você não tem nenhum curso, assim esta página não será muito emocionante agora. Depois de ter criado ou se inscrito para algum curso, você vai começar a ver as conversas de todos as suas aulas."
       recent_feedback: "Comentários Recentes"
       start_new_course: "Start a New Course"
       user_atom_feed: "Atom Feed de Usuários (Todos os Cursos)"
@@ -9974,17 +9973,17 @@ pt-BR:
         anyone: Anyone
         only_teachers: "Only Teachers"
         teachers_and_students: "Teacher and Students"
-      course_home_wiki_page_description: "You can use this page to organize or introduce your course however you like. You can easily link to assignments, files, etc. using the \"Page Tools\" section you'll see on the right once you start editing."
-      course_wiki_page_description: "You can use this wiki to create supplemental pages or descriptions for your course material. You can easily link to wiki pages from assignments, or link to other course material and files from any wiki page. This makes it a great place for explaining hard concepts, allowing group projects, or creating just about any kind of page you could need in your course."
-      default_wiki_page_description: "This page is the default wiki page, and students will see it when they click the \"Pages\" tab for this course."
+      course_home_wiki_page_description: "Você pode usar esta página para organizar ou apresentar o curso da maneira que quiser. Você pode facilmente vincular as tarefas, arquivos, etc usando a seção \ "Ferramentas da página \", que você verá à direita uma vez que você iniciar a edição."
+      course_wiki_page_description: "Você pode usar esta wiki para criar páginas suplementares ou descrições para o seu material do curso. Você pode facilmente vincular páginas da  wiki à atribuições, ou vinculá-las para o material do curso e outros arquivos a partir de qualquer página da wiki. Isto  torna um ótimo lugar para explicar conceitos complexos, permitindo que projetos de grupos, ou criar praticamente qualquer tipo de página que você pode precisar em seu curso."
+      default_wiki_page_description: "Esta é a página da wiki padrão, e os alunos irão vê-la quando ele clicar na guia \ "Páginas \" para este curso."
       default_wiki_page_is_course_home_page_warning: |-
-          Right now this is also set as the default course page, so visitors to your
-          course will see this page first.  You can change that from [the course home page](%{link}).
+          Agora esta página está definida como a página padrão do curso, assim os visitantes do seu
+          curso verão primeiro esta página. Você pode mudar isso a partir de [página principal do curso](%{link}).
       editing_roles: 
         anyone: Anyone
         only_members: "Only Members"
         prompt: "%{options} can edit this page"
-      group_wiki_warning: "This page is part of the group wiki, *not* your course wiki. If you're looking for the course wiki, [click here](%{link})."
+      group_wiki_warning: "Esta página é parte do grupo da wiki, * não * é a wiki do seu curso. Se você está procurando a wiki do curso, [clique aqui](%{link})."
       headings: 
         page_comments: "Page Comments"
       labels: 
@@ -9996,8 +9995,8 @@ pt-BR:
       notices: 
         page_deleted: "This page has been deleted."
         page_does_not_exist: "This page doesn't exist yet."
-        page_edited_while_viewing: "This page has been updated by someone else since you started viewing it. [Click here to reload the page.](%{link})"
-        page_edited_while_viewing_detailed: "Someone else has edited this page since you first loaded it, and if you submit now you will overwrite their changes. You may want to reload the page and re-enter your changes to make sure you don't lose some else's work."
+        page_edited_while_viewing: "Esta página foi atualizada por outra pessoa enquanto você começou a exibi-la. [Clique aqui para recarregar a página.](%{link})"
+        page_edited_while_viewing_detailed: "Alguém editou esta página antes que tenha você carregado pela primeira vez e se você enviar agora, você vai sobrescrever suas alterações. Você pode querer recarregar a página e entrar novamente as suas alterações para se certificar de você não vai perder nenhum trabalho de outra pessoa."
       welcome_message: "Welcome to the Course Wiki"
     delete_comment_confirmation: "Are you sure you want to delete this comment?"
     errors: 
@@ -10038,8 +10037,8 @@ pt-BR:
         more: mais...
         rename_page: "Renomear esta Página"
         show_all: "exibir todos..."
-      wiki_description_for_course: "Think of it as an open-ended place to hold content. You could use it to describe your course, to provide helpful explanations of difficult topics, or even to let students work together on writing projects."
-      wiki_description_for_group: "Think of it as an open-ended place to hold content. You could use it to describe your group, to provide helpful explanations of difficult topics, or even to let members work together on writing projects."
+      wiki_description_for_course: "Pense nisso como um lugar aberto para armazenar conteúdo. Você poderia usá-lo para descrever o seu curso, para fornecer explicações úteis sobre temas difíceis, ou mesmo para permitir que os alunos trabalhem juntos em elaboração de projetos."
+      wiki_description_for_group: "Pense nisso como um lugar aberto para armazenar conteúdo. Você poderia usá-lo para descrever o seu grupo, para fornecer explicações úteis sobre temas difíceis, ou mesmo para permitir que os alunos trabalhem juntos em elaboração de projetos."
       wiki_description_header: "What's a wiki for?"
   wimba_conference: 
     external_urls: 
